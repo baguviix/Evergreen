@@ -1,0 +1,2558 @@
+#. extracted from ../../Open-ILS/web/opac/locale/en-US/opac.dtd
+msgid ""
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2015-02-27 11:41-0400\nPO-Revision-Date: 2026-10-27 14:36+0400\nLast-Translator: Evergreen Georgian Translation Team\nLanguage-Team: Georgian\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Generator: Translate Toolkit 1.10.0\nX-Accelerator-Marker: &\nX-Merge-On: location\nLanguage: ka-GE\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. =================================================================
+#. Some generic stuff
+#. =================================================================
+#: lang.version
+msgid "remote v1"
+msgstr "დისტანციური v1"
+
+#: lang.description
+msgid "English"
+msgstr "ინგლისური"
+
+#: lang.author
+msgid "PINES"
+msgstr "PINES"
+
+#: common.all
+msgid "All"
+msgstr "ყველა"
+
+#: common.currency
+msgid "$"
+msgstr "$"
+
+#: common.language
+msgid "Language: "
+msgstr "ენა: "
+
+#: common.name
+msgid "Name"
+msgstr "სახელი"
+
+#: common.none
+msgid "None"
+msgstr "არცერთი"
+
+#: common.title
+msgctxt "common.title"
+msgid "Title"
+msgstr "სათაური"
+
+#: common.author
+msgctxt "common.author"
+msgid "Author"
+msgstr "ავტორი"
+
+#: common.authors
+msgid "Authors"
+msgstr "ავტორები"
+
+#: common.callnumber
+msgctxt "common.callnumber"
+msgid "Call Number"
+msgstr "შიფრი"
+
+#: common.edition
+msgid "Edition"
+msgstr "გამოცემა"
+
+#: common.subject
+msgid "Subject"
+msgstr "თემა"
+
+#: common.series
+msgid "Series"
+msgstr "სერია"
+
+#: common.keyword
+msgid "Keyword"
+msgstr "საკვანძო სიტყვა"
+
+#: common.type
+msgid "Search Type"
+msgstr "ძიება ტიპი"
+
+#: common.isbn
+msgctxt "common.isbn"
+msgid "ISBN"
+msgstr "ISBN"
+
+#: common.format
+msgid "Format"
+msgstr "ფორმატი"
+
+#. Message displayed while search results are loading
+#: common.loading
+msgctxt "common.loading"
+msgid "Loading..."
+msgstr "იტვირთება..."
+
+#: common.login
+msgctxt "common.login"
+msgid "Login"
+msgstr "შესვლა"
+
+#: common.logout
+msgid "Log Out"
+msgstr "გასვლა"
+
+#: common.physical
+msgid "Physical Description"
+msgstr "ფიზიკური აღწერა"
+
+#: common.pubdate
+msgid "Publication Date"
+msgstr "გამოცემის თარიღი"
+
+#: common.publisher
+msgid "Publisher"
+msgstr "გამომცემელი"
+
+#: common.results
+msgid "Results"
+msgstr "შედეგები"
+
+#: common.select
+msgid "Select"
+msgstr "არჩევა"
+
+#: common.status
+msgid "Status"
+msgstr "სტატუსი"
+
+#: common.at
+msgid "at"
+msgstr "თან"
+
+#: common.of
+msgid "of"
+msgstr "-ის"
+
+#: common.no
+msgid "No"
+msgstr "არა"
+
+#: common.yes
+msgid "Yes"
+msgstr "დიახ"
+
+#: common.cancel
+msgctxt "common.cancel"
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: common.library
+msgctxt "common.library"
+msgid "Library"
+msgstr "ბიბლიოთეკა"
+
+#: common.username
+msgid "Username"
+msgstr "მომხმარებლის სახელი"
+
+#: common.password
+msgctxt "common.password"
+msgid "Password"
+msgstr "პაროლი"
+
+#: common.submit
+msgctxt "common.submit"
+msgid "Submit"
+msgstr "გაგზავნა"
+
+#: common.close
+msgid "close"
+msgstr "დახურვა"
+
+#: common.and
+msgid "and"
+msgstr "და"
+
+#: common.user_not_found
+msgid "User not found"
+msgstr "მომხმარებელი ვერ მოიძებნა"
+
+#: opac.advanced.wizard.title
+msgctxt "opac.advanced.wizard.title"
+msgid "Advanced Search"
+msgstr "გაფართოებული ძიება"
+
+#: common.nowSearching
+msgid "Now searching "
+msgstr "მიმდინარეობს ძიება "
+
+#: common.ofAtLeast
+msgid " of about "
+msgstr " -ის დაახლოებით "
+
+#: common.relevancy
+msgid "Match Score: "
+msgstr "შესაბამისობა ქულა: "
+
+#: common.tips
+msgid "Tips:"
+msgstr "რჩევები:"
+
+#: common.tips.tip1
+msgid "Click on a folder icon in the sidebar to access related quick searches"
+msgstr "შესაბამის სწრაფ ძიებებზე წვდომისთვის გვერდით პანელში დააწკაპუნეთ საქაღალდის ხატულაზე."
+
+#: common.tips.tip2
+msgid ""
+"If you don't find what you want try expanding your search using the range "
+"selector at the right of the search bar"
+msgstr "თუ სასურველს ვერ პოულობთ, გააფართოეთ ძიების არე საძიებო ველის მარჯვნივ მდებარე დიაპაზონის ამრჩევის გამოყენებით."
+
+#: common.org.openAll
+msgid "Expand All"
+msgstr "ყველას გაშლა"
+
+#: common.org.closeAll
+msgid "Close All"
+msgstr "ყველას დახურვა"
+
+#: common.org.cancel
+msgctxt "common.org.cancel"
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: common.org.loading
+msgid "Loading library selector..."
+msgstr "ბიბლიოთეკის ამრჩევი იტვირთება..."
+
+#: common.org.note
+msgctxt "common.org.note"
+msgid "Tip:"
+msgstr "რჩევა:"
+
+#: common.org.notetext
+msgid ""
+"Click on a location's name to select it.  Click on the folder icons to "
+"expand a section."
+msgstr "ადგილმდებარეობის ასარჩევად დააწკაპუნეთ მის სახელზე. განყოფილების გასაშლელად დააწკაპუნეთ საქაღალდის ხატულაზე."
+
+#: opac.login.login
+msgctxt "opac.login.login"
+msgid "Login"
+msgstr "შესვლა"
+
+#: opac.basic
+msgctxt "opac.basic"
+msgid "Basic Catalog (HTML only)"
+msgstr "კატალოგის მარტივი ვერსია (მხოლოდ HTML)"
+
+#: common.password_criteria
+msgid ""
+"The password must be at least 7 characters in length, \n"
+"contain at least one letter (a-z/A-Z), \n"
+"and contain at least one number."
+msgstr "პაროლი უნდა შეიცავდეს სულ მცირე 7 სიმბოლოს, მათ შორის მინიმუმ ერთ ასოს (a-z/A-Z) და ერთ ციფრს."
+
+#: common.a2z.title
+msgid "Title: A to Z"
+msgstr "სათაური: A-დან Z-მდე"
+
+#: common.z2a.title
+msgid "Title: Z to A"
+msgstr "სათაური: Z-დან A-მდე"
+
+#: common.a2z.author
+msgid "Author: A to Z"
+msgstr "ავტორი: A-დან Z-მდე"
+
+#: common.z2a.author
+msgid "Author: Z to A"
+msgstr "ავტორი: Z-დან A-მდე"
+
+#: common.new2old.pubdate
+msgid "Date: Newest to Oldest"
+msgstr "თარიღი: უახლესიდან უძველესამდე"
+
+#: common.old2new.pubdate
+msgid "Date: Oldest to Newest"
+msgstr "თარიღი: უძველესიდან უახლესამდე"
+
+#: opac.style.reddish
+msgid "Reddish"
+msgstr "მოწითალო"
+
+#: holds.where_am_i
+msgid ""
+"Holds lists are not as simple as \n"
+"'first come, first served.'  A complex matrix combining \n"
+"consideration of item ownership, patron home library, and item purchase \n"
+"date determines  priorities for holds; the list is dynamic, changing \n"
+"with every hold placed.  Therefore, any indication of a place in the \n"
+"holds list would be inaccurate.  The holds system is designed to \n"
+"obtain a requested item in the fastest and most efficient way possible. \n"
+"Your library will contact you when you hold items become \n"
+"available."
+msgstr "დაჯავშნები სიები არის არ როგორც მარტივი როგორც 'პირველი come, პირველი served.' complex matrix combining consideration -ის ეგზემპლარი ownership, მკითხველი მთავარი ბიბლიოთეკა, და ეგზემპლარი შეძენა თარიღი determines priorities თვის დაჯავშნები; სია არის dynamic, changing თან ყოველი დაჯავშნა განთავსებული. Therefore, ნებისმიერი indication -ის place ში დაჯავშნები სია would იყოს inaccurate. დაჯავშნები სისტემა არის designed -ზე obtain მოთხოვნილი ეგზემპლარი ში fastest და most efficient way შესაძლო. თქვენი ბიბლიოთეკა იქნება დაუკავშირდით თქვენ როდესაც თქვენ დაჯავშნა ეგზემპლარები become ხელმისაწვდომი."
+
+#: holds.advanced_options
+msgid ""
+"If you wish to broaden the scope of your hold to include other \n"
+"versions of this title, select the formats that would be acceptable. \n"
+"The first available copy will be sent to you."
+msgstr "თუ გსურთ, დაჯავშნა ამ სათაურის სხვა ვერსიებზეც გავრცელდეს, მონიშნეთ მისაღები ფორმატები. პირველი ხელმისაწვდომი ეგზემპლარი თქვენ გამოგეგზავნებათ."
+
+#. =================================================================
+#. Events and Permissions
+#. =================================================================
+#: ilsevent.0
+msgid "Operation Succeeded"
+msgstr "ოპერაცია წარმატებით დასრულდა"
+
+#: ilsevent.1000
+msgid "Login failed.  The username or password entered was incorrect."
+msgstr "შესვლა ვერ მოხერხდა: შეყვანილი მომხმარებლის სახელი ან პაროლი არასწორია."
+
+#: ilsevent.1001
+msgid "Login session has timed out or does not exist"
+msgstr "სისტემაში შესვლის სესიის ვადა ამოიწურა ან არ არსებობს"
+
+#: ilsevent.1002
+msgid "User was not found in the database"
+msgstr "მომხმარებელი იყო ვერ მოიძებნა ში მონაცემთა ბაზა"
+
+#: ilsevent.1200
+msgid "The given username already exists in the database"
+msgstr "მოცემული მომხმარებლის სახელი უკვე არსებობს მონაცემთა ბაზაში"
+
+#: ilsevent.5000
+msgid "Permission Denied"
+msgstr "წვდომა აკრძალულია"
+
+#: ilsperm.CREATE_HOLD
+msgid "User is not allowed to create holds for other users at this location"
+msgstr "მომხმარებელს ამ ადგილას სხვა მომხმარებლებისთვის დაჯავშნის შექმნის უფლება არ აქვს."
+
+#. =================================================================
+#. common/pages
+#. =================================================================
+#: common.cn.loading
+msgid "Loading Callnumber Page..."
+msgstr "იტვირთება საბიბლიოთეკო შიფრის გვერდი..."
+
+#: common.cn.browsing
+msgid "You are now browsing"
+msgstr "თქვენ ათვალიერებთ"
+
+#: common.cn.previous
+msgid "&lt;&lt; Previous Page"
+msgstr "&lt;&lt; წინა გვერდი"
+
+#: common.cn.shelf
+msgctxt "common.cn.shelf"
+msgid "Shelf Browser"
+msgstr "თაროს დათვალიერება"
+
+#: common.cn.next
+msgid "Next Page &gt;&gt;"
+msgstr "შემდეგი გვერდი &gt;&gt;"
+
+#: common.textsize.title
+msgid "Text Size: "
+msgstr "ტექსტის ზომა: "
+
+#: common.textsize.regular
+msgid "Regular"
+msgstr "ჩვეულებრივი"
+
+#. Regular / Large
+#: common.textsize.separator
+msgid "/"
+msgstr "/"
+
+#: common.textsize.large
+msgid "Large"
+msgstr "დიდი"
+
+#: common.googlechromeframe.why
+msgid ""
+"Installing the Google Chrome Frame plugin for Internet Explorer will improve "
+"your Evergreen experience with more speed and advanced features!"
+msgstr "Internet Explorer-ში Google Chrome Frame-ის დამატების შემდეგ Evergreen უფრო სწრაფად იმუშავებს და მეტ შესაძლებლობას შემოგთავაზებთ!"
+
+#: common.googlechromeframe.install
+msgid "Install Now!"
+msgstr "დააინსტალირეთ ახლავე!"
+
+#: common.googlechromeframe.dontask
+msgid "Don't ask me again"
+msgstr "აღარ მკითხო"
+
+#: home.js.disabled
+msgid ""
+"JavaScript must be enabled in order for you to use the regular Evergreen "
+"Catalog. \n"
+"However, it seems JavaScript is either disabled or not supported by your "
+"browser. \n"
+"To use the regular Evergreen Catalog, enable JavaScript by changing your "
+"browser options, then \n"
+"<a style='color: blue; text-decoration: underline;' href='/'>try again</a>. \n"
+"<br/><br/>Alternatively, you can use the basic HTML-only catalog: "
+msgstr ""
+"Evergreen-ის ძირითადი კატალოგის გამოსაყენებლად აუცილებელია JavaScript-ის ჩართვა.\n"
+"თუმცა, როგორც ჩანს, JavaScript გამორთულია ან არ არის მხარდაჭერილი თქვენი ბრაუზერის მიერ.\n"
+"კატალოგის გამოსაყენებლად ჩართეთ JavaScript ბრაუზერის პარამეტრებიდან, შემდეგ კი\n"
+"<a style='color: blue; text-decoration: underline;' href='/'>სცადეთ ხელახლა</a>.\n"
+"<br/><br/>ასევე შეგიძლიათ გამოიყენოთ მარტივი, მხოლოდ HTML-ზე დაფუძნებული კატალოგი: "
+
+#. =================================================================
+#. MyOPAC bookbag page
+#. =================================================================
+#: myopac.delete.bookbag
+msgid ""
+"This will remove the selected bookbag and all items contained within the "
+"bookbag. \n"
+"Are you sure you wish to continue?"
+msgstr "არჩეული წიგნების სია და მასში არსებული ყველა ჩანაწერი წაიშლება. ნამდვილად გსურთ გაგრძელება?"
+
+#: myopac.no.bookbags
+msgid "You have not created any bookbags"
+msgstr "თქვენ აქვს არ შეიქმნა ნებისმიერი წიგნების სიები"
+
+#: myopac.bookbags.title
+msgctxt "myopac.bookbags.title"
+msgid "My Bookbags"
+msgstr "ჩემი წიგნების სიები"
+
+#: myopac.bookbag.items
+msgid "# Items"
+msgstr "# ეგზემპლარები"
+
+#: myopac.bookbag.shared
+msgid "Shared"
+msgstr "გაზიარებული"
+
+#: myopac.bookbag.toggle
+msgid "Share / Hide"
+msgstr "გაზიარება / დამალვა"
+
+#: myopac.bookbag.delete
+msgid "Delete this bookbag?"
+msgstr "წაშლა ეს წიგნების სია?"
+
+#: myopac.items
+msgid "Items"
+msgstr "ეგზემპლარები"
+
+#: myopac.view
+msgid "(View)"
+msgstr "(ნახვა)"
+
+#: myopac.atom.feed
+msgid "ATOM Feed"
+msgstr "ATOM არხი"
+
+#: myopac.bookbag.hide
+msgid "Hide"
+msgstr "დამალვა"
+
+#: myopac.delete
+msgid "Delete"
+msgstr "წაშლა"
+
+#: myopac.bookbag.create
+msgid "Create a new Bookbag"
+msgstr "შექმნა ახალი წიგნების სია"
+
+#: myopac.bookbag.naming
+msgid "Enter the name of the new Bookbag: "
+msgstr "შეიყვანეთ სახელი -ის ახალი წიგნების სია: "
+
+#: myopac.bookbag.share
+msgid "Share this Bookbag"
+msgstr "გაზიარება ეს წიგნების სია"
+
+#: myopac.bookbag.refworks
+msgctxt "myopac.bookbag.refworks"
+msgid "Export to RefWorks"
+msgstr "RefWorks-ში ექსპორტი"
+
+#: myopac.bookbag.no.items
+msgid "The selected bookbag contains no items..."
+msgstr "არჩეული კალათა არ შეიცავს ერთეულებს..."
+
+#: myopac.bookbag.remove
+msgid "Remove this item?"
+msgstr "წაშლა ეს ეგზემპლარი?"
+
+#: myopac.remove.link
+msgid "remove"
+msgstr "წაშლა"
+
+#: myopac.publish.text
+msgid ""
+"Sharing a Bookbag means that the contents of the Bookbag will be visible to "
+"others. \n"
+"To see the public view of a shared Bookbag, click the \"View\" link in the \n"
+"\"Shared\" column of the Bookbag list at the top of this page."
+msgstr "წიგნების სიის გაზიარებისას მისი შიგთავსი სხვებისთვის ხილული გახდება. გაზიარებული სიის საჯარო ხედის სანახავად ამ გვერდის ზედა ნაწილში, სიების ცხრილის „გაზიარებულია“ სვეტში, დააწკაპუნეთ ბმულზე „ნახვა“."
+
+#: myopac.item.confirm
+msgid "Are you sure you wish to remove this bookbag item?"
+msgstr "არის თქვენ დარწმუნებული თქვენ გსურთ -ზე წაშლა ეს წიგნების სია ეგზემპლარი?"
+
+#: myopac.publish.confirm
+msgid ""
+"Sharing this bookbag will allow the contents \n"
+"of the bookbag to be seen by others.  Are you sure you wish to share this "
+"bookbag?"
+msgstr "ამ წიგნების სიის გაზიარებისას მისი შიგთავსი სხვებისთვის ხილული გახდება. ნამდვილად გსურთ ამ სიის გაზიარება?"
+
+#: myopac.unpublish.confirm
+msgid "Are you sure you wish to hide this bookbag?"
+msgstr "არის თქვენ დარწმუნებული თქვენ გსურთ -ზე დამალვა ეს წიგნების სია?"
+
+#: myopac.update.success
+msgid "The Bookbag was successfully updated."
+msgstr " წიგნების სია იყო წარმატებით განახლდა."
+
+#: myopac.updated.success
+msgid "Bookbag successfully updated"
+msgstr "წიგნების სია წარმატებით განახლდა"
+
+#: myopac.create.warning
+msgid ""
+"Warning: Adding items to a bookbag creates a link between you and the \n"
+"items in the database.  The contents of the bookbag are NOT publicly \n"
+"viewable unless the bookbag is shared. However, if you prefer not to \n"
+"have any link between your patron record and a particular item or items, \n"
+"we suggest that you do not place said items in a bookbag or that you \n"
+"avoid using bookbags all together.  Thank you."
+msgstr "გაფრთხილება: წიგნების სიაში მასალის დამატება მონაცემთა ბაზაში თქვენს ანგარიშსა და ამ მასალას შორის კავშირს ქმნის. სიის შიგთავსი საჯაროდ არ ჩანს, თუ მას არ გააზიარებთ. თუმცა, თუ არ გსურთ მკითხველის ჩანაწერსა და კონკრეტულ მასალას შორის კავშირი არსებობდეს, გირჩევთ, ეს მასალა სიაში არ დაამატოთ ან საერთოდ არ გამოიყენოთ წიგნების სიები. გმადლობთ."
+
+#: myopac.describe.bookbags
+msgid "Bookbags are..."
+msgstr "წიგნების სიები არის..."
+
+#. =================================================================
+#. MyOPAC Checked Page
+#. =================================================================
+#: myopac.checked.out
+msgid "Total items out:"
+msgstr "სულ გატანილი ერთეული:"
+
+#: myopac.checked.overdue
+msgid "Total items overdue:"
+msgstr "სულ ეგზემპლარები ვადაგადაცილებული:"
+
+#: myopac.checked.renew
+msgid "Renew Selected Items"
+msgstr "გაგრძელება არჩეული ეგზემპლარები"
+
+#: myopac.checked.renewing
+msgid "Renewing..."
+msgstr "ვადის გაგრძელება…"
+
+#: myopac.checked.renew.remaining
+msgctxt "myopac.checked.renew.remaining"
+msgid "Renewals Remaining"
+msgstr "დარჩენილი ვადის გაგრძელებები"
+
+#: myopac.checked.noitems
+msgid "You have no items checked out at this time"
+msgstr "ამჟამად თქვენზე არცერთი ერთეული არ არის გაცემული"
+
+#: myopac.checked.other.circ
+msgid "Other Circulations"
+msgstr "სხვა გაცემები"
+
+#: myopac.checked.circ.lib
+msgid "Circulating Library"
+msgstr "გამცემი ბიბლიოთეკა"
+
+#: myopac.checked.item.type
+msgid "Circulation Type"
+msgstr "გაცემის განყოფილება ტიპი"
+
+#: myopac.checked.circ.time
+msgid "Please return by ..."
+msgstr "გთხოვთ დაბრუნება მიერ..."
+
+#: myopac.checked.renew.success
+msgid "item(s) successfully renewed"
+msgstr "ერთეულ(ებ)ის ვადა წარმატებით გაგრძელდა"
+
+#: myopac.checked.renew.confirm
+msgid "Are you sure you wish to renew the selected item(s)?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ მონიშნული ერთეულ(ებ)ის ვადის გაგრძელება?"
+
+#: myopac.checked.renew.fail
+msgid ""
+"The system is unable to renew the selected item at this time.  This usually "
+"means the item is needed to fulfill a hold.  Please see a librarian for "
+"further help."
+msgstr "ამჟამად არჩეული მასალის ვადის გაგრძელება შეუძლებელია. სავარაუდოდ, ეს მასალა სხვა დაჯავშნის შესასრულებლად არის საჭირო. დამატებითი დახმარებისთვის მიმართეთ ბიბლიოთეკარს."
+
+#: myopac.checked.renew.fail2
+msgid ""
+"Library policy prevents the renewal of this item at this time.  Please see a "
+"librarian for further details."
+msgstr "ბიბლიოთეკის წესების თანახმად, ამჟამად ამ მასალის ვადის გაგრძელება შეუძლებელია. დამატებითი ინფორმაციისთვის მიმართეთ ბიბლიოთეკარს."
+
+#. =================================================================
+#. MyOPAC Fines Page
+#. =================================================================
+#: myopac.fines.title
+msgctxt "myopac.fines.title"
+msgid "Summary"
+msgstr "შეჯამება"
+
+#: myopac.fines.owed
+msgid "Total Owed"
+msgstr "სულ გადასახდელი"
+
+#: myopac.fines.paid
+msgid "Total Paid"
+msgstr "სულ გადახდილი"
+
+#: myopac.fines.balance
+msgid "Balance Owed"
+msgstr "გადასახდელი ნაშთი"
+
+#: myopac.fines.status
+msgctxt "myopac.fines.status"
+msgid "Loading..."
+msgstr "იტვირთება..."
+
+#: myopac.fines.overdue
+msgid "Overdue Materials"
+msgstr "ვადაგადაცილებული მასალები"
+
+#: myopac.fines.checkout
+msgid "Checkout Date"
+msgstr "გატანა თარიღი"
+
+#: myopac.fines.due
+msgctxt "myopac.fines.due"
+msgid "Due Date"
+msgstr "დაბრუნების ვადა"
+
+#: myopac.fines.returned
+msgid "Date Returned"
+msgstr "თარიღი დაბრუნებული"
+
+#: myopac.fines.accruing
+msgid "(fines accruing)"
+msgstr "(ჯარიმები გროვდება)"
+
+#: myopac.fines.other
+msgid "Other Fees"
+msgstr "სხვა გადასახადები"
+
+#: myopac.fines.time.start
+msgid "Transaction Start Time"
+msgstr "ტრანზაქციის დაწყების დრო"
+
+#: myopac.fines.time.paid
+msgid "Last Payment Time"
+msgstr "ბოლო გადახდა დრო"
+
+#: myopac.fines.owed.initial
+msgid "Initial Amount Owed"
+msgstr "საწყისი დავალიანება"
+
+#: myopac.fines.paid.amount
+msgid "Total Amount Paid"
+msgstr "სულ თანხა გადახდილი"
+
+#: myopac.fines.type
+msgid "Billing Type"
+msgstr "ანგარიშსწორება ტიპი"
+
+#. =================================================================
+#. MyOPAC Holds Page
+#. =================================================================
+#: myopac.holds.formats
+msgid "Formats"
+msgstr "ფორმატები"
+
+#: myopac.holds.location
+msgid "Pickup Location"
+msgstr "გასატანი ბიბლიოთეკა"
+
+#: myopac.holds.edit
+msgid "Edit"
+msgstr "რედაქტირება"
+
+#: myopac.holds.status.none
+msgid "You have no items on hold at this time"
+msgstr "ამჟამად არ გაქვთ დაჯავშნილი ერთეულები"
+
+#: myopac.holds.status.waiting
+msgid "Waiting for copy"
+msgstr "მოლოდინი თვის ეგზემპლარი"
+
+#: myopac.holds.status.intransit
+msgid "In Transit"
+msgstr "ში გზაში"
+
+#: myopac.holds.status.available
+msgid "Ready for Pickup"
+msgstr "მზად თვის გატანა"
+
+#: myopac.holds.status.suspended
+msgid "Suspended"
+msgstr "შეჩერებული"
+
+#: myopac.holds.cancel
+msgctxt "myopac.holds.cancel"
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: myopac.holds.verify
+msgid ""
+"If you wish to cancel the selected hold, click OK, otherwise click Cancel."
+msgstr "თუ გსურთ არჩეული დაჯავშნის გაუქმება, დააჭირეთ „OK“-ს; წინააღმდეგ შემთხვევაში დააჭირეთ „გაუქმებას“."
+
+#: myopac.holds.freeze_selected
+msgid "Suspend"
+msgstr "შეჩერება"
+
+#: myopac.holds.thaw_selected
+msgid "Activate"
+msgstr "გააქტიურება"
+
+#: myopac.holds.thaw_date_selected
+msgid "Set Active Date"
+msgstr "მითითებული აქტიური თარიღი"
+
+#: myopac.holds.cancel_selected
+msgctxt "myopac.holds.cancel_selected"
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: myopac.holds.processing
+msgid "Processing holds... This may take a moment."
+msgstr "ჯავშნები მუშავდება... ამას შეიძლება რამდენიმე წამი დასჭირდეს."
+
+#: myopac.holds.actions
+msgid "Actions for selected holds"
+msgstr "მოქმედებები თვის არჩეული დაჯავშნები"
+
+#: myopac.holds.cancel.confirm
+msgid "Are you sure you wish to cancel the selected holds?"
+msgstr "არის თქვენ დარწმუნებული თქვენ გსურთ -ზე გაუქმება არჩეული დაჯავშნები?"
+
+#: myopac.holds.freeze.confirm
+msgid ""
+"Are you sure you wish to suspend the selected holds? \n"
+"If an item has already been selected to fulfill the hold, it will not be "
+"suspended"
+msgstr "ნამდვილად გსურთ არჩეული დაჯავშნების შეჩერება? თუ დაჯავშნის შესასრულებლად მასალა უკვე შერჩეულია, მისი შეჩერება ვერ მოხერხდება."
+
+#: myopac.holds.thaw.confirm
+msgid "Are you sure you wish to activate the selected holds?"
+msgstr "არის თქვენ დარწმუნებული თქვენ გსურთ -ზე გააქტიურება არჩეული დაჯავშნები?"
+
+#: myopac.holds.thaw_date.confirm
+msgid ""
+"Are you sure you wish to change the activate date for the selected holds?"
+msgstr "არის თქვენ დარწმუნებული თქვენ გსურთ -ზე შეცვლა გააქტიურება თარიღი თვის არჩეული დაჯავშნები?"
+
+#: myopac.holds.freeze.select_thaw
+msgid ""
+"Select an automatic activation date.  If no date is chosen, the holds will "
+"remain suspended until they are manually activated."
+msgstr "აირჩიეთ ავტომატური გააქტიურების თარიღი. თუ თარიღს არ აირჩევთ, დაჯავშნები შეჩერებული დარჩება მათ ხელით გააქტიურებამდე."
+
+#: opac.holds.freeze
+msgid "Suspend this hold"
+msgstr "ამ ჯავშნის შეჩერება"
+
+#: opac.holds.freeze.help
+msgid ""
+"A suspended hold will retain its place in the queue, but will not be "
+"fulfilled until it has been activated."
+msgstr "შეჩერებული დაჯავშნა რიგში ადგილს შეინარჩუნებს, თუმცა გააქტიურებამდე არ შესრულდება."
+
+#: opac.holds.freeze.thaw_date
+msgid "Automatically activate hold on:"
+msgstr "ჯავშნის ავტომატური გააქტიურების თარიღი:"
+
+#: opac.holds.expire_time
+msgid "Expiration date"
+msgstr "ვადის გასვლის თარიღი"
+
+#: myopac.holds.estimated_wait
+msgid "Estimated Wait (days)"
+msgstr "სავარაუდო ლოდინის დრო (დღე)"
+
+#. =================================================================
+#. MyOPAC Preferences Page
+#. =================================================================
+#: myopac.prefs.title
+msgid "Preferences"
+msgstr "პარამეტრები"
+
+#: myopac.prefs.hits
+msgid "Search hits per page"
+msgstr "შედეგების რაოდენობა გვერდზე"
+
+#: myopac.prefs.font
+msgid "Default Font Size"
+msgstr "შრიფტის ნაგულისხმევი ზომა"
+
+#: myopac.prefs.font.regular
+msgid "Regular Font"
+msgstr "ჩვეულებრივი შრიფტი"
+
+#: myopac.prefs.font.large
+msgid "Large Font"
+msgstr "დიდი შრიფტი"
+
+#: myopac.prefs.holds.notify
+msgid "Default Hold Notification Method"
+msgstr "ჯავშნის შეტყობინების ნაგულისხმევი მეთოდი"
+
+#: myopac.prefs.holds.both
+msgid "Use Phone and Email"
+msgstr "გამოიყენეთ ტელეფონი და ელფოსტა"
+
+#: myopac.prefs.holds.phone
+msgid "Use Phone Only"
+msgstr "გამოიყენეთ ტელეფონი მხოლოდ"
+
+#: myopac.prefs.holds.email
+msgid "Use Email Only"
+msgstr "გამოიყენეთ ელფოსტა მხოლოდ"
+
+#: myopac.prefs.search.location
+msgid "Default Search Location"
+msgstr "ნაგულისხმევი ძიება მდებარეობა"
+
+#: myopac.prefs.search.home
+msgid "Always search my home library by default."
+msgstr "ნაგულისხმევად ყოველთვის ჩემს ძირითად ბიბლიოთეკაში ძიება."
+
+#: myopac.prefs.search.range
+msgid "Default Search Range"
+msgstr "ნაგულისხმევი ძიება დიაპაზონი"
+
+#: myopac.prefs.save
+msgid "Save Preference Changes"
+msgstr "შენახვა პარამეტრი ცვლილებები"
+
+#: myopac.prefs.save.success
+msgid "Preferences successfully updated"
+msgstr "პარამეტრები წარმატებით განახლდა"
+
+#: myopac.prefs.save.failed
+msgid "Preferences update failed!"
+msgstr "პარამეტრები განახლება ვერ მოხერხდა!"
+
+#: myopac.prefs.help
+msgid ""
+"This setting defines how you will be notified of holds that are ready to be "
+"picked up from the library. \n"
+"By default, holds will use the notification style you choose here. \n"
+"However, you will still have the option to change individual holds "
+"regardless of this setting."
+msgstr "ეს პარამეტრი განსაზღვრავს, როგორ მიიღებთ შეტყობინებას ბიბლიოთეკიდან გასატანად მზად დაჯავშნებზე. ნაგულისხმევად, ყველა დაჯავშნისთვის გამოყენებული იქნება აქ არჩეული შეტყობინების მეთოდი. ამ პარამეტრის მიუხედავად, თითოეული დაჯავშნის მეთოდის ცალკე შეცვლასაც შეძლებთ."
+
+#: myopac.holds.unfrozen
+msgid "Active"
+msgstr "აქტიური"
+
+#: myopac.holds.frozen.until
+msgid "Activate on..."
+msgstr "გააქტიურება ზე..."
+
+#. =================================================================
+#. MyOPAC Summary page
+#. =================================================================
+#: myopac.summary.expired
+msgid ""
+"Your account expired on <span id='myopac.expired.date'/>! \n"
+"Please see a librarian to renew your account."
+msgstr "თქვენს ანგარიშს ვადა ამოეწურა: <span id='myopac.expired.date'/>! ანგარიშის გასაახლებლად მიმართეთ ბიბლიოთეკარს."
+
+#: myopac.summary.notes
+msgid "* Staff Notes *"
+msgstr "* თანამშრომლის შენიშვნები *"
+
+#: myopac.summary.phone.day
+msgid "Day Phone"
+msgstr "დღე ტელეფონი"
+
+#: myopac.summary.phone.evening
+msgid "Evening Phone"
+msgstr "საღამოს ტელეფონი"
+
+#: myopac.summary.phone.other
+msgid "Other Phone"
+msgstr "სხვა ტელეფონი"
+
+#: myopac.summary.change
+msgid "Change"
+msgstr "შეცვლა"
+
+#: myopac.summary.username.enter
+msgid "Enter new username:"
+msgstr "შეიყვანეთ ახალი მომხმარებლის სახელი:"
+
+#: myopac.summary.password.text
+msgid "(not shown)"
+msgstr "(არ ნაჩვენები)"
+
+#: myopac.summary.password.current
+msgid "Enter current password:"
+msgstr "შეიყვანეთ მიმდინარე პაროლი:"
+
+#: myopac.summary.password.new
+msgid "Enter new password:"
+msgstr "შეიყვანეთ ახალი პაროლი:"
+
+#: myopac.summary.password.reenter
+msgid "Re-enter new password:"
+msgstr "გაიმეორეთ ახალი პაროლი:"
+
+#: myopac.summary.email
+msgid "Email Address"
+msgstr "ელფოსტის მისამართი"
+
+#: myopac.summary.email.new
+msgid "Enter new email address:"
+msgstr "შეიყვანეთ ახალი ელფოსტის მისამართი:"
+
+#: myopac.summary.id.primary
+msgid "Primary Identification"
+msgstr "ძირითადი იდენტიფიკაცია"
+
+#: myopac.summary.barcode
+msgid "Active Barcode"
+msgstr "აქტიური შტრიხკოდი"
+
+#: myopac.summary.home
+msgid "Home Library"
+msgstr "მთავარი ბიბლიოთეკა"
+
+#: myopac.summary.genesis
+msgid "Account Creation Date"
+msgstr "ანგარიშის შექმნის თარიღი"
+
+#: myopac.summary.addresses
+msgid "Addresses"
+msgstr "მისამართები"
+
+#: myopac.summary.addresses.pending
+msgid "Pending Addresses"
+msgstr "მოლოდინში მისამართები"
+
+#: myopac.summary.address.type
+msgid "Address Type"
+msgstr "მისამართი ტიპი"
+
+#: myopac.summary.address.street
+msgid "Street"
+msgstr "ქუჩა"
+
+#: myopac.summary.address.city
+msgid "City"
+msgstr "ქალაქი"
+
+#: myopac.summary.address.county
+msgid "County"
+msgstr "ოლქი"
+
+#: myopac.summary.address.state
+msgid "State"
+msgstr "შტატი"
+
+#: myopac.summary.address.country
+msgid "Country"
+msgstr "ქვეყანა"
+
+#: myopac.summary.address.zip
+msgid "Zip"
+msgstr "საფოსტო ინდექსი"
+
+#: myopac.summary.address.edit
+msgid "Edit Address"
+msgstr "რედაქტირება მისამართი"
+
+#: myopac.summary.address.invalid
+msgid "Invalid Address"
+msgstr "არასწორი მისამართი"
+
+#: myopac.summary.username.error
+msgid "Please enter a username"
+msgstr "გთხოვთ, შეიყვანოთ მომხმარებლის სახელი"
+
+#: myopac.summary.username.dup
+msgid ""
+"The requested username is not available.  Please choose a different "
+"username."
+msgstr " მოთხოვნილი მომხმარებლის სახელი არის არ ხელმისაწვდომი. გთხოვთ აირჩიეთ სხვა მომხმარებლის სახელი."
+
+#: myopac.summary.username.success
+msgid "Username successfully updated"
+msgstr "მომხმარებლის სახელი წარმატებით განახლდა"
+
+#: myopac.summary.username.failure
+msgid "Username update failed"
+msgstr "მომხმარებლის სახელი განახლება ვერ მოხერხდა"
+
+#: myopac.summary.username.invalid
+msgid ""
+"Username cannot contain spaces or have the same format as a barcode, and may "
+"be restricted by policy"
+msgstr "მომხმარებლის სახელი არ უნდა შეიცავდეს გამოტოვებებს და არ უნდა ჰგავდეს შტრიხკოდს; შესაძლოა, მასზე დამატებითი წესებიც ვრცელდებოდეს."
+
+#: myopac.summary.email.error
+msgid "Please enter a valid email address"
+msgstr "გთხოვთ, შეიყვანოთ მოქმედი ელფოსტის მისამართი"
+
+#: myopac.summary.email.success
+msgid "Email address successfully updated"
+msgstr "ელფოსტის მისამართი წარმატებით განახლდა"
+
+#: myopac.summary.email.failed
+msgid "Email address update failed"
+msgstr "ელფოსტის მისამართი განახლება ვერ მოხერხდა"
+
+#: myopac.summary.password.error
+msgid "Passwords are empty or do not match"
+msgstr "პაროლი ცარიელია ან არ ემთხვევა"
+
+#: myopac.summary.password.success
+msgctxt "myopac.summary.password.success"
+msgid "Password successfully updated"
+msgstr "პაროლი წარმატებით განახლდა"
+
+#: myopac.summary.password.failure
+msgid "Password update failed"
+msgstr "პაროლი განახლება ვერ მოხერხდა"
+
+#. =================================================================
+#. Advanced Search Page
+#. =================================================================
+#: opac.advanced.wizard.contains
+msgid "Selected field contains the following words"
+msgstr "არჩეული ველი შეიცავს შემდეგი სიტყვები"
+
+#: opac.advanced.wizard.nocontains
+msgid "Selected field does <u>not</u> contain the following words"
+msgstr "არჩეული ველი <u>არ</u> შეიცავს შემდეგ სიტყვებს"
+
+#: opac.advanced.wizard.exact
+msgid "Selected field contains the <u>exact</u> phrase"
+msgstr "არჩეული ველი შეიცავს <u>ზუსტ</u> ფრაზას"
+
+#: opac.advanced.refined.title
+msgid "Refined Advanced Search"
+msgstr "დაზუსტებული გაფართოებული ძიება"
+
+#: opac.advanced.refined.title_contains
+msgid "Title contains the following words"
+msgstr "სათაური შეიცავს შემდეგი სიტყვები"
+
+#: opac.advanced.refined.author_contains
+msgid "Author contains the following words"
+msgstr "ავტორი შეიცავს შემდეგი სიტყვები"
+
+#: opac.advanced.refined.subject_contains
+msgid "Subject contains the following words"
+msgstr "თემა შეიცავს შემდეგი სიტყვები"
+
+#: opac.advanced.refined.series_contains
+msgid "Series contains the following words"
+msgstr "სერია შეიცავს შემდეგი სიტყვები"
+
+#: opac.advanced.refined.contains
+msgid "Contains"
+msgstr "შეიცავს"
+
+#: opac.advanced.refined.nocontains
+msgid "Does not contain"
+msgstr "არ შეიცავს"
+
+#: opac.advanced.refined.exact
+msgid "Matches Exactly"
+msgstr "ზუსტი დამთხვევა"
+
+#: opac.advanced.marc.warning
+msgid "For Librarians"
+msgstr "ბიბლიოთეკარებისთვის"
+
+#: opac.advanced.marc.title
+msgctxt "opac.advanced.marc.title"
+msgid "MARC Expert Search"
+msgstr "MARC ექსპერტული ძიება"
+
+#: opac.advanced.marc.tag
+msgid "MARC Tag"
+msgstr "MARC ჭდე"
+
+#: opac.advanced.marc.ind1
+msgid "Indicator 1"
+msgstr "ინდიკატორი 1"
+
+#: opac.advanced.marc.ind2
+msgid "Indicator 2"
+msgstr "ინდიკატორი 2"
+
+#: opac.advanced.marc.subfield
+msgid "Subfield"
+msgstr "ქვედარგი"
+
+#: opac.advanced.marc.value
+msgid "Value"
+msgstr "მნიშვნელობა"
+
+#: opac.advanced.marc.addrow
+msgid "Add a new row"
+msgstr "ახალი სტრიქონის დამატება"
+
+#: opac.advanced.quick.title
+msgctxt "opac.advanced.quick.title"
+msgid "Quick Search"
+msgstr "სწრაფი ძიება"
+
+#: opac.advanced.quick.isbn
+msgctxt "opac.advanced.quick.isbn"
+msgid "ISBN"
+msgstr "ISBN"
+
+#: opac.advanced.quick.issn
+msgid "ISSN"
+msgstr "ISSN"
+
+#: opac.advanced.quick.lccn
+msgid "LCCN"
+msgstr "LCCN"
+
+#. title control number
+#: opac.advanced.quick.tcn
+msgid "TCN"
+msgstr "TCN"
+
+#: opac.advanced.quick.barcode
+msgid "Item Barcode"
+msgstr "ეგზემპლარი შტრიხკოდი"
+
+#: opac.advanced.quick.cn
+msgctxt "opac.advanced.quick.cn"
+msgid "Call Number"
+msgstr "შიფრი"
+
+#: opac.advanced.copy_loc_filter
+msgid "Shelving Location"
+msgstr "თაროს მდებარეობა"
+
+#. ==========================================================
+#. MARC expert search
+#. ==========================================================
+#: search.marc
+msgctxt "search.marc"
+msgid "MARC Expert Search"
+msgstr "MARC ექსპერტული ძიება"
+
+#: search.marc.tag
+msgid "Tag:"
+msgstr "ჭდე:"
+
+#: search.marc.subfield
+msgid "Subfield:"
+msgstr "ქვედარგი:"
+
+#: search.marc.value
+msgid "Value:"
+msgstr "მნიშვნელობა:"
+
+#: search.marc.add.row
+msgid "Add Row"
+msgstr "სტრიქონის დამატება"
+
+#. ==========================================================
+#. Status bar
+#. ==========================================================
+#: status.results
+msgid "Including results for"
+msgstr "შედეგები ასევე მოიცავს:"
+
+#. ==========================================================
+#. Tips
+#. ==========================================================
+#: tips.label
+msgctxt "tips.label"
+msgid "Tip:"
+msgstr "რჩევა:"
+
+#. =================================================================
+#. More generic stuff
+#. =================================================================
+#: opac.session_expiring
+msgid "Your login session will timeout in 1 minute unless there is activity."
+msgstr "თუ აქტივობა არ იქნება, სისტემაში თქვენი სესია 1 წუთში დასრულდება."
+
+#: opac.session_expired
+msgid "Your login session has expired"
+msgstr "სისტემაში შესვლის სესიის ვადა ამოიწურა"
+
+#: navigate.home
+msgid "Home"
+msgstr "მთავარი გვერდი"
+
+#: navigate.home.title
+msgid "Go to the Home page"
+msgstr "მთავარ გვერდზე გადასვლა"
+
+#: opac.navigate.advanced
+msgctxt "opac.navigate.advanced"
+msgid "Advanced Search"
+msgstr "გაფართოებული ძიება"
+
+#: opac.navigate.advanced.title
+msgid "Go to the Advanced Search Page"
+msgstr "გაფართოებული ძიების გვერდზე გადასვლა"
+
+#: navigate.myopac
+msgctxt "navigate.myopac"
+msgid "My Account"
+msgstr "ჩემი ანგარიში"
+
+#: opac.navigate.myopac
+msgctxt "opac.navigate.myopac"
+msgid "My Account"
+msgstr "ჩემი ანგარიში"
+
+#: navigate.myopac.title
+msgid "Go to My OPAC"
+msgstr "ჩემს კაბინეტში გადასვლა (My OPAC)"
+
+#: navigate.login
+msgid "Log in"
+msgstr "შესვლა"
+
+#: navigate.login.title
+msgid "Log in for personalized features"
+msgstr "შედით პერსონალიზებული ფუნქციების გამოსაყენებლად"
+
+#: navigate.logout
+msgctxt "navigate.logout"
+msgid "Log out"
+msgstr "გასვლა"
+
+#: navigate.logout.title
+msgctxt "navigate.logout.title"
+msgid "Log out"
+msgstr "გასვლა"
+
+#: opac.navigate.selectNewOrg
+msgid "Choose a different library"
+msgstr "აირჩიეთ სხვა ბიბლიოთეკა"
+
+#: opac.navigate.selectOrg
+msgctxt "opac.navigate.selectOrg"
+msgid "Choose a library to search"
+msgstr "აირჩიეთ ბიბლიოთეკა -ზე ძიება"
+
+#: navigate.loggedinas
+msgid "You are logged in as "
+msgstr "თქვენ არის შესული ში როგორც "
+
+#: navigate.loggedinas.title
+msgid "Logged in as..."
+msgstr "შესული ში როგორც..."
+
+#: navigate.titleGroupResults
+msgid "My Search Results"
+msgstr "ჩემი ძიების შედეგები"
+
+#: navigate.titleResults
+msgid "My Title Results"
+msgstr "ჩემი სათაური შედეგები"
+
+#: navigate.facetRefine
+msgid "Refine your search"
+msgstr "დააზუსტეთ ძიება"
+
+#: navigate.title.details
+msgid "My Title Details"
+msgstr "ჩემი სათაური დეტალები"
+
+#: navigate.record.details
+msgid "Record Details"
+msgstr "ჩანაწერი დეტალები"
+
+#. =================================================================
+#. Footer
+#. =================================================================
+#: footer.basic
+msgctxt "footer.basic"
+msgid "Basic Catalog (HTML only)"
+msgstr "კატალოგის მარტივი ვერსია (მხოლოდ HTML)"
+
+#: footer.find.library
+msgid "Find a Library Near Me"
+msgstr "ჩემ მახლობლად მდებარე ბიბლიოთეკის მოძიება"
+
+#: footer.find.url
+msgid "http://www.georgialibraries.org/lib/directories/pineslibdir.html"
+msgstr "http://www.georgialibraries.org/lib/directories/pineslibdir.html"
+
+#: footer.help.url
+msgid "http://open-ils.org/dokuwiki/doku.php?id=evergreen-user:opac_help"
+msgstr "http://open-ils.org/dokuwiki/doku.php?id=evergreen-user:opac_დახმარება"
+
+#: footer.help
+msgid "Help"
+msgstr "დახმარება"
+
+#: footer.library.url
+msgid "http://www.georgialibraries.org/public/pines.html"
+msgstr "http://www.georgialibraries.org/საჯარო/pines.html"
+
+#: footer.library.about
+msgid "About PINES"
+msgstr "დაახლოებით PINES"
+
+#: footer.union.url
+msgid "http://www.galileo.usg.edu/"
+msgstr "http://www.galileo.usg.edu/"
+
+#: footer.union
+msgid "GALILEO"
+msgstr "GALILEO"
+
+#: footer.copyright
+msgid "Copyright &#xA9; 2006-2012 Georgia Public Library Service, and others"
+msgstr "საავტორო უფლება &#xA9; 2006-2012 Georgia Public Library Service-ს და სხვა ავტორებს ეკუთვნის."
+
+#. Introduces the logo for the project
+#: footer.logo
+msgid "Powered by"
+msgstr "შექმნილია:"
+
+#. =================================================================
+#. My OPAC
+#. =================================================================
+#: myopac.account
+msgid "Account Summary"
+msgstr "ანგარიში შეჯამება"
+
+#: myopac.checkouts
+msgid "Items Checked Out"
+msgstr "ეგზემპლარები გატანილი"
+
+#: myopac.holds
+msgid "Items on Hold"
+msgstr "ეგზემპლარები დაჯავშნილი"
+
+#: myopac.fines
+msgid "Fines"
+msgstr "ჯარიმები"
+
+#: myopac.preferences
+msgid "Account Preferences"
+msgstr "ანგარიში პარამეტრები"
+
+#: myopac.bookbags
+msgctxt "myopac.bookbags"
+msgid "My Bookbags"
+msgstr "ჩემი წიგნების სიები"
+
+#. =================================================================
+#. Sidebar
+#. =================================================================
+#: sidebar.relevantSubjects.headerLabel
+msgid "Relevant Subjects"
+msgstr "შესაბამისი თემები"
+
+#: sidebar.relevantAuthors.headerLabel
+msgid "Relevant Authors"
+msgstr "მსგავსი ავტორები"
+
+#: sidebar.relevantSeries.headerLabel
+msgid "Relevant Series"
+msgstr "მსგავსი სერიები"
+
+#: sidebar.relevantReviews.headerLabel
+msgctxt "sidebar.relevantReviews.headerLabel"
+msgid "Reviews"
+msgstr "მიმოხილვები"
+
+#: sidebar.quick.search
+msgctxt "sidebar.quick.search"
+msgid "Quick Search"
+msgstr "სწრაფი ძიება"
+
+#: sidebar.authority.browse
+msgid "Authority Browse"
+msgstr "ავტორიტეტული ჩანაწერების დათვალიერება"
+
+#: sidebar.copy.not.found
+msgid "No copy with the requested barcode was found"
+msgstr "ეგზემპლარი მოთხოვნილი შტრიხკოდით ვერ მოიძებნა"
+
+#: sidebar.copy.not.cataloged
+msgid "The copy with the requested barcode is not cataloged"
+msgstr "ეგზემპლარი მოთხოვნილი შტრიხკოდით არ არის კატალოგიზებული"
+
+#. =================================================================
+#. Search formats
+#. =================================================================
+#: opac.search.books
+msgid "Books"
+msgstr "წიგნები"
+
+#: opac.search.allFormats
+msgid "All Formats"
+msgstr "ყველა ფორმატები"
+
+#: opac.search.largePrint
+msgid "Large Print Books"
+msgstr "დიდი შრიფტით დაბეჭდილი წიგნები"
+
+#: opac.search.ebook
+msgid "E-Books"
+msgstr "ელექტრონული წიგნები"
+
+#: opac.search.audioBooks
+msgid "Audiobooks"
+msgstr "აუდიოწიგნები"
+
+#: opac.search.videoRecordings
+msgid "Video Recordings"
+msgstr "ვიდეოჩანაწერები"
+
+#: opac.search.music
+msgid "Music"
+msgstr "მუსიკა"
+
+#: opac.search.electronic
+msgid "Electronic Resources"
+msgstr "ელექტრონული რესურსები"
+
+#: opac.search.nowSearching
+msgid "Now Searching"
+msgstr "მიმდინარეობს ძიება"
+
+#. =================================================================
+#. Page Titles
+#. =================================================================
+#: opac.title.home
+msgid "Evergreen Home"
+msgstr "Evergreen მთავარი"
+
+#: opac.title.mresult
+msgid "Evergreen Title Groups"
+msgstr "Evergreen სათაური ჯგუფები"
+
+#: opac.title.rresult
+msgid "Evergreen Titles"
+msgstr "Evergreen-ის სათაურები"
+
+#: opac.title.myopac
+msgid "Evergreen My Account"
+msgstr "Evergreen ჩემი ანგარიში"
+
+#: opac.title.rdetail
+msgid "Evergreen Title Details"
+msgstr "Evergreen სათაური დეტალები"
+
+#: opac.title.advanced
+msgid "Evergreen Advanced Search"
+msgstr "Evergreen გაფართოებული ძიება"
+
+#: opac.title.reqitems
+msgid "Evergreen Request Items"
+msgstr "Evergreen მოთხოვნა ეგზემპლარები"
+
+#: opac.title.cnbrowse
+msgid "Evergreen Call Number Browse"
+msgstr "Evergreen შიფრი დათვალიერება"
+
+#: opac.title.authbrowse
+msgid "Evergreen Authority Record Browse"
+msgstr "Evergreen-ის ავტორიტეტული ჩანაწერების დათვალიერება"
+
+#: opac.holds.forMe
+msgid "Place this hold for myself"
+msgstr "ამ ჯავშნის გაფორმება ჩემთვის"
+
+#: opac.holds.xulRecipient
+msgid "Enter recipient barcode"
+msgstr "შეიყვანეთ მიმღების შტრიხკოდი"
+
+#: opac.holds.recipient
+msgid "Recipient"
+msgstr "მიმღები"
+
+#: opac.holds.placeHold
+msgctxt "opac.holds.placeHold"
+msgid "Place Hold"
+msgstr "ჯავშნის გაფორმება"
+
+#: opac.holds.exportRefWorks
+msgctxt "opac.holds.exportRefWorks"
+msgid "Export to RefWorks"
+msgstr "RefWorks-ში ექსპორტი"
+
+#: opac.holds.contactPhone
+msgid "Contact telephone number"
+msgstr "საკონტაქტო ტელეფონის ნომერი"
+
+#: opac.holds.contactEmail
+msgid "Contact email address"
+msgstr "დაუკავშირდით ელფოსტის მისამართი"
+
+#: opac.holds.pickupLocation
+msgid "Pickup location"
+msgstr "გასატანი ბიბლიოთეკა"
+
+#: opac.holds.success
+msgid "Hold was successfully placed"
+msgstr "დაჯავშნა იყო წარმატებით განთავსებული"
+
+#: opac.holds.failure
+msgid "Hold was not successfully placed"
+msgstr "დაჯავშნა იყო არ წარმატებით განთავსებული"
+
+#: opac.hold.has_parts
+msgid ""
+"The system was not able to place the requested hold.  The item requested has "
+"multiple parts to choose from.  Try selecting a specific part for the hold."
+msgstr " სისტემა იყო არ able -ზე place მოთხოვნილი დაჯავშნა. ეგზემპლარი მოთხოვნილი აქვს multiple parts -ზე აირჩიეთ დან. სცადეთ selecting specific part თვის დაჯავშნა."
+
+#. =================================================================
+#. Advanced
+#. =================================================================
+#: advanced.search.title
+msgid "Search Input"
+msgstr "საძიებო ველი"
+
+#: advanced.add.row
+msgid "Add Search Row"
+msgstr "საძიებო სტრიქონის დამატება"
+
+#: advanced.search.submit
+msgid "Submit Search"
+msgstr "გაგზავნა ძიება"
+
+#: advanced.search.reset
+msgid "Reset Form"
+msgstr "აღდგენა ფორმა"
+
+#: advanced.search.filters
+msgid "Search Filters"
+msgstr "ძიება ფილტრები"
+
+#: advanced.item.form
+msgid "Item Form"
+msgstr "ეგზემპლარი ფორმა"
+
+#: advanced.item.type
+msgid "Item Type"
+msgstr "ეგზემპლარი ტიპი"
+
+#: advanced.link
+msgid "Advanced"
+msgstr "გაფართოებული"
+
+#: advanced.basic.link
+msgid "Basic"
+msgstr "ძირითადი"
+
+#: advanced.literary.form
+msgid "Literary Form"
+msgstr "ლიტერატურული ფორმა"
+
+#: advanced.non.fiction
+msgid "Non Fiction"
+msgstr "არამხატვრული ლიტერატურა"
+
+#: advanced.fiction
+msgid "Fiction"
+msgstr "მხატვრული ლიტერატურა"
+
+#: advanced.language
+msgid "Language"
+msgstr "ენა"
+
+#: advanced.audience
+msgid "Audience"
+msgstr "აუდიტორია"
+
+#: advanced.adult
+msgid "Adult"
+msgstr "ზრდასრული"
+
+#: advanced.juvenile
+msgid "Juvenile"
+msgstr "ბავშვებისთვის"
+
+#: advanced.general
+msgid "General"
+msgstr "ზოგადი"
+
+#: advanced.sort.criteria
+msgid "Sort Criteria"
+msgstr "დალაგების კრიტერიუმი"
+
+#: advanced.search.library
+msgid "Search Library"
+msgstr "ძიება ბიბლიოთეკა"
+
+#: advanced.relevance
+msgid "Relevance"
+msgstr "შესაბამისობა"
+
+#: advanced.pubdate
+msgid "Publication date"
+msgstr "გამოცემის თარიღი"
+
+#: advanced.sort.asc
+msgid "Ascending / A to Z"
+msgstr "ზრდადობით / A-დან Z-მდე"
+
+#: advanced.sort.desc
+msgid "Descending / Z to A"
+msgstr "კლებადობით / Z-დან A-მდე"
+
+#: advanced.frbrize
+msgid "Group Formats and Editions"
+msgstr "ჯგუფი ფორმატები და გამოცემები"
+
+#: advanced.go
+msgid "Go"
+msgstr "გადასვლა"
+
+#: advanced.biblevel
+msgid "Bib Level"
+msgstr "ბიბლიოგრაფიული ჩანაწერის დონე"
+
+#: advanced.filter.pubyear
+msgid "Publication Year"
+msgstr "გამოცემა წელი"
+
+#: advanced.filter.pubyear.equals
+msgid "Is"
+msgstr "არის"
+
+#: advanced.filter.pubyear.before
+msgid "Before"
+msgstr "მანამდე"
+
+#: advanced.filter.pubyear.after
+msgid "After"
+msgstr "შემდეგ"
+
+#: advanced.filter.pubyear.between
+msgid "Between"
+msgstr "შორის"
+
+#. =================================================================
+#. Rdetail
+#. =================================================================
+#: rdetail.print
+msgid "print these details"
+msgstr "ბეჭდვა ეს დეტალები"
+
+#: rdetail.cn.part
+msgid "Part"
+msgstr "ნაწილი"
+
+#: rdetail.cn.barcode
+msgctxt "rdetail.cn.barcode"
+msgid "Barcode"
+msgstr "შტრიხკოდი"
+
+#: rdetail.cn.location
+msgid "Location"
+msgstr "მდებარეობა"
+
+#: rdetail.cn.hold.age
+msgid "Age Hold Protection"
+msgstr "ჯავშნის დაცვა ასაკის მიხედვით"
+
+#: rdetail.cn.genesis
+msgid "Create Date"
+msgstr "შექმნა თარიღი"
+
+#: rdetail.cn.active
+msgid "Active Date"
+msgstr "აქტიური თარიღი"
+
+#: rdetail.cn.holdable
+msgid "Holdable"
+msgstr "დასაჯავშნი"
+
+#: rdetail.cn.due
+msgctxt "rdetail.cn.due"
+msgid "Due Date"
+msgstr "დაბრუნების ვადა"
+
+#: rdetail.cn.more
+msgid "more info..."
+msgstr "დაწვრილებით..."
+
+#: rdetail.cn.less
+msgid "less info"
+msgstr "ნაკლები ინფორმაცია"
+
+#: rdetail.cn.hold
+msgid "place hold"
+msgstr "დაჯავშნა"
+
+#: rdetail.cn.reserve
+msgid "book now"
+msgstr "დაჯავშნეთ ახლავე"
+
+#: rdetail.cn.multi_home
+msgid "linked titles"
+msgstr "დაკავშირებული სათაურები"
+
+#: rdetail.cn.disabled
+msgid "- Disabled -"
+msgstr "- გამორთული -"
+
+#: rdetail.cn.note
+msgid "Copy Note"
+msgstr "ეგზემპლარი შენიშვნა"
+
+#: rdetail.cn.category
+msgid "Copy Category"
+msgstr "ეგზემპლარის კატეგორია"
+
+#: rdetail.cn.print
+msgid "Print Page"
+msgstr "ბეჭდვა გვერდი"
+
+#: rdetail.page.results
+msgid "First results page"
+msgstr "პირველი შედეგები გვერდი"
+
+#. Result # &common.of; #
+#: rdetail.result
+msgid "Result"
+msgstr "შედეგი"
+
+#: rdetail.start
+msgid "Start"
+msgstr "დაწყება"
+
+#: rdetail.page.previous
+msgid "Previous page"
+msgstr "წინა გვერდი"
+
+#: rdetail.page.previous.short
+msgid "&#171;"
+msgstr "&#171;"
+
+#: rdetail.page.next
+msgid "Next page"
+msgstr "შემდეგი გვერდი"
+
+#: rdetail.page.next.short
+msgid "&#187;"
+msgstr "&#187;"
+
+#: rdetail.page.last
+msgid "Last results page"
+msgstr "ბოლო შედეგები გვერდი"
+
+#: rdetail.end
+msgid "End"
+msgstr "დასრულება"
+
+#: rdetail.more
+msgid "More Actions..."
+msgstr "მეტი მოქმედებები..."
+
+#: rdetail.bookbag.add
+msgid "Add to bookbag"
+msgstr "დამატება -ზე წიგნების სია"
+
+#: rdetail.bookbag.create
+msgid "Create a new bookbag"
+msgstr "შექმნა ახალი წიგნების სია"
+
+#: rdetail.record.deleted
+msgid ""
+"This record has been deleted from the database. \n"
+"We recommend that you remove this title from any bookbags it may have been "
+"added to."
+msgstr "ეს ჩანაწერი მონაცემთა ბაზიდან წაიშალა. გირჩევთ, სათაური წაშალოთ ყველა იმ წიგნების სიიდან, რომელშიც შესაძლოა დამატებული იყოს."
+
+#: rdetail.none
+msgid "(none)"
+msgstr "(არცერთი)"
+
+#: rdetail.bookbag.add.success
+msgid "Item successfully added to bookbag"
+msgstr "ეგზემპლარი წარმატებით დაემატა -ზე წიგნების სია"
+
+#: rdetail.bookbag.name
+msgid "Enter the name of the new bookbag"
+msgstr "შეიყვანეთ სახელი -ის ახალი წიგნების სია"
+
+#: rdetail.bookbag.create.success
+msgid "Bookbag successfully created"
+msgstr "წიგნების სია წარმატებით შეიქმნა"
+
+#: rdetail.detailMain.headerLabel
+msgid "Record Summary"
+msgstr "ჩანაწერი შეჯამება"
+
+#: rdetail.detailMain.subjects
+msgctxt "rdetail.detailMain.subjects"
+msgid "Subjects"
+msgstr "თემები"
+
+#: rdetail.detailMain.abstract
+msgid "Abstract"
+msgstr "ანოტაცია"
+
+#: rdetail.detailMain.viewMarc
+msgid "View MARC"
+msgstr "ნახვა MARC"
+
+#: rdetail.detailMain.hideMarc
+msgid "Return to title details"
+msgstr "დაბრუნება -ზე სათაური დეტალები"
+
+#: rdetail.author.search
+msgid "Perform an author search"
+msgstr "ავტორის მიხედვით ძიება"
+
+#: rdetail.copyInfo.headerLabel
+msgid "Copy Information"
+msgstr "ეგზემპლარი ინფორმაცია"
+
+#: rdetail.copyInfo.library
+msgctxt "rdetail.copyInfo.library"
+msgid "Library"
+msgstr "ბიბლიოთეკა"
+
+#: rdetail.copyInfo.callnumber
+msgid "Callnumber"
+msgstr "შიფრი"
+
+#: rdetail.copyInfo.copylocation
+msgid "Copy Location"
+msgstr "ეგზემპლარი მდებარეობა"
+
+#: rdetail.copyInfo.local
+msgid "View Copy Information for this location only"
+msgstr "ნახვა ეგზემპლარი ინფორმაცია თვის ეს მდებარეობა მხოლოდ"
+
+#: rdetail.copyInfo.all
+msgid "View copy information for all libraries"
+msgstr "ნახვა ეგზემპლარი ინფორმაცია თვის ყველა ბიბლიოთეკები"
+
+#: rdetail.copyInfo.actions
+msgid "Actions"
+msgstr "მოქმედებები"
+
+#: rdetail.copyInfo.print
+msgid "Print Call Numbers for this library"
+msgstr "ამ ბიბლიოთეკის შიფრების ბეჭდვა"
+
+#: rdetail.copyInfo.details
+msgid "Copy Details"
+msgstr "ეგზემპლარი დეტალები"
+
+#: rdetail.copyInfo.browse
+msgid "Browse Call Numbers"
+msgstr "საბიბლიოთეკო შიფრების დათვალიერება"
+
+#: rdetail.copyInfo.hold
+msgctxt "rdetail.copyInfo.hold"
+msgid "Place Hold"
+msgstr "ჯავშნის გაფორმება"
+
+#: rdetail.extras.summary
+msgid "Copy Summary"
+msgstr "ეგზემპლარი შეჯამება"
+
+#: rdetail.extras.browser
+msgctxt "rdetail.extras.browser"
+msgid "Shelf Browser"
+msgstr "თაროს დათვალიერება"
+
+#: rdetail.extras.bib_summary
+msgctxt "rdetail.extras.bib_summary"
+msgid "Summary"
+msgstr "შეჯამება"
+
+#: rdetail.extras.reviews
+msgctxt "rdetail.extras.reviews"
+msgid "Reviews"
+msgstr "მიმოხილვები"
+
+#: rdetail.extras.toc
+msgid "Table of Contents"
+msgstr "სარჩევი"
+
+#: rdetail.extras.excerpt
+msgid "Excerpt"
+msgstr "ამონარიდი"
+
+#: rdetail.extras.preview
+msgid "Preview"
+msgstr "წინასწარი ნახვა"
+
+#: rdetail.extras.author.notes
+msgid "Author Notes"
+msgstr "შენიშვნები ავტორის შესახებ"
+
+#: rdetail.extras.annotation
+msgid "Annotation"
+msgstr "ანოტაცია"
+
+#: rdetail.extras.marc
+msgid "MARC Record"
+msgstr "MARC ჩანაწერი"
+
+#: rdetail.extras.foreign_items
+msgid "Linked Titles"
+msgstr "დაკავშირებული სათაურები"
+
+#: rdetail.extras.call.null
+msgid "There are no call numbers for this item at this location."
+msgstr "ამ ლოკაციაზე ამ ერთეულისთვის შიფრები არ მოიძებნა."
+
+#: rdetail.extras.call.local
+msgctxt "rdetail.extras.call.local"
+msgid "Local Call Numbers:"
+msgstr "ადგილობრივი შიფრები:"
+
+#: rdetail.extras.preview.fulltext
+msgid "Full text"
+msgstr "სრული ტექსტი"
+
+#: rdetail.extras.preview.title
+msgid "See the full text of this book."
+msgstr "იხილეთ ამ წიგნის სრული ტექსტი."
+
+#: rdetail.extras.preview.badge
+msgid "Show a preview of this book from Google Book Search"
+msgstr "ამ წიგნის გადახედვა Google Book Search-დან"
+
+#: rdetail.extras.novelist
+msgid "Suggestions by NoveList"
+msgstr "რეკომენდაციები NoveList-ის მიერ"
+
+#: rdetail.loading
+msgid "Loading copy information..."
+msgstr "იტვირთება ეგზემპლარი ინფორმაცია..."
+
+#: rdetail.noneAvailable
+msgid " * There are no copies in this location"
+msgstr " * ამ ლოკაციაზე ეგზემპლარები არ არის"
+
+#: rdetail.summary.online
+msgid "Online Resources"
+msgstr "ონლაინ რესურსები"
+
+#: rdetail.summary.subjects
+msgctxt "rdetail.summary.subjects"
+msgid "Subjects"
+msgstr "თემები"
+
+#: rdetail.summary.issues_held
+msgid "Issues Held"
+msgstr "ფონდში არსებული გამოცემები"
+
+#: result.sort_by
+msgid "Sort Results by Relevance"
+msgstr "შედეგების დალაგება რელევანტურობით"
+
+#: result.sort_by.title
+msgid "Sort Results by Title"
+msgstr "დალაგება შედეგები მიერ სათაური"
+
+#: result.sort_by.author
+msgid "Sort Results by Author"
+msgstr "დალაგება შედეგები მიერ ავტორი"
+
+#: result.sort_by.pubdate
+msgid "Sort Results by Publication Date"
+msgstr "დალაგება შედეგები მიერ გამოცემის თარიღი"
+
+#: result.limit2avail
+msgid "Limit to Available"
+msgstr "შეზღუდვა -ზე ხელმისაწვდომი"
+
+#: result.info.copies
+msgid "Available copies / Total copies"
+msgstr "ხელმისაწვდომი ეგზემპლარები / სულ ეგზემპლარები"
+
+#: result.info.no.items
+msgid "No items with the selected format were found in this location."
+msgstr "ამ ლოკაციაზე არჩეული ფორმატის ერთეულები ვერ მოიძებნა."
+
+#: result.info.format.items
+msgid "Listed below are all items in the catalog with the chosen format."
+msgstr "ქვემოთ ჩამოთვლილია კატალოგში არსებული ყველა ერთეული არჩეული ფორმატით."
+
+#: result.info.show
+msgid "Show records for"
+msgstr "ჩვენება ჩანაწერები თვის"
+
+#: result.lowhits.few
+msgid "Few hits were returned for your search."
+msgstr "ძიებამ მხოლოდ რამდენიმე შედეგი გამოიღო."
+
+#: result.lowhits.zero
+msgid "Zero hits were returned for your search."
+msgstr "თქვენი ძიების შედეგად ვერაფერი მოიძებნა."
+
+#: result.lowhits.did.you.mean
+msgid "Maybe you meant:"
+msgstr "იქნებ გულისხმობდით:"
+
+#: result.lowhits.formats
+msgid "You will find more hits when searching all item formats:"
+msgstr "ყველა ფორმატში ძიებისას მეტ შედეგს მიიღებთ:"
+
+#: result.lowhits.formats.search
+msgid "Search again with all formats?"
+msgstr "ძიება ხელახლა თან ყველა ფორმატები?"
+
+#: result.lowhits.related
+msgid "You may also like to try these related searches:"
+msgstr "შეგიძლიათ სცადოთ ეს მსგავსი ძიებები:"
+
+#: result.lowhits.expand
+msgid "You may also wish to expand your search range to:"
+msgstr "თქვენ შესაძლოა ასევე გსურთ -ზე გაშლა თქვენი ძიება დიაპაზონი -ზე:"
+
+#: result.lowhits.class
+msgid "You can try searching the same terms by:"
+msgstr "შეგიძლიათ სცადოთ იგივე ტერმინების ძიება შემდეგით:"
+
+#: result.lowhits.title
+msgid "title"
+msgstr "სათაური"
+
+#: result.lowhits.author
+msgid "author"
+msgstr "ავტორი"
+
+#: result.lowhits.subject
+msgid "subject"
+msgstr "თემა"
+
+#: result.lowhits.series
+msgid "series"
+msgstr "სერია"
+
+#: result.lowhits.keyword
+msgid "keyword"
+msgstr "საკვანძო სიტყვა"
+
+#: result.table.keyword
+msgid "View titles for this record"
+msgstr "ამ ჩანაწერის სათაურების ნახვა"
+
+#: result.table.author
+msgid "Perform an Author Search"
+msgstr "ავტორის მიხედვით ძიება"
+
+#: result.googleBooks.browse
+msgid "Browse in Google Books Search"
+msgstr "დათვალიერება Google Books-ში"
+
+#: result.localCallNumbers
+msgctxt "result.localCallNumbers"
+msgid "Local Call Numbers:"
+msgstr "ადგილობრივი შიფრები:"
+
+#: common.call.number.label
+msgid "Call Number:"
+msgstr "შიფრი:"
+
+#: common.isbn.label
+msgid "ISBN:"
+msgstr "ISBN:"
+
+#: common.issn.label
+msgid "ISSN:"
+msgstr "ISSN:"
+
+#: common.mono_parts.label
+msgid "Monograph Parts:"
+msgstr "მონოგრაფიის ნაწილები:"
+
+#: common.copy.barcode.label
+msgid "Copy Barcode:"
+msgstr "ეგზემპლარი შტრიხკოდი:"
+
+#: common.issuance_label.label
+msgid "Issuance Label:"
+msgstr "გამოცემის იარლიყი:"
+
+#: common.hold.place
+msgid "Place hold for my account"
+msgstr "ჯავშნის გაფორმება ჩემს ანგარიშზე"
+
+#: common.hold.check
+msgid "Checking for possibility of hold fulfillment..."
+msgstr "მოწმდება ჯავშნის შესრულების შესაძლებლობა..."
+
+#: common.hold.create
+msgid "Create / Edit a Hold"
+msgstr "შექმნა / რედაქტირება დაჯავშნა"
+
+#: common.hold.update
+msgid "Update Hold"
+msgstr "განახლება დაჯავშნა"
+
+#: common.hold.type.label
+msgid "Hold Type:"
+msgstr "დაჯავშნა ტიპი:"
+
+#: common.hold.volume
+msgid "Volume Hold"
+msgstr "ტომი დაჯავშნა"
+
+#: common.hold.copy
+msgid "Copy Hold"
+msgstr "ეგზემპლარი დაჯავშნა"
+
+#: common.hold.issuance
+msgid "Issuance Hold"
+msgstr "გამოცემის ჯავშანი"
+
+#: common.hold.advanced
+msgid "Advanced Hold Options"
+msgstr "გაფართოებული დაჯავშნა პარამეტრები"
+
+#: common.hold.delivery
+msgid "Please select a physical location where your hold can be delivered."
+msgstr "აირჩიეთ ფიზიკური მდებარეობა, სადაც დაჯავშნილ მასალას მოგაწვდიან."
+
+#: common.hold.checked_out
+msgid "This item is already checked out."
+msgstr "ეს ეგზემპლარი არის უკვე გატანილი."
+
+#: common.hold.checked_out.override
+msgid ""
+"This item is already checked out.  Would you like to place the hold anyway?"
+msgstr "ეს მასალა უკვე გატანილია. გსურთ მისი დაჯავშნა მაინც?"
+
+#: common.hold.exists
+msgid "A hold already exists on the requested item."
+msgstr "მოთხოვნილ ერთეულზე უკვე არსებობს ჯავშანი."
+
+#: common.hold.exists.override
+msgid ""
+"A hold already exists on the requested item. Would you like to create the "
+"hold anyway?"
+msgstr "მოთხოვნილი მასალა უკვე დაჯავშნილია. გსურთ დაჯავშნის შექმნა მაინც?"
+
+#: common.hold.age_protect.override
+msgid ""
+"This hold may take extra time to fill due to library policies. Would you "
+"like to create the hold anyway?"
+msgstr "ბიბლიოთეკის წესების გამო ამ დაჯავშნის შესრულებას შესაძლოა მეტი დრო დასჭირდეს. გსურთ დაჯავშნის შექმნა მაინც?"
+
+#: common.hold.place_unfillable.override
+msgid ""
+"The requested hold cannot currently be filled. You have permission to place "
+"the hold regardless, but should only do so if you believe the hold will "
+"eventually be filled. Would you like to create the hold anyway?"
+msgstr " მოთხოვნილი დაჯავშნა ვერ ამჟამად იყოს შევსებული. თქვენ აქვს უფლება -ზე place დაჯავშნა regardless, but should მხოლოდ do so if თქვენ believe დაჯავშნა იქნება eventually იყოს შევსებული. Would თქვენ like -ზე შექმნა დაჯავშნა anyway?"
+
+#: common.hold.barred
+msgid ""
+"PATRON BARRED. Please see any notes in the \n"
+"\"Staff Notes\" section of your \"My Account\" page or contact your local "
+"library."
+msgstr "მკითხველს მომსახურება შეზღუდული აქვს. იხილეთ თქვენი ანგარიშის გვერდზე „თანამშრომლების შენიშვნები“ ან დაუკავშირდით ადგილობრივ ბიბლიოთეკას."
+
+#: common.hold.item.invalid
+msgid ""
+"This hold is no longer valid. It's likely that the \n"
+"target for the hold was deleted from the system.  Please cancel this hold "
+"and \n"
+"place a new one."
+msgstr "ეს დაჯავშნა არის no longer მოქმედი. It's likely ის target თვის დაჯავშნა იყო წაიშალა დან სისტემა. გთხოვთ გაუქმება ეს დაჯავშნა და place ახალი ერთი."
+
+#: common.hold.patron.invalid
+msgid "The patron barcode entered as the hold recipient is invalid."
+msgstr "მკითხველის შტრიხკოდი, რომელიც შეყვანილია როგორც ჯავშნის მიმღები, არასწორია."
+
+#. Was (??), perhaps change to a button or icon?
+#: common.help
+msgid "(Help)"
+msgstr "(დახმარება)"
+
+#: common.phone.format.help
+msgid ""
+"The phone number does not have the correct format. The expected format is "
+"XXX-YYY-ZZZZ"
+msgstr "ტელეფონის ნომრის ფორმატი არასწორია. მოთხოვნილი ფორმატია: XXX-YYY-ZZZZ"
+
+#: common.hold.failed
+msgid ""
+"No items were found that could fulfill the requested holds. \n"
+"It's possible that choosing a different format will result in a successful "
+"hold. \n"
+"It is also possible that you have exceeded the number of allowable holds. \n"
+"For further information, please consult your local librarian."
+msgstr "მოთხოვნილი დაჯავშნების შესასრულებლად შესაფერისი ეგზემპლარი ვერ მოიძებნა. შესაძლოა, სხვა ფორმატის არჩევით დაჯავშნა შესაძლებელი გახდეს, ან დაჯავშნების დასაშვებ რაოდენობას გადააჭარბეთ. დამატებითი ინფორმაციისთვის მიმართეთ ადგილობრივ ბიბლიოთეკარს."
+
+#: common.control.click
+msgid "(control-click to select multiple formats)"
+msgstr "(რამდენიმე ფორმატის ასარჩევად დააჭირეთ Ctrl-ს და დააწკაპუნეთ)"
+
+#: common.format.alternatives
+msgid "Acceptable Alternative Formats:"
+msgstr "მისაღები ალტერნატიული ფორმატები:"
+
+#: common.phone.format
+msgid "(XXX-YYY-ZZZZ)"
+msgstr "(XXX-YYY-ZZZZ)"
+
+#: common.phone.enable
+msgid "Enable phone notifications for this hold?"
+msgstr "ჩაირთოს სატელეფონო შეტყობინებები ამ ჯავშნისთვის?"
+
+#: common.email.enable
+msgid "Enable email notifications for this hold?"
+msgstr "ჩაირთოს ელფოსტით შეტყობინებები ამ ჯავშნისთვის?"
+
+#: common.email.none
+msgid "(Patron has no configured email address)"
+msgstr "(მკითხველს არ აქვს მითითებული ელფოსტის მისამართი)"
+
+#: common.email.set
+msgid ""
+"(See <a class='classic_link' id='holds.no_email.my_account'>My Account</a> "
+"for setting your email address)"
+msgstr "(ელფოსტის მისამართის მისათითებლად იხილეთ <a class='classic_link' id='holds.no_email.my_account'>ჩემი ანგარიში</a>)"
+
+#: common.keywords.label
+msgid "Keywords:"
+msgstr "საკვანძო სიტყვები:"
+
+#: common.physical.label
+msgid "Physical Description:"
+msgstr "ფიზიკური აღწერა:"
+
+#: common.series.label
+msgid "Series:"
+msgstr "სერია:"
+
+#: common.subject.label
+msgid "Subject:"
+msgstr "თემა:"
+
+#: common.title.label
+msgid "Title:"
+msgstr "სათაური:"
+
+#: common.author.label
+msgid "Author:"
+msgstr "ავტორი:"
+
+#: common.format.label
+msgid "Format:"
+msgstr "ფორმატი:"
+
+#: library.select
+msgid "Find results in"
+msgstr "მოძებნეთ შედეგები ში"
+
+#: library.select.label
+msgid "Choose a different library..."
+msgstr "აირჩიეთ სხვა ბიბლიოთეკა..."
+
+#: library.select.help
+msgctxt "library.select.help"
+msgid "Choose a library to search"
+msgstr "აირჩიეთ ბიბლიოთეკა -ზე ძიება"
+
+#: login.username
+msgid "Enter your username or library barcode"
+msgstr "შეიყვანეთ თქვენი მომხმარებლის სახელი ან ბიბლიოთეკა შტრიხკოდი"
+
+#: login.password.change
+msgid "Change Password"
+msgstr "შეცვლა პაროლი"
+
+#: login.first.time
+msgid ""
+"This appears to be the first time you have logged in. \n"
+"You will need to change your password."
+msgstr "ეს appears -ზე იყოს პირველი დრო თქვენ აქვს შესული ში. თქვენ იქნება საჭიროა -ზე შეცვლა თქვენი პაროლი."
+
+#: login.password.current.enter
+msgid "Enter your current password"
+msgstr "შეიყვანეთ თქვენი მიმდინარე პაროლი"
+
+#: login.password.new.enter
+msgid "Enter the new password"
+msgstr "შეიყვანეთ ახალი პაროლი"
+
+#: login.password.new.reenter
+msgid "Re-type the new password for verification"
+msgstr "გადამოწმებისთვის შეიყვანეთ ახალი პაროლი განმეორებით"
+
+#: login.password.update
+msgid "Update Password"
+msgstr "განახლება პაროლი"
+
+#: login.password.nomatch
+msgid "Passwords do not match"
+msgstr "პაროლები არ ემთხვევა"
+
+#: login.password.success
+msgctxt "login.password.success"
+msgid "Password successfully updated"
+msgstr "პაროლი წარმატებით განახლდა"
+
+#: login.password.strength
+msgid "The password provided is not strong enough."
+msgstr "მითითებული პაროლი არ არის საკმარისად რთული."
+
+#: login.barcode.inactive
+msgid ""
+"The barcode used to login is marked as inactive.  Please contact your local "
+"library."
+msgstr " შტრიხკოდი გამოყენებული -ზე შესვლა არის მონიშნული როგორც არააქტიური. გთხოვთ დაუკავშირდით თქვენი ადგილობრივი ბიბლიოთეკა."
+
+#: login.account.inactive
+msgid "This account has been deactivated.  Please contact your local library."
+msgstr "ეს ანგარიში გაუქმებულია. დაუკავშირდით ადგილობრივ ბიბლიოთეკას."
+
+#: login.failed
+msgid ""
+"Login failed. The username or password provided was not valid. \n"
+"Passwords are case-sensitive.  Check your Caps-Lock key and try again or "
+"contact your local library."
+msgstr "შესვლა ვერ მოხერხდა: მომხმარებლის სახელი ან პაროლი არასწორია. პაროლში დიდი და პატარა ასოები განსხვავდება. შეამოწმეთ Caps Lock და სცადეთ ხელახლა ან დაუკავშირდით ადგილობრივ ბიბლიოთეკას."
+
+#: button.go
+msgid "Go!"
+msgstr "გადასვლა!"
+
+#. =================================================================
+#. Selfcheck
+#. =================================================================
+#: selfck.staff_login_label
+msgid "Staff login"
+msgstr "თანამშრომლები შესვლა"
+
+#: selfck.staff_login
+msgid "Library barcode or username"
+msgstr "ბიბლიოთეკა შტრიხკოდი ან მომხმარებლის სახელი"
+
+#: selfck.staff_pw
+msgctxt "selfck.staff_pw"
+msgid "Password"
+msgstr "პაროლი"
+
+#: selfck.submit
+msgctxt "selfck.submit"
+msgid "Submit"
+msgstr "გაგზავნა"
+
+#: selfck.clear
+msgid "Clear"
+msgstr "გასუფთავება"
+
+#: selfck.patron_barcode_label
+msgid "Please scan your library barcode"
+msgstr "გთხოვთ დაასკანიროთ თქვენი ბიბლიოთეკის შტრიხკოდი"
+
+#: selfck.item_barcode_label
+msgid "Please scan an item to checkout or renew:"
+msgstr "გთხოვთ დაასკანიროთ ერთეული გასაცემად ან ვადის გასაგრძელებლად:"
+
+#: selfck.barcode
+msgctxt "selfck.barcode"
+msgid "Barcode"
+msgstr "შტრიხკოდი"
+
+#: selfck.title
+msgctxt "selfck.title"
+msgid "Title"
+msgstr "სათაური"
+
+#: selfck.author
+msgctxt "selfck.author"
+msgid "Author"
+msgstr "ავტორი"
+
+#: selfck.due_date
+msgctxt "selfck.due_date"
+msgid "Due Date"
+msgstr "დაბრუნების ვადა"
+
+#: selfck.remaining
+msgctxt "selfck.remaining"
+msgid "Renewals Remaining"
+msgstr "დარჩენილი ვადის გაგრძელებები"
+
+#: selfck.cotype
+msgid "Type"
+msgstr "ტიპი"
+
+#: selfck.cotype_co
+msgid "Checkout"
+msgstr "გატანა"
+
+#: selfck.cotype_rn
+msgid "Renewal"
+msgstr "ვადის გაგრძელება"
+
+#: selfck.done
+msgid "Done"
+msgstr "დასრულებულია"
+
+#: selfck.welcome
+msgid "Welcome"
+msgstr "მოგესალმებით"
+
+#: selfck.printing
+msgid "Printing Receipt..."
+msgstr "ბეჭდვა ქვითარი..."
+
+#. event messages
+#: selfck.event.co_success
+msgid "Check out succeeded"
+msgstr "გატანა წარმატებით შესრულდა"
+
+#: selfck.event.co_unknown
+msgid "An unknown event has occurred"
+msgstr "დაფიქსირდა უცნობი მოვლენა"
+
+#: selfck.event.dupe_barcode
+msgid "This item has already been checked out during this session"
+msgstr "ეს ერთეული უკვე გაიცა მიმდინარე სესიაზე"
+
+#: selfck.event.patron_not_found
+msgid "The patron barcode was not found"
+msgstr " მკითხველი შტრიხკოდი იყო ვერ მოიძებნა"
+
+#: selfck.event.item_noncat
+msgid "The requested item is not in the catalog"
+msgstr "მოთხოვნილი ერთეული არ არის კატალოგში"
+
+#: selfck.event.item_nocirc
+msgid "The requested item is not allowed to circulate"
+msgstr "მოთხოვნილი ერთეული არ ექვემდებარება ცირკულაციას"
+
+#: selfck.event.already_out
+msgid "The requested item is already checked out to another patron"
+msgstr "მოთხოვნილი ერთეული უკვე გაცემულია სხვა მკითხველზე"
+
+#: selfck.items_out
+msgid "You checked out the following items"
+msgstr "თქვენ გატანილი შემდეგი ეგზემპლარები"
+
+#: selfck.org_hours
+msgid "Hours of Operation"
+msgstr "სამუშაო საათები"
+
+#: selfck.org_phone
+msgid "Library Phone Number"
+msgstr "ბიბლიოთეკის ტელეფონის ნომერი"
+
+#: selfck.day0
+msgid "Monday"
+msgstr "ორშაბათი"
+
+#: selfck.day1
+msgid "Tuesday"
+msgstr "სამშაბათი"
+
+#: selfck.day2
+msgid "Wednesday"
+msgstr "ოთხშაბათი"
+
+#: selfck.day3
+msgid "Thursday"
+msgstr "ხუთშაბათი"
+
+#: selfck.day4
+msgid "Friday"
+msgstr "პარასკევი"
+
+#: selfck.day5
+msgid "Saturday"
+msgstr "შაბათი"
+
+#: selfck.day6
+msgid "Sunday"
+msgstr "კვირა"
+
+#: circ.fail_part.actor.usr.barred
+msgid "The patron is barred"
+msgstr "მკითხველს შეზღუდული აქვს მომსახურება"
+
+#: circ.fail_part.asset.copy.circulate
+msgid "The item does not circulate"
+msgstr "ერთეული არ ექვემდებარება ცირკულაციას"
+
+#: circ.fail_part.asset.copy_location.circulate
+msgid "Items from this shelving location do not circulate"
+msgstr "ამ თაროზე განთავსებული ერთეულები არ ექვემდებარება ცირკულაციას"
+
+#: circ.fail_part.asset.copy.status
+msgid "The item cannot circulate at this time"
+msgstr "ერთეული ამჟამად ვერ გაიცემა"
+
+#: circ.fail_part.circ.holds.target_skip_me
+msgid "The item's circulation library does not fulfill holds"
+msgstr "ერთეულის ცირკულაციის ბიბლიოთეკა არ ემსახურება ჯავშნებს"
+
+#: circ.fail_part.config.circ_matrix_circ_mod_test
+msgid "The patron has too many items of this type checked out"
+msgstr "მკითხველზე გაცემულია ამ ტიპის ზედმეტად ბევრი ერთეული"
+
+#: circ.fail_part.config.circ_matrix_test.available_copy_hold_ratio
+msgid "The available item-to-hold ratio is too low"
+msgstr "ხელმისაწვდომი ერთეულებისა და ჯავშნების თანაფარდობა ძალიან დაბალია"
+
+#: circ.fail_part.config.circ_matrix_test.circulate
+msgid "Circulation rules reject this item as non-circulatable"
+msgstr "გაცემის წესების მიხედვით, ეს მასალა არ გაიცემა."
+
+#: circ.fail_part.config.circ_matrix_test.total_copy_hold_ratio
+msgid "The total item-to-hold ratio is too low"
+msgstr "ერთეულებისა და ჯავშნების საერთო თანაფარდობა ძალიან დაბალია"
+
+#: circ.fail_part.config.hold_matrix_test.holdable
+msgid "Hold rules reject this item as unholdable"
+msgstr "ჯავშნის წესების თანახმად, ეს ერთეული დაუჯავშნადია"
+
+#: circ.fail_part.config.hold_matrix_test.max_holds
+msgid "The patron has reached the maximum number of holds"
+msgstr "მკითხველმა ამოწურა ჯავშნების მაქსიმალური რაოდენობა"
+
+#: circ.fail_part.config.rule_age_hold_protect.prox
+msgid "The item is too new to transit this far"
+msgstr "ერთეული ზედმეტად ახალია ამ მანძილზე ტრანზიტისთვის"
+
+#: circ.fail_part.no_item
+msgid "The system could not find this item"
+msgstr " სისტემა შეიძლება არ მოძებნეთ ეს ეგზემპლარი"
+
+#: circ.fail_part.no_ultimate_items
+msgid "The system could not find any items to match this hold request"
+msgstr " სისტემა შეიძლება არ მოძებნეთ ნებისმიერი ეგზემპლარები -ზე შესაბამისობა ეს დაჯავშნა მოთხოვნა"
+
+#: circ.fail_part.no_matchpoint
+msgid "System rules do not define how to handle this item"
+msgstr "სისტემის წესებში არ არის განსაზღვრული ამ ერთეულის დამუშავების წესი"
+
+#: circ.fail_part.no_user
+msgid "The system could not find this patron"
+msgstr " სისტემა შეიძლება არ მოძებნეთ ეს მკითხველი"
+
+#: circ.fail_part.transit_range
+msgid "The item cannot transit this far"
+msgstr " ეგზემპლარი ვერ გზაში ეს შორს"

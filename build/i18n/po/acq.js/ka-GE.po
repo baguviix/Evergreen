@@ -1,0 +1,579 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen\n"
+"PO-Revision-Date: 2026-10-27 16:15+0400\n"
+"Language: ka-GE\n"
+"Language-Team: Georgian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: acq.js:CREATE_PO_ASSETS_CONFIRM
+msgid ""
+"This will create bibliographic, call number, and copy records for this purchase order in the ILS.\n"
+"\n"
+"Continue?"
+msgstr ""
+"ამ მოქმედებით ILS-ში შეიქმნება ამ შესყიდვის შეკვეთის ბიბლიოგრაფიული ჩანაწერი, საბიბლიოთეკო შიფრი და ეგზემპლარის ჩანაწერები.\n"
+"\n"
+"გსურთ გაგრძელება?"
+
+#: acq.js:ROLLBACK_PO_RECEIVE_CONFIRM
+msgid ""
+"This will rollback receipt of all copies for this purchase order.\n"
+"\n"
+"Continue?"
+msgstr ""
+"ეს გააუქმებს ამ შესყიდვის შეკვეთის ყველა ეგზემპლარის მიღებას.\n"
+"\n"
+"გსურთ გაგრძელება?"
+
+#: acq.js:ROLLBACK_LI_RECEIVE_CONFIRM
+msgid ""
+"This will rollback receipt of selected line items from this purchase order.\n"
+"\n"
+"Continue?"
+msgstr ""
+"ეს გააუქმებს ამ შესყიდვის შეკვეთიდან არჩეული პოზიციების მიღებას.\n"
+"\n"
+"გსურთ გაგრძელება?"
+
+#: acq.js:XUL_RECORD_DETAIL_PAGE
+msgid "Record Details"
+msgstr "ჩანაწერის დეტალები"
+
+#: acq.js:DELETE_LI_COPIES_CONFIRM
+msgid "This will delete the last ${0} copies in the table.  Proceed?"
+msgstr "ეს წაშლის ცხრილის ბოლო ${0} ეგზემპლარს. გსურთ გაგრძელება?"
+
+#: acq.js:NO_PO_RESULTS
+msgid "No results"
+msgstr "შედეგები არ მოიძებნა"
+
+#: acq.js:PO_HEADING_ERROR
+msgid "Unexpected problem building virtual combined PO"
+msgstr "ვირტუალური გაერთიანებული შესყიდვის შეკვეთის (PO) შექმნისას წარმოიშვა მოულოდნელი შეცდომა"
+
+#: acq.js:CONFIRM_SPLIT_PO
+msgid ""
+"Are you sure you want to split this purchase order into\n"
+"one purchase order for every constituent line item?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ ამ შესყიდვის შეკვეთის დაყოფა ისე, რომ თითოეულ შემადგენელ პოზიციაზე ცალკე შეკვეთა შეიქმნას?"
+
+#: acq.js:DFA_NOT_ALL
+msgid "Could not record all of your applications of distribution formulas."
+msgstr "ვერ მოხერხდა განაწილების ფორმულების ყველა გამოყენების შენახვა."
+
+#: acq.js:APPLY
+msgid "Apply"
+msgstr "გამოყენება"
+
+#: acq.js:RESET_FORMULAE
+msgid "Reset Formulas"
+msgstr "ფორმულების განულება"
+
+#: acq.js:OUT_OF_COPIES
+msgid "You have applied distribution formulas to every copy."
+msgstr "თქვენ გამოიყენეთ განაწილების ფორმულები ყველა ეგზემპლარზე."
+
+#: acq.js:ONE_LI_ATTR_SEARCH_AT_A_TIME
+msgid ""
+"You cannot both type in an attribute value search and search for an uploaded"
+" file of terms at the same time."
+msgstr "ერთდროულად შეუძლებელია როგორც ატრიბუტის მნიშვნელობით ძიება, ისე ტერმინების ატვირთული ფაილით ძიება."
+
+#: acq.js:LI_ATTR_SEARCH_CHOOSE_FILE
+msgid "Select file with search terms"
+msgstr "აირჩიეთ ფაილი საძიებო ტერმინებით"
+
+#: acq.js:LI_ATTR_SEARCH_TOO_LARGE
+msgid "That file is too large for this operation."
+msgstr "ეს ფაილი ძალიან დიდია ამ ოპერაციისთვის."
+
+#: acq.js:SELECT_AN_LI_ATTRIBUTE
+msgid "You must select an LI attribute."
+msgstr "უნდა აირჩიოთ შეკვეთის პოზიციის (LI) ატრიბუტი."
+
+#: acq.js:NO_RESULTS
+msgid "No results."
+msgstr "შედეგები არ მოიძებნა."
+
+#: acq.js:EXPORT_SAVE_DIALOG_TITLE
+msgid "Save field values to a file"
+msgstr "ველის მნიშვნელობების ფაილში შენახვა"
+
+#: acq.js:EXPORT_SHORT_LIST
+msgid ""
+"Not all of the selected items had the attribute '${0}'.\n"
+"Choose OK to save those values that could be found."
+msgstr ""
+"ყველა არჩეულ ერთეულს არ ჰქონდა ატრიბუტი '${0}'.\n"
+"აირჩიეთ „კარგი“, რათა შეინახოთ მოძიებული მნიშვნელობები."
+
+#: acq.js:EXPORT_EMPTY_LIST
+msgid "No values for attribute '${0}' found."
+msgstr "ატრიბუტისთვის „${0}“ მნიშვნელობები ვერ მოიძებნა."
+
+#: acq.js:UNRECEIVE_LI
+msgid "Are you sure you want to mark this lineitem as UN-received?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ ამ პოზიციის მონიშვნა მიუღებლად?"
+
+#: acq.js:UNRECEIVE_LID
+msgid "Are you sure you want to mark this copy as UN-received?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ ამ ეგზემპლარის მონიშვნა მიუღებლად?"
+
+#: acq.js:CONFIRM_LI_ALERT
+msgid ""
+"An alert has been placed on the lineitem titled,\n"
+"\"${0}\":\n"
+"\n"
+"${1}\n"
+"${2}\n"
+"${3}\n"
+"Choose OK if you wish to acknowledge this alert."
+msgstr ""
+"შეტყობინება დამატებულია შეკვეთის პოზიციაზე სახელწოდებით:\n"
+"\"${0}\":\n"
+"\n"
+"${1}\n"
+"${2}\n"
+"${3}\n"
+"დააჭირეთ „კარგი“-ს, თუ გსურთ ამ შეტყობინების დადასტურება."
+
+#: acq.js:ALERT_UNSELECTED
+msgid "You must choose an alert code."
+msgstr "უნდა აირჩიოთ შეტყობინების კოდი."
+
+#: acq.js:DFA_TIP
+msgid "<strong>Applied by</strong>: ${0}<br /><strong>When</strong>: ${1}"
+msgstr "<strong>გამოიყენა:</strong> ${0}<br /><strong>როდის:</strong> ${1}"
+
+#: acq.js:ITS_YOU
+msgid "You"
+msgstr "თქვენ"
+
+#: acq.js:JUST_NOW
+msgid "Just now"
+msgstr "ახლახან"
+
+#: acq.js:EXPLAIN_DFA_MGMT
+msgid "Remove record of this distribution formula usage?"
+msgstr "გსურთ ამ განაწილების ფორმულის გამოყენების ჩანაწერის წაშლა?"
+
+#: acq.js:VENDOR_PUBLIC
+msgid "VENDOR PUBLIC"
+msgstr "ხილულია მომწოდებლისთვის"
+
+#: acq.js:PO_CANCEL_CONFIRM
+msgid "Are you SURE you want to cancel this purchase order?"
+msgstr "დარწმუნებული ხართ, რომ ნამდვილად გსურთ ამ შესყიდვის შეკვეთის გაუქმება?"
+
+#: acq.js:LI_CANCEL_CONFIRM
+msgid "Are you SURE you want to cancel this line item?"
+msgstr "დარწმუნებული ხართ, რომ ნამდვილად გსურთ ამ შეკვეთის პოზიციის გაუქმება?"
+
+#: acq.js:LID_CANCEL_CONFIRM
+msgid "Are you SURE you want to cancel this copy?"
+msgstr "დარწმუნებული ხართ, რომ ნამდვილად გსურთ ამ ეგზემპლარის გაუქმება?"
+
+#: acq.js:UR_CANCEL_CONFIRM
+msgid "Are you SURE you want to cancel this user request?"
+msgstr "დარწმუნებული ხართ, რომ ნამდვილად გსურთ ამ მომხმარებლის მოთხოვნის გაუქმება?"
+
+#: acq.js:UR_FILTER_USER
+msgid "Enter barcode for user (or leave blank to unset the filter):"
+msgstr "შეიყვანეთ მომხმარებლის შტრიხკოდი (ან დატოვეთ ცარიელი ფილტრის მოსახსნელად):"
+
+#: acq.js:UR_FILTER_LINEITEM
+msgid "Enter id for lineitem (or leave blank to unset the filter):"
+msgstr "შეიყვანეთ შეკვეთის პოზიციის ID (ან დატოვეთ ცარიელი ფილტრის მოსახსნელად):"
+
+#: acq.js:CANCEL_REASON
+msgid "Cancel reason"
+msgstr "გაუქმების მიზეზი"
+
+#: acq.js:CANCEL
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: acq.js:YES
+msgid "Yes"
+msgstr "დიახ"
+
+#: acq.js:NO
+msgid "No"
+msgstr "არა"
+
+#: acq.js:VENDOR_SAYS_PREPAY_NOT_NEEDED
+msgid ""
+"The selected vendor does not necessarily require prepayment, according\n"
+"to records. Require prepayment on this PO anyway?"
+msgstr ""
+"ჩანაწერების თანახმად, არჩეული მომწოდებელი არ მოითხოვს აუცილებელ წინასწარ გადახდას.\n"
+"მაინც მოვითხოვოთ წინასწარი გადახდა ამ შესყიდვის შეკვეთაზე?"
+
+#: acq.js:VENDOR_SAYS_PREPAY_NEEDED
+msgid ""
+"The selected vendor requires prepayment, according to records.\n"
+"Proceed anyway without required prepayment on this PO?"
+msgstr ""
+"ჩანაწერების თანახმად, არჩეული მომწოდებელი მოითხოვს წინასწარ გადახდას.\n"
+"მაინც გავაგრძელოთ ამ შესყიდვის შეკვეთაზე წინასწარი გადახდის მოთხოვნის გარეშე?"
+
+#: acq.js:PREPAYMENT_REQUIRED_REMINDER
+msgid ""
+"This PO requires prepayment.  Are you certain you're ready to activate it?"
+msgstr "ეს შესყიდვის შეკვეთა მოითხოვს წინასწარ გადახდას. დარწმუნებული ხართ, რომ მზად ხართ მის გასააქტიურებლად?"
+
+#: acq.js:LI_FORMAT_ERROR
+msgid "Unexpected error retrieving formatted lineitem information."
+msgstr "მოულოდნელი შეცდომა შეკვეთის პოზიციის ფორმატირებული ინფორმაციის მიღებისას."
+
+#: acq.js:FUND_NOT_YET_LOADED
+msgid "Fund not yet loaded. Try coming back to this display later."
+msgstr "ფონდი ჯერ არ არის ჩატვირთული. სცადეთ ამ ეკრანზე მოგვიანებით დაბრუნება."
+
+#: acq.js:CONFIRM_DELETE_MAPPING
+msgid "Are you sure you want to remove this tag from this fund?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ ამ ჭდის ამოშლა ამ ფონდიდან?"
+
+#: acq.js:COULD_NOT_CREATE_MAPPING
+msgid "Error tagging fund."
+msgstr "შეცდომა ფონდისთვის ჭდის მინიჭებისას."
+
+#: acq.js:COULD_NOT_DELETE_MAPPING
+msgid "Error removing tag from fund."
+msgstr "შეცდომა ფონდიდან ჭდის ამოშლისას."
+
+#: acq.js:FUND_LIST_ROLLOVER_SUMMARY
+msgid "Fund Propagation &amp; Rollover Summary for Fiscal Year ${0}"
+msgstr "ფონდის გავრცელებისა და გადატანის შეჯამება ${0} ფისკალური წლისთვის"
+
+#: acq.js:FUND_LIST_ROLLOVER_SUMMARY_FUNDS
+msgid "${1} funds propagated for fiscal year ${0} for the selected locations"
+msgstr "${1} ფონდი გავრცელდა ${0} ფისკალური წლისთვის არჩეული ლოკაციებისთვის"
+
+#: acq.js:FUND_LIST_ROLLOVER_SUMMARY_ROLLOVER_AMOUNT
+msgid ""
+"<b>$${1}</b> unspent money rolled over to fiscal year ${0} for the selected "
+"locations"
+msgstr "<b>$${1}</b> დაუხარჯავი თანხა გადატანილია ${0} ფისკალურ წელზე არჩეული ლოკაციებისთვის"
+
+#: acq.js:FUND_XFER_SAME_SOURCE_AND_DEST
+msgid "Cannot transfer. The source and destination funds are the same."
+msgstr "გადარიცხვა შეუძლებელია. საწყისი და დანიშნულების ფონდები იდენტურია."
+
+#: acq.js:FUND_XFER_CONFIRM
+msgid "Are you sure you're ready to commit this transfer?"
+msgstr "დარწმუნებული ხართ, რომ მზად ხართ ამ გადარიცხვის დასადასტურებლად?"
+
+#: acq.js:PO_ACTIVATED_ON
+msgid "Activated ${0}"
+msgstr "გააქტიურებულია ${0}"
+
+#: acq.js:PO_CHECKING
+msgid "[One moment...]"
+msgstr "[ერთი წუთით...]"
+
+#: acq.js:PO_COULD_ACTIVATE
+msgid "Yes."
+msgstr "დიახ."
+
+#: acq.js:PO_WARNING_NO_BLOCK_ACTIVATION
+msgid "Yes; fund ${0} (${1}) would be encumbered beyond its warning level."
+msgstr "დიახ; ფონდი ${0} (${1}) დაიტვირთება გაფრთხილების ზღვარს მიღმა."
+
+#: acq.js:PO_STOP_BLOCKS_ACTIVATION
+msgid "No; fund ${0} (${1}) would be encumbered beyond its stop level."
+msgstr "არა; ფონდი ${0} (${1}) დაიტვირთება შეჩერების ზღვარს მიღმა."
+
+#: acq.js:PO_ALREADY_ACTIVATED
+msgid "Activated"
+msgstr "გააქტიურებულია"
+
+#: acq.js:PO_FUND_WARNING_CONFIRM
+msgid "Are you sure? Did you see the warning about over-encumbering a fund?"
+msgstr "დარწმუნებული ხართ? გაეცანით გაფრთხილებას ფონდის ზედმეტად დატვირთვის შესახებ?"
+
+#: acq.js:CONFIRM_FUNDS_AT_STOP
+msgid ""
+"One or more of the selected funds has a balance below its stop level.\n"
+"You may not be able to activate purchase orders incorporating these copies.\n"
+"Continue?"
+msgstr ""
+"არჩეული ფონდებიდან ერთს ან რამდენიმეს აქვს შეჩერების ზღვარზე დაბალი ბალანსი.\n"
+"შესაძლოა ვერ შეძლოთ ამ ეგზემპლარების შემცველი შესყიდვის შეკვეთების გააქტიურება.\n"
+"გსურთ გაგრძელება?"
+
+#: acq.js:CONFIRM_FUNDS_AT_WARNING
+msgid ""
+"One or more of the selected funds has a balance below its warning level.\n"
+"Continue?"
+msgstr ""
+"არჩეული ფონდებიდან ერთს ან რამდენიმეს აქვს გაფრთხილების ზღვარზე დაბალი ბალანსი.\n"
+"გსურთ გაგრძელება?"
+
+#: acq.js:INVOICE_ITEM_DETAILS
+msgid ""
+"${0} <br/> ${1} <br/> ${2}. <br/> Estimated Price: $${3}. <br/> Lineitem ID:"
+" ${4} <br/> PO: ${5} <br/> Order Date: ${6}"
+msgstr "${0} <br/> ${1} <br/> ${2}. <br/> სავარაუდო ფასი: $${3}. <br/> პოზიციის ID: ${4} <br/> შესყიდვის შეკვეთა (PO): ${5} <br/> შეკვეთის თარიღი: ${6}"
+
+#: acq.js:INVOICE_CONFIRM_ITEM_DELETE
+msgid "Remove this $${0} '${1}' charge from the invoice?"
+msgstr "ამოიშალოს ეს $${0} „${1}“ დარიცხვა ინვოისიდან?"
+
+#: acq.js:INVOICE_CONFIRM_ENTRY_DETACH
+msgid "Remove $${0} charge for item '${1}, ${2} [${3}] from the invoice?"
+msgstr "ამოიშალოს $${0} დარიცხვა ერთეულისთვის „${1}, ${2} [${3}]“ ინვოისიდან?"
+
+#: acq.js:LINEITEM_SUMMARY
+msgid ""
+"<div class='acq-lineitem-summary'><a target='_top' href='${19}'>${0}</a>, by ${1} (${2})</div>\n"
+"<div class='acq-lineitem-summary-extra'>\n"
+"${3} Ordered, ${4} Received, ${7} Invoiced, ${8} Claimed, ${9} Cancelled, ${23} Delayed</div>\n"
+"<div class='acq-lineitem-summary-extra'>Estimated $${6}, Encumbered $${16}, Paid $${17}</div>\n"
+"<div class='acq-lineitem-summary-extra'>\n"
+"# ${10} <a style='padding-right: 10px;' class='hidden${20}'  target='_top' href='/eg2/en-US/staff/acq/po/${12}#${10}'>&#x2318; ${13} ${18}</a>\n"
+"<a style='padding-right: 10px;' class='hidden${21}' target='_top' href='/eg2/en-US/staff/acq/picklist/${14}#${10}'>&#x2756; ${15}</a></div>"
+msgstr ""
+"<div class='acq-lineitem-summary'><a target='_top' href='${19}'>${0}</a>, ავტორი: ${1} (${2})</div>\n"
+"<div class='acq-lineitem-summary-extra'>\n"
+"შეკვეთილია: ${3}, მიღებულია: ${4}, ინვოისირებულია: ${7}, გამოთხოვილია: ${8}, გაუქმებულია: ${9}, დაყოვნებულია: ${23}</div>\n"
+"<div class='acq-lineitem-summary-extra'>სავარაუდო: $${6}, დატვირთული: $${16}, გადახდილი: $${17}</div>\n"
+"<div class='acq-lineitem-summary-extra'>\n"
+"# ${10} <a style='padding-right: 10px;' class='hidden${20}'  target='_top' href='/eg2/en-US/staff/acq/po/${12}#${10}'>&#x2318; ${13} ${18}</a>\n"
+"<a style='padding-right: 10px;' class='hidden${21}' target='_top' href='/eg2/en-US/staff/acq/picklist/${14}#${10}'>&#x2756; ${15}</a></div>"
+
+#: acq.js:INVOICE_CONFIRM_PRORATE
+msgid ""
+"Prorate charges?\n"
+"\n"
+"Any subsequent changes to the invoice that would affect prorated amounts should be resolved manually."
+msgstr ""
+"გადანაწილდეს დანახარჯები პროპორციულად?\n"
+"\n"
+"ინვოისში ნებისმიერი შემდგომი ცვლილება, რომელიც გავლენას მოახდენს პროპორციულად გადანაწილებულ თანხებზე, ხელით უნდა გასწორდეს."
+
+#: acq.js:INVOICE_EXTRA_COPIES
+msgid ""
+"You are attempting to invoice <b>${0}</b> more copies than originally "
+"ordered.  <br/><br/>To add these items to the original order, select a fund "
+"and choose 'Add New Items' below.  <br/>After saving the invoice, you may "
+"finish editing and importing the new copies from the lineitem details page."
+msgstr ""
+"თქვენ ცდილობთ ინვოისში თავდაპირველ შეკვეთაზე <b>${0}</b>-ით მეტი ეგზემპლარის შეტანას.  <br/><br/>ამ ერთეულების თავდაპირველ შეკვეთაში დასამატებლად აირჩიეთ ფონდი და ქვემოთ დააჭირეთ „ახალი ერთეულების დამატებას“.  <br/>ინვოისის შენახვის შემდეგ შეგიძლიათ დაასრულოთ ახალი ეგზემპლარების რედაქტირება და იმპორტი შეკვეთის პოზიციის დეტალების გვერდიდან."
+
+#: acq.js:INVOICE_ITEM_PO_DETAILS
+msgid ""
+"<b>${0}</b><br/><a target='_top' href='/eg2/en-US/staff/acq/po/${2}'>PO "
+"#${3} ${4}</a><br/>Total Estimated Cost: $${5}"
+msgstr "<b>${0}</b><br/><a target='_top' href='/eg2/en-US/staff/acq/po/${2}'>შესყიდვის შეკვეთა #${3} ${4}</a><br/>ჯამური სავარაუდო ღირებულება: $${5}"
+
+#: acq.js:INVOICE_ITEM_PO_LABEL
+msgid ""
+"<a target='_top' href='/eg2/en-US/staff/acq/po/${1}'>PO #${2} "
+"${3}</a><br/>Total Estimated Cost: $${4}"
+msgstr "<a target='_top' href='/eg2/en-US/staff/acq/po/${1}'>შესყიდვის შეკვეთა #${2} ${3}</a><br/>ჯამური სავარაუდო ღირებულება: $${4}"
+
+#: acq.js:UNNAMED
+msgid "Unnamed"
+msgstr "უსახელო"
+
+#: acq.js:NO_FIND_INVOICE
+msgid ""
+"Could not find that invoice.\n"
+"Note that the Invoice # field is case-sensitive."
+msgstr ""
+"ეს ინვოისი ვერ მოიძებნა.\n"
+"გაითვალისწინეთ, რომ ველი „ინვოისის #“ მგრძნობიარეა რეგისტრის მიმართ (დიდი/პატარა ასოები)."
+
+#: acq.js:LI_BATCH_UPDATE
+msgid "Line item batch update"
+msgstr "შეკვეთის პოზიციების ჯგუფური განახლება"
+
+#: acq.js:NO_LI_TO_UPDATE
+msgid "You have not selected any line items to update."
+msgstr "განსაახლებლად არ აგირჩევიათ შეკვეთის არცერთი პოზიცია."
+
+#: acq.js:NO_LI_TO_CLAIM
+msgid "You have not selected any line items to claim."
+msgstr "გამოსათხოვად არ აგირჩევიათ შეკვეთის არცერთი პოზიცია."
+
+#: acq.js:NO_LID_TO_CLAIM
+msgid "You have not selected any line item details to claim."
+msgstr "გამოსათხოვად არ აგირჩევიათ შეკვეთის პოზიციის არცერთი დეტალი."
+
+#: acq.js:CHANGE_CLAIM_POLICY
+msgid "Change claim policy"
+msgstr "მოთხოვნის / პრეტენზიის პოლიტიკის შეცვლა"
+
+#: acq.js:CANCELED
+msgid "Canceled"
+msgstr "გაუქმებულია"
+
+#: acq.js:RECVD
+msgid "Recv'd"
+msgstr "მიღებულია"
+
+#: acq.js:NOT_RECVD
+msgid "Not recv'd"
+msgstr "არ არის მიღებული"
+
+#: acq.js:PRINT
+msgid "Print"
+msgstr "ბეჭდვა"
+
+#: acq.js:INVOICES
+msgid "Invoices"
+msgstr "ინვოისები"
+
+#: acq.js:NUM_CLAIMS_EXISTING
+msgid "Claims (${0} existing)"
+msgstr "მოთხოვნები (${0} არსებული)"
+
+#: acq.js:LOAD_TERMS_FIRST
+msgid ""
+"You can't retrieve records until you've loaded a CSV file\n"
+"with bibliographic IDs in the first column."
+msgstr "ჩანაწერების მოძიებამდე ჩატვირთეთ CSV ფაილი, რომლის პირველ სვეტშიც ბიბლიოგრაფიული ჩანაწერების ID-ებია მითითებული."
+
+#: acq.js:SELECT_SEARCH_FIELD
+msgid "Select Search Field"
+msgstr "აირჩიეთ საძიებო ველი"
+
+#: acq.js:LIBRARY_INITIATED
+msgid "Library Initiated"
+msgstr "ბიბლიოთეკის მიერ ინიციირებული"
+
+#: acq.js:DEL_LI_FROM_PO
+msgid ""
+"That item has already been ordered!  Deleting it now will not revoke or "
+"modify any order that has been placed with a vendor.  Deleting the item may "
+"put the system's idea of your purchase order in a state that is inconsistent"
+" with reality.  Are you sure you mean to do this?"
+msgstr "ეს ერთეული უკვე შეკვეთილია! მისი ახლა წაშლა არ გააუქმებს და არ შეცვლის მომწოდებელთან უკვე განთავსებულ შეკვეთას. ერთეულის წაშლამ შესაძლოა სისტემაში არსებული მონაცემები შეუსაბამო გახადოს რეალურ შესყიდვის შეკვეთასთან. დარწმუნებული ხართ, რომ ნამდვილად გსურთ ამის გაკეთება?"
+
+#: acq.js:ADD_LI_TO_PO_BAD_PO_STATE
+msgid "The selected PO has already been activated"
+msgstr "არჩეული შესყიდვის შეკვეთა (PO) უკვე გააქტიურებულია"
+
+#: acq.js:ADD_LI_TO_PO_BAD_LI_STATE
+msgid ""
+"The selected lineitem is not in a state that can be added to a purchase "
+"order"
+msgstr "არჩეული შეკვეთის პოზიციის სტატუსი არ იძლევა მის შესყიდვის შეკვეთაში დამატების საშუალებას"
+
+#: acq.js:INVOICE_NUMBER
+msgid "Invoice #${0}"
+msgstr "ინვოისი #${0}"
+
+#: acq.js:COPIES_TO_RECEIVE
+msgid "Number of copies to receive: "
+msgstr "მისაღები ეგზემპლარების რაოდენობა: "
+
+#: acq.js:CREATE_PO_INVALID
+msgid "A purchase order must have an ordering agency and a provider."
+msgstr "შესყიდვის შეკვეთას უნდა ჰქონდეს დამკვეთი ორგანიზაცია და მომწოდებელი."
+
+#: acq.js:INVOICE_COPY_COUNT_INFO
+msgid "Copies received on this invoice: ${0} out of ${1}."
+msgstr "ამ ინვოისით მიღებული ეგზემპლარები: ${0} სულ ${1}-დან."
+
+#: acq.js:INVOICE_IDENT_COLLIDE
+msgid ""
+"There is already an invoice in the system with the given combination of "
+"'Vendor Invoice ID' and 'Provider,' which is not allowed."
+msgstr "სისტემაში უკვე არსებობს ინვოისი მითითებული „მომწოდებლის ინვოისის ID-ისა“ და „მომწოდებლის“ კომბინაციით, რაც დაუშვებელია."
+
+#: acq.js:NEW_INVOICE
+msgid "New Invoice"
+msgstr "ახალი ინვოისი"
+
+#: acq.js:ACQ_SEARCH_CLASS_ABBR_jub
+msgid "LI"
+msgstr "LI"
+
+#: acq.js:ACQ_SEARCH_CLASS_ABBR_acqpl
+msgid "SL"
+msgstr "SL"
+
+#: acq.js:ACQ_SEARCH_CLASS_ABBR_acqpo
+msgid "PO"
+msgstr "PO"
+
+#: acq.js:ACQ_SEARCH_CLASS_ABBR_acqinv
+msgid "I"
+msgstr "I"
+
+#: acq.js:ACQ_SEARCH_CLASS_ABBR_acqlid
+msgid "LID"
+msgstr "LID"
+
+#: acq.js:ACQ_SEARCH_CLASS_ABBR_acqlia
+msgid "LIA"
+msgstr "LIA"
+
+#: acq.js:NO_LI_GENERAL
+msgid "You have not selected any (suitable) line items."
+msgstr "თქვენ არ აგირჩევიათ არცერთი (შესაფერისი) შეკვეთის პოზიცია."
+
+#: acq.js:DUPE_PO_NAME_MSG
+msgid "This name is already in use by another PO"
+msgstr "ამ სახელს უკვე იყენებს სხვა შესყიდვის შეკვეთა (PO)"
+
+#: acq.js:DUPE_PO_NAME_LINK
+msgid "View PO"
+msgstr "შესყიდვის შეკვეთის (PO) ნახვა"
+
+#: acq.js:PO_NAME_OPTIONAL
+msgid "${0} (optional)"
+msgstr "${0} (არასავალდებულო)"
+
+#: acq.js:FINALIZE_PO
+msgid ""
+"Finalize this blanket PO?\n"
+"This will disencumber all blanket charges and mark the PO as received"
+msgstr ""
+"დასრულდეს ეს საერთო შესყიდვის შეკვეთა (Blanket PO)?\n"
+"ეს მოხსნის ყველა საერთო დატვირთვას და მონიშნავს შეკვეთას მიღებულად"
+
+#: acq.js:LI_EXISTING_COPIES
+msgid ""
+"There are ${0} existing copies for this bibliographic record at this "
+"location"
+msgstr "ამ ბიბლიოგრაფიული ჩანაწერისთვის ამ ლოკაციაზე უკვე არსებობს ${0} ეგზემპლარი"
+
+#: acq.js:LI_CREATING_ASSETS
+msgid "Creating bib, call number, and copy records..."
+msgstr "მიმდინარეობს ბიბლიოგრაფიული, საბიბლიოთეკო შიფრისა და ეგზემპლარის ჩანაწერების შექმნა..."
+
+#: acq.js:PO_ACTIVATING
+msgid "Activating purchase order..."
+msgstr "მიმდინარეობს შესყიდვის შეკვეთის გააქტიურება..."
+
+#: acq.js:ACTIVATE_LI_PROCESSED
+msgid "Lineitems Processed: ${0}"
+msgstr "დამუშავებული შეკვეთის პოზიციები: ${0}"
+
+#: acq.js:ACTIVATE_VQBR_PROCESSED
+msgid "Vandelay Records Processed: ${0}"
+msgstr "დამუშავებული Vandelay-ს ჩანაწერები: ${0}"
+
+#: acq.js:ACTIVATE_BIBS_PROCESSED
+msgid "Bib Records Merged/Imported: ${0}"
+msgstr "შერწყმული/იმპორტირებული ბიბლიოგრაფიული ჩანაწერები: ${0}"
+
+#: acq.js:ACTIVATE_LID_PROCESSED
+msgid "ACQ Copies Processed: ${0}"
+msgstr "დამუშავებული შესყიდვის ეგზემპლარები: ${0}"
+
+#: acq.js:ACTIVATE_DEBITS_ACCRUED_PROCESSED
+msgid "Debits Encumbered: ${0}"
+msgstr "დატვირთული დებეტები: ${0}"
+
+#: acq.js:ACTIVATE_COPIES_PROCESSED
+msgid "Real Copies Processed: ${0}"
+msgstr "დამუშავებული რეალური ეგზემპლარები: ${0}"

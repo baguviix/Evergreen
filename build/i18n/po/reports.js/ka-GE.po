@@ -1,0 +1,421 @@
+#
+msgid ""
+msgstr "Project-Id-Version: Evergreen\nReport-Msgid-Bugs-To: open-ils-dev@list.georgialibraries.org\nPOT-Creation-Date: 2022-04-27 17:07:21-0400\nPO-Revision-Date: 2026-10-27 14:15+0400\nLast-Translator: Georgian Translation Team\nLanguage-Team: Georgian\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8-bit\nLanguage: ka-GE\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: reports.js:RPT_BUILDER_CONFIRM_SAVE reports.js:TEMPLATE_CONF_CONFIRM_SAVE
+msgid ""
+"Name : ${0}\n"
+"Description: ${1}\n"
+"Save Template?"
+msgstr "სახელი: ${0}\nაღწერა: ${1}\nშევინახოთ შაბლონი?"
+
+#: reports.js:LINK_NULLABLE_DEFAULT
+msgid "Default"
+msgstr "ნაგულისხმევი"
+
+#: reports.js:LINK_NULLABLE_RIGHT
+msgid "Parent"
+msgstr "მშობელი"
+
+#: reports.js:LINK_NULLABLE_LEFT
+msgid "Child"
+msgstr "შვილი"
+
+#: reports.js:LINK_NULLABLE_NONE reports.js:FOLDER_WINDOW_COLNAME_NONE
+msgid "None"
+msgstr "არცერთი"
+
+#: reports.js:FILTERS_LABEL_EQUALS reports.js:OPERATORS_EQUALS
+#: reports.js:TEMPLATE_CONF_EQUALS
+msgid "Equals"
+msgstr "უდრის"
+
+#: reports.js:FILTERS_LABEL_LIKE reports.js:OPERATORS_LIKE
+msgid "Contains Matching substring"
+msgstr "შეიცავს შესაბამის ქვესტრიქონს"
+
+#: reports.js:FILTERS_LABEL_ILIKE reports.js:OPERATORS_ILIKE
+msgid "Contains Matching substring (ignore case)"
+msgstr "შეიცავს შესაბამის ქვესტრიქონს (რეგისტრის უგულებელყოფით)"
+
+#: reports.js:FILTERS_LABEL_GREATER_THAN reports.js:OPERATORS_GREATER_THAN
+msgid "Greater than"
+msgstr "მეტია"
+
+#: reports.js:FILTERS_LABEL_GT_TIME reports.js:OPERATORS_GT_TIME
+msgid "After (Date/Time)"
+msgstr "შემდეგ (თარიღი/დრო)"
+
+#: reports.js:FILTERS_LABEL_GT_EQUAL reports.js:OPERATORS_GT_EQUAL
+msgid "Greater than or equal to"
+msgstr "მეტია ან ტოლია"
+
+#: reports.js:FILTERS_LABEL_GTE_TIME reports.js:OPERATORS_GTE_TIME
+msgid "On or After (Date/Time)"
+msgstr "ამ დღეს ან შემდეგ (თარიღი/დრო)"
+
+#: reports.js:FILTERS_LABEL_LESS_THAN reports.js:OPERATORS_LESS_THAN
+msgid "Less than"
+msgstr "ნაკლებია"
+
+#: reports.js:FILTERS_LABEL_LT_TIME reports.js:OPERATORS_LT_TIME
+msgid "Before (Date/Time)"
+msgstr "მანამდე (თარიღი/დრო)"
+
+#: reports.js:FILTERS_LABEL_LT_EQUAL reports.js:OPERATORS_LT_EQUAL
+msgid "Less than or equal to"
+msgstr "ნაკლებია ან ტოლია"
+
+#: reports.js:FILTERS_LABEL_LSE_TIME reports.js:OPERATORS_LTE_TIME
+msgid "On or Before (Date/Time)"
+msgstr "ამ დღეს ან მანამდე (თარიღი/დრო)"
+
+#: reports.js:FILTERS_LABEL_IN reports.js:OPERATORS_IN_LIST
+msgid "In list"
+msgstr "სიაშია"
+
+#: reports.js:FILTERS_LABEL_NOT_IN reports.js:OPERATORS_NOT_IN_LIST
+msgid "Not in list"
+msgstr "სიაში არ არის"
+
+#: reports.js:FILTERS_LABEL_BETWEEN reports.js:OPERATORS_BETWEEN
+msgid "Between"
+msgstr "შორის"
+
+#: reports.js:FILTERS_LABEL_NOT_BETWEEN reports.js:OPERATORS_NOT_BETWEEN
+msgid "Not between"
+msgstr "შორის არ არის"
+
+#: reports.js:FILTERS_LABEL_NULL reports.js:OPERATORS_IS_NULL
+msgid "Is NULL"
+msgstr "NULL-ია"
+
+#: reports.js:FILTERS_LABEL_NOT_NULL reports.js:OPERATORS_IS_NOT_NULL
+msgid "Is not NULL"
+msgstr "NULL არ არის"
+
+#: reports.js:FILTERS_LABEL_NULL_BLANK reports.js:OPERATORS_NULL_BLANK
+msgid "Is NULL or Blank"
+msgstr "NULL-ია ან ცარიელია"
+
+#: reports.js:FILTERS_LABEL_NOT_NULL_BLANK reports.js:OPERATORS_NOT_NULL_BLANK
+msgid "Is not NULL or Blank"
+msgstr "NULL არ არის და არც ცარიელია"
+
+#: reports.js:FILTERS_LABEL_EQ_ANY reports.js:OPERATORS_EQ_ANY
+msgid "Equals Any"
+msgstr "ნებისმიერს უდრის"
+
+#: reports.js:FILTERS_LABEL_NE_ANY reports.js:OPERATORS_NE_ANY
+msgid "Does Not Equal Any"
+msgstr "არცერთს არ უდრის"
+
+#: reports.js:FOLDERS_TEMPLATES
+msgid "Templates"
+msgstr "შაბლონები"
+
+#: reports.js:FOLDERS_TEMPLATE
+msgid "Template"
+msgstr "შაბლონი"
+
+#: reports.js:FOLDERS_REPORTS
+msgid "Reports"
+msgstr "ანგარიშები"
+
+#: reports.js:FOLDERS_REPORT
+msgid "Report"
+msgstr "ანგარიში"
+
+#: reports.js:FOLDERS_OUTPUT
+msgid "Output"
+msgstr "გამოტანა"
+
+#: reports.js:FOLDER_WINDOW_SELECT_ITEM
+msgid "Please select an item from the list"
+msgstr "აირჩიეთ ელემენტი სიიდან"
+
+#: reports.js:FOLDER_WINDOW_CHANGE_FOLDERS
+msgid "Change Folders"
+msgstr "საქაღალდეების შეცვლა"
+
+#: reports.js:FOLDER_WINDOW_REPORT_OUTPUT
+msgid "Report Output: ${0}"
+msgstr "ანგარიშის შედეგი: ${0}"
+
+#: reports.js:FOLDER_WINDOW_COLNAME_SELECT
+msgid "Select"
+msgstr "აირჩიეთ"
+
+#: reports.js:FOLDER_WINDOW_COLNAME_ALL
+msgid "All"
+msgstr "ყველა"
+
+#: reports.js:REPORT_EDITOR_REPORT_FOLDERS
+msgid "Report Folders"
+msgstr "ანგარიშების საქაღალდეები"
+
+#: reports.js:REPORT_EDITOR_OUTPUT_FOLDERS
+msgid "Output Folders"
+msgstr "შედეგების საქაღალდეები"
+
+#: reports.js:REPORT_EDITOR_PROVIDE_FOLDER_ALERT
+msgid "Please provide a report folder"
+msgstr "მიუთითეთ ანგარიშის საქაღალდე"
+
+#: reports.js:REPORT_EDITOR_ENTER_NAME_ALERT
+msgid "Please enter a report name"
+msgstr "შეიყვანეთ ანგარიშის სახელი"
+
+#: reports.js:REPORT_EDITOR_ENTER_NEW_NAME_ALERT
+msgid "Please change the report name"
+msgstr "შეცვალეთ ანგარიშის სახელი"
+
+#: reports.js:REPORT_EDITOR_INVALID_DATE_ALERT
+msgid "invalid start date -  YYYY-MM-DD"
+msgstr "დაწყების თარიღი არასწორია — YYYY-MM-DD"
+
+#: reports.js:REPORT_EDITOR_PROVIDE_OUTPUT_ALERT
+msgid "Please provide an output folder"
+msgstr "მიუთითეთ შედეგების საქაღალდე"
+
+#: reports.js:TFORMS_LABEL_RAW_DATA reports.js:TEMPLATE_CONF_RAW_DATA
+#: reports.js:TRANSFORMS_BARE
+msgid "Raw Data"
+msgstr "დაუმუშავებელი მონაცემები"
+
+#: reports.js:TFORMS_LABEL_FIRST reports.js:TRANSFORMS_FIRST
+msgid "First Value"
+msgstr "პირველი მნიშვნელობა"
+
+#: reports.js:TFORMS_LABEL_LAST reports.js:TRANSFORMS_LAST
+msgid "Last Value"
+msgstr "ბოლო მნიშვნელობა"
+
+#: reports.js:TFORMS_LABEL_COUNT reports.js:TRANSFORMS_COUNT
+msgid "Count"
+msgstr "რაოდენობა"
+
+#: reports.js:TFORMS_LABEL_COUNT_DISTINCT reports.js:TRANSFORMS_COUNT_DISTINCT
+msgid "Count Distinct"
+msgstr "განსხვავებული მნიშვნელობების რაოდენობა"
+
+#: reports.js:TFORMS_LABEL_MIN reports.js:TRANSFORMS_MIN
+msgid "Min"
+msgstr "მინიმუმი"
+
+#: reports.js:TFORMS_LABEL_MAX reports.js:TRANSFORMS_MAX
+msgid "Max"
+msgstr "მაქსიმუმი"
+
+#: reports.js:TFORMS_LABEL_LOWER reports.js:TRANSFORMS_LOWER
+msgid "Lower case"
+msgstr "პატარა ასოებით"
+
+#: reports.js:TFORMS_LABEL_UPPER reports.js:TRANSFORMS_UPPER
+msgid "Upper case"
+msgstr "დიდი ასოებით"
+
+#: reports.js:TFORMS_LABEL_FIRST5 reports.js:TRANSFORMS_FIRST5
+msgid "First 5 characters (for US ZIP code)"
+msgstr "პირველი 5 სიმბოლო (აშშ-ის საფოსტო კოდისთვის)"
+
+#: reports.js:TFORMS_LABEL_FIRST_WORD reports.js:TRANSFORMS_FIRST_WORD
+msgid "First contiguous non-space string"
+msgstr "პირველი უწყვეტი, გამოტოვებების გარეშე სტრიქონი"
+
+#: reports.js:TFORMS_LABEL_DOW reports.js:TRANSFORMS_DOW
+msgid "Day of Week"
+msgstr "კვირის დღე"
+
+#: reports.js:TFORMS_LABEL_DOM reports.js:TRANSFORMS_DOM
+msgid "Day of Month"
+msgstr "თვის დღე"
+
+#: reports.js:TFORMS_LABEL_DOY reports.js:TRANSFORMS_DOY
+msgid "Day of Year"
+msgstr "წლის დღე"
+
+#: reports.js:TFORMS_LABEL_WOY reports.js:TRANSFORMS_WOY
+msgid "Week of Year"
+msgstr "წლის კვირა"
+
+#: reports.js:TFORMS_LABEL_MOY reports.js:TRANSFORMS_MOY
+msgid "Month of Year"
+msgstr "წლის თვე"
+
+#: reports.js:TFORMS_LABEL_QOY reports.js:TRANSFORMS_QOY
+msgid "Quarter of Year"
+msgstr "წლის კვარტალი"
+
+#: reports.js:TFORMS_LABEL_HOD reports.js:TRANSFORMS_HOD
+msgid "Hour of day"
+msgstr "დღის საათი"
+
+#: reports.js:TFORMS_LABEL_DATE reports.js:TRANSFORMS_DATE
+msgid "Date"
+msgstr "თარიღი"
+
+#: reports.js:TFORMS_LABEL_MONTH_TRUNC reports.js:TRANSFORMS_MONTH_TRUNC
+msgid "Year + Month"
+msgstr "წელი + თვე"
+
+#: reports.js:TFORMS_LABEL_YEAR_TRUNC reports.js:TRANSFORMS_YEAR_TRUNC
+msgid "Year"
+msgstr "წელი"
+
+#: reports.js:TFORMS_LABEL_HOUR_TRUNC reports.js:TRANSFORMS_HOUR_TRUNC
+msgid "Hour"
+msgstr "საათი"
+
+#: reports.js:TFORMS_LABEL_DAY_NAME reports.js:TRANSFORMS_DAY_NAME
+msgid "Day Name"
+msgstr "დღის სახელი"
+
+#: reports.js:TFORMS_LABEL_MONTH_NAME
+msgid "Month Name'"
+msgstr "თვის სახელი"
+
+#: reports.js:TFORMS_LABEL_AGE reports.js:TRANSFORMS_AGE
+msgid "Age"
+msgstr "ასაკი"
+
+#: reports.js:TFORMS_LABEL_MONTHS_AGO reports.js:TRANSFORMS_MONTHS_AGO
+msgid "Months ago"
+msgstr "თვის წინ"
+
+#: reports.js:TFORMS_LABEL_QUARTERS_AGO reports.js:TRANSFORMS_QUARTERS_AGO
+msgid "Quarters ago"
+msgstr "კვარტლის წინ"
+
+#: reports.js:TFORMS_LABEL_SUM reports.js:TRANSFORMS_SUM
+msgid "Sum"
+msgstr "ჯამი"
+
+#: reports.js:TFORMS_LABEL_AVERAGE reports.js:TRANSFORMS_AVERAGE
+msgid "Average"
+msgstr "საშუალო"
+
+#: reports.js:TFORMS_LABEL_ROUND reports.js:TRANSFORMS_ROUND
+msgid "Round"
+msgstr "დამრგვალება"
+
+#: reports.js:TFORMS_LABEL_INT reports.js:TRANSFORMS_INT
+msgid "Drop trailing decimals"
+msgstr "ბოლო ათწილადი ციფრების მოცილება"
+
+#: reports.js:WIDGET_DAYS
+msgid "Day(s)"
+msgstr "დღე"
+
+#: reports.js:WIDGET_MONTHS
+msgid "Month(s)"
+msgstr "თვე"
+
+#: reports.js:WIDGET_YEARS
+msgid "Year(s)"
+msgstr "წელი"
+
+#: reports.js:WIDGET_QUARTERS
+msgid "Quarter(s)"
+msgstr "კვარტალი"
+
+#: reports.js:WIDGET_REAL_DATE
+msgid "Real Date"
+msgstr "კონკრეტული თარიღი"
+
+#: reports.js:WIDGET_RELATIVE_DATE
+msgid "Relative Date"
+msgstr "შეფარდებითი თარიღი"
+
+#: reports.js:SOURCE_BROWSE_AGGREGATE
+msgid "Aggregate"
+msgstr "აგრეგირებული"
+
+#: reports.js:SOURCE_BROWSE_NON_AGGREGATE
+msgid "Non-Aggregate"
+msgstr "არააგრეგირებული"
+
+#: reports.js:SOURCE_SETUP_CONFIRM_EXIT
+msgid ""
+"You have started building a template!\n"
+" Selecting a new starting source will destroy the current template and start over.  Is this OK?"
+msgstr "შაბლონის შექმნა დაიწყეთ!\nახალი საწყისი წყაროს არჩევა მიმდინარე შაბლონს წაშლის და თავიდან დაიწყებს. თანახმა ხართ?"
+
+#: reports.js:SOURCE_SETUP_CORE_SOURCES
+msgid "Core Sources"
+msgstr "ძირითადი წყაროები"
+
+#: reports.js:SOURCE_SETUP_ALL_AVAIL_SOURCES
+msgid "All Available Sources"
+msgstr "ყველა ხელმისაწვდომი წყარო"
+
+#: reports.js:TEMPLATE_CONF_BARE
+msgid "Bare"
+msgstr "მარტივი"
+
+#: reports.js:TEMPLATE_CONF_CONFIRM_RESET
+msgid ""
+"You have already added the [${0}] field\n"
+"from the [${1}] source. Click OK if you\n"
+"would like to reset this field."
+msgstr "ველი [${0}] უკვე დაამატეთ\nწყაროდან [${1}]. ველის განულებისთვის\nდააწკაპუნეთ „კარგი“-ზე."
+
+#: reports.js:TEMPLATE_CONF_PROMPT_CHANGE
+msgid "Change the column header to: ${0}"
+msgstr "სვეტის სათაურის შეცვლა: ${0}"
+
+#: reports.js:TEMPLATE_FIELD_DOC_PROMPT_CHANGE
+msgid "Change the field hint to:"
+msgstr "ველის მინიშნების შეცვლა:"
+
+#: reports.js:TEMPLATE_CONF_BOOLEAN_VALUE
+msgid "Boolean Value"
+msgstr "ლოგიკური მნიშვნელობა"
+
+#: reports.js:TEMPLATE_CONF_SELECT_CANCEL
+msgid "Select the value, or cancel:"
+msgstr "აირჩიეთ მნიშვნელობა ან გააუქმეთ:"
+
+#: reports.js:TEMPLATE_CONF_TRUE
+msgid "True"
+msgstr "ჭეშმარიტი"
+
+#: reports.js:TEMPLATE_CONF_FALSE
+msgid "False"
+msgstr "მცდარი"
+
+#: reports.js:TEMPLATE_CONF_CONFIRM_STATE
+msgid "Click OK for TRUE and Cancel for FALSE."
+msgstr "„ჭეშმარიტი“-სთვის დააჭირეთ „კარგი“-ს, „მცდარი“-სთვის — „გაუქმება“-ს."
+
+#: reports.js:TEMPLATE_CONF_NO_MATCH reports.js:TEMPLATE_CONF_NOT_IN
+msgid "Field does not match one of list (comma separated):"
+msgstr "ველი არ ემთხვევა სიაში მოცემულ მნიშვნელობებს (მძიმით გამოყოფილი):"
+
+#: reports.js:TEMPLATE_CONF_NOT_BETWEEN
+msgid "Field value is not between (comma separated):"
+msgstr "ველის მნიშვნელობა მითითებულ შუალედში არ არის (მძიმით გამოყოფილი):"
+
+#: reports.js:TEMPLATE_CONF_BETWEEN
+msgid "Field value is between (comma separated):"
+msgstr "ველის მნიშვნელობა მითითებულ შუალედშია (მძიმით გამოყოფილი):"
+
+#: reports.js:TEMPLATE_CONF_IN
+msgid "Field matches one of list (comma separated):"
+msgstr "ველი ემთხვევა სიაში მოცემულ ერთ-ერთ მნიშვნელობას (მძიმით გამოყოფილი):"
+
+#: reports.js:TEMPLATE_CONF_DEFAULT
+msgid "Value ${0}:"
+msgstr "მნიშვნელობა ${0}:"
+
+#: reports.js:TEMPLATE_CONF_SUCCESS_SAVE
+msgid "Template ${0} was successfully saved."
+msgstr "შაბლონი ${0} წარმატებით შეინახა."
+
+#: reports.js:TRANSFORMS_SUBSTRING
+msgid "Substring"
+msgstr "ქვესტრიქონი"
+
+#: reports.js:TRANSFORMS_MONTH_NAME
+msgid "Month Name"
+msgstr "თვის სახელი"

@@ -1,0 +1,406 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen\n"
+"PO-Revision-Date: 2026-10-27 16:36+0400\n"
+"Language: ka-GE\n"
+"Language-Team: Georgian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: conify.js:CONFIRM_DELETE
+msgid "Are you sure you want to delete ${0}?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ ${0}-ის წაშლა?"
+
+#: conify.js:CONFIRM_EXIT_AOU
+msgid ""
+"There are unsaved changes to one or more organizational units. Click OK to "
+"save these changes, or Cancel to abandon them."
+msgstr "ერთ ან მეტ ორგანიზაციულ ერთეულში არის შეუნახავი ცვლილებები. დააწკაპუნეთ „დიახ“ (OK) მათ შესანახად, ან „გაუქმება“ მათ უარსაყოფად."
+
+#: conify.js:CONFIRM_EXIT_CAM
+msgid ""
+"There are unsaved changes to one or more ${0} codes. Click OK to save these "
+"changes, or Cancel to abandon them."
+msgstr "ერთ ან მეტ ${0} კოდში არის შეუნახავი ცვლილებები. დააწკაპუნეთ „დიახ“ (OK) ცვლილებების შესანახად, ან „გაუქმება“ მათ უარსაყოფად."
+
+#: conify.js:CONFIRM_EXIT_CCS
+msgid ""
+"There are unsaved changes to one or more copy statuses. Click OK to save "
+"these changes, or Cancel to abandon them."
+msgstr "ეგზემპლარის ერთ ან მეტ სტატუსში არის შეუნახავი ცვლილებები. დააწკაპუნეთ „დიახ“ (OK) ცვლილებების შესანახად, ან „გაუქმება“ მათ უარსაყოფად."
+
+#: conify.js:CONFIRM_EXIT_PGT
+msgid ""
+"There are unsaved modified permission maps. Click OK to save these changes, "
+"or Cancel to abandon them."
+msgstr "არსებობს შეცვლილი და შეუნახავი უფლებათა ასახვები. დააწკაპუნეთ „დიახ“ (OK) მათ შესანახად, ან „გაუქმება“ მათ უარსაყოფად."
+
+#: conify.js:CONFIRM_EXIT_PPL
+msgid ""
+"There are unsaved modified permissions. Click OK to save these changes, or "
+"Cancel to abandon them."
+msgstr "არსებობს შეცვლილი და შეუნახავი უფლებები. დააწკაპუნეთ „დიახ“ (OK) მათ შესანახად, ან „გაუქმება“ მათ უარსაყოფად."
+
+#: conify.js:CONFIRM_UNSAVED_CHANGES
+msgid ""
+"There are unsaved changes to one or more organization types. Click OK to "
+"save these changes, or Cancel to abandon them."
+msgstr "ორგანიზაციის ერთ ან მეტ ტიპში არის შეუნახავი ცვლილებები. დააწკაპუნეთ „დიახ“ (OK) მათ შესანახად, ან „გაუქმება“ მათ უარსაყოფად."
+
+#: conify.js:COPY_ACTIVE
+msgid "Sets copy active"
+msgstr "ეგზემპლარს ხდის აქტიურს"
+
+#: conify.js:IS_AVAILABLE
+msgid "Is Available"
+msgstr "ხელმისაწვდომია"
+
+#: conify.js:ERROR_CALLING_METHOD_AOUT
+msgid "Problem calling method to create child organization type"
+msgstr "შეცდომა შვილობილი ორგანიზაციის ტიპის შექმნის მეთოდის გამოძახებისას"
+
+#: conify.js:ERROR_CALLING_METHOD_CAM
+msgid "Problem calling method to create new ${0}"
+msgstr "შეცდომა ახალი ${0}-ის შექმნის მეთოდის გამოძახებისას"
+
+#: conify.js:ERROR_CALLING_METHOD_CCS
+msgid "Problem calling method to create new copy status"
+msgstr "შეცდომა ეგზემპლარის ახალი სტატუსის შექმნის მეთოდის გამოძახებისას"
+
+#: conify.js:ERROR_CALLING_METHOD_PERM_MAP
+msgid "Problem calling method to create new permission map"
+msgstr "შეცდომა უფლებათა ახალი ასახვის შექმნის მეთოდის გამოძახებისას"
+
+#: conify.js:ERROR_CALLING_METHOD_PGT
+msgid "Problem calling method to create child Group"
+msgstr "შეცდომა შვილობილი ჯგუფის შექმნის მეთოდის გამოძახებისას"
+
+#: conify.js:ERROR_CALLING_METHOD_PPL
+msgid "Problem calling method to create new permission"
+msgstr "შეცდომა ახალი უფლების შექმნის მეთოდის გამოძახებისას"
+
+#: conify.js:ERROR_CREATING_CHILD_AOU
+msgid "Problem creating child organizational unit"
+msgstr "შეცდომა შვილობილი ორგანიზაციული ერთეულის შექმნისას"
+
+#: conify.js:ERROR_CREATING_CHILD_AOUT
+msgid "Problem creating child organization type"
+msgstr "შეცდომა შვილობილი ორგანიზაციის ტიპის შექმნისას"
+
+#: conify.js:ERROR_CREATING_CHILD_GROUP
+msgid "Problem creating child Group"
+msgstr "შეცდომა შვილობილი ჯგუფის შექმნისას"
+
+#: conify.js:ERROR_CREATING_PERMISSION
+msgid "Problem creating new Permission"
+msgstr "შეცდომა ახალი უფლების შექმნისას"
+
+#: conify.js:ERROR_CREATING_PERM_MAP
+msgid "Problem creating new Permission Map"
+msgstr "შეცდომა უფლებათა ახალი ასახვის შექმნისას"
+
+#: conify.js:ERROR_CREATING_STATUS
+msgid "Problem creating new Status"
+msgstr "შეცდომა ახალი სტატუსის შექმნისას"
+
+#: conify.js:ERROR_DELETING_LAST_AOU
+msgid "Cannot delete ${0}, you need at least one organization unit."
+msgstr "შეუძლებელია ${0}-ის წაშლა, საჭიროა მინიმუმ ერთი ორგანიზაციული ერთეული."
+
+#: conify.js:ERROR_DELETING_LAST_AOUT
+msgid "Cannot delete ${0}. You need at least one organization type."
+msgstr "შეუძლებელია ${0}-ის წაშლა. საჭიროა მინიმუმ ერთი ორგანიზაციის ტიპი."
+
+#: conify.js:ERROR_DELETING_PERM_MAPPING
+msgid "Problem deleting permission mapping ${0}"
+msgstr "შეცდომა უფლებათა ასახვის (${0}) წაშლისას"
+
+#: conify.js:ERROR_DELETING
+msgid "Problem deleting ${0}"
+msgstr "შეცდომა ${0}-ის წაშლისას"
+
+#: conify.js:ERROR_FETCHING_GROUPS
+msgid "Problem fetching groups"
+msgstr "შეცდომა ჯგუფების მიღებისას"
+
+#: conify.js:ERROR_FETCHING_HOLDS
+msgid "Problem fetching Holds Address for ${0}"
+msgstr "შეცდომა ${0}-ის ჯავშნების მისამართის მიღებისას"
+
+#: conify.js:ERROR_FETCHING_HOURS
+msgid "Problem fetching hours of operation for ${0}"
+msgstr "შეცდომა ${0}-ის სამუშაო საათების მიღებისას"
+
+#: conify.js:ERROR_FETCHING_ILL
+msgid "Problem fetching ILL Address for ${0}"
+msgstr "შეცდომა ${0}-ის ILL მისამართის მიღებისას"
+
+#: conify.js:ERROR_FETCHING_MAILING
+msgid "Problem fetching Mailing Address for ${0}"
+msgstr "შეცდომა ${0}-ის საფოსტო მისამართის მიღებისას"
+
+#: conify.js:ERROR_FETCHING_ORGS
+msgid "Problem fetching organizational unit data"
+msgstr "შეცდომა ორგანიზაციული ერთეულის მონაცემების მიღებისას"
+
+#: conify.js:ERROR_FETCHING_PERM_MAPS
+msgid "Problem fetching perm maps"
+msgstr "შეცდომა უფლებათა ასახვების მიღებისას"
+
+#: conify.js:ERROR_FETCHING_PERMS
+msgid "Problem fetching perms"
+msgstr "შეცდომა უფლებების მიღებისას"
+
+#: conify.js:ERROR_FETCHING_PHYSICAL
+msgid "Problem fetching Physical Address for ${0}"
+msgstr "შეცდომა ${0}-ის ფიზიკური მისამართის მიღებისას"
+
+#: conify.js:ERROR_FETCHING_STATUSES
+msgid "Problem fetching statuses"
+msgstr "შეცდომა სტატუსების მიღებისას"
+
+#: conify.js:ERROR_FETCHING_TYPES_AOUT
+msgid "Problem fetching organizational unit types"
+msgstr "შეცდომა ორგანიზაციული ერთეულის ტიპების მიღებისას"
+
+#: conify.js:ERROR_ORPHANS
+msgid "Cannot delete ${0}, ${1} subordinates still exist."
+msgstr "შეუძლებელია ${0}-ის წაშლა, ჯერ კიდევ არსებობს ${1} ქვემდებარე ერთეული."
+
+#: conify.js:ERROR_SAVING_DATA
+msgid "Problem saving data for ${0}"
+msgstr "შეცდომა ${0}-ის მონაცემების შენახვისას"
+
+#: conify.js:ERROR_SAVING_DATA_CAM
+msgid "Problem saving data for ${0} ${1}"
+msgstr "შეცდომა ${0} ${1}-ის მონაცემების შენახვისას"
+
+#: conify.js:ERROR_SAVING_HOLDS
+msgid "Problem saving Holds Address data for ${0}"
+msgstr "შეცდომა ${0}-ის ჯავშნების მისამართის მონაცემების შენახვისას"
+
+#: conify.js:ERROR_SAVING_HOO
+msgid "Problem saving Hours of Operation data for ${0}"
+msgstr "შეცდომა ${0}-ის სამუშაო საათების მონაცემების შენახვისას"
+
+#: conify.js:ERROR_SAVING_ILL
+msgid "Problem saving ILL Address data for ${0}"
+msgstr "შეცდომა ${0}-ის ILL მისამართის მონაცემების შენახვისას"
+
+#: conify.js:ERROR_SAVING_MAILING
+msgid "Problem saving Mailing Address data for ${0}"
+msgstr "შეცდომა ${0}-ის საფოსტო მისამართის მონაცემების შენახვისას"
+
+#: conify.js:ERROR_SAVING_PERM_DATA
+msgid "Problem saving permission data for ${0}"
+msgstr "შეცდომა ${0}-ის უფლებების მონაცემების შენახვისას"
+
+#: conify.js:ERROR_SAVING_PHYSICAL
+msgid "Problem saving Physical Address data for ${0}"
+msgstr "შეცდომა ${0}-ის ფიზიკური მისამართის მონაცემების შენახვისას"
+
+#: conify.js:ERROR_SAVING_STATUS
+msgid "Problem saving ${0}"
+msgstr "შეცდომა ${0}-ის შენახვისას"
+
+#: conify.js:HOLDABLE
+msgid "Holdable"
+msgstr "დაჯავშნადი"
+
+#: conify.js:ID
+msgid "ID"
+msgstr "ID"
+
+#: conify.js:LABEL_CODE
+msgid "Code"
+msgstr "კოდი"
+
+#: conify.js:LABEL_DEPTH
+msgid "Depth"
+msgstr "სიღრმე"
+
+#: conify.js:LABEL_DESCRIPTION
+msgid "Description"
+msgstr "აღწერა"
+
+#: conify.js:LABEL_GRANTABLE
+msgid "Grantable"
+msgstr "მინიჭებადი"
+
+#: conify.js:LABEL_NEW_BRANCH
+msgid "New Branch"
+msgstr "ახალი ფილიალი"
+
+#: conify.js:LABEL_NEW_GROUP
+msgid "New Group"
+msgstr "ახალი ჯგუფი"
+
+#: conify.js:LABEL_NEW_TYPE
+msgid "New Type"
+msgstr "ახალი ტიპი"
+
+#: conify.js:LABEL_TRANSLATION conify.js:TRANSLATION
+msgid "Translation"
+msgstr "თარგმანი"
+
+#: conify.js:LABEL_VALUE
+msgid "Value"
+msgstr "მნიშვნელობა"
+
+#: conify.js:NAME
+msgid "Name"
+msgstr "სახელი"
+
+#: conify.js:OPAC_VISIBLE
+msgid "OPAC Visible"
+msgstr "ხილულია OPAC-ში"
+
+#: conify.js:STATUS_DELETED
+msgid "${0} deleted"
+msgstr "${0} წაშლილია"
+
+#: conify.js:STATUS_EDITING
+msgid "Now editing ${0}"
+msgstr "მიმდინარეობს ${0}-ის რედაქტირება"
+
+#: conify.js:SUCCESS_CREATING_CHILD_AOU
+msgid "New child Organizational Unit created for ${0}"
+msgstr "შეიქმნა ახალი შვილობილი ორგანიზაციული ერთეული ${0}-სთვის"
+
+#: conify.js:SUCCESS_CREATING_CHILD_AOUT
+msgid "New child Organization Type created for ${0}"
+msgstr "შეიქმნა ახალი შვილობილი ორგანიზაციის ტიპი ${0}-სთვის"
+
+#: conify.js:SUCCESS_CREATING_CODE
+msgid "New ${0} ${1} created"
+msgstr "შეიქმნა ახალი ${0} ${1}"
+
+#: conify.js:SUCCESS_CREATING_PERMISSION
+msgid "New ${0} permission created"
+msgstr "შეიქმნა ახალი ${0} უფლება"
+
+#: conify.js:SUCCESS_CREATING_STATUS
+msgid "New ${0} status created"
+msgstr "შეიქმნა ახალი ${0} სტატუსი"
+
+#: conify.js:SUCCESS_DELETED_PERM_MAP
+msgid "Permission mapping deleted"
+msgstr "უფლებათა ასახვა წაშლილია"
+
+#: conify.js:SUCCESS_NEW_CHILD_GROUP
+msgid "New child Group created for ${0}"
+msgstr "შეიქმნა ახალი შვილობილი ჯგუფი ${0}-სთვის"
+
+#: conify.js:SUCCESS_NEW_PERM_MAP
+msgid "New permission map created"
+msgstr "შეიქმნა უფლებათა ახალი ასახვა"
+
+#: conify.js:SUCCESS_SAVE_PERM
+msgid "Saved permission changes to ${0}"
+msgstr "უფლებების ცვლილებები შეინახა ${0}-ში"
+
+#: conify.js:SUCCESS_SAVE conify.js:SUCCESS_SAVING_DATA
+msgid "Saved changes to ${0}"
+msgstr "ცვლილებები შეინახა ${0}-ში"
+
+#: conify.js:SUCCESS_SAVING_HOLDS
+msgid "Saved changes to the Holds Address of ${0}"
+msgstr "ჯავშნების მისამართის ცვლილებები შეინახა ${0}-სთვის"
+
+#: conify.js:SUCCESS_SAVING_HOO
+msgid "Hours of Operation updated for ${0}"
+msgstr "სამუშაო საათები განახლდა ${0}-სთვის"
+
+#: conify.js:SUCCESS_SAVING_ILL
+msgid "Saved changes to the ILL Address of ${0}"
+msgstr "ILL მისამართის ცვლილებები შეინახა ${0}-სთვის"
+
+#: conify.js:SUCCESS_SAVING_MAILING
+msgid "Saved changes to the Mailing Address of ${0}"
+msgstr "საფოსტო მისამართის ცვლილებები შეინახა ${0}-სთვის"
+
+#: conify.js:SUCCESS_SAVING_PHYSICAL
+msgid "Saved changes to the Physical Address of ${0}"
+msgstr "ფიზიკური მისამართის ცვლილებები შეინახა ${0}-სთვის"
+
+#: conify.js:END_SURVEY
+msgid "End Survey Now"
+msgstr "გამოკითხვის დასრულება ახლავე"
+
+#: conify.js:SURVEY_SAVE_ADD
+msgid "Save Question & Add Answer"
+msgstr "შეკითხვის შენახვა და პასუხის დამატება"
+
+#: conify.js:SURVEY_DELETE_QUESTION
+msgid "Delete Question & Answers"
+msgstr "შეკითხვისა და პასუხების წაშლა"
+
+#: conify.js:SURVEY_DELETE_ANSWER
+msgid "Delete Answer"
+msgstr "პასუხის წაშლა"
+
+#: conify.js:SURVEY_SAVE_CHANGES
+msgid "Save Changes"
+msgstr "ცვლილებების შენახვა"
+
+#: conify.js:SURVEY_ADD_ANSWER
+msgid "Add Answer"
+msgstr "პასუხის დამატება"
+
+#: conify.js:SURVEY_ANSWER
+msgid "Answer:"
+msgstr "პასუხი:"
+
+#: conify.js:SURVEY_QUESTION
+msgid "Question:"
+msgstr "კითხვა:"
+
+#: conify.js:SURVEY_ID
+msgid "Survey ID # ${0}"
+msgstr "გამოკითხვის ID # ${0}"
+
+#: conify.js:SURVEY_FOOT_LABEL
+msgid "Questions & Answers"
+msgstr "კითხვები და პასუხები"
+
+#: conify.js:SURVEY_WARN_TEXT
+msgid ""
+"No questions can be modified or added at this time. The survey Start Date "
+"must be set for the future to add new questions or modify existing "
+"questions."
+msgstr "ამ ეტაპზე შეკითხვების შეცვლა ან დამატება შეუძლებელია. ახალი შეკითხვების დასამატებლად ან არსებულის შესაცვლელად, გამოკითხვის დაწყების თარიღი მომავალ დროზე უნდა იყოს დაყენებული."
+
+#: conify.js:EVENT_DEF_LABEL
+msgid "${0}: ${1}"
+msgstr "${0}: ${1}"
+
+#: conify.js:ACQ_DISTRIB_FORMULA_NAME_PROMPT
+msgid "Enter new formula name"
+msgstr "შეიყვანეთ ფორმულის ახალი სახელი"
+
+#: conify.js:ACQ_DISTRIB_FORMULA_NAME_CLONE
+msgid "${0} (Clone)"
+msgstr "${0} (კლონი)"
+
+#: conify.js:CBHO_EDITING_NEW
+msgid "You are editing a new best-hold order."
+msgstr "თქვენ არედაქტირებთ ჯავშნის ახალ ოპტიმალურ თანმიმდევრობას."
+
+#: conify.js:CBHO_EDITING_EXISTING
+msgid "You are editing best-hold order #${0}: ${1}."
+msgstr "თქვენ არედაქტირებთ ჯავშნის ოპტიმალურ თანმიმდევრობას #${0}: ${1}."
+
+#: conify.js:CBHO_FIELD_DISPLAY
+msgid "[${0}] ${1}"
+msgstr "[${0}] ${1}"
+
+#: conify.js:CBHO_NO_LOAD
+msgid "Unable to load selected item."
+msgstr "არჩეული ერთეულის ჩატვირთვა ვერ მოხერხდა."
+
+#: conify.js:CBHO_NEEDS_NAME
+msgid "You need to enter a name for the best-hold order."
+msgstr "საჭიროა ჯავშნის ოპტიმალური თანმიმდევრობის სახელის შეყვანა."

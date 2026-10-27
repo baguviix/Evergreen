@@ -1,0 +1,133 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen\n"
+"PO-Revision-Date: 2026-10-27 16:25+0400\n"
+"Language: ka-GE\n"
+"Language-Team: Georgian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: capture.js:FAILURE
+msgid "Capture failed"
+msgstr "დაკავება ვერ მოხერხდა"
+
+#: capture.js:SUCCESS
+msgid "Capture succeeded"
+msgstr "დაკავება წარმატებით შესრულდა"
+
+#: capture.js:UNKNOWN_PROBLEM
+msgid "An unknown problem occurred during capture attempt."
+msgstr "დაკავების მცდელობისას წარმოიშვა უცნობი პრობლემა."
+
+#: capture.js:CAPTURED_NOTHING
+msgid "Didn't capture anything."
+msgstr "არაფერი დაკავებულა."
+
+#: capture.js:NO_PAYLOAD
+msgid ""
+"We did not receive further information from the server about this attempt to"
+" capture."
+msgstr "სერვერიდან არ მიღებულა დამატებითი ინფორმაცია დაკავების ამ მცდელობის შესახებ."
+
+#: capture.js:HERES_WHAT_WE_KNOW
+msgid "The following information is available about the failed capture:"
+msgstr "წარუმატებელი დაკავების შესახებ ხელმისაწვდომია შემდეგი ინფორმაცია:"
+
+#: capture.js:CAPTURE_INFO
+msgid "Capture Information"
+msgstr "დაკავების ინფორმაცია"
+
+#: capture.js:CAPTURE_BRESV_DATES
+msgid "Reservation time:"
+msgstr "დაჯავშნის დრო:"
+
+#: capture.js:CAPTURE_BRESV_BRSRC
+msgid "Resource barcode:"
+msgstr "რესურსის შტრიხკოდი:"
+
+#: capture.js:CAPTURE_BRESV_PICKUP_LIB capture.js:AUTO_pickup_lib_selector
+msgid "Pickup library:"
+msgstr "გაცემის ბიბლიოთეკა:"
+
+#: capture.js:CAPTURE_CAUSES_TRANSIT
+msgid "This item is now in transit!"
+msgstr "ეს ერთეული ახლა ტრანზიტშია!"
+
+#: capture.js:CAPTURE_TRANSIT_SOURCE
+msgid "From:"
+msgstr "საიდან:"
+
+#: capture.js:CAPTURE_TRANSIT_DEST
+msgid "To:"
+msgstr "სად:"
+
+#: capture.js:BARCODE
+msgid "Barcode"
+msgstr "შტრიხკოდი"
+
+#: capture.js:TITLE
+msgid "Title"
+msgstr "სათაური"
+
+#: capture.js:AUTHOR
+msgid "Author"
+msgstr "ავტორი"
+
+#: capture.js:RESERVED
+msgid "Reserved for patron"
+msgstr "დაჯავშნილია მკითხველისთვის"
+
+#: capture.js:REQUEST
+msgid "Request time"
+msgstr "მოთხოვნის დრო"
+
+#: capture.js:DURATION
+msgid "Reserved from"
+msgstr "დაჯავშნის საწყისი თარიღი"
+
+#: capture.js:SLIP_DATE
+msgid "Slip date"
+msgstr "ბარათის თარიღი"
+
+#: capture.js:PRINTED_BY
+msgid "Printed by"
+msgstr "ამობეჭდა:"
+
+#: capture.js:AT
+msgid "at"
+msgstr "-"
+
+#: capture.js:PRINT
+msgid "<u>P</u>rint"
+msgstr "<u>ბ</u>ეჭდვა"
+
+#: capture.js:PRINT_ACCESSKEY
+msgid "P"
+msgstr "ბ"
+
+#: capture.js:TRANSIT
+msgid "*** TRANSIT ***"
+msgstr "*** ტრანზიტი ***"
+
+#: capture.js:RESERVATION_SHELF
+msgid "RESERVATION SHELF"
+msgstr "ჯავშნის თარო"
+
+#: capture.js:NEEDS_ROUTED_TO
+msgid "This item need to be routed to"
+msgstr "ეს ერთეული უნდა გაიგზავნოს შემდეგ მისამართზე:"
+
+#: capture.js:AUTO_capture_heading
+msgid "Capture Reserved Resources"
+msgstr "დაჯავშნილი რესურსების დაკავება"
+
+#: capture.js:AUTO_resource_barcode
+msgid "Enter barcode:"
+msgstr "შეიყვანეთ შტრიხკოდი:"
+
+#: capture.js:AUTO_ATTR_VALUE_capture
+msgid "Capture"
+msgstr "დაკავება"

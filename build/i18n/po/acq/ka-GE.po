@@ -1,0 +1,1838 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen\n"
+"PO-Revision-Date: 2026-10-27 14:30+0400\n"
+"Language: ka-GE\n"
+"Language-Team: Georgian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:6
+msgid " Invoice "
+msgstr " ინვოისი "
+
+#: ../../Open-ILS/src/templates/acq/invoice/receive.tt2:39
+msgid " Select All"
+msgstr " მონიშნეთ ყველა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:90
+msgid "# Invoiced / # Paid"
+msgstr "# ინვოისირებული / # გადახდილი"
+
+#: ../../Open-ILS/src/templates/acq/common/notes.tt2:7
+msgid "#x2196; Return"
+msgstr "&#x2196; დაბრუნება"
+
+#. ("<span id=\"acq-po-view-total-estimated\"></span>")
+#. ("<span id=\"acq-po-view-total-enc\"></span>")
+#. ("<span id=\"acq-po-view-total-spent\"></span>")
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:106 ../../Open-ILS/src/templates/acq/po/view.tt2:65 ../../Open-ILS/src/templates/acq/po/view.tt2:74
+msgid "$%1"
+msgstr "$%1"
+
+#. ("<span id=\"records-up\">0</span>")
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:99
+msgid "%1 term(s) prepared for search"
+msgstr "ძიებისთვის მომზადებულია %1 ტერმინი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:59
+msgid "&#171; Previous"
+msgstr "&#171; წინა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:285 ../../Open-ILS/src/templates/acq/common/li_table.tt2:398 ../../Open-ILS/src/templates/acq/lineitem/worksheet.tt2:12
+msgid "&#x2196; Return"
+msgstr "&#x2196; დაბრუნება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:283
+msgid "&#x2196; Return To Invoice"
+msgstr "&#x2196; ინვოისზე დაბრუნება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/view.tt2:20 ../../Open-ILS/src/templates/acq/po/view.tt2:133
+msgid "&#x2196; Return to Invoice"
+msgstr "&#x2196; ინვოისზე დაბრუნება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/view.tt2:17 ../../Open-ILS/src/templates/acq/po/view.tt2:130
+msgid "&#x2196; Return to Search"
+msgstr "&#x2196; ძიებაში დაბრუნება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:183
+msgid "&#x270D; worksheet"
+msgstr "✍ სამუშაო ფურცელი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:181
+msgid "&#x279F; catalog"
+msgstr "➟ კატალოგი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:190
+msgid "&#x27AC; queue"
+msgstr "➬ რიგი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:182
+msgid "&#x27BE; link to catalog"
+msgstr "➾ კატალოგთან დაკავშირება"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:220
+msgid "(building the results list progressively)"
+msgstr "(შედეგების სიის თანდათანობითი ფორმირება)"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:207
+msgid "-- Actions --"
+msgstr "-- მოქმედებები --"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:30
+msgid "----PO----"
+msgstr "----შესყიდვის შეკვეთა----"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:23
+msgid "--Actions--"
+msgstr "--მოქმედებები--"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:82
+msgid "ACQ Copies Processed"
+msgstr "დამუშავებული შესყიდვის ეგზემპლარები"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:62
+msgid "ALL of the following terms match"
+msgstr "ემთხვევა ქვემოთ ჩამოთვლილი ყველა ტერმინი"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:55
+msgid "ANY of the following terms match"
+msgstr "ემთხვევა ქვემოთ ჩამოთვლილი ნებისმიერი ტერმინი"
+
+#: ../../Open-ILS/src/templates/acq/invoice/receive.tt2:2
+msgid "Acquisitions Invoice Receiving"
+msgstr "შესყიდვების ინვოისის მიღება"
+
+#: ../../Open-ILS/src/templates/acq/search/unified.tt2:11 ../../Open-ILS/src/templates/acq/search/unified.tt2:2
+msgid "Acquisitions Search"
+msgstr "შესყიდვების ძიება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:130
+msgid "Actions"
+msgstr "მოქმედებები"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:26
+msgid "Activatable?"
+msgstr "გასააქტიურებელია?"
+
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:20 ../../Open-ILS/src/templates/acq/po/view.tt2:31
+msgid "Activate Order"
+msgstr "შეკვეთის გააქტიურება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/upload.tt2:16
+msgid "Activate Purchase Order"
+msgstr "შესყიდვის შეკვეთის გააქტიურება"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:35
+msgid "Activate Without Loading Items"
+msgstr "გააქტიურება ეგზემპლარების ჩატვირთვის გარეშე"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:62
+msgid "Actual Price"
+msgstr "ფაქტობრივი ფასი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:28
+msgid "Add Brief Record"
+msgstr "მოკლე ჩანაწერის დამატება"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:145
+msgid "Add Charge..."
+msgstr "დარიცხვის დამატება..."
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:340
+msgid "Add New Items"
+msgstr "ახალი ერთეულების დამატება"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:262 ../../Open-ILS/src/templates/acq/search/unified.tt2:83
+msgid "Add Search Term"
+msgstr "საძიებო ტერმინის დამატება"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:268
+msgid "Add Selected Items to Invoice"
+msgstr "არჩეული ერთეულების ინვოისში დამატება"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:236
+msgid "Add Tag"
+msgstr "ჭდის დამატება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/brief_record.tt2:10
+msgid "Add To Selection List"
+msgstr "შერჩევის სიაში დამატება"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:102
+msgid "Add file"
+msgstr "ფაილის დამატება"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:75
+msgid "Add more search terms"
+msgstr "მეტი საძიებო ტერმინის დამატება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:32 ../../Open-ILS/src/templates/acq/lineitem/related.tt2:44
+msgid "Add to Purchase Order"
+msgstr "შესყიდვის შეკვეთაში დამატება"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/related.tt2:41 ../../Open-ILS/src/templates/acq/picklist/upload.tt2:30 ../../Open-ILS/src/templates/acq/picklist/user_request.tt2:68
+msgid "Add to Selection List"
+msgstr "შერჩევის სიაში დამატება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:524
+msgid "Add to Selection List: "
+msgstr "შერჩევის სიაში დამატება: "
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:274
+msgid "Add/Edit Items"
+msgstr "ეგზემპლარების დამატება/რედაქტირება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/brief_record.tt2:14
+msgid "Adding to Purchase Order"
+msgstr "შესყიდვის შეკვეთაში დამატება"
+
+#: ../../Open-ILS/src/templates/acq/common/notes.tt2:31
+msgid "Additional comments"
+msgstr "დამატებითი კომენტარები"
+
+#. ("<span id=\"acq-lit-li-claim-dia-li-title\"></span>", "<span id=\"acq-lit-li-claim-dia-li-id\"></span>")
+#: ../../Open-ILS/src/templates/acq/common/claim_dialog.tt2:6
+msgid "Against item: %1 (%2)"
+msgstr "ერთეულზე: %1 (%2)"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:484
+msgid "All Line Items"
+msgstr "შეკვეთის ყველა პოზიცია"
+
+#: ../../Open-ILS/src/templates/acq/funding_source/view.tt2:36
+msgid "Allocate to Fund"
+msgstr "ფონდისთვის თანხის გამოყოფა"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:179 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:128
+msgid "Allocations"
+msgstr "ასიგნებები"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:136
+msgid "Allow activation with <br/> zero-copy lineitems"
+msgstr "გააქტიურების დაშვება <br/> ნულოვანი ეგზემპლარის მქონე პოზიციებით"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:82
+msgid "Amount to transfer from"
+msgstr "გადასარიცხი თანხა ფონდიდან"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:33 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:16 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:46
+msgid "Amount: "
+msgstr "თანხა: "
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:61 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:29 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:72 ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:40
+msgid "Apply"
+msgstr "გამოყენება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:37
+msgid "Apply Claim Policy to Selected Line Items"
+msgstr "მოთხოვნის პოლიტიკის გამოყენება შეკვეთის არჩეულ პოზიციებზე"
+
+#: ../../Open-ILS/src/templates/acq/funding_source/view.tt2:12
+msgid "Apply Credit"
+msgstr "კრედიტის გამოყენება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:112
+msgid "Apply to Selected"
+msgstr "არჩეულებზე გამოყენება"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:138
+msgid "Approve Selected Titles"
+msgstr "არჩეული სათაურების დამტკიცება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:218
+msgid "Approved"
+msgstr "დამტკიცებულია"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:59 ../../Open-ILS/src/templates/acq/po/item_table.tt2:9
+msgid "Author"
+msgstr "ავტორი"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:165 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:94 ../../Open-ILS/src/templates/acq/invoice/view.tt2:162
+msgid "Balance"
+msgstr "ბალანსი"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:122 ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:95 ../../Open-ILS/src/templates/acq/common/li_table.tt2:232 ../../Open-ILS/src/templates/acq/common/li_table.tt2:365 ../../Open-ILS/src/templates/acq/common/li_table.tt2:416 ../../Open-ILS/src/templates/acq/invoice/receive.tt2:47
+msgid "Barcode"
+msgstr "შტრიხკოდი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:350
+msgid "Batch Update"
+msgstr "ჯგუფური განახლება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:555
+msgid "Batch Update Funds"
+msgstr "ფონდების ჯგუფური განახლება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/from_bib.tt2:17
+msgid "Begin a new search"
+msgstr "ახალი ძიების დაწყება"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:39
+msgid "Best/Single Match Minimum Quality Ratio"
+msgstr "საუკეთესო/ერთადერთი დამთხვევის მინიმალური ხარისხის თანაფარდობა"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:78
+msgid "Bib Records Merged/Imported"
+msgstr "შერწყმული/იმპორტირებული ბიბლიოგრაფიული ჩანაწერები"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:81
+msgid "Bibliographic Items"
+msgstr "ბიბლიოგრაფიული ერთეულები"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:125 ../../Open-ILS/src/templates/acq/invoice/view.tt2:91
+msgid "Billed"
+msgstr "დარიცხული"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:119 ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:91 ../../Open-ILS/src/templates/acq/common/li_table.tt2:231
+msgid "Branch"
+msgstr "ფილიალი"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:123 ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:99 ../../Open-ILS/src/templates/acq/common/li_table.tt2:233
+msgid "Call Number"
+msgstr "საბიბლიოთეკო შიფრი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:337 ../../Open-ILS/src/templates/acq/common/li_table.tt2:364 ../../Open-ILS/src/templates/acq/common/li_table.tt2:415 ../../Open-ILS/src/templates/acq/invoice/receive.tt2:46
+msgid "Callnumber"
+msgstr "საბიბლიოთეკო შიფრი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:382 ../../Open-ILS/src/templates/acq/common/li_table.tt2:500 ../../Open-ILS/src/templates/acq/common/li_table.tt2:571 ../../Open-ILS/src/templates/acq/common/li_table.tt2:590 ../../Open-ILS/src/templates/acq/invoice/view.tt2:338
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:541
+msgid "Cancel Copy"
+msgstr "ეგზემპლარის გაუქმება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:49
+msgid "Cancel Line Items"
+msgstr "შეკვეთის პოზიციების გაუქმება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/user_request.tt2:71 ../../Open-ILS/src/templates/acq/picklist/user_request.tt2:79
+msgid "Cancel Request"
+msgstr "მოთხოვნის გაუქმება"
+
+#: ../../Open-ILS/src/templates/acq/po/events.tt2:9
+msgid "Cancel Selected"
+msgstr "არჩეულების გაუქმება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:36
+msgid "Cancel Selected Line Items"
+msgstr "შეკვეთის არჩეული პოზიციების გაუქმება"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:112 ../../Open-ILS/src/templates/acq/po/view.tt2:120
+msgid "Cancel order"
+msgstr "შეკვეთის გაუქმება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:222
+msgid "Canceled"
+msgstr "გაუქმებულია"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:122 ../../Open-ILS/src/templates/acq/po/item_table.tt2:6
+msgid "Charge Type"
+msgstr "დარიცხვის ტიპი"
+
+#: ../../Open-ILS/src/templates/acq/common/notes.tt2:27
+msgid "Choose alert code "
+msgstr "აირჩიეთ შეტყობინების კოდი "
+
+#: ../../Open-ILS/src/templates/acq/common/inv_dialog.tt2:3
+msgid "Choose invoice"
+msgstr "აირჩიეთ ინვოისი"
+
+#: ../../Open-ILS/src/templates/acq/picklist/list.tt2:53 ../../Open-ILS/src/templates/acq/search/unified.tt2:171
+msgid "Choose the Lead Selection List:"
+msgstr "აირჩიეთ ძირითადი შერჩევის სია:"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:236 ../../Open-ILS/src/templates/acq/common/li_table.tt2:336 ../../Open-ILS/src/templates/acq/common/li_table.tt2:363 ../../Open-ILS/src/templates/acq/common/li_table.tt2:414 ../../Open-ILS/src/templates/acq/common/li_table.tt2:85 ../../Open-ILS/src/templates/acq/invoice/receive.tt2:44
+msgid "Circ Modifier"
+msgstr "ცირკულაციის მოდიფიკატორი"
+
+#: ../../Open-ILS/src/templates/acq/common/final_claim_dialog.tt2:6 ../../Open-ILS/src/templates/acq/common/li_table.tt2:382
+msgid "Claim"
+msgstr "მოთხოვნა / პრეტენზია"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:544
+msgid "Claim policy:"
+msgstr "მოთხოვნის პოლიტიკა:"
+
+#: ../../Open-ILS/src/templates/acq/common/claim_dialog.tt2:58
+msgid "Claim selected"
+msgstr "არჩეულების მოთხოვნა"
+
+#: ../../Open-ILS/src/templates/acq/financial/claim_eligible.tt2:16 ../../Open-ILS/src/templates/acq/financial/claim_eligible.tt2:46
+msgid "Claim selected items"
+msgstr "არჩეული ერთეულების მოთხოვნა"
+
+#: ../../Open-ILS/src/templates/acq/common/final_claim_dialog.tt2:2
+msgid "Claim type:"
+msgstr "მოთხოვნის ტიპი:"
+
+#: ../../Open-ILS/src/templates/acq/common/claim_dialog.tt2:5 ../../Open-ILS/src/templates/acq/common/li_table.tt2:210
+msgid "Claims"
+msgstr "მოთხოვნები"
+
+#: ../../Open-ILS/src/templates/acq/picklist/bib_search.tt2:44
+msgid "Clear Form"
+msgstr "ფორმის გასუფთავება"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:104
+msgid "Clear loaded search terms"
+msgstr "ჩატვირთული საძიებო ტერმინების გასუფთავება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/list.tt2:41 ../../Open-ILS/src/templates/acq/search/unified.tt2:155
+msgid "Clone"
+msgstr "კლონირება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/list.tt2:32 ../../Open-ILS/src/templates/acq/search/unified.tt2:143
+msgid "Clone Selected"
+msgstr "არჩეულის კლონირება"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:175
+msgid "Close"
+msgstr "დახურვა"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:162 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:93 ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:50
+msgid "Code"
+msgstr "კოდი"
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:10
+msgid "Code:"
+msgstr "კოდი:"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:237 ../../Open-ILS/src/templates/acq/common/li_table.tt2:334 ../../Open-ILS/src/templates/acq/common/li_table.tt2:361 ../../Open-ILS/src/templates/acq/common/li_table.tt2:79 ../../Open-ILS/src/templates/acq/invoice/receive.tt2:43
+msgid "Collection Code"
+msgstr "კოლექციის კოდი"
+
+#: ../../Open-ILS/src/templates/acq/financial/claim_eligible.tt2:34
+msgid "Consider individual copies for claiming"
+msgstr "ცალკეული ეგზემპლარების განხილვა მოთხოვნისთვის"
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:126 ../../Open-ILS/src/templates/acq/picklist/upload.tt2:26 ../../Open-ILS/src/templates/acq/picklist/user_request.tt2:13 ../../Open-ILS/src/templates/acq/po/events.tt2:23
+msgid "Context Org Unit"
+msgstr "კონტექსტური ორგანიზაციული ერთეული"
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:91
+msgid "Context Org Unit:"
+msgstr "კონტექსტური ორგანიზაციული ერთეული:"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:392 ../../Open-ILS/src/templates/acq/common/li_table.tt2:70
+msgid "Copies"
+msgstr "ეგზემპლარები"
+
+#. ("<span name=\"count\">0</span>")
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:201
+msgid "Copies(%1)"
+msgstr "ეგზემპლარები (%1)"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:235 ../../Open-ILS/src/templates/acq/common/li_table.tt2:333 ../../Open-ILS/src/templates/acq/common/li_table.tt2:360 ../../Open-ILS/src/templates/acq/common/li_table.tt2:413 ../../Open-ILS/src/templates/acq/common/li_table.tt2:76 ../../Open-ILS/src/templates/acq/invoice/receive.tt2:42
+msgid "Copy Location"
+msgstr "ეგზემპლარის მდებარეობა"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:184 ../../Open-ILS/src/templates/acq/common/notes.tt2:19 ../../Open-ILS/src/templates/acq/common/notes.tt2:34 ../../Open-ILS/src/templates/acq/picklist/list.tt2:24 ../../Open-ILS/src/templates/acq/search/unified.tt2:136
+msgid "Create"
+msgstr "შექმნა"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:11
+msgid "Create Allocation"
+msgstr "ასიგნების შექმნა"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:84
+msgid "Create Invoice"
+msgstr "ინვოისის შექმნა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:40
+msgid "Create Invoice From Selected Line Items"
+msgstr "ინვოისის შექმნა შეკვეთის არჩეული პოზიციებიდან"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:31 ../../Open-ILS/src/templates/acq/lineitem/related.tt2:47 ../../Open-ILS/src/templates/acq/picklist/upload.tt2:10 ../../Open-ILS/src/templates/acq/po/create.tt2:2 ../../Open-ILS/src/templates/acq/po/create.tt2:3
+msgid "Create Purchase Order"
+msgstr "შესყიდვის შეკვეთის შექმნა"
+
+#: ../../Open-ILS/src/templates/acq/picklist/user_request.tt2:39
+msgid "Create Request"
+msgstr "მოთხოვნის შექმნა"
+
+#. ("<span id=\"oils-acq-picklist-attr-cdate\"></span>")
+#: ../../Open-ILS/src/templates/acq/picklist/view.tt2:9
+msgid "Create date: %1"
+msgstr "შექმნის თარიღი: %1"
+
+#: ../../Open-ILS/src/templates/acq/funding_source/view.tt2:106
+msgid "Credits"
+msgstr "კრედიტები"
+
+#: ../../Open-ILS/src/templates/acq/currency_type/list.tt2:3 ../../Open-ILS/src/templates/acq/fund/view.tt2:163 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:97
+msgid "Currency Type"
+msgstr "ვალუტის ტიპი"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:207
+msgid "Debits"
+msgstr "დებეტები"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:86
+msgid "Debits Encumbered"
+msgstr "დატვირთული დებეტები"
+
+#: ../../Open-ILS/src/templates/acq/common/notes.tt2:55 ../../Open-ILS/src/templates/acq/invoice/view.tt2:128 ../../Open-ILS/src/templates/acq/invoice/view.tt2:139
+msgid "Delete"
+msgstr "წაშლა"
+
+#: ../../Open-ILS/src/templates/acq/currency_type/list.tt2:6 ../../Open-ILS/src/templates/acq/fund/list.tt2:42 ../../Open-ILS/src/templates/acq/funding_source/list.tt2:27 ../../Open-ILS/src/templates/acq/picklist/list.tt2:64 ../../Open-ILS/src/templates/acq/search/unified.tt2:186
+msgid "Delete Selected"
+msgstr "არჩეულის წაშლა"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:192
+msgid "Delete Selected Copy"
+msgstr "არჩეული ეგზემპლარის წაშლა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:27
+msgid "Delete Selected Items"
+msgstr "არჩეული ერთეულების წაშლა"
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:51
+msgid "Description"
+msgstr "აღწერა"
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:14
+msgid "Description: "
+msgstr "აღწერა: "
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:106
+msgid "Destination amount"
+msgstr "დანიშნულების თანხა"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:96
+msgid "Destination fund"
+msgstr "დანიშნულების ფონდი"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:109 ../../Open-ILS/src/templates/acq/invoice/view.tt2:94
+msgid "Detach"
+msgstr "მოხსნა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:115 ../../Open-ILS/src/templates/acq/po/item_table.tt2:2
+msgid "Direct Charges, Taxes, Fees, etc."
+msgstr "პირდაპირი გადასახადები, გადასახადები, მოსაკრებლები და სხვ."
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:88
+msgid "Distribution Formula"
+msgstr "განაწილების ფორმულა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:308
+msgid "Distribution Formulas"
+msgstr "განაწილების ფორმულები"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:318
+msgid "Distribution formulas applied to this lineitem:"
+msgstr "ამ პოზიციაზე გამოყენებული განაწილების ფორმულები:"
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:99
+msgid "Dry Run: "
+msgstr "სატესტო გაშვება: "
+
+#: ../../Open-ILS/src/templates/acq/po/edi_messages.tt2:2 ../../Open-ILS/src/templates/acq/po/edi_messages.tt2:6 ../../Open-ILS/src/templates/acq/po/view.tt2:57
+msgid "EDI Messages"
+msgstr "EDI შეტყობინებები"
+
+#. (ctx.page_args.0)
+#: ../../Open-ILS/src/templates/acq/po/edi_messages.tt2:4
+msgid "EDI Messages (Purchase Order %1)"
+msgstr "EDI შეტყობინებები (შესყიდვის შეკვეთა %1)"
+
+#: ../../Open-ILS/src/templates/acq/picklist/brief_record.tt2:26
+msgid "Edit MARC"
+msgstr "MARC-ის რედაქტირება"
+
+#: ../../Open-ILS/src/templates/acq/common/info.tt2:19
+msgid "Edit MARC Order Record"
+msgstr "MARC-ის შეკვეთის ჩანაწერის რედაქტირება"
+
+#: ../../Open-ILS/src/templates/acq/po/events.tt2:38
+msgid "End Date Range"
+msgstr "თარიღის დიაპაზონის დასასრული"
+
+#: ../../Open-ILS/src/templates/acq/common/add_to_po.tt2:45
+msgid "Enter the PO Name: "
+msgstr "შეიყვანეთ შესყიდვის შეკვეთის სახელი: "
+
+#: ../../Open-ILS/src/templates/acq/picklist/list.tt2:84 ../../Open-ILS/src/templates/acq/search/unified.tt2:205
+msgid "Entry Count"
+msgstr "ჩანაწერების რაოდენობა"
+
+#. ("<span id=\"oils-acq-picklist-attr-count\"></span>")
+#: ../../Open-ILS/src/templates/acq/picklist/view.tt2:12
+msgid "Entry Count: %1"
+msgstr "ჩანაწერების რაოდენობა: %1"
+
+#: ../../Open-ILS/src/templates/acq/po/item_table.tt2:11
+msgid "Estimated Cost"
+msgstr "სავარაუდო ღირებულება"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:68 ../../Open-ILS/src/templates/acq/common/li_table.tt2:132
+msgid "Estimated Price"
+msgstr "სავარაუდო ფასი"
+
+#: ../../Open-ILS/src/templates/acq/picklist/bib_search.tt2:21
+msgid "Evergreen Catalog"
+msgstr "Evergreen-ის კატალოგი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:199
+msgid "Expand"
+msgstr "გაშლა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:126
+msgid "Expand All"
+msgstr "ყველას გაშლა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:27
+msgid "Expected Cost: "
+msgstr "მოსალოდნელი ღირებულება: "
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:45
+msgid "Export List"
+msgstr "სიის ექსპორტი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:29
+msgid "Export Single Attribute List"
+msgstr "ერთი ატრიბუტის სიის ექსპორტი"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:330
+msgid "Extra Items"
+msgstr "დამატებითი ერთეულები"
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:29
+msgid "False"
+msgstr "მცდარი"
+
+#: ../../Open-ILS/src/templates/acq/picklist/upload.tt2:52
+msgid "File to Upload:"
+msgstr "ასატვირთი ფაილი:"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:53
+msgid "Final invoice for Blanket order?"
+msgstr "საბოლოო ინვოისი საერთო შეკვეთისთვის (Blanket Order)?"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:40
+msgid "Finalize Blanket Order"
+msgstr "საერთო შეკვეთის დასრულება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/upload.tt2:36
+msgid "Fiscal Year"
+msgstr "ფისკალური წელი"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:116 ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:87 ../../Open-ILS/src/templates/acq/common/li_table.tt2:234 ../../Open-ILS/src/templates/acq/common/li_table.tt2:335 ../../Open-ILS/src/templates/acq/common/li_table.tt2:362 ../../Open-ILS/src/templates/acq/common/li_table.tt2:82 ../../Open-ILS/src/templates/acq/invoice/receive.tt2:45 ../../Open-ILS/src/templates/acq/invoice/view.tt2:123 ../../Open-ILS/src/templates/acq/po/item_table.tt2:7
+msgid "Fund"
+msgstr "ფონდი"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:5
+msgid "Fund Details"
+msgstr "ფონდის დეტალები"
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:45
+msgid "Fund Propagation &amp; Rollover"
+msgstr "ფონდების გავრცელება &amp; გადატანა"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:166 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:40
+msgid "Fund: "
+msgstr "ფონდი: "
+
+#: ../../Open-ILS/src/templates/acq/funding_source/view.tt2:5
+msgid "Funding Source Details"
+msgstr "დაფინანსების წყაროს დეტალები"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:25
+msgid "Funding Source: "
+msgstr "დაფინანსების წყარო: "
+
+#: ../../Open-ILS/src/templates/acq/funding_source/list.tt2:24
+msgid "Funding Sources"
+msgstr "დაფინანსების წყაროები"
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:2 ../../Open-ILS/src/templates/acq/fund/list.tt2:38
+msgid "Funds"
+msgstr "ფონდები"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:183
+msgid "Generate Worksheet"
+msgstr "სამუშაო ფურცლის გენერირება"
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:66
+msgid "Generated Attributes"
+msgstr "გენერირებული ატრიბუტები"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:290 ../../Open-ILS/src/templates/acq/common/li_table.tt2:591
+msgid "Go"
+msgstr "გადასვლა"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/findbib.tt2:65
+msgid "Hide"
+msgstr "დამალვა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:36
+msgid "Hide Details"
+msgstr "დეტალების დამალვა"
+
+#: ../../Open-ILS/src/templates/acq/search/unified.tt2:14
+msgid "Hide Search Form"
+msgstr "საძიებო ფორმის დამალვა"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:66
+msgid "History"
+msgstr "ისტორია"
+
+#: ../../Open-ILS/src/templates/acq/picklist/bib_search.tt2:35
+msgid "Hits Per Source"
+msgstr "შედეგები თითოეულ წყაროზე"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:209
+msgid "Holdings Maint."
+msgstr "ფონდის მართვა"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:115 ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:57 ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:86 ../../Open-ILS/src/templates/acq/fund/view.tt2:160 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:91 ../../Open-ILS/src/templates/acq/po/search.tt2:39 ../../Open-ILS/src/templates/acq/po/search.tt2:99 ../../Open-ILS/src/templates/acq/po/view.tt2:13 ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:49
+msgid "ID"
+msgstr "ID"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:60 ../../Open-ILS/src/templates/acq/common/li_table.tt2:168
+msgid "ISBN"
+msgstr "ISBN"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:170
+msgid "ISSN"
+msgstr "ISSN"
+
+#: ../../Open-ILS/src/templates/acq/receiving/process.tt2:11 ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:54
+msgid "Identifier"
+msgstr "იდენტიფიკატორი"
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:26
+msgid "Identifier Field?: "
+msgstr "იდენტიფიკატორის ველი?: "
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:492
+msgid "Import Bibs and Create Copies"
+msgstr "ბიბლიოგრაფიული ჩანაწერების იმპორტი და ეგზემპლარების შექმნა"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:22
+msgid "Import Non-Matching Records"
+msgstr "შეუსაბამო ჩანაწერების იმპორტი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:190
+msgid "Import Queue"
+msgstr "იმპორტის რიგი"
+
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:56
+msgid "In Process"
+msgstr "დამუშავებაშია"
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:95
+msgid "Include Funds for Descendant Org Units:"
+msgstr "ფონდების ჩართვა ქვემდგომი ორგანიზაციული ერთეულებისთვის:"
+
+#: ../../Open-ILS/src/templates/acq/common/claim_dialog.tt2:27
+msgid "Initiate New Claims"
+msgstr "ახალი მოთხოვნების წამოწყება"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:46
+msgid "Insufficient Quality Fall-Through Profile"
+msgstr "არასაკმარისი ხარისხის ალტერნატიული პროფილი"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:68
+msgid "Invoice"
+msgstr "ინვოისი"
+
+#: ../../Open-ILS/src/templates/acq/common/inv_dialog.tt2:8
+msgid "Invoice #"
+msgstr "ინვოისის #"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:2 ../../Open-ILS/src/templates/acq/po/view.tt2:75
+msgid "Invoicing"
+msgstr "ინვოისირება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:287
+msgid "Item Count: "
+msgstr "ერთეულების რაოდენობა: "
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:128 ../../Open-ILS/src/templates/acq/financial/claim_eligible.tt2:22
+msgid "Items"
+msgstr "ერთეულები"
+
+#: ../../Open-ILS/src/templates/acq/financial/claim_eligible.tt2:2 ../../Open-ILS/src/templates/acq/financial/claim_eligible.tt2:5
+msgid "Items Eligible For Claiming"
+msgstr "გამოსათხოვად ხელმისაწვდომი ერთეულები"
+
+#: ../../Open-ILS/src/templates/acq/picklist/from_bib.tt2:2
+msgid "Items by Bibliographic ID"
+msgstr "ერთეულები ბიბლიოგრაფიული ID-ის მიხედვით"
+
+#. ("<span id=\"oils-acq-picklist-attr-edate\"></span>")
+#: ../../Open-ILS/src/templates/acq/picklist/view.tt2:10
+msgid "Last updated: %1"
+msgstr "ბოლო განახლება: %1"
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:76
+msgid "Limit Fiscal Year Close-out Operation to Encumbrances: "
+msgstr "ფისკალური წლის დახურვის შეზღუდვა მხოლოდ ვალდებულებებზე: "
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:282
+msgid "Limit to Invoiceable Items"
+msgstr "შეზღუდვა ინვოისირებად ერთეულებზე"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:122
+msgid "Line Items"
+msgstr "შეკვეთის პოზიციები"
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:5
+msgid "Lineitem Attribute Attribute"
+msgstr "შეკვეთის პოზიციის ატრიბუტი"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/history.tt2:2 ../../Open-ILS/src/templates/acq/lineitem/history.tt2:3
+msgid "Lineitem History"
+msgstr "შეკვეთის პოზიციის ისტორია"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:2 ../../Open-ILS/src/templates/acq/lineitem/search.tt2:5
+msgid "Lineitem Search"
+msgstr "შეკვეთის პოზიციის ძიება"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/worksheet.tt2:11 ../../Open-ILS/src/templates/acq/lineitem/worksheet.tt2:2
+msgid "Lineitem Worksheet"
+msgstr "შეკვეთის პოზიციის სამუშაო ფურცელი"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:15
+msgid "Lineitem state"
+msgstr "შეკვეთის პოზიციის მდგომარეობა"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:70
+msgid "Lineitems Processed"
+msgstr "დამუშავებული შეკვეთის პოზიციები"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:25
+msgid "Lineitems: "
+msgstr "შეკვეთის პოზიციები: "
+
+#: ../../Open-ILS/src/templates/acq/common/inv_dialog.tt2:27
+msgid "Link"
+msgstr "დაკავშირება"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:87
+msgid "Link Invoice"
+msgstr "ინვოისის დაკავშირება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:41
+msgid "Link Selected Line Items to Invoice"
+msgstr "შეკვეთის არჩეული პოზიციების დაკავშირება ინვოისთან"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:182
+msgid "Link To Catalog Record"
+msgstr "კატალოგის ჩანაწერთან დაკავშირება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:35
+msgid "Load Bibs and Items"
+msgstr "ბიბლ. ჩანაწერებისა და ეგზემპლარების ჩატვირთვა"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:60
+msgid "Load Items for Imported Records"
+msgstr "ეგზემპლარების ჩატვირთვა იმპორტირებული ჩანაწერებისთვის"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/worksheet.tt2:16
+msgid "Loading Worksheet..."
+msgstr "მიმდინარეობს სამუშაო ფურცლის ჩატვირთვა..."
+
+#: ../../Open-ILS/src/templates/acq/lineitem/findbib.tt2:2
+msgid "Locate Bib Record"
+msgstr "ბიბლიოგრაფიული ჩანაწერის მოძიება"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:173
+msgid "Location: "
+msgstr "მდებარეობა: "
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:61
+msgid "MARC Attributes"
+msgstr "MARC-ის ატრიბუტები"
+
+#: ../../Open-ILS/src/templates/acq/common/info.tt2:17
+msgid "MARC ILS Record"
+msgstr "MARC-ის ILS ჩანაწერი"
+
+#: ../../Open-ILS/src/templates/acq/common/info.tt2:16
+msgid "MARC Order Record"
+msgstr "MARC-ის შეკვეთის ჩანაწერი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:26
+msgid "Mark Ready for Order"
+msgstr "მონიშვნა შეკვეთისთვის მზადმყოფად"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:25
+msgid "Mark Ready for Selector"
+msgstr "მონიშვნა სელექტორისთვის მზადმყოფად"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:195
+msgid "Mark Selected Copies Received"
+msgstr "არჩეული ეგზემპლარების მონიშვნა მიღებულად"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:38
+msgid "Mark Selected Line Items as Received"
+msgstr "შეკვეთის არჩეული პოზიციების მონიშვნა მიღებულად"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:585
+msgid "Mark all"
+msgstr "ყველას მონიშვნა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:583
+msgid "Mark selected"
+msgstr "არჩეულის მონიშვნა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:382
+msgid "Mark&nbsp;Received"
+msgstr "მონიშვნა&nbsp;მიღებულად"
+
+#: ../../Open-ILS/src/templates/acq/picklist/list.tt2:58 ../../Open-ILS/src/templates/acq/search/unified.tt2:179
+msgid "Merge"
+msgstr "შერწყმა"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:35
+msgid "Merge On Best Match"
+msgstr "შერწყმა საუკეთესო დამთხვევაზე"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:27
+msgid "Merge On Exact Match (901c)"
+msgstr "შერწყმა ზუსტ დამთხვევაზე (901c)"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:31
+msgid "Merge On Single Match"
+msgstr "შერწყმა ერთადერთ დამთხვევაზე"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:18
+msgid "Merge Profile"
+msgstr "შერწყმის პროფილი"
+
+#: ../../Open-ILS/src/templates/acq/picklist/list.tt2:49 ../../Open-ILS/src/templates/acq/search/unified.tt2:162
+msgid "Merge Selected"
+msgstr "არჩეულების შერწყმა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:24
+msgid "Move Items To Selection List"
+msgstr "ერთეულების გადატანა შერჩევის სიაში"
+
+#: ../../Open-ILS/src/templates/acq/picklist/list.tt2:7
+msgid "My Selection Lists"
+msgstr "ჩემი შერჩევის სიები"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:161 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:92 ../../Open-ILS/src/templates/acq/po/view.tt2:18 ../../Open-ILS/src/templates/acq/search/unified.tt2:111 ../../Open-ILS/src/templates/acq/search/unified.tt2:202
+msgid "Name"
+msgstr "სახელი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:468
+msgid "Name (optional)"
+msgstr "სახელი (არასავალდებულო)"
+
+#: ../../Open-ILS/src/templates/acq/picklist/list.tt2:19 ../../Open-ILS/src/templates/acq/search/unified.tt2:129
+msgid "Name:"
+msgstr "სახელი:"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:215 ../../Open-ILS/src/templates/acq/po/search.tt2:55
+msgid "New"
+msgstr "ახალი"
+
+#: ../../Open-ILS/src/templates/acq/common/notes.tt2:24
+msgid "New Alert"
+msgstr "ახალი შეტყობინება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/brief_record.tt2:2
+msgid "New Brief Record"
+msgstr "ახალი მოკლე ჩანაწერი"
+
+#: ../../Open-ILS/src/templates/acq/po/item_table.tt2:31
+msgid "New Charge"
+msgstr "ახალი დარიცხვა"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:158
+msgid "New Copy"
+msgstr "ახალი ეგზემპლარი"
+
+#: ../../Open-ILS/src/templates/acq/currency_type/list.tt2:5
+msgid "New Currency Type"
+msgstr "ახალი ვალუტის ტიპი"
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:41
+msgid "New Fund"
+msgstr "ახალი ფონდი"
+
+#: ../../Open-ILS/src/templates/acq/funding_source/list.tt2:26
+msgid "New Funding Source"
+msgstr "ახალი დაფინანსების წყარო"
+
+#: ../../Open-ILS/src/templates/acq/picklist/list.tt2:36 ../../Open-ILS/src/templates/acq/search/unified.tt2:148
+msgid "New Name:"
+msgstr "ახალი სახელი:"
+
+#: ../../Open-ILS/src/templates/acq/common/notes.tt2:11
+msgid "New Note"
+msgstr "ახალი შენიშვნა"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:42
+msgid "New Record Quality / Quality of Best Match"
+msgstr "ახალი ჩანაწერის ხარისხი / საუკეთესო დამთხვევის ხარისხი"
+
+#: ../../Open-ILS/src/templates/acq/picklist/bib_search.tt2:59
+msgid "New Search"
+msgstr "ახალი ძიება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/list.tt2:15 ../../Open-ILS/src/templates/acq/search/unified.tt2:124
+msgid "New Selection List"
+msgstr "ახალი შერჩევის სია"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:80
+msgid "New brief record like this"
+msgstr "მსგავსი ახალი მოკლე ჩანაწერი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table_pager.tt2:15 ../../Open-ILS/src/templates/acq/invoice/view.tt2:274
+msgid "Next"
+msgstr "შემდეგი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:60
+msgid "Next &#187;"
+msgstr "შემდეგი &#187;"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:253
+msgid "No Copies"
+msgstr "ეგზემპლარები არ არის"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:290
+msgid "No Results"
+msgstr "შედეგები არ მოიძებნა"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:33
+msgid "No further attributes to search by"
+msgstr "საძიებო სხვა ატრიბუტები არ არის"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:78
+msgid "No. Copies"
+msgstr "ეგზემპლარების რაოდ."
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:238 ../../Open-ILS/src/templates/acq/fund/view.tt2:127 ../../Open-ILS/src/templates/acq/po/item_table.tt2:10
+msgid "Note"
+msgstr "შენიშვნა"
+
+#: ../../Open-ILS/src/templates/acq/common/notes.tt2:16
+msgid "Note is vendor-public"
+msgstr "შენიშვნა ხილულია მომწოდებლისთვის"
+
+#: ../../Open-ILS/src/templates/acq/common/final_claim_dialog.tt2:4
+msgid "Note:"
+msgstr "შენიშვნა:"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:54 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:22 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:65
+msgid "Note: "
+msgstr "შენიშვნა: "
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:129 ../../Open-ILS/src/templates/acq/common/li_table.tt2:366 ../../Open-ILS/src/templates/acq/po/view.tt2:48
+msgid "Notes"
+msgstr "შენიშვნები"
+
+#. ("<span name=\"notes_count\">0</span>")
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:203
+msgid "Notes(%1)"
+msgstr "შენიშვნები (%1)"
+
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:58
+msgid "On order"
+msgstr "შეკვეთილია"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:220
+msgid "On-Order"
+msgstr "შეკვეთილია"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:9
+msgid "Or create a new queue"
+msgstr "ან შექმენით ახალი რიგი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:165
+msgid "Order Identifier"
+msgstr "შეკვეთის იდენტიფიკატორი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:217
+msgid "Order-Ready"
+msgstr "შეკვეთისთვის მზადაა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:464 ../../Open-ILS/src/templates/acq/po/search.tt2:71
+msgid "Ordering Agency"
+msgstr "დამკვეთი ორგანიზაცია"
+
+#: ../../Open-ILS/src/templates/acq/receiving/process.tt2:17
+msgid "Ordering Agency:"
+msgstr "დამკვეთი ორგანიზაცია:"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:164 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:98 ../../Open-ILS/src/templates/acq/search/unified.tt2:204
+msgid "Owner"
+msgstr "მფლობელი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:332 ../../Open-ILS/src/templates/acq/common/li_table.tt2:359 ../../Open-ILS/src/templates/acq/common/li_table.tt2:412 ../../Open-ILS/src/templates/acq/common/li_table.tt2:73 ../../Open-ILS/src/templates/acq/invoice/receive.tt2:41
+msgid "Owning Branch"
+msgstr "მფლობელი ფილიალი"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:80
+msgid "PO"
+msgstr "შესყიდვის შეკვეთა"
+
+#: ../../Open-ILS/src/templates/acq/po/history.tt2:2
+msgid "PO History"
+msgstr "შესყიდვის შეკვეთის ისტორია"
+
+#: ../../Open-ILS/src/templates/acq/picklist/user_request.tt2:31
+msgid "PO Line Item"
+msgstr "შესყიდვის შეკვეთის პოზიცია"
+
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:10
+msgid "PO Search"
+msgstr "შესყიდვის შეკვეთის ძიება"
+
+#: ../../Open-ILS/src/templates/acq/po/events.tt2:7
+msgid "PO Triggered Events"
+msgstr "შესყიდვის შეკვეთის ინიციირებული მოვლენები"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:22
+msgid "PO name already in use: "
+msgstr "შესყიდვის შეკვეთის ეს სახელი უკვე გამოიყენება: "
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:23
+msgid "PO ordering agency"
+msgstr "შესყიდვის შეკვეთის დამკვეთი ორგანიზაცია"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:191 ../../Open-ILS/src/templates/acq/invoice/view.tt2:127 ../../Open-ILS/src/templates/acq/invoice/view.tt2:93
+msgid "Paid"
+msgstr "გადახდილი"
+
+#: ../../Open-ILS/src/templates/acq/picklist/user_request.tt2:65
+msgid "Patron Request"
+msgstr "მკითხველის მოთხოვნა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:186 ../../Open-ILS/src/templates/acq/picklist/user_request.tt2:2
+msgid "Patron Requests"
+msgstr "მკითხველის მოთხოვნები"
+
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:57
+msgid "Pending"
+msgstr "მოლოდინშია"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:219
+msgid "Pending-Order"
+msgstr "მოლოდინში არსებული შეკვეთა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:92
+msgid "Per Copy"
+msgstr "თითო ეგზემპლარზე"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:41 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:53
+msgid "Percent: "
+msgstr "პროცენტი: "
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:59
+msgid "Perform Fiscal Year Close-out Operation: "
+msgstr "ფისკალური წლის დახურვის ოპერაციის შესრულება: "
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:46 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:58
+msgid "Please enter an amount between 0 and 100"
+msgstr "გთხოვთ შეიყვანოთ თანხა 0-დან 100-მდე"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:480
+msgid "Prepayment Required"
+msgstr "საჭიროა წინასწარი გადახდა"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:14
+msgid "Prepayment Required?"
+msgstr "საჭიროა წინასწარი გადახდა?"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table_pager.tt2:5
+msgid "Prev"
+msgstr "წინა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:271
+msgid "Previous"
+msgstr "წინა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:33
+msgid "Print Purchase Order"
+msgstr "შესყიდვის შეკვეთის ბეჭდვა"
+
+#: ../../Open-ILS/src/templates/acq/search/unified.tt2:216
+msgid "Print Selected Invoices"
+msgstr "არჩეული ინვოისების ბეჭდვა"
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:115
+msgid "Process"
+msgstr "დამუშავება"
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:51
+msgid "Propagation creates new funds for the subsequent fiscal year based on the funds for the selected fiscal year.  Only funds with the propagate setting enabled will be affected.  No money or encumbrances are altered during this process."
+msgstr "გავრცელება ქმნის ახალ ფონდებს მომდევნო ფისკალური წლისთვის არჩეული ფისკალური წლის ფონდების საფუძველზე. ეს შეეხება მხოლოდ იმ ფონდებს, რომელთაც ჩართული აქვთ გავრცელების პარამეტრი. ამ პროცესში თანხები ან ვალდებულებები არ იცვლება."
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:173
+msgid "Prorate"
+msgstr "პროპორციულად განაწილება"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:91
+msgid "Provide a file of search terms"
+msgstr "მიუთითეთ საძიებო ტერმინების ფაილი"
+
+#: ../../Open-ILS/src/templates/acq/picklist/from_bib.tt2:5
+msgid "Provide one or more CSV files whose first columns contain Evergreen bibliographic record IDs."
+msgstr "მიუთითეთ ერთი ან მეტი CSV ფაილი, რომელთა პირველი სვეტებიც შეიცავს Evergreen-ის ბიბლიოგრაფიული ჩანაწერების ID-ებს."
+
+#: ../../Open-ILS/src/templates/acq/common/inv_dialog.tt2:18 ../../Open-ILS/src/templates/acq/common/li_table.tt2:189 ../../Open-ILS/src/templates/acq/common/li_table.tt2:476 ../../Open-ILS/src/templates/acq/picklist/upload.tt2:22 ../../Open-ILS/src/templates/acq/po/search.tt2:42 ../../Open-ILS/src/templates/acq/po/view.tt2:46
+msgid "Provider"
+msgstr "მომწოდებელი"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:61
+msgid "Pubdate"
+msgstr "გამოცემის თარიღი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:185 ../../Open-ILS/src/templates/acq/po/events.tt2:55 ../../Open-ILS/src/templates/acq/po/view.tt2:2
+msgid "Purchase Order"
+msgstr "შესყიდვის შეკვეთა"
+
+#. ("<span id=\"acq-po-view-state\"></span>")
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:8
+msgid "Purchase Order (%1)"
+msgstr "შესყიდვის შეკვეთა (%1)"
+
+#: ../../Open-ILS/src/templates/acq/po/history.tt2:3
+msgid "Purchase Order History"
+msgstr "შესყიდვის შეკვეთის ისტორია"
+
+#. ("<a attr=\"name\"></a>")
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:14
+msgid "Purchase Order: %1"
+msgstr "შესყიდვის შეკვეთა: %1"
+
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:2
+msgid "Purchase Orders"
+msgstr "შესყიდვის შეკვეთები"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:90
+msgid "Real Copies Processed"
+msgstr "დამუშავებული რეალური ეგზემპლარები"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:538 ../../Open-ILS/src/templates/acq/picklist/user_request.tt2:74 ../../Open-ILS/src/templates/acq/po/view.tt2:115
+msgid "Reason:"
+msgstr "მიზეზი:"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:8
+msgid "Receive Items"
+msgstr "ერთეულების მიღება"
+
+#: ../../Open-ILS/src/templates/acq/invoice/receive.tt2:32 ../../Open-ILS/src/templates/acq/invoice/receive.tt2:54
+msgid "Receive Selected Copies"
+msgstr "არჩეული ეგზემპლარების მიღება"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:107
+msgid "Receive Time"
+msgstr "მიღების დრო"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:221
+msgid "Received"
+msgstr "მიღებულია"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:367
+msgid "Receiver"
+msgstr "მიმღები"
+
+#: ../../Open-ILS/src/templates/acq/receiving/process.tt2:2
+msgid "Receiving Processing"
+msgstr "მიღების დამუშავება"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:14
+msgid "Record Match Set"
+msgstr "ჩანაწერების დამთხვევის ნაკრები"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:24
+msgid "Record Source"
+msgstr "ჩანაწერის წყარო"
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:141
+msgid "Refresh"
+msgstr "განახლება"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:211 ../../Open-ILS/src/templates/acq/search/unified.tt2:121 ../../Open-ILS/src/templates/acq/search/unified.tt2:213 ../../Open-ILS/src/templates/acq/search/unified.tt2:94
+msgid "Refresh Grid"
+msgstr "ცხრილის განახლება"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/related.tt2:2 ../../Open-ILS/src/templates/acq/lineitem/related.tt2:4
+msgid "Related Lineitems"
+msgstr "დაკავშირებული შეკვეთის პოზიციები"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:50
+msgid "Remove MARC Field Groups"
+msgstr "MARC-ის ველთა ჯგუფების ამოშლა"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:141
+msgid "Remove Selected Titles"
+msgstr "არჩეული სათაურების ამოშლა"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:68
+msgid "Remove this row"
+msgstr "ამ სტრიქონის ამოშლა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:178
+msgid "Reopen"
+msgstr "ხელახლა გახსნა"
+
+#: ../../Open-ILS/src/templates/acq/po/events.tt2:10
+msgid "Reset Selected"
+msgstr "არჩეულის განულება"
+
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:112
+msgid "Results Summary"
+msgstr "შედეგების შეჯამება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/from_bib.tt2:12
+msgid "Retrieve records"
+msgstr "ჩანაწერების გამოთხოვა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/receive.tt2:61
+msgid "Return to Invoice"
+msgstr "ინვოისზე დაბრუნება"
+
+#: ../../Open-ILS/src/templates/acq/search/unified.tt2:18
+msgid "Reveal Search Form"
+msgstr "საძიებო ფორმის ჩვენება"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:115
+msgid "Same as source amount?"
+msgstr "საწყისი თანხის ტოლია?"
+
+#: ../../Open-ILS/src/templates/acq/common/add_to_po.tt2:55 ../../Open-ILS/src/templates/acq/common/li_table.tt2:531 ../../Open-ILS/src/templates/acq/common/li_table.tt2:547 ../../Open-ILS/src/templates/acq/invoice/view.tt2:169
+msgid "Save"
+msgstr "შენახვა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:171
+msgid "Save &amp; Clear"
+msgstr "შენახვა &amp; გასუფთავება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:293 ../../Open-ILS/src/templates/acq/common/li_table.tt2:402
+msgid "Save Changes"
+msgstr "ცვლილებების შენახვა"
+
+#: ../../Open-ILS/src/templates/acq/po/item_table.tt2:32
+msgid "Save New Charges"
+msgstr "ახალი დარიცხვების შენახვა"
+
+#: ../../Open-ILS/src/templates/acq/picklist/brief_record.tt2:24
+msgid "Save Record"
+msgstr "ჩანაწერის შენახვა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:515
+msgid "Save all"
+msgstr "ყველას შენახვა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:520
+msgid "Save as Selection List: "
+msgstr "შენახვა შერჩევის სიად: "
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:513
+msgid "Save selected"
+msgstr "არჩეულის შენახვა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:191 ../../Open-ILS/src/templates/acq/invoice/view.tt2:266 ../../Open-ILS/src/templates/acq/lineitem/findbib.tt2:14 ../../Open-ILS/src/templates/acq/lineitem/search.tt2:109 ../../Open-ILS/src/templates/acq/po/events.tt2:44 ../../Open-ILS/src/templates/acq/po/search.tt2:74 ../../Open-ILS/src/templates/acq/receiving/process.tt2:24 ../../Open-ILS/src/templates/acq/search/unified.tt2:87
+msgid "Search"
+msgstr "ძიება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/bib_search.tt2:25
+msgid "Search Fields"
+msgstr "საძიებო ველები"
+
+#: ../../Open-ILS/src/templates/acq/picklist/bib_search.tt2:54
+msgid "Search Results"
+msgstr "ძიების შედეგები"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:45
+msgid "Search by attribute values"
+msgstr "ძიება ატრიბუტების მნიშვნელობებით"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:206 ../../Open-ILS/src/templates/acq/search/unified.tt2:25
+msgid "Search for"
+msgstr "ძიება:"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/findbib.tt2:70
+msgid "Searching...."
+msgstr "მიმდინარეობს ძიება...."
+
+#: ../../Open-ILS/src/templates/acq/lineitem/findbib.tt2:32
+msgid "Select"
+msgstr "არჩევა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:287
+msgid "Select All"
+msgstr "ყველას მონიშვნა"
+
+#: ../../Open-ILS/src/templates/acq/common/claim_dialog.tt2:39
+msgid "Select Claim Action"
+msgstr "აირჩიეთ მოთხოვნის მოქმედება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:184
+msgid "Select List"
+msgstr "აირჩიეთ სია"
+
+#. ("<div id=\"acq-invoice-extra-copies-fund\"></div>")
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:334
+msgid "Select a fund for the new items: %1"
+msgstr "აირჩიეთ ფონდი ახალი ერთეულებისთვის: %1"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:564
+msgid "Select a new fund:"
+msgstr "აირჩიეთ ახალი ფონდი:"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:488
+msgid "Selected Line Items"
+msgstr "შეკვეთის არჩეული პოზიციები"
+
+#: ../../Open-ILS/src/templates/acq/picklist/view.tt2:2
+msgid "Selection List"
+msgstr "შერჩევის სია"
+
+#: ../../Open-ILS/src/templates/acq/picklist/list.tt2:2
+msgid "Selection Lists"
+msgstr "შერჩევის სიები"
+
+#. ("<span id=\"oils-acq-picklist-name\"> </span>")
+#: ../../Open-ILS/src/templates/acq/picklist/view.tt2:7
+msgid "Selection list %1"
+msgstr "შერჩევის სია %1"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:216
+msgid "Selector-Ready"
+msgstr "სელექტორისთვის მზადაა"
+
+#. ("<span id=\"oils-acq-picklist-attr-owner\"></span>")
+#: ../../Open-ILS/src/templates/acq/picklist/view.tt2:11
+msgid "Selector: %1"
+msgstr "სელექტორი: %1"
+
+#: ../../Open-ILS/src/templates/acq/picklist/user_request.tt2:69
+msgid "Set No Hold"
+msgstr "ჯავშნის მოხსნა"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:103 ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:124
+msgid "Shelving Location"
+msgstr "თაროს მდებარეობა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:41
+msgid "Show Details"
+msgstr "დეტალების ჩვენება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:181
+msgid "Show In Catalog"
+msgstr "კატალოგში ჩვენება"
+
+#: ../../Open-ILS/src/templates/acq/common/claim_dialog.tt2:19
+msgid "Show Voucher"
+msgstr "ვაუჩერის ჩვენება"
+
+#: ../../Open-ILS/src/templates/acq/financial/claim_eligible.tt2:7
+msgid "Show items ready to claim for:"
+msgstr "გამოსათხოვად გამზადებული ერთეულების ჩვენება:"
+
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:79
+msgid "Show results as a virtual combined PO"
+msgstr "შედეგების ჩვენება ვირტუალური გაერთიანებული შეკვეთის სახით"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/search.tt2:49
+msgid "Show results for which:"
+msgstr "აჩვენეთ შედეგები, რომელთათვისაც:"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:279
+msgid "Sort by title"
+msgstr "სათაურით დალაგება"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:81
+msgid "Source amount"
+msgstr "საწყისი თანხა"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:167
+msgid "Spent Balance"
+msgstr "დახარჯული ბალანსი"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:143
+msgid "Split Order by Lineitems"
+msgstr "შეკვეთის დაყოფა პოზიციების მიხედვით"
+
+#: ../../Open-ILS/src/templates/acq/po/events.tt2:31
+msgid "Start Date Range"
+msgstr "თარიღის დიაპაზონის დასაწყისი"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:79 ../../Open-ILS/src/templates/acq/po/events.tt2:15 ../../Open-ILS/src/templates/acq/po/search.tt2:45
+msgid "State"
+msgstr "მდგომარეობა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:131
+msgid "Status"
+msgstr "სტატუსი"
+
+#. ("<span attr=\"state\"></span>")
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:19
+msgid "Status: %1"
+msgstr "სტატუსი: %1"
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:53
+msgid "Subfield"
+msgstr "ქვეველი"
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:22
+msgid "Subfield: "
+msgstr "ქვეველი: "
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:448 ../../Open-ILS/src/templates/acq/common/li_table.tt2:497 ../../Open-ILS/src/templates/acq/common/li_table.tt2:572 ../../Open-ILS/src/templates/acq/picklist/bib_search.tt2:43
+msgid "Submit"
+msgstr "გაგზავნა"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:153 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:83
+msgid "Summary"
+msgstr "შეჯამება"
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:52
+msgid "Tag"
+msgstr "ჭდე"
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:18
+msgid "Tag: "
+msgstr "ჭდე: "
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:229
+msgid "Tags"
+msgstr "ჭდეები"
+
+#: ../../Open-ILS/src/templates/acq/invoice/receive.tt2:26
+msgid "The remaining are listed below."
+msgstr "დანარჩენი ჩამოთვლილია ქვემოთ."
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:67
+msgid "The year end close out operation moves encumbrances from the selected fiscal year to the analogous funds in the subsequent fiscal year and it deactivates funds for the selected fiscal year.  Additionally, for all funds that have the \"Rollover\" setting enabled, this process will move all unspent money to the analogous fund in the subsequent fiscal year."
+msgstr "წლის დახურვის ოპერაცია გადაიტანს ვალდებულებებს არჩეული ფისკალური წლიდან მომდევნო ფისკალური წლის შესაბამის ფონდებში და დეაქტივაციას გაუკეთებს არჩეული ფისკალური წლის ფონდებს. გარდა ამისა, ყველა იმ ფონდისთვის, რომელსაც ჩართული აქვს „გადატანის“ (Rollover) პარამეტრი, ეს პროცესი გადაიტანს მთელ დაუხარჯავ თანხას მომდევნო ფისკალური წლის ანალოგიურ ფონდში."
+
+#: ../../Open-ILS/src/templates/acq/po/item_table.tt2:28
+msgid "There are no miscellanea attached to this purchase order."
+msgstr "ამ შესყიდვის შეკვეთაზე მიბმული სხვადასხვა ხარჯი არ არის."
+
+#: ../../Open-ILS/src/templates/acq/search/unified.tt2:237
+msgid "There are no results from your search."
+msgstr "თქვენი ძიების მიხედვით შედეგები არ მოიძებნა."
+
+#: ../../Open-ILS/src/templates/acq/financial/claim_eligible.tt2:40
+msgid "There were no items matching your search."
+msgstr "თქვენს ძიებას არცერთი ერთეული არ ემთხვევა."
+
+#. ("<span class=\"oils-notify-text\">", "</span>")
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:149
+msgid "These changes have %1not%2 been committed yet."
+msgstr "ეს ცვლილებები ჯერ %1არ%2 არის შენახული."
+
+#: ../../Open-ILS/src/templates/acq/invoice/receive.tt2:58
+msgid "This invoice has no more copies to receive."
+msgstr "ამ ინვოისს მისაღები ეგზემპლარები აღარ აქვს."
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:84
+msgid "This modifies the above described Close-out Operation, causing funds to be transfered into the void (that is, entirely removed) instead of being transfered to the analogous funds in the subsequent fiscal year."
+msgstr "ეს ცვლის ზემოთ აღწერილ დახურვის ოპერაციას, რის გამოც სახსრები გაუქმდება ნაცვლად მომდევნო ფისკალური წლის ანალოგიურ ფონდებში გადატანისა."
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:472
+msgid "This name is used by another PO"
+msgstr "ამ სახელს იყენებს სხვა შესყიდვის შეკვეთა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:558
+msgid "This will also update any existing encumbered or spent debits."
+msgstr "ეს ასევე განაახლებს არსებულ დატვირთულ ან დახარჯულ დებეტებს."
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:557
+msgid "This will update the fund for all copies attached to these lineitems."
+msgstr "ეს განაახლებს ფონდს ამ პოზიციებზე მიბმული ყველა ეგზემპლარისთვის."
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:58
+msgid "Title"
+msgstr "სათაური"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:124
+msgid "Title / Description"
+msgstr "სათაური / აღწერა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:89
+msgid "Title Details"
+msgstr "სათაურის დეტალები"
+
+#: ../../Open-ILS/src/templates/acq/po/item_table.tt2:8
+msgid "Title/Description"
+msgstr "სათაური/აღწერა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:159 ../../Open-ILS/src/templates/acq/invoice/view.tt2:161
+msgid "Total"
+msgstr "სულ"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:166
+msgid "Total Allocated"
+msgstr "სულ გამოყოფილი"
+
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:125
+msgid "Total Copies:"
+msgstr "სულ ეგზემპლარები:"
+
+#. ("<span attr=\"copies\"></span>")
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:18
+msgid "Total Copies: %1"
+msgstr "სულ ეგზემპლარები: %1"
+
+#: ../../Open-ILS/src/templates/acq/funding_source/view.tt2:95
+msgid "Total Credits"
+msgstr "სულ კრედიტები"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:168 ../../Open-ILS/src/templates/acq/funding_source/view.tt2:96
+msgid "Total Debits"
+msgstr "სულ დებეტები"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:170 ../../Open-ILS/src/templates/acq/po/view.tt2:73
+msgid "Total Encumbered"
+msgstr "სულ დატვირთული"
+
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:129
+msgid "Total Encumbered:"
+msgstr "სულ დატვირთული:"
+
+#. ("<span attr=\"amount_encumbered\">")
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:16
+msgid "Total Encumbered: $%1"
+msgstr "სულ დატვირთული: $%1"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:64
+msgid "Total Estimated"
+msgstr "სულ სავარაუდო"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:55
+msgid "Total Lineitems"
+msgstr "სულ შეკვეთის პოზიციები"
+
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:121
+msgid "Total Lineitems:"
+msgstr "სულ შეკვეთის პოზიციები:"
+
+#. ("<span attr=\"lineitem_count\"></span>")
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:15
+msgid "Total Lineitems: %1"
+msgstr "სულ შეკვეთის პოზიციები: %1"
+
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:117
+msgid "Total Purchase Orders:"
+msgstr "სულ შესყიდვის შეკვეთები:"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:169 ../../Open-ILS/src/templates/acq/po/view.tt2:105
+msgid "Total Spent"
+msgstr "სულ დახარჯული"
+
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:133
+msgid "Total Spent:"
+msgstr "სულ დახარჯული:"
+
+#. ("<span attr=\"amount_spent\"></span>")
+#: ../../Open-ILS/src/templates/acq/po/search.tt2:17
+msgid "Total Spent: $%1"
+msgstr "სულ დახარჯული: $%1"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:138
+msgid "Transfer"
+msgstr "გადარიცხვა"
+
+#: ../../Open-ILS/src/templates/acq/fund/view.tt2:68
+msgid "Transfer Money"
+msgstr "თანხის გადარიცხვა"
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:30
+msgid "True"
+msgstr "ჭეშმარიტი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:169
+msgid "UPC"
+msgstr "UPC"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:382
+msgid "Un-Receive"
+msgstr "მიღების გაუქმება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:39
+msgid "Un-Receive Selected Line Items"
+msgstr "შეკვეთის არჩეული პოზიციების მიღების გაუქმება"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:208
+msgid "Update Barcodes"
+msgstr "შტრიხკოდების განახლება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/upload.tt2:4 ../../Open-ILS/src/templates/acq/picklist/upload.tt2:54
+msgid "Upload"
+msgstr "ატვირთვა"
+
+#: ../../Open-ILS/src/templates/acq/picklist/upload.tt2:69
+msgid "Upload Complete!"
+msgstr "ატვირთვა დასრულდა!"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:6
+msgid "Upload to Queue"
+msgstr "რიგში ატვირთვა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/receive.tt2:28
+msgid "Use List Mode"
+msgstr "სიის რეჟიმის გამოყენება"
+
+#: ../../Open-ILS/src/templates/acq/invoice/receive.tt2:29
+msgid "Use Numeric Mode"
+msgstr "რიცხვითი რეჟიმის გამოყენება"
+
+#: ../../Open-ILS/src/templates/acq/picklist/user_request.tt2:22
+msgid "User"
+msgstr "მომხმარებელი"
+
+#: ../../Open-ILS/src/templates/acq/common/vlagent.tt2:74
+msgid "Vandelay Records Processed"
+msgstr "დამუშავებული Vandelay-ს ჩანაწერები"
+
+#: ../../Open-ILS/src/templates/acq/common/jubgrid.tt2:74
+msgid "Vendor"
+msgstr "მომწოდებელი"
+
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:69
+msgid "View"
+msgstr "ნახვა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:211
+msgid "View History"
+msgstr "ისტორიის ნახვა"
+
+#: ../../Open-ILS/src/templates/acq/picklist/upload.tt2:72
+msgid "View Import Queue"
+msgstr "იმპორტის რიგის ნახვა"
+
+#. ("<span id=\"acq-po-view-invoice-count\"></span>")
+#: ../../Open-ILS/src/templates/acq/po/view.tt2:79
+msgid "View Invoices (%1)"
+msgstr "ინვოისების ნახვა (%1)"
+
+#: ../../Open-ILS/src/templates/acq/lineitem/findbib.tt2:31
+msgid "View MARC"
+msgstr "MARC-ის ნახვა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:473 ../../Open-ILS/src/templates/acq/po/view.tt2:23
+msgid "View PO"
+msgstr "შესყიდვის შეკვეთის ნახვა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:34
+msgid "View PO History"
+msgstr "შესყიდვის შეკვეთის ისტორიის ნახვა"
+
+#: ../../Open-ILS/src/templates/acq/picklist/upload.tt2:70
+msgid "View Purchase Order"
+msgstr "შესყიდვის შეკვეთის ნახვა"
+
+#: ../../Open-ILS/src/templates/acq/picklist/upload.tt2:71 ../../Open-ILS/src/templates/acq/picklist/user_request.tt2:68
+msgid "View Selection List"
+msgstr "შერჩევის სიის ნახვა"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:201
+msgid "View copy information"
+msgstr "ეგზემპლარის ინფორმაციის ნახვა"
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:107
+msgid "When Dry Run is selected, the system will generate a summary of the changes that would occur during the selected operation(s). No data will be changed."
+msgstr "სატესტო გაშვების (Dry Run) არჩევისას სისტემა დააგენერირებს იმ ცვლილებების შეჯამებას, რომლებიც მოხდებოდა არჩეული ოპერაცი(ებ)ის დროს. მონაცემები არ შეიცვლება."
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:55
+msgid "XPath"
+msgstr "XPath"
+
+#: ../../Open-ILS/src/templates/acq/settings/li_attr.tt2:35
+msgid "XPath (advanced): "
+msgstr "XPath (გაფართოებული): "
+
+#: ../../Open-ILS/src/templates/acq/fund/list.tt2:134
+msgid "Year"
+msgstr "წელი"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:212 ../../Open-ILS/src/templates/acq/search/unified.tt2:37
+msgid "all"
+msgstr "ყველა"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:213 ../../Open-ILS/src/templates/acq/search/unified.tt2:38
+msgid "any"
+msgstr "ნებისმიერი"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:188
+msgid "claim policy:"
+msgstr "მოთხოვნის პოლიტიკა:"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:236 ../../Open-ILS/src/templates/acq/search/unified.tt2:57
+msgid "contains"
+msgstr "შეიცავს"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:240 ../../Open-ILS/src/templates/acq/search/unified.tt2:61
+msgid "does NOT contain"
+msgstr "არ შეიცავს"
+
+#: ../../Open-ILS/src/templates/acq/search/unified.tt2:33
+msgid "invoices"
+msgstr "ინვოისები"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:233 ../../Open-ILS/src/templates/acq/search/unified.tt2:54
+msgid "is"
+msgstr "არის"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:234 ../../Open-ILS/src/templates/acq/search/unified.tt2:55
+msgid "is NOT"
+msgstr "არ არის"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:246 ../../Open-ILS/src/templates/acq/search/unified.tt2:67
+msgid "is on or AFTER"
+msgstr "ემთხვევა ან არის შემდეგ"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:243 ../../Open-ILS/src/templates/acq/search/unified.tt2:64
+msgid "is on or BEFORE"
+msgstr "ემთხვევა ან არის წინ"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:208 ../../Open-ILS/src/templates/acq/search/unified.tt2:27
+msgid "line items"
+msgstr "შეკვეთის პოზიციები"
+
+#: ../../Open-ILS/src/templates/acq/search/unified.tt2:29
+msgid "line items &amp; catalog records"
+msgstr "შეკვეთის პოზიციები &amp; კატალოგის ჩანაწერები"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:249 ../../Open-ILS/src/templates/acq/search/unified.tt2:70
+msgid "matches a term from a file"
+msgstr "ემთხვევა ტერმინს ფაილიდან"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:210 ../../Open-ILS/src/templates/acq/search/unified.tt2:35
+msgid "matching"
+msgstr "შესატყვისი"
+
+#: ../../Open-ILS/src/templates/acq/invoice/view.tt2:216
+msgid "of the following terms"
+msgstr "ქვემოთ ჩამოთვლილი ტერმინებიდან"
+
+#: ../../Open-ILS/src/templates/acq/search/unified.tt2:41
+msgid "of the following terms:"
+msgstr "ქვემოთ ჩამოთვლილი ტერმინებიდან:"
+
+#: ../../Open-ILS/src/templates/acq/search/unified.tt2:32
+msgid "purchase orders"
+msgstr "შესყიდვის შეკვეთები"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:186
+msgid "requests"
+msgstr "მოთხოვნები"
+
+#: ../../Open-ILS/src/templates/acq/search/unified.tt2:31
+msgid "selection lists"
+msgstr "შერჩევის სიები"
+
+#: ../../Open-ILS/src/templates/acq/common/li_table.tt2:187
+msgid "view invoice(s)"
+msgstr "ინვოის(ებ)ის ნახვა"

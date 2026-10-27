@@ -1,0 +1,211 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen\n"
+"PO-Revision-Date: 2026-10-27 16:25+0400\n"
+"Language: ka-GE\n"
+"Language-Team: Georgian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: register.js:DEFAULT_ADDRESS_TYPE
+msgid "MAILING"
+msgstr "საფოსტო"
+
+#: register.js:DELETE_ADDRESS
+msgid "Delete address ${0}?"
+msgstr "წაიშალოს მისამართი ${0}?"
+
+#: register.js:NEED_ADDRESS
+msgid "An address is required during registration."
+msgstr "რეგისტრაციისას მისამართის მითითება სავალდებულოა."
+
+#: register.js:DUPE_PATRON_NAME
+msgid "Found ${0} patron(s) with the same name"
+msgstr "ნაპოვნია ${0} მკითხველი ამავე სახელით"
+
+#: register.js:DUPE_PATRON_EMAIL
+msgid "Found ${0} patron(s) with the same email address"
+msgstr "ნაპოვნია ${0} მკითხველი იგივე ელფოსტის მისამართით"
+
+#: register.js:DUPE_PATRON_IDENT
+msgid "Found ${0} patron(s) with the same identification"
+msgstr "ნაპოვნია ${0} მკითხველი იგივე საიდენტიფიკაციო მონაცემებით"
+
+#: register.js:DUPE_PATRON_PHONE
+msgid "Found ${0} patron(s) with the same phone number"
+msgstr "ნაპოვნია ${0} მკითხველი იგივე ტელეფონის ნომრით"
+
+#: register.js:DUPE_PATRON_ADDR
+msgid "Found ${0} patron(s) with the same address"
+msgstr "ნაპოვნია ${0} მკითხველი იგივე მისამართით"
+
+#: register.js:REPLACED_ADDRESS
+msgid "Replaces address ${0}<br/> ${1} ${2}<br/> ${3}, ${4} ${5}"
+msgstr "ცვლის მისამართს ${0}<br/> ${1} ${2}<br/> ${3}, ${4} ${5}"
+
+#: register.js:INVALID_FORM
+msgid "Form is invalid.  Please edit and try again."
+msgstr "ფორმა არასწორია. გთხოვთ შეასწოროთ და სცადოთ ხელახლა."
+
+#: register.js:EXAMPLE
+msgid "Example: "
+msgstr "მაგალითი: "
+
+#: register.js:REPLACE_BARCODE
+msgid "Replace Barcode"
+msgstr "შტრიხკოდის შეცვლა"
+
+#: register.js:BARCODE_IN_USE
+msgid "Barcode is already in use"
+msgstr "ეს შტრიხკოდი უკვე გამოიყენება"
+
+#: register.js:SEE_ALL
+msgid "See All"
+msgstr "ყველას ნახვა"
+
+#: register.js:DUPE_USERNAME
+msgid "Username is already in use"
+msgstr "ეს მომხმარებლის სახელი უკვე გამოიყენება"
+
+#: register.js:RESET_PASSWORD
+msgid "Generate Password"
+msgstr "პაროლის გენერირება"
+
+#: register.js:VERIFY_PASSWORD
+msgid "Verify Password"
+msgstr "პაროლის დადასტურება"
+
+#: register.js:PARENT_OR_GUARDIAN
+msgid "Parent/Guardian"
+msgstr "მშობელი/მეურვე"
+
+#: register.js:PARENT_OR_GUARDIAN_EMAIL
+msgid "Parent/Guardian Email"
+msgstr "მშობლის/მეურვის ელფოსტა"
+
+#: register.js:USER_SETTINGS
+msgid "User Settings"
+msgstr "მომხმარებლის პარამეტრები"
+
+#: register.js:ADDRESS_HEADER
+msgid "Address"
+msgstr "მისამართი"
+
+#: register.js:ADDRESS_MAILING
+msgid "Mailing"
+msgstr "საფოსტო"
+
+#: register.js:ADDRESS_BILLING
+msgid "Billing"
+msgstr "საანგარიშსწორებო"
+
+#: register.js:ADDRESS_PENDING
+msgid "This is a pending address: "
+msgstr "ეს არის დასადასტურებელი მისამართი: "
+
+#: register.js:ADDRESS_APPROVE
+msgid "Approve Address"
+msgstr "მისამართის დამტკიცება"
+
+#: register.js:ADDRESS_OWNED
+msgid "This address is owned by another user: "
+msgstr "ეს მისამართი ეკუთვნის სხვა მომხმარებელს: "
+
+#: register.js:ADDRESS_NEW
+msgid "New Address"
+msgstr "ახალი მისამართი"
+
+#: register.js:STAT_CATS
+msgid "Statistical Categories"
+msgstr "სტატისტიკური კატეგორიები"
+
+#: register.js:SAVE
+msgid "Save"
+msgstr "შენახვა"
+
+#: register.js:SAVE_CLONE
+msgid "Save &amp; Clone"
+msgstr "შენახვა &amp; კლონირება"
+
+#: register.js:SHOW_REQUIRED
+msgid "Show Only Required Fields"
+msgstr "მხოლოდ სავალდებულო ველების ჩვენება"
+
+#: register.js:SHOW_SUGGESTED
+msgid "Show Suggested Fields"
+msgstr "შემოთავაზებული ველების ჩვენება"
+
+#: register.js:SHOW_ALL
+msgid "Show All Fields"
+msgstr "ყველა ველის ჩვენება"
+
+#: register.js:ALL_CARDS_BARCODE
+msgid "Barcode"
+msgstr "შტრიხკოდი"
+
+#: register.js:ALL_CARDS_ACTIVE
+msgid "Active"
+msgstr "აქტიური"
+
+#: register.js:ALL_CARDS_PRIMARY
+msgid "Primary"
+msgstr "ძირითადი"
+
+#: register.js:ALL_CARDS_CLOSE
+msgid "Close"
+msgstr "დახურვა"
+
+#: register.js:ALL_CARDS_APPLY
+msgid "Apply Changes"
+msgstr "ცვლილებების გამოყენება"
+
+#: register.js:INVALIDATE
+msgid "Invalidate"
+msgstr "გაუქმება"
+
+#: register.js:HOLD_NOTIFY_PHONE
+msgid "Phone: "
+msgstr "ტელეფონი: "
+
+#: register.js:HOLD_NOTIFY_EMAIL
+msgid "Email: "
+msgstr "ელფოსტა: "
+
+#: register.js:HOLD_NOTIFY_SMS
+msgid "SMS: "
+msgstr "SMS: "
+
+#: register.js:REQUESTING_USER
+msgid "Account requested by ${0} ${1}"
+msgstr "ანგარიში მოითხოვა: ${0} ${1}"
+
+#: register.js:UPDATE_EXPIRE_DATE
+msgid "Update Expire Date"
+msgstr "ვადის გასვლის თარიღის განახლება"
+
+#: register.js:DELETE
+msgid "Delete"
+msgstr "წაშლა"
+
+#: register.js:ADD
+msgid "Add"
+msgstr "დამატება"
+
+#: register.js:SECONDARY_GROUP_NOT_ALLOWED
+msgid "You do not have permission to add this group."
+msgstr "თქვენ არ გაქვთ ამ ჯგუფის დამატების უფლება."
+
+#: register.js:SECONDARY_GROUP_IS_PROFILE
+msgid "That is already the primary profile group for this patron."
+msgstr "ეს უკვე არის ამ მკითხველის ძირითადი პროფილის ჯგუფი."
+
+#: register.js:SECONDARY_GROUP_EXISTS
+msgid "This group is on the list already."
+msgstr "ეს ჯგუფი უკვე სიაშია."
+
+#: register.js:SECONDARY_GROUP_ERROR
+msgid "Error saving secondary groups."
+msgstr "შეცდომა მეორეული ჯგუფების შენახვისას."

@@ -1,0 +1,2015 @@
+#. extracted from ../../Open-ILS/xul/staff_client/server/locale/en-US/circ.properties
+msgid ""
+msgstr "Project-Id-Version: Evergreen\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2017-08-15 16:41-0400\nPO-Revision-Date: 2026-10-27 14:15+0400\nLast-Translator: Georgian Translation Team\nLanguage-Team: Georgian\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Generator: Translate Toolkit 1.10.0\nX-Accelerator-Marker: &\nX-Merge-On: location\nLanguage: ka-GE\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: staff.circ.alert
+msgid "Alert"
+msgstr "გაფრთხილება"
+
+#: staff.circ.item_no_circs
+msgid "Item %1$s has never circulated."
+msgstr "მასალა %1$s არასდროს გაცემულა."
+
+#: staff.circ.item_no_user
+msgid "Item %1$s circulation is an aged circulation and has no linked user."
+msgstr "ერთეულის %1$s გაცემა ძველი ჩანაწერია და მასთან დაკავშირებული მომხმარებელი არ ჰყავს."
+
+#: staff.circ.aged_circ
+msgid "<Aged Circulation>"
+msgstr "<ძველი გაცემის ჩანაწერი>"
+
+#: staff.circ.invalid_date
+msgid "Invalid Date"
+msgstr "არასწორი თარიღი"
+
+#: staff.circ.future_date
+msgid "Future Date"
+msgstr "მომავალი თარიღი"
+
+#: staff.circ.process_item
+msgid "Check In / Process Item"
+msgstr "დაბრუნება / მასალის დამუშავება"
+
+#: staff.circ.backdated_checkin
+msgid "Backdated %1$s Check In"
+msgstr "%1$s თარიღით უკანა რიცხვით დაბრუნება"
+
+#: staff.circ.backdate.exception
+msgid "Problem setting backdate: %1$s"
+msgstr "უკანა თარიღის დაყენების პრობლემა: %1$s"
+
+#: staff.circ.unimplemented
+msgctxt "staff.circ.unimplemented"
+msgid "Not Yet Implemented"
+msgstr "ჯერ არ არის განხორციელებული"
+
+#: staff.circ.check_digit.bad
+msgctxt "staff.circ.check_digit.bad"
+msgid ""
+"Bad check digit, possibly due to a bad scan.  Use this barcode (\"%1$s\") "
+"anyway?"
+msgstr "საკონტროლო ციფრი არასწორია, შესაძლოა სკანირების შეცდომის გამო. მაინც გამოვიყენოთ ეს შტრიხკოდი („%1$s“)?"
+
+#: staff.circ.barcode.bad
+msgid "Bad Barcode"
+msgstr "არასწორი შტრიხკოდი"
+
+#: staff.circ.cancel
+msgctxt "staff.circ.cancel"
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: staff.circ.barcode.accept
+msgid "Accept Barcode"
+msgstr "შტრიხკოდის მიღება"
+
+#: staff.circ.confirm
+msgid "Check here to confirm this action"
+msgstr "მოქმედების დასადასტურებლად მონიშნეთ აქ"
+
+#: staff.circ.confirm.msg
+msgid "Check here to confirm this message."
+msgstr "მონიშნეთ აქ ამ შეტყობინების დასადასტურებლად."
+
+#. # If we know the name of the object, we could parameterize that as well
+#: staff.circ.checkin.exception
+msgid "Something went wrong in circ.util.checkin: %1$s"
+msgstr "circ.util.checkin-ში შეცდომა მოხდა: %1$s"
+
+#: staff.circ.checkin2.exception
+msgid "Something went wrong in circ.util.checkin2: %1$s"
+msgstr "circ.util.checkin2-ში შეცდომა მოხდა: %1$s"
+
+#: staff.circ.checkin.exception.external
+msgctxt "staff.circ.checkin.exception.external"
+msgid "circ.checkin: Calling external .on_checkin()"
+msgstr "circ.checkin: გარე .on_checkin() ფუნქციის გამოძახება"
+
+#: staff.circ.checkin2.exception.external
+msgid "circ.checkin2: Calling external .on_checkin()"
+msgstr "circ.checkin2: გარე .on_checkin() ფუნქციის გამოძახება"
+
+#: staff.circ.checkin.exception.no_external
+msgctxt "staff.circ.checkin.exception.no_external"
+msgid "circ.checkin: Calling external .on_checkin()"
+msgstr "circ.checkin: გარე .on_checkin() ფუნქციის გამოძახება"
+
+#: staff.circ.checkin2.exception.no_external
+msgid "circ.util.checkin2: No external .on_failure()"
+msgstr "circ.util.checkin2: გარე .on_failure() ფუნქცია არ არის"
+
+#: staff.circ.util.checkin.exception.external
+msgctxt "staff.circ.util.checkin.exception.external"
+msgid "circ.util.checkin: Calling external .on_checkin()"
+msgstr "circ.util.checkin: გარე .on_checkin() ფუნქციის გამოძახება"
+
+#: staff.circ.util.checkin.exception.no_external
+msgctxt "staff.circ.util.checkin.exception.no_external"
+msgid "circ.util.checkin: Calling external .on_checkin()"
+msgstr "circ.util.checkin: გარე .on_checkin() ფუნქციის გამოძახება"
+
+#: staff.circ.backdate.success
+msgid "Circ ID %1$s backdated to %2$s"
+msgstr "გაცემის ID %1$s-ის თარიღი შეიცვალა %2$s-ით"
+
+#: staff.circ.backdate.failure
+msgid "Circ ID %1$s failed backdating due to %2$s"
+msgstr "გაცემის ID %1$s-ის თარიღის შეცვლა ვერ მოხერხდა: %2$s"
+
+#: staff.circ.backdate.circ_ids.prompt
+msgid "Number of circulations selected: %1$s "
+msgstr "მონიშნული გაცემების რაოდენობა: %1$s "
+
+#: staff.circ.backdate.circ_ids.failed
+msgid "Number of circulations not backdated: %1$s "
+msgstr "უკანა თარიღით არჩანიშნული გაცემების რაოდენობა: %1$s "
+
+#: staff.circ.checkout.sorting.exception
+msgid "error in sorting non-cataloged items: %1$s"
+msgstr "არაკატალოგიზებული ერთეულების დალაგების შეცდომა: %1$s"
+
+#: staff.circ.checkout.date.exception
+msgid "Use this format: YYYY-MM-DD"
+msgstr "გამოიყენეთ ეს ფორმატი: YYYY-MM-DD"
+
+#: staff.circ.checkout.unimplemented
+msgctxt "staff.circ.checkout.unimplemented"
+msgid "Not Yet Implemented"
+msgstr "ჯერ არ არის განხორციელებული"
+
+#: staff.circ.checkout.cmd_checkout_submit.msg
+msgid "Enter the number of %1$s circulating:"
+msgstr "შეიყვანეთ გასაცემი %1$s-ის რაოდენობა:"
+
+#: staff.circ.checkout.cmd_checkout_submit.title
+msgid "Non-cataloged Items"
+msgstr "არაკატალოგიზებული მასალები"
+
+#: staff.circ.checkout.cmd_checkout_submit.too_many.msg
+msgid "You tried to circulate %1$d %2$s.  The maximum is 99 per action."
+msgstr "ცადეთ %1$d %2$s-ის გაცემა. ერთ მოქმედებაში მაქსიმუმ 99-ის გაცემა შეგიძლიათ."
+
+#: staff.circ.checkout.cmd_checkout_submit.too_many.title
+msgctxt "staff.circ.checkout.cmd_checkout_submit.too_many.title"
+msgid "Non-cataloged Circulation"
+msgstr "არაკატალოგიზებული ერთეულის გაცემა"
+
+#: staff.circ.checkout.ok.btn
+msgctxt "staff.circ.checkout.ok.btn"
+msgid "OK"
+msgstr "კარგი"
+
+#: staff.circ.checkout.cmd_checkout_submit.confirm.msg
+msgid "Are you sure you want to circulate %1$d %2$s?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ %1$d %2$s-ის გაცემა?"
+
+#: staff.circ.checkout.cmd_checkout_submit.confirm.title
+msgctxt "staff.circ.checkout.cmd_checkout_submit.confirm.title"
+msgid "Non-cataloged Circulation"
+msgstr "არაკატალოგიზებული ერთეულის გაცემა"
+
+#: staff.circ.checkout.yes.btn
+msgctxt "staff.circ.checkout.yes.btn"
+msgid "Yes"
+msgstr "დიახ"
+
+#: staff.circ.checkout.no.btn
+msgctxt "staff.circ.checkout.no.btn"
+msgid "No"
+msgstr "არა"
+
+#: staff.circ.checkout.cmd_checkout_submit.non_numeric.msg
+msgid "Error with non-cataloged checkout.  %1$s is not a valid number."
+msgstr "არაკატალოგიზებული ერთეულის გაცემის შეცდომა: %1$s არასწორი რიცხვია."
+
+#: staff.circ.checkout.cmd_checkout_submit.non_numeric.title
+msgctxt "staff.circ.checkout.cmd_checkout_submit.non_numeric.title"
+msgid "Non-cataloged Circulation"
+msgstr "არაკატალოგიზებული ერთეულის გაცემა"
+
+#: staff.circ.checkout.disable.error
+msgid "Error determining whether to disable checkout."
+msgstr "გაცემის გამორთვის საჭიროების განსაზღვრის შეცდომა."
+
+#: staff.circ.checkout.date.too_early.error
+msgid "Due date needs to be after today."
+msgstr "დაბრუნების ვადა დღევანდელი თარიღის შემდეგ უნდა იყოს."
+
+#: staff.circ.checkout.barcode.failed
+msgid "%1$s failed."
+msgstr "%1$s ვერ შესრულდა."
+
+#: staff.circ.checkout.non_cataloged.pending
+msgid "Non-cataloged checkout pending..."
+msgstr "არაკატალოგიზებული ერთეულის გაცემა მუშავდება..."
+
+#: staff.circ.checkout.barcode.pending
+msgid "%1$s checkout pending..."
+msgstr "%1$s-ის გაცემა მუშავდება..."
+
+#: staff.circ.checkout.barcode.failed.alert
+msgid "Check Out Failed %1$s"
+msgstr "გაცემა ვერ მოხერხდა: %1$s"
+
+#: staff.circ.checkout.override.confirm
+msgid "Override Checkout Failure?"
+msgstr "გსურთ გაცემის შეცდომის უგულებელყოფა?"
+
+#: staff.circ.checkout.override.item_deposit_required.warning
+msgid ""
+"A billing for an Item Deposit will be added to the patron's account if this "
+"action is overrided."
+msgstr "ამ მოქმედების უგულებელყოფის შემთხვევაში მკითხველის ანგარიშს ერთეულის დეპოზიტი დაერიცხება."
+
+#: staff.circ.checkout.override.item_rental_fee_required.warning
+msgid ""
+"A billing for an Item Rental Fee will be added to the patron's account if "
+"this action is overrided."
+msgstr "ამ მოქმედების უგულებელყოფის შემთხვევაში მკითხველის ანგარიშს ერთეულის ქირის საფასური დაერიცხება."
+
+#: staff.circ.checkout.override.will_auto
+msgid ""
+"If overridden now, subsequent checkouts during this patron's session will "
+"auto-override this event."
+msgstr "თუ ახლა უგულებელყოფთ, ამ მკითხველის სესიის შემდგომი გაცემებიც ავტომატურად უგულებელყოფს ამ მოვლენას."
+
+#: staff.circ.checkout.error_retrieving_copy_status
+msgid "Could not retrieve the name of the current status for the copy"
+msgstr "ეგზემპლარის მიმდინარე სტატუსის სახელის მიღება ვერ მოხერხდა"
+
+#: staff.circ.checkout.not_cataloged.confirm
+msgid ""
+"Barcode %1$s was either mis-scanned or is a non-cataloged item.  Checkout as "
+"a pre-cataloged item?"
+msgstr "შტრიხკოდი %1$s არასწორად დასკანერდა ან ერთეული კატალოგში არ არის. გავცეთ ის წინასწარ კატალოგიზებულ ერთეულად?"
+
+#: staff.circ.pre_cataloged
+msgid "Pre-cataloged"
+msgstr "წინასწარ კატალოგიზებული"
+
+#: staff.circ.non_cataloged
+msgid "Non-cataloged"
+msgstr "არაკატალოგიზებული"
+
+#: staff.circ.checkout.cancelled
+msgid "Checkout cancelled"
+msgstr "გაცემა გაუქმდა"
+
+#: staff.circ.checkout.card.inactive
+msgid ""
+"The card used to retrieve this account is inactive and may not be used to "
+"circulate items."
+msgstr "ამ ანგარიშის მოსაძიებლად გამოყენებული ბარათი არააქტიურია და ერთეულების გასაცემად ვერ გამოიყენება."
+
+#: staff.circ.checkout.barcode.check_out_failed
+msgid "Check Out Failed"
+msgstr "გაცემა ვერ შესრულდა"
+
+#: staff.circ.checkout.account.inactive
+msgid "This account is inactive and may not circulate items."
+msgstr "ეს ანგარიში არააქტიურია და ერთეულების გაცემას ვერ შეძლებს."
+
+#: staff.circ.checkout.account.expired
+msgid "This account has expired and may not circulate items."
+msgstr "ამ ანგარიშს ვადა გაუვიდა და ერთეულების გაცემას ვერ შეძლებს."
+
+#: staff.circ.checkout.item_due
+msgid "This item was due on %1$s."
+msgstr "ამ ერთეულის დაბრუნების ვადა იყო %1$s."
+
+#: staff.circ.checkout.normal_checkin_then_checkout
+msgid "Normal Checkin then Checkout"
+msgstr "ჩვეულებრივი დაბრუნება, შემდეგ გაცემა"
+
+#: staff.circ.checkout.forgiving_checkin_then_checkout
+msgid "Forgiving Checkin then Checkout"
+msgstr "დაბრუნება და შემდეგ ხელახლა გაცემა ჯარიმის ჩამოწერით"
+
+#: staff.circ.checkout.abort_transit_then_checkout
+msgid "Cancel Transit then Checkout"
+msgstr "გადატანის გაუქმება, შემდეგ გაცემა"
+
+#: staff.circ.checkout.offer_renewal
+msgid "Renew Item"
+msgstr "მასალის ვადის გაგრძელება"
+
+#: staff.circ.checkout.network_failure
+msgid "There was a network failure."
+msgstr "ქსელის შეცდომა მოხდა."
+
+#: staff.circ.checkout.copy_status
+msgid "Copy status = %1$s"
+msgstr "ეგზემპლარის სტატუსი = %1$s"
+
+#: staff.circ.checkout.alert_message
+msgid "Alert Message = %1$s"
+msgstr "გაფრთხილების შეტყობინება = %1$s"
+
+#: staff.circ.checkout.permission_denied
+msgid "Permission Denied = %1$s"
+msgstr "წვდომა აკრძალულია = %1$s"
+
+#. # "Circulation" - check &staff.main.menu.circ.label; in lang.dtd
+#. # "Offline Interface" - check &staff.main.menu.circ.offline.label; in lang.dtd
+#: staff.circ.checkout.suggest_offline
+msgid ""
+"Check Out Failed.  If you wish to use the offline interface, in the top "
+"menubar select Circulation -> Offline Interface"
+msgstr "გაცემა ვერ მოხერხდა. ავტონომიური ინტერფეისის გამოსაყენებლად ზედა მენიუში აირჩიეთ „გაცემა“ -> „ავტონომიური ინტერფეისი“."
+
+#: staff.circ.checkout.barcode
+msgctxt "staff.circ.checkout.barcode"
+msgid "Barcode:"
+msgstr "შტრიხკოდი:"
+
+#: staff.circ.checkout.failed_to_patron_other
+msgid "This copy was checked out by another patron on %1$s."
+msgstr "ეს ეგზემპლარი სხვა მკითხველზე გაიცა %1$s-ს."
+
+#: staff.circ.checkout.failed_to_patron_renew
+msgid "This copy is already checked out to this patron."
+msgstr "ეს ეგზემპლარი უკვე გაცემულია ამ მკითხველზე."
+
+#: staff.circ.checkout.failed_to_patron_today
+msgid "This copy was already checked out to this patron today."
+msgstr "ეს ეგზემპლარი დღეს უკვე გაიცა ამ მკითხველზე."
+
+#: staff.circ.circ_brief.staff_out_id
+msgid "Check Out Staff ID = %1$s"
+msgstr "გამცემი თანამშრომლის ID = %1$s"
+
+#: staff.circ.circ_brief.staff_in_id
+msgid "Check In Staff ID = %1$s"
+msgstr "მიმღები თანამშრომლის ID = %1$s"
+
+#: staff.circ.circ_brief.failure
+msgid "Failure rendering circulation."
+msgstr "გაცემის ინფორმაციის ჩვენება ვერ მოხერხდა."
+
+#: staff.circ.copy_details.hold
+msgid "Hold ID = %1$s"
+msgstr "შეკვეთის ID = %1$s"
+
+#: staff.circ.copy_details.transit
+msgid "Transit ID = %1$s"
+msgstr "გადაზიდვის ID = %1$s"
+
+#: staff.circ.copy_details.circ
+msgid "Circulation ID = %1$s"
+msgstr "გაცემის ID = %1$s"
+
+#: staff.circ.copy_details.last_circ
+msgid "Last Circulation"
+msgstr "ბოლო გაცემა"
+
+#: staff.circ.copy_details.current_circ
+msgid "Current Circulation"
+msgstr "მიმდინარე გაცემა"
+
+#: staff.circ.copy_details.no_circ
+msgid "This item has yet to circulate."
+msgstr "ეს მასალა ჯერ არ გაცემულა."
+
+#: staff.circ.copy_details.not_transit
+msgid "This item is not in transit."
+msgstr "ეს მასალა გადატანაში არ არის."
+
+#: staff.circ.copy_details.transit_caption
+msgid "In Transit"
+msgstr "გადატანაშია"
+
+#: staff.circ.copy_details.desk_renewal
+msgid "Desk"
+msgstr "მერხი"
+
+#: staff.circ.copy_details.opac_renewal
+msgid "OPAC"
+msgstr "OPAC"
+
+#: staff.circ.copy_details.phone_renewal
+msgid "Phone"
+msgstr "ტელეფონი"
+
+#. # Displays user info: "Family name, First name : Barcode"
+#: staff.circ.copy_details.user_details
+msgid "%1$s, %2$s : %3$s"
+msgstr "%1$s, %2$s : %3$s"
+
+#: staff.circ.copy_details.hold_caption
+msgid "Captured for Hold"
+msgstr "შეკვეთისთვის დაკავებულია"
+
+#: staff.circ.copy_details.bad_hold_status
+msgid ""
+"This item is not captured for a hold, however its status is incorrectly set "
+"to \"On Holds Shelf\".  Please check this item in to correct the status."
+msgstr "ეს ერთეული შეკვეთისთვის დაკავებული არ არის, თუმცა მისი სტატუსი შეცდომით არის დაყენებული „შეკვეთების თაროზეა“-ზე. სტატუსის გასასწორებლად დააბრუნეთ ერთეული."
+
+#: staff.circ.copy_details.no_hold
+msgid "This item is not captured for a hold."
+msgstr "ეს ერთეული შეკვეთისთვის დაკავებული არ არის."
+
+#: staff.circ.copy_details.circ_count_by_year
+msgid "%1$s : %2$s"
+msgstr "%1$s : %2$s"
+
+#: staff.circ.copy_details.circ_count_by_year.legacy_label
+msgid "Legacy/Not Dated"
+msgstr "ძველი ვერსია/თარიღის გარეშე"
+
+#. # From Config::rules::circ_duration, 1 - Name, 2 - ID, 3 - Short, 4 - Normal, 5 - Extended, 6 - Max Renewals
+#: staff.circ.copy_details.duration_rule_format
+msgctxt "staff.circ.copy_details.duration_rule_format"
+msgid "%1$s"
+msgstr "%1$s"
+
+#. # From Config::rules::circ_duration, 1 - Name, 2 - ID, 3 - Short, 4 - Normal, 5 - Extended, 6 - Max Renewals
+#: staff.circ.copy_details.duration_rule_tooltip_format
+msgid "%3$s/%4$s/%5$s - %6$s renewals"
+msgstr "%3$s/%4$s/%5$s — გაგრძელება: %6$s"
+
+#. # From Config::rules::recurring_fine, 1 - Name, 2 - ID, 3 - Low, 4 - Normal, 5 - High, 6 - Recurrence Interval
+#: staff.circ.copy_details.recurring_fine_rule_format
+msgctxt "staff.circ.copy_details.recurring_fine_rule_format"
+msgid "%1$s"
+msgstr "%1$s"
+
+#. # From Config::rules::recurring_fine, 1 - Name, 2 - ID, 3 - Low, 4 - Normal, 5 - High, 6 - Recurrence Interval
+#: staff.circ.copy_details.recurring_fine_rule_tooltip_format
+msgid "%3$s/%4$s/%5$s - %6$s"
+msgstr "%3$s/%4$s/%5$s - %6$s"
+
+#. # From Config::rules::max_fine, 1 - Name, 2 - ID, 3 - Amount, 4 - Is Percent
+#: staff.circ.copy_details.max_fine_rule_format
+msgctxt "staff.circ.copy_details.max_fine_rule_format"
+msgid "%1$s"
+msgstr "%1$s"
+
+#. # From Config::rules::max_fine, 1 - Name, 2 - ID, 3 - Amount, 4 - Is Percent
+#: staff.circ.copy_details.max_fine_rule_tooltip_format
+msgid "%3$s Is Percent? %4$s"
+msgstr "%3$s პროცენტულია? %4$s"
+
+#. # From asset::copy_location: 1 - Can Circulate?  2 - Is Holdable?  3 - Hold Capture Requires Verification?  4 - Is OPAC Visible?
+#: staff.circ.copy_details.location_tooltip
+msgid "Circulate? %1$s  Holdable? %2$s  Hold Verify? %3$s  OPAC Visible? %4$s"
+msgstr "გაცემა? %1$s შეკვეთის განთავსება? %2$s შეკვეთის შემოწმება? %3$s OPAC-ში ხილული? %4$s"
+
+#. # From config::copy_status: 1 - OPAC Visible?  2 - Is Holdable?
+#: staff.circ.copy_details.copy_status_tooltip
+msgid "OPAC Visible? %1$s  Holdable? %2$s"
+msgstr "OPAC-ში ხილული? %1$s შეკვეთის განთავსება? %2$s"
+
+#: staff.circ.copy_status.tab_name
+msgid "Item Status"
+msgstr "მასალის სტატუსი"
+
+#: staff.circ.copy_status.action.complete
+msgid "Action complete."
+msgstr "მოქმედება შესრულდა."
+
+#: staff.circ.copy_status.sel_checkin.error
+msgid "Checkin did not likely happen."
+msgstr "დაბრუნება, სავარაუდოდ, არ მომხდარა."
+
+#: staff.circ.copy_status.cmd_replace_barcode.error
+msgid "Barcode %1$s was not likely replaced."
+msgstr "შტრიხკოდი %1$s, სავარაუდოდ, არ შეცვლილა."
+
+#: staff.circ.copy_status.cmd_replace_barcodes.error
+msgid "Barcode replacements did not likely happen."
+msgstr "შტრიხკოდების ჩანაცვლება, სავარაუდოდ, არ მომხდარა."
+
+#: staff.circ.copy_status.sel_edit.error
+msgid "with copy editor"
+msgstr "ეგზემპლარის რედაქტორის გამოყენებით"
+
+#: staff.circ.copy_status.sel_renew.not_circulating
+msgid "Item with barcode %1$s is not circulating."
+msgstr "ერთეული შტრიხკოდით %1$s არ გაიცემა."
+
+#: staff.circ.copy_status.upload_file.title
+msgid "Import Barcode File"
+msgstr "შტრიხკოდების ფაილის იმპორტი"
+
+#: staff.circ.copy_status.upload_file.complete
+msgid "File uploaded."
+msgstr "ფაილი აიტვირთა."
+
+#: staff.circ.copy_status.upload_file.no_barcodes
+msgid "No barcodes found in file."
+msgstr "ფაილში შტრიხკოდები ვერ მოიძებნა."
+
+#: staff.circ.copy_status.add_items.title
+msgid "Add Item for record # %1$s"
+msgstr "ჩანაწერის №%1$s ერთეულის დამატება"
+
+#: staff.circ.copy_status.del_items.confirm
+msgid "Are you sure you want to delete these items? %1$s"
+msgstr "დარწმუნებული ხართ, რომ გსურთ ამ ერთეულების წაშლა? %1$s"
+
+#: staff.circ.copy_status.del_items.title
+msgctxt "staff.circ.copy_status.del_items.title"
+msgid "Override Delete Failure?"
+msgstr "გსურთ წაშლის შეცდომის უგულებელყოფა?"
+
+#: staff.circ.copy_status.del_items.success
+msgid "Items Deleted"
+msgstr "მასალები წაიშალა"
+
+#: staff.circ.copy_status.del_items.success.error
+msgid "Batch Item Deletion"
+msgstr "მასალების ჯგუფური წაშლა"
+
+#: staff.circ.copy_status.transfer_items.mark_destination
+msgid "Please mark a volume as the destination and then try this again."
+msgstr "მონიშნეთ ტომი დანიშნულების ადგილად და ხელახლა სცადეთ."
+
+#: staff.circ.copy_status.transfer_items.problem
+msgid "All copies not likely transferred."
+msgstr "ყველა ეგზემპლარი, სავარაუდოდ, არ გადატანილა."
+
+#: staff.circ.copy_status.add_volumes.perm_failure
+msgid "You do not have permission to add volumes to that library."
+msgstr "ამ ბიბლიოთეკაში ტომების დამატების უფლება არ გაქვთ."
+
+#: staff.circ.copy_status.add_volumes.title
+msgid "Add Volume/Item for Record # %1$s"
+msgstr "ჩანაწერის №%1$s ტომის/ერთეულის დამატება"
+
+#: staff.circ.copy_status.edit_volumes.perm_failure
+msgid "You do not have permission to edit this volume."
+msgstr "ამ ტომის რედაქტირების უფლება არ გაქვთ."
+
+#: staff.circ.copy_status.edit_volume.title
+msgid "Volume for record # %1$s"
+msgstr "ჩანაწერის №%1$s ტომი"
+
+#: staff.circ.copy_status.edit_volumes.title
+msgid "Volumes for record # %1$s"
+msgstr "ჩანაწერის №%1$s ტომები"
+
+#: staff.circ.copy_status.edit_volumes.duplicate
+msgid ""
+"Edit failed:  You tried to change a volume's callnumber to one that is "
+"already in use for the given library.  You should transfer the items to the "
+"desired callnumber instead."
+msgstr "რედაქტირება ვერ მოხერხდა: ტომის შიფრის შეცვლა სცადეთ იმ შიფრით, რომელიც ამ ბიბლიოთეკაში უკვე გამოიყენება. ამის ნაცვლად გადაიტანეთ ერთეულები სასურველ შიფრზე."
+
+#: staff.circ.copy_status.edit_volumes.success
+msgid "Volumes modified."
+msgstr "ტომები შეიცვალა."
+
+#: staff.circ.copy_status.delete_volumes.singular
+msgid "Are you sure you would like to delete this volume?"
+msgstr "ნამდვილად გსურთ ამ ტომის წაშლა?"
+
+#: staff.circ.copy_status.delete_volumes.plural
+msgid "Are you sure you would like to delete these volumes?"
+msgstr "ნამდვილად გსურთ ამ ტომების წაშლა?"
+
+#: staff.circ.copy_status.delete_volumes.title
+msgid "Delete Volumes?"
+msgstr "წაიშალოს ტომები?"
+
+#: staff.circ.copy_status.delete_volumes.delete
+msgid "Delete"
+msgstr "წაშლა"
+
+#: staff.circ.copy_status.delete_volumes.cancel
+msgctxt "staff.circ.copy_status.delete_volumes.cancel"
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: staff.circ.copy_status.delete_volumes.override
+msgctxt "staff.circ.copy_status.delete_volumes.override"
+msgid "Override Delete Failure?"
+msgstr "გსურთ წაშლის შეცდომის უგულებელყოფა?"
+
+#: staff.circ.copy_status.delete_volumes.delete_copies
+msgid ""
+"You must delete all the items on the volume before you may delete the volume "
+"itself."
+msgstr "ტომის წაშლამდე საჭიროა მასზე არსებული ყველა ერთეულის წაშლა."
+
+#: staff.circ.copy_status.delete_volumes.delete_copies.confirm
+msgid "Delete Volume and Items"
+msgstr "ტომისა და მასალების წაშლა"
+
+#: staff.circ.copy_status.delete_volumes.delete_copies.cancel
+msgid "Cancel Delete"
+msgstr "წაშლის გაუქმება"
+
+#: staff.circ.copy_status.mark_volume.status
+msgid "Volume marked as Item Transfer Destination"
+msgstr "ტომი მონიშნულია ერთეულის გადატანის დანიშნულების ადგილად"
+
+#: staff.circ.copy_status.mark_volume.prompt
+msgid "Choose just one Volume to mark as Item Transfer Destination"
+msgstr "ერთეულის გადატანის დანიშნულების ადგილად მხოლოდ ერთი ტომი მონიშნეთ"
+
+#: staff.circ.copy_status.mark_volume.title
+msgctxt "staff.circ.copy_status.mark_volume.title"
+msgid "Limit Selection"
+msgstr "არჩევანის შეზღუდვა"
+
+#: staff.circ.copy_status.ok
+msgctxt "staff.circ.copy_status.ok"
+msgid "OK"
+msgstr "კარგი"
+
+#: staff.circ.copy_status.mark_library
+msgid "Library and Record marked as Volume Transfer Destination"
+msgstr "ბიბლიოთეკა და ჩანაწერი მონიშნულია ტომის გადატანის დანიშნულების ადგილად"
+
+#: staff.circ.copy_status.mark_library.limit_one
+msgid "Choose just one Library to mark as Volume Transfer Destination"
+msgstr "ტომის გადატანის დანიშნულების ადგილად მხოლოდ ერთი ბიბლიოთეკა მონიშნეთ"
+
+#: staff.circ.copy_status.mark_library.limit_one.title
+msgctxt "staff.circ.copy_status.mark_library.limit_one.title"
+msgid "Limit Selection"
+msgstr "არჩევანის შეზღუდვა"
+
+#: staff.circ.copy_status.transfer_volume.none
+msgid ""
+"Please mark a library as the destination from within holdings maintenance "
+"and then try this again."
+msgstr "ეგზემპლარების მართვის ფანჯარაში მონიშნეთ ბიბლიოთეკა დანიშნულების ადგილად და ხელახლა სცადეთ."
+
+#: staff.circ.copy_status.transfer_volume.confirm
+msgid "Transfer volumes %1$s to library %2$s on the following record?"
+msgstr "გსურთ ტომების %1$s გადატანა ბიბლიოთეკაში %2$s შემდეგ ჩანაწერზე?"
+
+#: staff.circ.copy_status.transfer_volume.transfer.label
+msgid "Transfer"
+msgstr "გადატანა"
+
+#: staff.circ.copy_status.transfer_volume.cancel.label
+msgctxt "staff.circ.copy_status.transfer_volume.cancel.label"
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: staff.circ.copy_status.transfer_volume.cancel.accesskey
+msgid "C"
+msgstr "C"
+
+#: staff.circ.copy_status.transfer_volume.title
+msgid "Volume Transfer"
+msgstr "ტომების გადატანა"
+
+#: staff.circ.copy_status.transfer_volume.aborted
+msgid "Transfer Aborted"
+msgstr "გადატანა შეწყდა"
+
+#: staff.circ.copy_status.transfer_volume.override_failure
+msgid "Override Volume Transfer Failure?"
+msgstr "გსურთ ტომის გადატანის შეცდომის უგულებელყოფა?"
+
+#: staff.circ.copy_status.transfer_volume.cannot_have_vols
+msgid "That destination cannot have volumes."
+msgstr "ამ დანიშნულების ადგილს ტომები ვერ მიეკუთვნება."
+
+#: staff.circ.copy_status.transfer_volume.success
+msgid "Volumes transferred."
+msgstr "ტომები გადაიტანეს."
+
+#: staff.circ.copy_status.transfer_volume.error
+msgid "All volumes not likely transferred."
+msgstr "ყველა ტომი, სავარაუდოდ, არ გადატანილა."
+
+#: staff.circ.copy_status.test_barcode.prompt
+msgctxt "staff.circ.copy_status.test_barcode.prompt"
+msgid ""
+"Bad check digit, possibly due to a bad scan.  Use this barcode (\"%1$s\") "
+"anyway?"
+msgstr "საკონტროლო ციფრი არასწორია, შესაძლოა სკანირების შეცდომის გამო. მაინც გამოვიყენოთ ეს შტრიხკოდი („%1$s“)?"
+
+#: staff.circ.copy_status.status.null_result
+msgid "Something weird happened.  Result was null."
+msgstr "მოულოდნელი შეცდომა მოხდა. შედეგი ცარიელი იყო."
+
+#: staff.circ.copy_status.status.copy_not_found
+msgid "%1$s was either mis-scanned or is not cataloged."
+msgstr "%1$s არასწორად დასკანერდა ან კატალოგში არ არის."
+
+#: staff.circ.copy_status.status.not_cataloged
+msgctxt "staff.circ.copy_status.status.not_cataloged"
+msgid "Not Cataloged"
+msgstr "კატალოგში არ არის"
+
+#: staff.circ.copy_status.status.pre_cat
+msgid "Item is a pre-cataloged item."
+msgstr "მასალა წინასწარ კატალოგიზებულია."
+
+#: staff.circ.copy_status.status.hold
+msgid "Item is captured for a Hold."
+msgstr "ერთეული დაკავებულია ჯავშნისთვის."
+
+#: staff.circ.copy_status.status.transit
+msgid "Item is in Transit."
+msgstr "მასალა გადატანაშია."
+
+#: staff.circ.copy_status.status.circ
+msgid "Item is circulating."
+msgstr "მასალა გაცემულია."
+
+#: staff.circ.copy_status.alt_view.label
+msgid "Alternate View"
+msgstr "ალტერნატიული ხედი"
+
+#: staff.circ.copy_status.alt_view.accesskey
+msgctxt "staff.circ.copy_status.alt_view.accesskey"
+msgid "V"
+msgstr "V"
+
+#: staff.circ.copy_status.list_view.label
+msgctxt "staff.circ.copy_status.list_view.label"
+msgid "List View"
+msgstr "სიის ხედი"
+
+#: staff.circ.copy_status.list_view.accesskey
+msgctxt "staff.circ.copy_status.list_view.accesskey"
+msgid "V"
+msgstr "V"
+
+#: staff.circ.hold_capture.print.to_printer
+msgid "To Printer"
+msgstr "პრინტერზე"
+
+#. # pad this with whitespace to align with the rest of the staff.circ.hold_capture.print.* entries
+#: staff.circ.hold_capture.print.barcode
+msgctxt "staff.circ.hold_capture.print.barcode"
+msgid "Barcode:"
+msgstr "შტრიხკოდი:"
+
+#. # pad this with whitespace to align with the rest of the staff.circ.hold_capture.print.* entries
+#: staff.circ.hold_capture.print.title
+msgid "Title:"
+msgstr "სათაური:"
+
+#. # pad this with whitespace to align with the rest of the staff.circ.hold_capture.print.* entries
+#: staff.circ.hold_capture.print.author
+msgid "Author:"
+msgstr "ავტორი:"
+
+#. # pad this with whitespace to align with the rest of the staff.circ.hold_capture.print.* entries
+#: staff.circ.hold_capture.print.route_to
+msgid "Route to:"
+msgstr "მარშრუტი:"
+
+#. # pad this with whitespace to align with the rest of the staff.circ.hold_capture.print.* entries
+#: staff.circ.hold_capture.print.patron
+msgid "Patron:"
+msgstr "მკითხველი:"
+
+#: staff.circ.hold_capture.calling_external
+msgid "circ.hold_capture: Calling external .on_hold_capture()"
+msgstr "circ.hold_capture: გარე .on_hold_capture() ფუნქციის გამოძახება"
+
+#: staff.circ.hold_capture.no_external
+msgid "circ.hold_capture: No external .on_hold_capture()"
+msgstr "circ.hold_capture: გარე .on_hold_capture() ფუნქცია არ არის"
+
+#: staff.circ.hold_capture.capture_failed
+msgid "Could not capture hold."
+msgstr "შეკვეთის დაკავება ვერ მოხერხდა."
+
+#: staff.circ.hold_capture.error
+msgid "FIXME: need special alert and error handling"
+msgstr "FIXME: საჭიროა გაფრთხილებისა და შეცდომის სპეციალური დამუშავება"
+
+#: staff.circ.route_to.hold_shelf
+msgid "HOLD SHELF"
+msgstr "ჯავშნების თარო"
+
+#: staff.circ.route_to.public_hold_shelf
+msgid "PUBLIC HOLD SHELF"
+msgstr "საჯარო ჯავშნების თარო"
+
+#: staff.circ.route_to.private_hold_shelf
+msgid "PRIVATE HOLD SHELF"
+msgstr "პირადი ჯავშნების თარო"
+
+#: staff.circ.in_house_use.tab_name
+msgid "In-House Use"
+msgstr "ადგილზე გამოყენება"
+
+#: staff.circ.in_house_use.barcode
+msgctxt "staff.circ.in_house_use.barcode"
+msgid "Barcode:"
+msgstr "შტრიხკოდი:"
+
+#: staff.circ.in_house_use.noncat_sort_error
+msgid "error in noncat sorting:"
+msgstr "არაკატალოგიზებული ერთეულების დალაგების შეცდომა:"
+
+#: staff.circ.in_house_use.noncataloged
+msgid "Non-Cataloged"
+msgstr "არაკატალოგიზებული"
+
+#: staff.circ.in_house_use.items_dump
+msgid "items = "
+msgstr "items = "
+
+#: staff.circ.in_house_use.confirm_multiple
+msgid "Are you sure you want to mark %1$s as having been used %2$s times?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ %1$s-ის %2$s-ჯერ გამოყენებულად მონიშვნა?"
+
+#: staff.circ.in_house_use.confirm_multiple.title
+msgid "In-House Use Verification"
+msgstr "ადგილზე გამოყენების დადასტურება"
+
+#: staff.circ.in_house_use.yes
+msgctxt "staff.circ.in_house_use.yes"
+msgid "Yes"
+msgstr "დიახ"
+
+#: staff.circ.in_house_use.no
+msgctxt "staff.circ.in_house_use.no"
+msgid "No"
+msgstr "არა"
+
+#. # adjust Circulation -> Offline Interface to match your translation in lang.dtd
+#: staff.circ.in_house_use.failed.verbose
+msgid ""
+"In House Use Failed.  If you wish to use the offline interface, in the top "
+"menubar select Circulation -> Offline Interface"
+msgstr "ადგილზე გამოყენება ვერ მოხერხდა. ავტონომიური ინტერფეისის გამოსაყენებლად ზედა მენიუში აირჩიეთ „გაცემა“ -> „ავტონომიური ინტერფეისი“."
+
+#: staff.circ.in_house_use.failed
+msgid "In House Use Failed"
+msgstr "ადგილზე გამოყენება ვერ მოხერხდა"
+
+#: staff.circ.in_house_use.ok
+msgctxt "staff.circ.in_house_use.ok"
+msgid "OK"
+msgstr "კარგი"
+
+#: staff.circ.in_house_use.external
+msgid "circ.in_house_use: Calling external .on_in_house_use()"
+msgstr "circ.in_house_use: გარე .on_in_house_use() ფუნქციის გამოძახება"
+
+#: staff.circ.in_house_use.no_external
+msgid "circ.in_house_use: No external .on_in_house_use()"
+msgstr "circ.in_house_use: გარე .on_in_house_use() ფუნქცია არ არის"
+
+#: staff.circ.in_house_use.on_failure.external
+msgid "circ.in_house_use: Calling external .on_failure()"
+msgstr "circ.in_house_use: გარე .on_failure() ფუნქციის გამოძახება"
+
+#: staff.circ.in_house_use.on_failure.no_external
+msgid "circ.in_house_use: No external .on_failure()"
+msgstr "circ.in_house_use: გარე .on_failure() ფუნქცია არ არის"
+
+#: staff.circ.print_list_template.window.title
+msgid "Template Macros"
+msgstr "შაბლონის მაკროსები"
+
+#: staff.circ.print_list_template.window.heading
+msgid "General:"
+msgstr "ზოგადი:"
+
+#: staff.circ.print_list_template.window.template_type
+msgid "For type: %1$s"
+msgstr "ტიპისთვის: %1$s"
+
+#: staff.circ.print_list_template.window.close
+msgid "Close Window"
+msgstr "ფანჯრის დახურვა"
+
+#: staff.circ.print_list_template.preview
+msgid "preview: "
+msgstr "წინასწარი ნახვა: "
+
+#: staff.circ.print_list_template.save
+msgid "Template Saved"
+msgstr "შაბლონი შენახულია"
+
+#: staff.circ.print_list_template.save_as
+msgid "Save Templates File As"
+msgstr "შაბლონების ფაილის შენახვა სახელით"
+
+#: staff.circ.print_list_template.export.error
+msgctxt "staff.circ.print_list_template.export.error"
+msgid "Error exporting templates"
+msgstr "შაბლონების ექსპორტის შეცდომა"
+
+#: staff.circ.print_list_template.import
+msgid "Import Templates File"
+msgstr "შაბლონების ფაილის იმპორტი"
+
+#: staff.circ.print_list_template.import_results
+msgid "Imported these templates: %1$s"
+msgstr "იმპორტირებულია შემდეგი შაბლონები: %1$s"
+
+#: staff.circ.print_list_template.reload
+msgid "Please reload this interface."
+msgstr "ხელახლა ჩატვირთეთ ეს ინტერფეისი."
+
+#: staff.circ.print_list_template.import.error
+msgctxt "staff.circ.print_list_template.import.error"
+msgid "Error exporting templates"
+msgstr "შაბლონების ექსპორტის შეცდომა"
+
+#: staff.circ.print_list_template.tab_name
+msgid "Receipt Template Editor"
+msgstr "ქვითრის შაბლონის რედაქტორი"
+
+#: staff.circ.utils.abort_transits.confirm
+msgid "Are you sure you would like to cancel transits for copies: %1$s?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ ეგზემპლარების ტრანზიტის გაუქმება: %1$s?"
+
+#: staff.circ.utils.abort_transits.title
+msgid "Canceling Transits"
+msgstr "გადაზიდვების გაუქმება"
+
+#: staff.circ.utils.yes
+msgctxt "staff.circ.utils.yes"
+msgid "Yes"
+msgstr "დიახ"
+
+#: staff.circ.utils.no
+msgctxt "staff.circ.utils.no"
+msgid "No"
+msgstr "არა"
+
+#: staff.circ.utils.abort_transits.not_allowed
+msgid "Copy ID = %1$s"
+msgstr "ეგზემპლარის ID = %1$s"
+
+#: staff.circ.utils.abort_transits.not_found
+msgid ""
+"This item was no longer in transit at the time of the cancellation.  Perhaps "
+"this happened from a stale display?"
+msgstr "გაუქმების მომენტში ეს ერთეული უკვე აღარ იყო გადაზიდვაში. შესაძლოა, ეკრანზე მოძველებული ინფორმაცია ჩანდა."
+
+#: staff.circ.utils.abort_transits.unexpected_error
+msgid "Transit not likely canceled."
+msgstr "გადაზიდვა, სავარაუდოდ, არ გაუქმებულა."
+
+#: staff.circ.utils.retrieve_patron.failure
+msgid "Problem retrieving patron."
+msgstr "მკითხველის მიღების პრობლემა."
+
+#: staff.circ.utils.retrieve_copy.failure
+msgid "Problem retrieving copy details."
+msgstr "ეგზემპლარის დეტალების მიღების პრობლემა."
+
+#: staff.circ.utils.retrieve_circs.failure
+msgid "Problem retrieving circulations."
+msgstr "გაცემების მიღების პრობლემა."
+
+#: staff.circ.utils.offline.timestamp
+msgid "Timestamp"
+msgstr "დროის ნიშნული"
+
+#: staff.circ.utils.offline.checkout_time
+msgid "Check Out Time"
+msgstr "გაცემის დრო"
+
+#: staff.circ.utils.offline.type
+msgid "Transaction Type"
+msgstr "ტრანზაქციის ტიპი"
+
+#: staff.circ.utils.offline.noncat
+msgid "Non-Cataloged?"
+msgstr "არაკატალოგიზებულია?"
+
+#: staff.circ.utils.offline.noncat_type
+msgid "Non-Cataloged Type ID"
+msgstr "არაკატალოგიზებული ტიპის ID"
+
+#: staff.circ.utils.offline.count
+msgid "Count"
+msgstr "რაოდენობა"
+
+#: staff.circ.utils.offline.patron_barcode
+msgid "Patron Barcode"
+msgstr "მკითხველის შტრიხკოდი"
+
+#: staff.circ.utils.offline.item_barcode
+msgid "Item Barcode"
+msgstr "ერთეულის შტრიხკოდი"
+
+#: staff.circ.utils.offline.due_date
+msgid "Due Date"
+msgstr "დაბრუნების ვადა"
+
+#: staff.circ.utils.offline.backdate
+msgid "Back Date"
+msgstr "უკანა თარიღი"
+
+#: staff.circ.utils.offline.use_time
+msgid "Use Time"
+msgstr "გამოყენების დრო"
+
+#: staff.circ.utils.not_cataloged
+msgctxt "staff.circ.utils.not_cataloged"
+msgid "Not Cataloged"
+msgstr "კატალოგში არ არის"
+
+#: staff.circ.utils.retrieving
+msgid "Retrieving..."
+msgstr "მონაცემების მიღება..."
+
+#: staff.circ.utils.owning_lib
+msgid "Owning Library"
+msgstr "მფლობელი ბიბლიოთეკა"
+
+#: staff.circ.utils.prefix
+msgid "CN Prefix"
+msgstr "შიფრის პრეფიქსი"
+
+#: staff.circ.utils.suffix
+msgid "CN Suffix"
+msgstr "შიფრის სუფიქსი"
+
+#: staff.circ.utils.label_class
+msgid "Classification"
+msgstr "კლასიფიკაცია"
+
+#: staff.circ.utils.loan_duration.short
+msgid "Short"
+msgstr "მოკლე"
+
+#: staff.circ.utils.loan_duration.normal
+msgctxt "staff.circ.utils.loan_duration.normal"
+msgid "Normal"
+msgstr "ჩვეულებრივი"
+
+#: staff.circ.utils.loan_duration.long
+msgid "Long"
+msgstr "გრძელი"
+
+#: staff.circ.utils.fine_level.low
+msgid "Low"
+msgstr "დაბალი"
+
+#: staff.circ.utils.fine_level.normal
+msgctxt "staff.circ.utils.fine_level.normal"
+msgid "Normal"
+msgstr "ჩვეულებრივი"
+
+#: staff.circ.utils.fine_level.high
+msgid "High"
+msgstr "მაღალი"
+
+#: staff.circ.utils.circulate
+msgid "Circulate?"
+msgstr "გაიცემა?"
+
+#: staff.circ.utils.deleted
+msgid "Deleted?"
+msgstr "წაშლილია?"
+
+#: staff.circ.utils.holdable
+msgid "Holdable?"
+msgstr "შეკვეთის განთავსება შეიძლება?"
+
+#: staff.circ.utils.age_protect
+msgid "Age-based Hold Protection"
+msgstr "ჯავშნის დაცვა ასაკის მიხედვით"
+
+#: staff.circ.utils.floating
+msgid "Floating?"
+msgstr "მცურავია?"
+
+#: staff.circ.utils.hold_note
+msgid "Hold Note(s) Count"
+msgstr "შეკვეთის შენიშვნების რაოდენობა"
+
+#: staff.circ.utils.hold_note_text
+msgid "Hold Note(s) Text"
+msgstr "შეკვეთის შენიშვნის ტექსტი"
+
+#: staff.circ.utils.staff_hold
+msgid "Staff Hold?"
+msgstr "თანამშრომლის მიერ განთავსებული შეკვეთაა?"
+
+#: staff.circ.utils.opac_visible
+msgid "OPAC Visible?"
+msgstr "OPAC-ში ხილულია?"
+
+#: staff.circ.utils.status_changed_time
+msgid "Status Changed Time"
+msgstr "სტატუსის შეცვლის დრო"
+
+#: staff.circ.utils.reference
+msgid "Reference?"
+msgstr "საცნობაროა?"
+
+#: staff.circ.utils.deposit
+msgid "Deposit?"
+msgstr "დეპოზიტია?"
+
+#: staff.circ.utils.acp_mint_condition
+msgid "Quality"
+msgstr "ხარისხი"
+
+#: staff.circ.utils.acp_mint_condition.true
+msgctxt "staff.circ.utils.acp_mint_condition.true"
+msgid "Good"
+msgstr "კარგი"
+
+#: staff.circ.utils.acp_mint_condition.false
+msgid "Mediocre"
+msgstr "საშუალო"
+
+#. # The < and > highlight that the value is not set; translate Unset and change the delimiters as needed
+#: staff.circ.utils.unset
+msgid "<Unset>"
+msgstr "<დაყენებული არ არის>"
+
+#: staff.circ.utils.checkout_lib
+msgid "Checkout or Renew Library"
+msgstr "გაცემის ან გაგრძელების ბიბლიოთეკა"
+
+#: staff.circ.utils.checkout_workstation
+msgid "Circ or Renewal Workstation"
+msgstr "გაცემის ან გაგრძელების სამუშაო სადგური"
+
+#: staff.circ.utils.checkout_workstation_top_of_chain
+msgid "Checkout Workstation"
+msgstr "გაცემის სამუშაო სადგური"
+
+#: staff.circ.utils.xact_start
+msgid "Checkout Date"
+msgstr "გაცემის თარიღი"
+
+#: staff.circ.utils.checkin_time
+msgid "Checkin Date"
+msgstr "დაბრუნების თარიღი"
+
+#: staff.circ.utils.xact_finish
+msgid "Transaction Finished"
+msgstr "ტრანზაქცია დასრულებულია"
+
+#: staff.circ.utils.checkin_scan_time
+msgid "Checkin Scan Date"
+msgstr "დაბრუნების სკანირების თარიღი"
+
+#: staff.circ.utils.checkin_workstation
+msgid "Checkin Workstation"
+msgstr "დაბრუნების სამუშაო სადგური"
+
+#: staff.circ.utils.create_date
+msgid "Date Created"
+msgstr "შექმნის თარიღი"
+
+#: staff.circ.utils.active_date
+msgid "Date Active"
+msgstr "გააქტიურების თარიღი"
+
+#: staff.circ.utils.edit_date
+msgid "Date Last Edited "
+msgstr "ბოლო რედაქტირების თარიღი "
+
+#: staff.circ.utils.bre.create_date
+msgid "Date Record Created"
+msgstr "ჩანაწერის შექმნის თარიღი"
+
+#: staff.circ.utils.bre.edit_date
+msgid "Date Record Last Edited "
+msgstr "ჩანაწერის ბოლო რედაქტირების თარიღი "
+
+#: staff.circ.utils.edition
+msgid "Edition"
+msgstr "გამოცემა"
+
+#: staff.circ.utils.isbn
+msgid "ISBN"
+msgstr "ISBN"
+
+#: staff.circ.utils.pubdate
+msgid "Publication Date"
+msgstr "გამოცემის თარიღი"
+
+#: staff.circ.utils.publisher
+msgid "Publisher"
+msgstr "გამომცემელი"
+
+#: staff.circ.utils.creator
+msgid "Created By"
+msgstr "შემქმნელი"
+
+#: staff.circ.utils.owner
+msgid "Owned By"
+msgstr "მფლობელი"
+
+#: staff.circ.utils.editor
+msgid "Edited By"
+msgstr "რედაქტორი"
+
+#. # TCN is an acronym for Title Control Number
+#: staff.circ.utils.tcn
+msgid "TCN"
+msgstr "TCN"
+
+#: staff.circ.utils.tcn_source
+msgid "TCN Source"
+msgstr "TCN წყარო"
+
+#: staff.circ.utils.stop_fines
+msgid "Fines Stopped"
+msgstr "ჯარიმები შეჩერებულია"
+
+#: staff.circ.utils.stop_fines_time
+msgid "Fines Stopped Time"
+msgstr "ჯარიმების შეჩერების დრო"
+
+#: staff.circ.utils.route_to
+msgid "Route To"
+msgstr "მიმღები"
+
+#: staff.circ.utils.message
+msgctxt "staff.circ.utils.message"
+msgid "Message"
+msgstr "შეტყობინება"
+
+#: staff.circ.utils.uses
+msgid "# of Uses"
+msgstr "გამოყენებების რაოდენობა"
+
+#: staff.circ.utils.alert_message
+msgid "Alert Message"
+msgstr "გაფრთხილების შეტყობინება"
+
+#: staff.circ.utils.barcode
+msgid "Barcode"
+msgstr "შტრიხკოდი"
+
+#: staff.circ.utils.title
+msgid "Title"
+msgstr "სათაური"
+
+#: staff.circ.utils.author
+msgid "Author"
+msgstr "ავტორი"
+
+#: staff.circ.utils.callnumber
+msgid "Call Number"
+msgstr "შიფრი"
+
+#: staff.circ.utils.transit_id
+msgid "Transit ID"
+msgstr "გადაზიდვის ID"
+
+#: staff.circ.utils.transit_source
+msgid "Transit Source"
+msgstr "გადაზიდვის წყარო"
+
+#: staff.circ.utils.transit_source_send_time
+msgid "Transit Send Time"
+msgstr "გადაზიდვის გაგზავნის დრო"
+
+#: staff.circ.utils.transit_dest
+msgid "Transit Destination"
+msgstr "გადაზიდვის დანიშნულების ადგილი"
+
+#: staff.circ.utils.transit_dest_recv_time
+msgid "Transit Completion Time"
+msgstr "გადაზიდვის დასრულების დრო"
+
+#: staff.circ.utils.transit_target_copy
+msgid "Transit Copy ID"
+msgstr "ტრანზიტული ეგზემპლარის ID"
+
+#: staff.circ.utils.transit_copy_status
+msgid "Transit Copy Status"
+msgstr "ტრანზიტული ეგზემპლარის სტატუსი"
+
+#: staff.circ.utils.request_lib
+msgid "Request Library (Full Name)"
+msgstr "მოთხოვნის ბიბლიოთეკა (სრული სახელი)"
+
+#: staff.circ.utils.request_lib_shortname
+msgid "Request Library"
+msgstr "მოთხოვნის ბიბლიოთეკა"
+
+#: staff.circ.utils.request_time
+msgctxt "staff.circ.utils.request_time"
+msgid "Request Date"
+msgstr "მოთხოვნის თარიღი"
+
+#. # Date the hold became available
+#: staff.circ.utils.available_time
+msgid "Available On"
+msgstr "ხელმისაწვდომია თარიღიდან"
+
+#. # Date the hold was captured
+#: staff.circ.utils.capture_time
+msgid "Capture Date"
+msgstr "დაკავების თარიღი"
+
+#. # Date the hold was cancelled
+#: staff.circ.utils.hold_cancel_time
+msgid "Cancel Time"
+msgstr "გაუქმების დრო"
+
+#: staff.circ.utils.hold.behind_desk
+msgid "Behind Desk"
+msgstr "მომსახურების მაგიდის უკან"
+
+#. # Controlled entry for why the hold was cancelled
+#: staff.circ.utils.hold_cancel_cause
+msgid "Cancel Cause"
+msgstr "გაუქმების მიზეზი"
+
+#. # Freetext note pertaining to the cancelled hold
+#: staff.circ.utils.hold_cancel_note
+msgid "Cancel Note"
+msgstr "გაუქმების შენიშვნა"
+
+#: staff.circ.utils.hold_status.1
+msgid "Waiting for copy"
+msgstr "ეგზემპლარის მოლოდინში"
+
+#: staff.circ.utils.hold_status.2
+msgid "Waiting for capture"
+msgstr "დაკავების მოლოდინში"
+
+#: staff.circ.utils.hold_status.3
+msgid "In-Transit"
+msgstr "გადაზიდვაშია"
+
+#: staff.circ.utils.hold_status.4
+msgid "Ready for pickup"
+msgstr "გატანისთვის მზადაა"
+
+#: staff.circ.utils.hold_status.5
+msgid "Reserved/Pending"
+msgstr "დაჯავშნილია/მოლოდინშია"
+
+#: staff.circ.utils.hold_status.6
+msgid "Canceled"
+msgstr "გაუქმებულია"
+
+#: staff.circ.utils.hold_status.7
+msgid "Suspended"
+msgstr "შეჩერებულია"
+
+#: staff.circ.utils.hold_status.8
+msgctxt "staff.circ.utils.hold_status.8"
+msgid "Wrong Shelf"
+msgstr "არასწორი თარო"
+
+#: staff.circ.utils.hold_post_clear_shelf_action.label
+msgid "Post-Clear"
+msgstr "გასუფთავების შემდგომი"
+
+#: staff.circ.utils.hold_post_clear_shelf_action.hold
+msgid "Need for Hold"
+msgstr "შეკვეთის საჭიროება"
+
+#: staff.circ.utils.hold_post_clear_shelf_action.transit
+msgid "Need for Transit"
+msgstr "გადაზიდვის საჭიროება"
+
+#: staff.circ.utils.hold_post_clear_shelf_action.shelf
+msgid "Reshelve"
+msgstr "თაროზე დაბრუნება"
+
+#: staff.circ.utils.hold_post_clear_shelf_action.pl_changed
+msgctxt "staff.circ.utils.hold_post_clear_shelf_action.pl_changed"
+msgid "Wrong Shelf"
+msgstr "არასწორი თარო"
+
+#: staff.circ.utils.frozen
+msgid "Frozen?"
+msgstr "შეჩერებულია?"
+
+#: staff.circ.utils.active
+msgid "Active?"
+msgstr "აქტიურია?"
+
+#: staff.circ.utils.thaw_date
+msgctxt "staff.circ.utils.thaw_date"
+msgid "Activation Date"
+msgstr "გააქტიურების თარიღი"
+
+#: staff.circ.utils.thaw_date.none
+msgid "No Date"
+msgstr "თარიღის გარეშე"
+
+#: staff.circ.utils.pickup_lib
+msgid "Pickup Library (Full Name)"
+msgstr "გატანის ბიბლიოთეკა (სრული სახელი)"
+
+#: staff.circ.utils.current_shelf_lib
+msgid "Current Shelf Library (Full Name)"
+msgstr "მიმდინარე თაროს ბიბლიოთეკა (სრული სახელი)"
+
+#: staff.circ.utils.current_copy.none
+msgid "No Copy"
+msgstr "ეგზემპლარი არ არის"
+
+#: staff.circ.utils.title.none
+msgid "No Title?"
+msgstr "სათაური არ არის?"
+
+#: staff.circ.utils.author.none
+msgid "No Author?"
+msgstr "ავტორი არ არის?"
+
+#: staff.circ.utils.notify_time
+msgid "Last Notify Time"
+msgstr "ბოლო შეტყობინების დრო"
+
+#: staff.circ.utils.notify_count
+msgid "Notices"
+msgstr "შეტყობინებები"
+
+#: staff.circ.utils.patron_alias
+msgid "Patron Alias"
+msgstr "მკითხველის ფსევდონიმი"
+
+#: staff.circ.utils.patron_family_name
+msgid "Patron Last Name"
+msgstr "მკითხველის გვარი"
+
+#: staff.circ.utils.patron_first_given_name
+msgid "Patron First Name"
+msgstr "მკითხველის სახელი"
+
+#: staff.circ.utils.checkin.override
+msgid "Override Checkin Failure?"
+msgstr "გსურთ დაბრუნების შეცდომის უგულებელყოფა?"
+
+#: staff.circ.utils.checkin.override.item_deposit_paid.warning
+msgid "A paid deposit will be owed to this patron if this action is overrided."
+msgstr "ამ მოქმედების უგულებელყოფის შემთხვევაში მკითხველს გადახდილი დეპოზიტი უნდა დაუბრუნდეს."
+
+#: staff.circ.utils.billable.amount
+msgid "Transaction for %1$s billable $%2$s"
+msgstr "ტრანზაქცია %1$s-ზე, დასარიცხი თანხა: $%2$s"
+
+#: staff.circ.utils.fine_tally_text
+msgid "Fine Tally: $%1$s"
+msgstr "ჯარიმების ჯამი: $%1$s"
+
+#: staff.circ.utils.transit_hold_cancelled
+msgid "Original hold for transit cancelled."
+msgstr "გადაზიდვის საწყისი შეკვეთა გაუქმდა."
+
+#: staff.circ.utils.item_checked_in
+msgid "%1$s was already checked in."
+msgstr "%1$s უკვე დაბრუნებულია."
+
+#: staff.circ.utils.item_not_cataloged
+msgid "ITEM_NOT_CATALOGED event but copy status is %1$s"
+msgstr "ITEM_NOT_CATALOGED მოვლენა, მაგრამ ეგზემპლარის სტატუსია %1$s"
+
+#: staff.circ.utils.route_to.msg
+msgid "This item needs to be routed to %1$s"
+msgstr "ეს ერთეული უნდა გადაიგზავნოს მისამართზე %1$s"
+
+#: staff.circ.utils.route_item_error
+msgid "We should have received a ROUTE_ITEM"
+msgstr "ROUTE_ITEM შეტყობინება მიღებული უნდა ყოფილიყო"
+
+#: staff.circ.utils.route_item_status_error
+msgid "status of Holds Shelf, but no actual hold found."
+msgstr "შეკვეთების თაროს სტატუსია, თუმცა შეკვეთა ვერ მოიძებნა."
+
+#: staff.circ.utils.reservation_status_error
+msgid "status of Reservation Shelf, but no actual hold found."
+msgstr "ჯავშნების თაროს სტატუსია, თუმცა შეკვეთა ვერ მოიძებნა."
+
+#: staff.circ.utils.payload.hold.barcode
+msgctxt "staff.circ.utils.payload.hold.barcode"
+msgid "Barcode: %1$s"
+msgstr "შტრიხკოდი: %1$s"
+
+#: staff.circ.utils.payload.hold.title
+msgctxt "staff.circ.utils.payload.hold.title"
+msgid "Title: %1$s"
+msgstr "სათაური: %1$s"
+
+#: staff.circ.utils.ahr_mint_condition
+msgid "Copy Quality"
+msgstr "ეგზემპლარის ხარისხი"
+
+#: staff.circ.utils.ahr_mint_condition.true
+msgctxt "staff.circ.utils.ahr_mint_condition.true"
+msgid "Good"
+msgstr "კარგი"
+
+#: staff.circ.utils.ahr_mint_condition.false
+msgid "Any"
+msgstr "ნებისმიერი"
+
+#: staff.circ.utils.holds.shelf_time
+msgid "Shelf Time"
+msgstr "თაროზე განთავსების დრო"
+
+#: staff.circ.utils.holds.shelf_expire_time
+msgctxt "staff.circ.utils.holds.shelf_expire_time"
+msgid "Shelf Expire Time"
+msgstr "თაროდან მოხსნის დრო"
+
+#. # Hold for patron familyName, firstName secondName
+#: staff.circ.utils.payload.hold.patron
+msgid "Hold for patron %1$s, %2$s %3$s"
+msgstr "შეკვეთა მკითხველისთვის: %1$s, %2$s %3$s"
+
+#: staff.circ.utils.payload.hold.patron_alias
+msgid "Hold for patron %1$s"
+msgstr "შეკვეთა მკითხველისთვის: %1$s"
+
+#: staff.circ.utils.payload.hold.phone_notify
+msgid "Notify by phone: %1$s"
+msgstr "ტელეფონით შეტყობინება: %1$s"
+
+#: staff.circ.utils.payload.hold.sms_notify
+msgid "Notify by text: %1$s"
+msgstr "ტექსტური შეტყობინება: %1$s"
+
+#: staff.circ.utils.payload.hold.email_notify
+msgid "Notify by email: %1$s"
+msgstr "ელფოსტით შეტყობინება: %1$s"
+
+#: staff.circ.utils.payload.hold.request_date
+msgctxt "staff.circ.utils.payload.hold.request_date"
+msgid "Request Date: %1$s"
+msgstr "მოთხოვნის თარიღი: %1$s"
+
+#: staff.circ.utils.payload.hold.slip_date
+msgctxt "staff.circ.utils.payload.hold.slip_date"
+msgid "Slip Date: %1$s"
+msgstr "ქვითრის თარიღი: %1$s"
+
+#: staff.circ.utils.payload.hold.notes.staff_note
+msgid "Staff Note: %1$s : %2$s"
+msgstr "თანამშრომლის შენიშვნა: %1$s : %2$s"
+
+#: staff.circ.utils.payload.hold.notes.patron_note
+msgid "Patron Note: %1$s : %2$s"
+msgstr "მკითხველის შენიშვნა: %1$s : %2$s"
+
+#: staff.circ.utils.hold_slip
+msgid "Hold Slip"
+msgstr "შეკვეთის ქვითარი"
+
+#: staff.circ.utils.hold_slip.print.yes
+msgctxt "staff.circ.utils.hold_slip.print.yes"
+msgid "Print"
+msgstr "ბეჭდვა"
+
+#: staff.circ.utils.hold_slip.print.no
+msgctxt "staff.circ.utils.hold_slip.print.no"
+msgid "Do Not Print"
+msgstr "არ დაიბეჭდოს"
+
+#: staff.circ.utils.payload.reservation.barcode
+msgctxt "staff.circ.utils.payload.reservation.barcode"
+msgid "Barcode: %1$s"
+msgstr "შტრიხკოდი: %1$s"
+
+#: staff.circ.utils.payload.reservation.title
+msgctxt "staff.circ.utils.payload.reservation.title"
+msgid "Title: %1$s"
+msgstr "სათაური: %1$s"
+
+#. # Hold for patron familyName, firstName secondName
+#: staff.circ.utils.payload.reservation.patron
+msgid "Reservation for patron %1$s, %2$s %3$s"
+msgstr "ჯავშანი მკითხველისთვის: %1$s, %2$s %3$s"
+
+#: staff.circ.utils.payload.reservation.patron_alias
+msgid "Reservation for patron %1$s"
+msgstr "ჯავშანი მკითხველისთვის: %1$s"
+
+#: staff.circ.utils.payload.reservation.request_date
+msgctxt "staff.circ.utils.payload.reservation.request_date"
+msgid "Request Date: %1$s"
+msgstr "მოთხოვნის თარიღი: %1$s"
+
+#: staff.circ.utils.payload.reservation.start_date
+msgid "Start Date: %1$s"
+msgstr "დაწყების თარიღი: %1$s"
+
+#: staff.circ.utils.payload.reservation.slip_date
+msgctxt "staff.circ.utils.payload.reservation.slip_date"
+msgid "Slip Date: %1$s"
+msgstr "ქვითრის თარიღი: %1$s"
+
+#: staff.circ.utils.reservation_slip
+msgid "Reservation Slip"
+msgstr "ჯავშნის ქვითარი"
+
+#: staff.circ.utils.reservation_slip.print.yes
+msgctxt "staff.circ.utils.reservation_slip.print.yes"
+msgid "Print"
+msgstr "ბეჭდვა"
+
+#: staff.circ.utils.reservation_slip.print.no
+msgctxt "staff.circ.utils.reservation_slip.print.no"
+msgid "Do Not Print"
+msgstr "არ დაიბეჭდოს"
+
+#: staff.circ.utils.transit_slip
+msgid "Transit Slip"
+msgstr "გადაზიდვის ქვითარი"
+
+#: staff.circ.utils.transit_slip.print.yes
+msgctxt "staff.circ.utils.transit_slip.print.yes"
+msgid "Print"
+msgstr "ბეჭდვა"
+
+#: staff.circ.utils.transit_slip.print.no
+msgctxt "staff.circ.utils.transit_slip.print.no"
+msgid "Do Not Print"
+msgstr "არ დაიბეჭდოს"
+
+#: staff.circ.utils.hold_capture_delayed.description
+msgid ""
+"This item could fulfill a hold request but capture has been delayed by "
+"policy."
+msgstr "ამ ერთეულს შეუძლია შეკვეთის შესრულება, მაგრამ წესის გამო მისი დაკავება გადაიდო."
+
+#: staff.circ.utils.hold_capture_delayed.titlebar
+msgid "Hold Capture Delayed"
+msgstr "შეკვეთის დაკავება გადაიდო"
+
+#: staff.circ.utils.hold_capture_delayed.prompt_for_nocapture
+msgid "Do Not Capture "
+msgstr "არ დაკავდეს "
+
+#: staff.circ.utils.hold_capture_delayed.prompt_for_capture
+msgid "Capture"
+msgstr "დაკავება"
+
+#: staff.circ.utils.reservation_capture
+msgid "%1$s has been captured for a reservation."
+msgstr "%1$s დაკავებულია ჯავშნისთვის."
+
+#: staff.circ.utils.capture
+msgid "%1$s has been captured for a hold."
+msgstr "%1$s დაკავებულია შეკვეთისთვის."
+
+#: staff.circ.utils.needs_cataloging
+msgid "%1$s needs to be cataloged."
+msgstr "%1$s კატალოგიზაციას საჭიროებს."
+
+#: staff.circ.utils.copy_status.error
+msgid "FIXME -- this case \"%1$s\" is unhandled."
+msgstr "FIXME — ეს შემთხვევა „%1$s“ დაუმუშავებელია."
+
+#: staff.circ.utils.msg.ok
+msgctxt "staff.circ.utils.msg.ok"
+msgid "OK"
+msgstr "კარგი"
+
+#: staff.circ.utils.route_to.destination
+msgid "Destination: %1$s."
+msgstr "დანიშნულების ადგილი: %1$s."
+
+#: staff.circ.utils.route_to.no_address
+msgid "We do not have a holds address for this library."
+msgstr "ამ ბიბლიოთეკისთვის შეკვეთების მისამართი მითითებული არ არის."
+
+#: staff.circ.utils.route_to.no_address.error
+msgid "Unable to retrieve mailing address."
+msgstr "საფოსტო მისამართის მიღება ვერ მოხერხდა."
+
+#: staff.circ.utils.payload.author
+msgid "Author: %1$s"
+msgstr "ავტორი: %1$s"
+
+#: staff.circ.utils.payload.in_transit
+msgid "%1$s is in transit."
+msgstr "%1$s გადაზიდვაშია."
+
+#: staff.circ.utils.estimated_wait
+msgid "Estimated Wait Time"
+msgstr "ლოდინის სავარაუდო დრო"
+
+#: staff.circ.utils.potential_copies
+msgid "Potential Copies "
+msgstr "პოტენციური ეგზემპლარები "
+
+#: staff.circ.utils.queue_position
+msgid "Queue Position"
+msgstr "რიგში პოზიცია"
+
+#: staff.circ.utils.total_holds
+msgid "Total Number of Holds"
+msgstr "შეკვეთების საერთო რაოდენობა"
+
+#: staff.circ.utils.find_acq_po.no_po
+msgid "Lineitem found (%1$s), but without purchase order"
+msgstr "ნაპოვნია სტრიქონის ერთეული (%1$s), მაგრამ შესყიდვის შეკვეთის გარეშე"
+
+#: staff.circ.work_log_column.message
+msgctxt "staff.circ.work_log_column.message"
+msgid "Message"
+msgstr "შეტყობინება"
+
+#: staff.circ.work_log_column.when
+msgid "When"
+msgstr "როდის"
+
+#. # 1 - Staff Username  2 - Patron Family  3 - Patron Barcode  4 - Item Barcode
+#: staff.circ.work_log_checkout.message
+msgid "%1$s circulated %4$s to %3$s (%2$s)"
+msgstr "%1$s-მა გასცა %4$s მკითხველზე %3$s (%2$s)"
+
+#. # 1 - Staff Username  2 - Patron Family  3 - Patron Barcode  4 - Item Barcode
+#: staff.circ.work_log_renew.message
+msgid "%1$s renewed %4$s for %3$s (%2$s)"
+msgstr "%1$s-მა გაუგრძელა %4$s მკითხველს %3$s (%2$s)"
+
+#. # 1 - Staff Username  2 - Patron Family  3 - Patron Barcode  4 - Item Barcode  5 - Route To text
+#: staff.circ.work_log_checkin_attempt.transit.message
+msgid "%1$s attempted checkin of %4$s, resulting in transit.  Route To = %5$s"
+msgstr "%1$s-მა სცადა %4$s-ის დაბრუნება; დაიწყო გადაზიდვა. დანიშნულება = %5$s"
+
+#. # 1 - Staff Username  2 - Patron Family  3 - Patron Barcode  4 - Item Barcode  5 - Route To text
+#: staff.circ.work_log_checkin_attempt.transit_for_hold.message
+msgid ""
+"%1$s attempted checkin of %4$s, resulting in a hold-transit.  Route To = %"
+"5$s"
+msgstr "%1$s-მა სცადა %4$s-ის დაბრუნება, რის შედეგადაც შეკვეთის გადაზიდვა დაიწყო. დანიშნულება = %5$s"
+
+#. # 1 - Staff Username  2 - Patron Family  3 - Patron Barcode  4 - Item Barcode  5 - Route To text
+#: staff.circ.work_log_checkin_attempt.no_change.message
+msgid "%1$s attempted checkin of %4$s, but nothing happened.  Route To = %5$s"
+msgstr "%1$s-მა სცადა %4$s-ის დაბრუნება, თუმცა არაფერი მოხდა. დანიშნულება = %5$s"
+
+#. # 1 - Staff Username  2 - Patron Family  3 - Patron Barcode  4 - Item Barcode  5 - Route To text
+#: staff.circ.work_log_checkin_attempt.error.message
+msgid "%1$s attempted checkin of %4$s, and an error occurred.  Route To = %5$s"
+msgstr "%1$s-მა სცადა %4$s-ის დაბრუნება, მაგრამ შეცდომა მოხდა. დანიშნულება = %5$s"
+
+#. # 1 - Staff Username  2 - Patron Family  3 - Patron Barcode  4 - Item Barcode  5 - Route To text
+#: staff.circ.work_log_checkin_attempt.success.message
+msgid "%1$s attempted checkin of %4$s, which succeeded.  Route To = %5$s"
+msgstr "%1$s-მა სცადა %4$s-ის დაბრუნება და წარმატებით შეასრულა. დანიშნულება = %5$s"
+
+#. # 1 - Staff Username  2 - Patron Family  3 - Patron Barcode  4 - Item Barcode  5 - Route To text
+#: staff.circ.work_log_checkin_attempt.hold_shelf.message
+msgid ""
+"%1$s attempted checkin of %4$s, which routed the item to the Holds Shelf.  "
+"Route To = %5$s"
+msgstr "%1$s-მა სცადა %4$s-ის დაბრუნება, რის შედეგადაც ერთეული შეკვეთების თაროზე გადაიგზავნა. დანიშნულება = %5$s"
+
+#. # 1 - Staff Username  2 - Patron Family  3 - Patron Barcode  4 - Item Barcode  5 - Route To text
+#: staff.circ.work_log_checkin_attempt.reservation_shelf.message
+msgid ""
+"%1$s attempted checkin of %4$s, which routed the item to the Reservations "
+"Shelf.  Route To = %5$s"
+msgstr "%1$s-მა სცადა %4$s-ის დაბრუნება, რის შედეგადაც ერთეული ჯავშნების თაროზე გადაიგზავნა. დანიშნულება = %5$s"
+
+#. # 1 - Staff Username  2 - Patron Family  3 - Patron Barcode  4 - Item Barcode  5 - Route To text
+#: staff.circ.work_log_checkin_attempt.cataloging.message
+msgid ""
+"%1$s attempted checkin of %4$s, which is a pre-cat and was routed to "
+"Cataloging.  Route To = %5$s"
+msgstr "%1$s-მა სცადა წინასწარ კატალოგიზებული %4$s-ის დაბრუნება; ის კატალოგიზაციაში გადაიგზავნა. დანიშნულება = %5$s"
+
+#. # 1 - Staff Username  2 - Patron Family  3 - Patron Barcode  4 - Item Barcode  5 - Route To text
+#: staff.circ.work_log_checkin_attempt.not_found.message
+msgid ""
+"%1$s attempted checkin of %4$s, which was not found, and so was routed to "
+"Cataloging.  Route To = %5$s"
+msgstr "%1$s-მა სცადა %4$s-ის დაბრუნება, მაგრამ ის ვერ მოიძებნა და კატალოგიზაციაში გადაიგზავნა. დანიშნულება = %5$s"
+
+#. # 1 - Staff Username  2 - Patron Family  3 - Patron Barcode  4 - Original Balance  5 - Voided Balance  6 - Payment Received  7 - Payment Applied
+#. # 8 - Change Given  9 - Credit Given  10 - New Balance  11 - Payment Type  12 - Note  13 - API call result
+#: staff.circ.work_log_payment_attempt.success.message
+msgid "%1$s received %6$s (%11$s) for %3$s (%2$s)."
+msgstr "%1$s-მა მიიღო %6$s (%11$s) %3$s-ისთვის (%2$s)."
+
+#. # 1 - Staff Username  2 - Patron Family  3 - Patron Barcode  4 - Original Balance  5 - Voided Balance  6 - Payment Received  7 - Payment Applied
+#. # 8 - Change Given  9 - Credit Given  10 - New Balance  11 - Payment Type  12 - Note  13 - API call result
+#: staff.circ.work_log_payment_attempt.failure.message
+msgid ""
+"%1$s attempted receipt of %6$s (%11$s) for %3$s (%2$s), which failed for "
+"this reason: %13$s"
+msgstr "%1$s-მა სცადა %6$s-ის (%11$s) მიღება %3$s-ისთვის (%2$s), მაგრამ ვერ მოხერხდა ამ მიზეზით: %13$s"
+
+#: staff.circ.checkin.hold_capture
+msgid "Hold Capture"
+msgstr "შეკვეთის დაკავება"
+
+#: staff.circ.checkin.check_in.tab
+msgid "Item Check In"
+msgstr "ერთეულის დაბრუნება"
+
+#: staff.circ.renew.tab.label
+msgid "Renew Items"
+msgstr "ერთეულების გაგრძელება"
+
+#: staff.circ.checkin.error
+msgid "Check In Failed (in circ.util.checkin) (%1$s): "
+msgstr "დაბრუნება ვერ მოხერხდა (circ.util.checkin-ში) (%1$s): "
+
+#. # "Circulation" - check &staff.main.menu.circ.label; in lang.dtd
+#. # "Offline Interface" - check &staff.main.menu.circ.offline.label; in lang.dtd
+#: staff.circ.checkin.suggest_offline
+msgid ""
+"Check In Failed.  If you wish to use the offline interface, in the top "
+"menubar select Circulation -> Offline Interface"
+msgstr "დაბრუნება ვერ მოხერხდა. ავტონომიური ინტერფეისის გამოსაყენებლად ზედა მენიუში აირჩიეთ „გაცემა“ -> „ავტონომიური ინტერფეისი“."
+
+#: staff.circ.checkin.possible_dupe_scan
+msgid ""
+"Check In May Have Failed.  Possible double-scan of the barcode.  Use Item "
+"Status to confirm Check In and possible Hold capture."
+msgstr "დაბრუნება შესაძლოა ვერ მოხერხდა. შესაძლოა შტრიხკოდი ორჯერ დასკანერდა. დაბრუნებისა და შესაძლო შეკვეთის დაკავების დასადასტურებლად შეამოწმეთ ერთეულის სტატუსი."
+
+#: staff.circ.checkin.renew_failed.error
+msgid "Renew Failed for %1$s"
+msgstr "%1$s-ის გაგრძელება ვერ მოხერხდა"
+
+#: staff.circ.checkin.renew_failed.override
+msgid "Override Renew Failure?"
+msgstr "გსურთ გაგრძელების შეცდომის უგულებელყოფა?"
+
+#: staff.circ.renew.barcode
+msgctxt "staff.circ.renew.barcode"
+msgid "Barcode: %1$s"
+msgstr "შტრიხკოდი: %1$s"
+
+#: staff.circ.renew.barcode.status
+msgid "Barcode: %1$s Status: %2$s"
+msgstr "შტრიხკოდი: %1$s სტატუსი: %2$s"
+
+#: staff.circ.renew.barcode.msg
+msgid "Barcode: %1$s Message: %2$s"
+msgstr "შტრიხკოდი: %1$s შეტყობინება: %2$s"
+
+#: staff.circ.renew.override.item_deposit_required.warning.barcode
+msgid ""
+"For item with barcode %1$s, a billing for an Item Deposit will be added to "
+"the patron's account if this action is overrided."
+msgstr "შტრიხკოდიანი %1$s ერთეულისთვის ამ მოქმედების უგულებელყოფის შემთხვევაში მკითხველის ანგარიშს დეპოზიტი დაერიცხება."
+
+#: staff.circ.renew.override.item_rental_fee_required.warning.barcode
+msgid ""
+"For item with barcode %1$s, a billing for an Item Rental Fee will be added "
+"to the patron's account if this action is overrided."
+msgstr "შტრიხკოდიანი %1$s ერთეულისთვის ამ მოქმედების უგულებელყოფის შემთხვევაში მკითხველის ანგარიშს ქირის საფასური დაერიცხება."
+
+#: staff.circ.holds.activate.prompt
+msgid "Are you sure you would like to activate hold %1$s?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ შეკვეთის %1$s გააქტიურება?"
+
+#: staff.circ.holds.activate.prompt.plural
+msgid "Are you sure you would like to activate holds %1$s?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ შეკვეთების %1$s გააქტიურება?"
+
+#: staff.circ.holds.suspend.prompt
+msgid "Are you sure you would like to suspend hold %1$s?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ შეკვეთის %1$s შეჩერება?"
+
+#: staff.circ.holds.suspend.prompt.plural
+msgid "Are you sure you would like to suspend holds %1$s?"
+msgstr "დარწმუნებული ხართ, რომ გსურთ შეკვეთების %1$s შეჩერება?"
+
+#: staff.circ.holds.activation_date.prompt
+msgid ""
+"Please enter an Activation Date (or choose Remove to unset) for hold %1$s.  "
+"This will also Suspend the hold."
+msgstr "შეიყვანეთ შეკვეთის %1$s გააქტიურების თარიღი (ან თარიღის მოსახსნელად აირჩიეთ „წაშლა“). ეს შეკვეთასაც შეაჩერებს."
+
+#: staff.circ.holds.activation_date.prompt.plural
+msgid ""
+"Please enter an Activation Date (or choose Remove to unset) for holds %1$s. "
+" This will also Suspend the holds."
+msgstr "შეიყვანეთ შეკვეთების %1$s გააქტიურების თარიღი (ან თარიღის მოსახსნელად აირჩიეთ „წაშლა“). ეს შეკვეთებსაც შეაჩერებს."
+
+#: staff.circ.holds.activation_date.dialog.description
+msgctxt "staff.circ.holds.activation_date.dialog.description"
+msgid "Activation Date"
+msgstr "გააქტიურების თარიღი"
+
+#: staff.circ.holds.request_date.prompt
+msgid ""
+"Please enter a new Request Date for hold %1$s.  WARNING: This effectively "
+"reorders the holds queue."
+msgstr "შეიყვანეთ შეკვეთის %1$s მოთხოვნის ახალი თარიღი. გაფრთხილება: ეს ფაქტობრივად შეცვლის შეკვეთების რიგს."
+
+#: staff.circ.holds.request_date.prompt.plural
+msgid ""
+"Please enter a new Request Date for holds %1$s.  WARNING: This effectively "
+"reorders the holds queue."
+msgstr "შეიყვანეთ შეკვეთების %1$s მოთხოვნის ახალი თარიღი. გაფრთხილება: ეს ფაქტობრივად შეცვლის შეკვეთების რიგს."
+
+#: staff.circ.holds.request_date.dialog.description
+msgctxt "staff.circ.holds.request_date.dialog.description"
+msgid "Request Date"
+msgstr "მოთხოვნის თარიღი"
+
+#: staff.circ.holds.expire_time.prompt
+msgid ""
+"Please enter an Expiration Date (or choose Remove to unset) for hold %1$s."
+msgstr "შეიყვანეთ შეკვეთის %1$s ვადის გასვლის თარიღი (ან თარიღის მოსახსნელად აირჩიეთ „წაშლა“)."
+
+#: staff.circ.holds.expire_time.prompt.plural
+msgid ""
+"Please enter an Expiration Date (or choose Remove to unset) for holds %1$s."
+msgstr "შეიყვანეთ შეკვეთების %1$s ვადის გასვლის თარიღი (ან თარიღის მოსახსნელად აირჩიეთ „წაშლა“)."
+
+#: staff.circ.holds.expire_time.dialog.description
+msgid "Expiration Date"
+msgstr "ვადის გასვლის თარიღი"
+
+#: staff.circ.holds.shelf_expire_time.prompt
+msgid "Please enter a Shelf Expiration Date for hold %1$s."
+msgstr "შეიყვანეთ შეკვეთის %1$s თაროზე შენახვის ვადის გასვლის თარიღი."
+
+#: staff.circ.holds.shelf_expire_time.prompt.plural
+msgid "Please enter a Shelf Expiration Date for holds %1$s."
+msgstr "შეიყვანეთ შეკვეთების %1$s თაროზე შენახვის ვადის გასვლის თარიღი."
+
+#: staff.circ.holds.shelf_expire_time.dialog.description
+msgctxt "staff.circ.holds.shelf_expire_time.dialog.description"
+msgid "Shelf Expire Time"
+msgstr "თაროდან მოხსნის დრო"
+
+#: staff.circ.holds.modifying_holds
+msgid "Modifying Holds"
+msgstr "შეკვეთების შეცვლა"
+
+#: staff.circ.holds.modifying_holds.yes
+msgctxt "staff.circ.holds.modifying_holds.yes"
+msgid "Yes"
+msgstr "დიახ"
+
+#: staff.circ.holds.modifying_holds.no
+msgctxt "staff.circ.holds.modifying_holds.no"
+msgid "No"
+msgstr "არა"
+
+#: staff.circ.hold_update.hold_ids.failed
+msgid "Number of holds not updated: %1$s "
+msgstr "განუახლებელი შეკვეთების რაოდენობა: %1$s "
+
+#: staff.circ.holds.already_activated
+msgid "Hold %1$s was already activated."
+msgstr "შეკვეთა %1$s უკვე გააქტიურებული იყო."
+
+#: staff.circ.holds.already_activated.plural
+msgid "Holds %1$s were already activated."
+msgstr "შეკვეთები %1$s უკვე გააქტიურებული იყო."
+
+#: staff.circ.holds.already_suspended
+msgid "Hold %1$s was already suspended."
+msgstr "შეკვეთა %1$s უკვე შეჩერებული იყო."
+
+#: staff.circ.holds.already_suspended.plural
+msgid "Holds %1$s were already suspended."
+msgstr "შეკვეთები %1$s უკვე შეჩერებული იყო."
+
+#: staff.circ.holds.unexpected_error.not_likely_modified
+msgid "Holds not likely modified."
+msgstr "შეკვეთები, სავარაუდოდ, არ შეცვლილა."
+
+#: staff.circ.holds.unexpected_error.not_likely_activated
+msgid "Holds not likely activated."
+msgstr "შეკვეთები, სავარაუდოდ, არ გააქტიურებულა."
+
+#: staff.circ.holds.unexpected_error.not_likely_suspended
+msgid "Holds not likely suspended."
+msgstr "შეკვეთები, სავარაუდოდ, არ შეჩერებულა."
+
+#: staff.circ.holds.alt_view.label
+msgid "Detail View"
+msgstr "დეტალური ხედი"
+
+#: staff.circ.holds.alt_view.accesskey
+msgctxt "staff.circ.holds.alt_view.accesskey"
+msgid "V"
+msgstr "V"
+
+#: staff.circ.holds.list_view.label
+msgctxt "staff.circ.holds.list_view.label"
+msgid "List View"
+msgstr "სიის ხედი"
+
+#: staff.circ.holds.list_view.accesskey
+msgctxt "staff.circ.holds.list_view.accesskey"
+msgid "V"
+msgstr "V"
+
+#: staff.circ.missing_pieces.scan_item.prompt
+msgid "Enter barcode for item missing pieces:"
+msgstr "შეიყვანეთ ნაწილებდაკარგული ერთეულის შტრიხკოდი:"
+
+#: staff.circ.missing_pieces.scan_item.title
+msgid "Missing Pieces"
+msgstr "დაკარგული ნაწილები"
+
+#: staff.circ.missing_pieces.scan_item.error_alert
+msgid "No item with barcode \"%1$s\""
+msgstr "შტრიხკოდით „%1$s“ ერთეული ვერ მოიძებნა"
+
+#: staff.circ.utils.transit.copy_status_message.label
+msgid "Transit Copy Status Message"
+msgstr "ტრანზიტული ეგზემპლარის სტატუსის შეტყობინება"
+
+#: staff.circ.utils.transit.copy_status_message
+msgid "This item is in status %1$s, additional staff action may be required."
+msgstr "ამ ერთეულს აქვს სტატუსი %1$s; შესაძლოა საჭირო იყოს თანამშრომლის დამატებითი მოქმედება."

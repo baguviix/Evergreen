@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen\n"
+"PO-Revision-Date: 2026-10-27 16:20+0400\n"
+"Language: ka-GE\n"
+"Language-Team: Georgian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../Open-ILS/src/templates/actor/user/register.tt2:63
+msgid "Active"
+msgstr "აქტიური"
+
+#: ../../Open-ILS/src/templates/actor/user/register.tt2:50
+msgid "Address Alert"
+msgstr "მისამართის შეტყობინება"
+
+#: ../../Open-ILS/src/templates/actor/user/register.tt2:78
+msgid "Apply Changes"
+msgstr "ცვლილებების გამოყენება"
+
+#: ../../Open-ILS/src/templates/actor/user/register.tt2:101
+msgid "Assign additional permission groups to users here.<br/>This does not affect circulation policy."
+msgstr "მიანიჭეთ მომხმარებლებს დამატებითი უფლებების ჯგუფები.<br/>ეს არ ახდენს გავლენას გაცემის/ცირკულაციის პოლიტიკაზე."
+
+#: ../../Open-ILS/src/templates/actor/user/register.tt2:62
+msgid "Barcode"
+msgstr "შტრიხკოდი"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:242
+msgid "Cancel Selected Events"
+msgstr "არჩეული მოვლენების გაუქმება"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:112
+msgid "Circulation"
+msgstr "ცირკულაცია"
+
+#: ../../Open-ILS/src/templates/actor/user/register.tt2:77
+msgid "Close"
+msgstr "დახურვა"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:128
+msgid "Collected"
+msgstr "შეგროვებული"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:132
+msgid "Complete"
+msgstr "დასრულებული"
+
+#: ../../Open-ILS/src/templates/actor/user/message.tt2:97
+msgid "Context Org Unit"
+msgstr "კონტექსტური ორგანიზაციული ერთეული"
+
+#: ../../Open-ILS/src/templates/actor/user/message.tt2:93
+msgid "Delete Selected"
+msgstr "არჩეულის წაშლა"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:133
+msgid "Error"
+msgstr "შეცდომა"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:280
+msgid "Event Name"
+msgstr "მოვლენის სახელი"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:127
+msgid "Found"
+msgstr "ნაპოვნია"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:113
+msgid "Hold"
+msgstr "დაჯავშნა"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:129
+msgid "Invalid"
+msgstr "არასწორი"
+
+#: ../../Open-ILS/src/templates/actor/user/message.tt2:2 ../../Open-ILS/src/templates/actor/user/message.tt2:91
+msgid "Patron Messages"
+msgstr "მკითხველის შეტყობინებები"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:130
+msgid "Pending"
+msgstr "მოლოდინშია"
+
+#: ../../Open-ILS/src/templates/actor/user/register.tt2:64
+msgid "Primary"
+msgstr "ძირითადი"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:246
+msgid "Print All Events"
+msgstr "ყველა მოვლენის ბეჭდვა"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:244
+msgid "Print Selected Events"
+msgstr "არჩეული მოვლენების ბეჭდვა"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:131
+msgid "Reacting"
+msgstr "რეაგირება"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:240
+msgid "Reset Selected Events"
+msgstr "არჩეული მოვლენების განულება"
+
+#: ../../Open-ILS/src/templates/actor/user/register.tt2:114
+msgid "Save"
+msgstr "შენახვა"
+
+#: ../../Open-ILS/src/templates/actor/user/register_table.tt2:48
+msgid "Secondary Groups"
+msgstr "მეორეული ჯგუფები"
+
+#: ../../Open-ILS/src/templates/actor/user/register.tt2:94
+msgid "Secondary Permission Groups"
+msgstr "უფლებების მეორეული ჯგუფები"
+
+#: ../../Open-ILS/src/templates/actor/user/register.tt2:23
+msgid "Show All Fields"
+msgstr "ყველა ველის ჩვენება"
+
+#: ../../Open-ILS/src/templates/actor/user/register.tt2:21
+msgid "Show Only Required Fields"
+msgstr "მხოლოდ სავალდებულო ველების ჩვენება"
+
+#: ../../Open-ILS/src/templates/actor/user/register.tt2:22
+msgid "Show Suggested Fields"
+msgstr "შემოთავაზებული ველების ჩვენება"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:250
+msgid "Show events at and below"
+msgstr "მოვლენების ჩვენება მიმდინარე და ქვემდგომ ერთეულებში"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:291
+msgid "Target Circulation - Author"
+msgstr "სამიზნე ცირკულაცია - ავტორი"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:289
+msgid "Target Circulation - Copy Barcode"
+msgstr "სამიზნე ცირკულაცია - ეგზემპლარის შტრიხკოდი"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:292
+msgid "Target Circulation - Patron Barcode"
+msgstr "სამიზნე ცირკულაცია - მკითხველის შტრიხკოდი"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:290
+msgid "Target Circulation - Title"
+msgstr "სამიზნე ცირკულაცია - სათაური"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:294
+msgid "Target Hold - Author"
+msgstr "სამიზნე ჯავშანი - ავტორი"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:295
+msgid "Target Hold - Patron Barcode"
+msgstr "სამიზნე ჯავშანი - მკითხველის შტრიხკოდი"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:293
+msgid "Target Hold - Title"
+msgstr "სამიზნე ჯავშანი - სათაური"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:2
+msgid "Triggered Event Log"
+msgstr "ინიციირებული მოვლენების ჟურნალი"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:163
+msgid "Up to how many rows?"
+msgstr "მაქსიმუმ რამდენი სტრიქონი?"
+
+#: ../../Open-ILS/src/templates/actor/user/register.tt2:1
+msgid "User Editor"
+msgstr "მომხმარებლის რედაქტორი"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:171
+msgid "You selected nothing."
+msgstr "არაფერი შეგირჩიათ."
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:235
+msgid "copy specific"
+msgstr "კონკრეტული ეგზემპლარისთვის"
+
+#: ../../Open-ILS/src/templates/actor/user/event_log.tt2:236
+msgid "patron specific"
+msgstr "კონკრეტული მკითხველისთვის"

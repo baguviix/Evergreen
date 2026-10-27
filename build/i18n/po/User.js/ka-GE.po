@@ -1,0 +1,15 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen\n"
+"PO-Revision-Date: 2026-10-27 14:30+0400\n"
+"Language: ka-GE\n"
+"Language-Team: Georgian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: User.js:FULL_NAME
+msgid "${0}, ${3} ${1} ${2} ${4}"
+msgstr "${0}, ${3} ${1} ${2} ${4}"

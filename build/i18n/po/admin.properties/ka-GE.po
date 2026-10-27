@@ -1,0 +1,463 @@
+#. extracted from ../../Open-ILS/xul/staff_client/server/locale/en-US/admin.properties
+msgid ""
+msgstr "Project-Id-Version: Evergreen\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2015-02-27 11:41-0400\nPO-Revision-Date: 2026-10-27 14:15+0400\nLast-Translator: Georgian Translation Team\nLanguage-Team: Georgian\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Generator: Translate Toolkit 1.10.0\nX-Accelerator-Marker: &\nX-Merge-On: location\nLanguage: ka-GE\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: staff.admin.age_overdue_circulations_to_lost.chunks_processed
+msgid "Chunks Processed: %1$s"
+msgstr "დამუშავებული ნაწილები: %1$s"
+
+#: staff.admin.age_overdue_circulations_to_lost.events_created
+msgid "Events Created: %1$s"
+msgstr "შექმნილი მოვლენები: %1$s"
+
+#: staff.admin.font_settings.sound
+msgid "Sound preference saved to file system."
+msgstr "ხმის პარამეტრი ფაილურ სისტემაში შეინახა."
+
+#: staff.admin.font_settings.save
+msgid "Global Font saved to file system."
+msgstr "გლობალური შრიფტი ფაილურ სისტემაში შეინახა."
+
+#: staff.admin.font_settings.sound.disabled
+msgid "Sound is now disabled."
+msgstr "ხმა ახლა გამორთულია."
+
+#: staff.admin.font_settings.sound.enabled
+msgid "Sound is now enabled."
+msgstr "ხმა ახლა ჩართულია."
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_SMALLER
+msgid "Global Font Adjust set to Smaller than Default"
+msgstr "გლობალური შრიფტის ზომა ნაგულისხმევზე მცირედ დაყენდა"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_DEFAULT
+msgid "Global Font Adjust set to Default"
+msgstr "გლობალური შრიფტის ზომა ნაგულისხმევად დაყენდა"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_LARGER
+msgid "Global Font Adjust set to Larger than Default"
+msgstr "გლობალური შრიფტის ზომა ნაგულისხმევზე დიდად დაყენდა"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_XX_SMALL
+msgid "Global Font set to XX-Small"
+msgstr "გლობალური შრიფტის ზომა დაყენდა XX-Small-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_X_SMALL
+msgid "Global Font set to X-Small"
+msgstr "გლობალური შრიფტის ზომა დაყენდა X-Small-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_SMALL
+msgid "Global Font set to Small"
+msgstr "გლობალური შრიფტის ზომაა Small"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_MEDIUM
+msgid "Global Font set to Medium"
+msgstr "გლობალური შრიფტის ზომაა Medium"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_LARGE
+msgid "Global Font set to Large"
+msgstr "გლობალური შრიფტის ზომაა Large"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_X_LARGE
+msgid "Global Font set to X-Large"
+msgstr "გლობალური შრიფტის ზომა დაყენდა X-Large-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_XX_LARGE
+msgid "Global Font set to XX-Large"
+msgstr "გლობალური შრიფტის ზომა დაყენდა XX-Large-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_5PT
+msgid "Global Font set to 5pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 5pt-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_6PT
+msgid "Global Font set to 6pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 6pt-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_7PT
+msgid "Global Font set to 7pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 7pt-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_8PT
+msgid "Global Font set to 8pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 8pt-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_9PT
+msgid "Global Font set to 9pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 9pt-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_10PT
+msgid "Global Font set to 10pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 10pt-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_11PT
+msgid "Global Font set to 11pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 11pt-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_12PT
+msgid "Global Font set to 12pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 12pt-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_13PT
+msgid "Global Font set to 13pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 13pt-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_14PT
+msgid "Global Font set to 14pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 14pt-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_15PT
+msgid "Global Font set to 15pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 15pt-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_16PT
+msgid "Global Font set to 16pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 16pt-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_17PT
+msgid "Global Font set to 17pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 17pt-ზე"
+
+#: staff.admin.font_settings.status_msg.ALL_FONTS_18PT
+msgid "Global Font set to 18pt"
+msgstr "გლობალური შრიფტის ზომა დაყენდა 18pt-ზე"
+
+#: staff.admin.toolbar.unsaved_changes
+msgid ""
+"Unsaved changes. Choose either Save Toolbar or Cancel Changes if you wish to "
+"select a different toolbar."
+msgstr "შეუნახავი ცვლილებებია. სხვა პანელის ასარჩევად შეინახეთ პანელი ან გააუქმეთ ცვლილებები."
+
+#: staff.admin.toolbar.tab_name
+msgid "Toolbars"
+msgstr "ხელსაწყოთა პანელები"
+
+#: staff.admin.toolbar.button_id.header
+msgid "Button ID"
+msgstr "ღილაკის ID"
+
+#: staff.admin.toolbar.label.header
+msgid "Label"
+msgstr "იარლიყი"
+
+#: staff.admin.toolbar.toolbar_separator.list_entry
+msgid "Toolbar Separator"
+msgstr "ხელსაწყოთა პანელის გამყოფი"
+
+#: staff.admin.toolbar.toolbar_spacer.list_entry
+msgid "Toolbar Spacer"
+msgstr "ხელსაწყოთა პანელის დაშორება"
+
+#: staff.admin.transit_list.missing_list
+msgid "Missing library list."
+msgstr "ბიბლიოთეკების სია არ არის."
+
+#: staff.admin.transit_list.no_match
+msgid "No matching transits."
+msgstr "შესაბამისი გადატანები არ მოიძებნა."
+
+#: staff.admin.transit_list.invalid_date
+msgid "Invalid Date (%1$s), setting to Today"
+msgstr "არასწორი თარიღი (%1$s); დაყენდება დღევანდელი თარიღი"
+
+#: staff.admin.transit_list.invalid_date_format
+msgid "Invalid Date (%1$s,%2$s), setting to Today"
+msgstr "არასწორი თარიღი (%1$s,%2$s); დაყენდება დღევანდელი თარიღი"
+
+#: staff.admin.transit_list.date_processing.error
+msgid "error processing date"
+msgstr "თარიღის დამუშავების შეცდომა"
+
+#: staff.admin.transit_list.retrieving_transit.error
+msgid "error retrieving transits"
+msgstr "გადატანების მიღების შეცდომა"
+
+#: staff.admin.transit_list.preretrieving_transit.error
+msgid "error pre-retrieving transits"
+msgstr "გადატანების წინასწარ მიღების შეცდომა"
+
+#: staff.admin.transit_list.retrieving_row.error
+msgid "error retrieving row"
+msgstr "სტრიქონის მიღების შეცდომა"
+
+#: staff.admin.transit_list.empty_array.error
+msgid "Empty array returned by hold retrieve."
+msgstr "ჯავშნის მოთხოვნამ ცარიელი მასივი დააბრუნა."
+
+#: staff.admin.transit_list.retrieve_hold.error
+msgid "retrieving hold id = %1$s for transit id = %2$s"
+msgstr "მიმდინარეობს ჯავშნის (ID %1$s) მიღება ტრანზიტისთვის (ID %2$s)"
+
+#: staff.admin.transit_list.transit_id.error
+msgid "retrieving transit id = %1$s"
+msgstr "მიმდინარეობს ტრანზიტის (ID %1$s) მიღება"
+
+#: staff.admin.offline_manage_xacts.init_list.organization
+msgid "Organization"
+msgstr "ორგანიზაცია"
+
+#: staff.admin.offline_manage_xacts.init_list.description
+msgid "Description"
+msgstr "აღწერა"
+
+#: staff.admin.offline_manage_xacts.init_list.date_created
+msgid "Date Created"
+msgstr "შექმნის თარიღი"
+
+#: staff.admin.offline_manage_xacts.init_list.created_by
+msgid "Created By"
+msgstr "შემქმნელი"
+
+#: staff.admin.offline_manage_xacts.init_list.upload_count
+msgid "Upload Count"
+msgstr "ატვირთვების რაოდენობა"
+
+#: staff.admin.offline_manage_xacts.init_list.transactions_processed
+msgid "Transactions Processed"
+msgstr "დამუშავებული ტრანზაქციები"
+
+#: staff.admin.offline_manage_xacts.init_list.processing
+msgid "Processing?"
+msgstr "მუშავდება?"
+
+#: staff.admin.offline_manage_xacts.init_list.date_started
+msgid "Date Started"
+msgstr "დაწყების თარიღი"
+
+#: staff.admin.offline_manage_xacts.init_list.date_completed
+msgid "Date Completed"
+msgstr "დასრულების თარიღი"
+
+#: staff.admin.offline_manage_xacts.init_list.session
+msgid "Session"
+msgstr "სესია"
+
+#: staff.admin.offline_manage_xacts.init_script_list.date_uploaded
+msgid "Date Uploaded"
+msgstr "ატვირთვის თარიღი"
+
+#: staff.admin.offline_manage_xacts.init_script_list.uploaded_by
+msgid "Uploaded By"
+msgstr "ამტვირთავი"
+
+#: staff.admin.offline_manage_xacts.init_script_list.time_delta
+msgid "Server/Local Time Delta"
+msgstr "სერვერის/ლოკალური დროის სხვაობა"
+
+#: staff.admin.offline_manage_xacts.init_script_list.workstation
+msgctxt "staff.admin.offline_manage_xacts.init_script_list.workstation"
+msgid "Workstation"
+msgstr "სამუშაო სადგური"
+
+#: staff.admin.offline_manage_xacts.init_error_list.workstation
+msgctxt "staff.admin.offline_manage_xacts.init_error_list.workstation"
+msgid "Workstation"
+msgstr "სამუშაო სადგური"
+
+#: staff.admin.offline_manage_xacts.init_error_list.timestamp
+msgid "Timestamp"
+msgstr "დროის ნიშნული"
+
+#: staff.admin.offline_manage_xacts.init_error_list.type
+msgid "Type"
+msgstr "ტიპი"
+
+#: staff.admin.offline_manage_xacts.init_error_list.event_code
+msgid "Event Code"
+msgstr "მოვლენის კოდი"
+
+#: staff.admin.offline_manage_xacts.init_error_list.event_name
+msgid "Event Name"
+msgstr "მოვლენის სახელი"
+
+#: staff.admin.offline_manage_xacts.init_error_list.event_description
+msgid "Event Description"
+msgstr "მოვლენის აღწერა"
+
+#: staff.admin.offline_manage_xacts.init_error_list.item_barcode
+msgid "Item Barcode"
+msgstr "ერთეულის შტრიხკოდი"
+
+#: staff.admin.offline_manage_xacts.init_error_list.patron_barcode
+msgid "Patron Barcode"
+msgstr "მკითხველის შტრიხკოდი"
+
+#: staff.admin.offline_manage_xacts.init_error_list.due_date
+msgid "Due Date"
+msgstr "დაბრუნების ვადა"
+
+#: staff.admin.offline_manage_xacts.init_error_list.count
+msgid "In House Use Count"
+msgstr "ადგილზე გამოყენების რაოდენობა"
+
+#: staff.admin.offline_manage_xacts.init_error_list.noncat
+msgid "Non-Cataloged?"
+msgstr "არაკატალოგიზებულია?"
+
+#: staff.admin.offline_manage_xacts.init_error_list.noncat_type
+msgid "Non-Cataloged Type"
+msgstr "არაკატალოგიზებული მასალის ტიპი"
+
+#: staff.admin.offline_manage_xacts.init_error_list.noncat_count
+msgid "Non-Cataloged Count"
+msgstr "არაკატალოგიზებული მასალის რაოდენობა"
+
+#: staff.admin.offline_manage_xacts.init_error_list.backdate
+msgid "Check In Backdate"
+msgstr "დაბრუნების უკუქცევითი თარიღი"
+
+#: staff.admin.offline_manage_xacts.error.check_perm
+msgid "Error checking permissions"
+msgstr "უფლებების შემოწმების შეცდომა"
+
+#: staff.admin.offline_manage_xacts.error.bad_cgi_response
+msgid "Bad response from CGI component"
+msgstr "CGI კომპონენტის არასწორი პასუხი"
+
+#: staff.admin.offline_manage_xacts.error.execute_error
+msgid "Execute error:"
+msgstr "შესრულების შეცდომა:"
+
+#: staff.admin.offline_manage_xacts.error.session_execute_error
+msgid "Error executing session"
+msgstr "სესიის შესრულების შეცდომა"
+
+#: staff.admin.offline_manage_xacts.error.session_retrieval
+msgid "Error retrieving session errors:"
+msgstr "სესიის შეცდომების მიღებისას წარმოიშვა შეცდომა:"
+
+#: staff.admin.offline_manage_xacts.error.non_existent_file
+msgid "Cannot rename a non-existent file"
+msgstr "არარსებული ფაილის სახელის შეცვლა შეუძლებელია"
+
+#: staff.admin.offline_manage_xacts.error.renaming_file
+msgid "Error renaming transaction file"
+msgstr "ტრანზაქციის ფაილის სახელის შეცვლის შეცდომა"
+
+#: staff.admin.offline_manage_xacts.error.unique_file
+msgid "Taking too long to find a unique filename."
+msgstr "უნიკალური ფაილის სახელის მოძებნას ძალიან დიდი დრო დასჭირდა."
+
+#: staff.admin.offline_manage_xacts.error.transaction_conflicts
+msgid ""
+"Something bad happened.  New offline transactions were accumulated during "
+"our attempted upload.  Tell your system admin that the file involved is %1$s"
+msgstr "მოხდა შეცდომა. ატვირთვის მცდელობისას ახალი ავტონომიური ტრანზაქციები დაგროვდა. აცნობეთ სისტემის ადმინისტრატორს, რომ შესაბამისი ფაილია %1$s"
+
+#: staff.admin.offline_manage_xacts.error.transaction_conflicts.title
+msgid "Transaction conflicts"
+msgstr "ტრანზაქციის კონფლიქტები"
+
+#: staff.admin.offline_manage_xacts.error.transaction_conflicts.ok
+msgid "Ok"
+msgstr "კარგი"
+
+#: staff.admin.offline_manage_xacts.error.transaction_conflicts.confirm
+msgid "Check here to confirm this message"
+msgstr "შეტყობინების დასადასტურებლად მონიშნეთ აქ"
+
+#: staff.admin.offline_manage_xacts.error.reverting_file
+msgid "Error reverting transaction file"
+msgstr "ტრანზაქციის ფაილის აღდგენის შეცდომა"
+
+#: staff.admin.offline_manage_xacts.error.archiving_file
+msgid "Error archiving transaction file"
+msgstr "ტრანზაქციის ფაილის დაარქივების შეცდომა"
+
+#: staff.admin.offline_manage_xacts.session_upload
+msgid "Please select a session to upload to."
+msgstr "აირჩიეთ სესია ასატვირთად."
+
+#: staff.admin.offline_manage_xacts.single_session_upload
+msgid "Please select a single session to upload to."
+msgstr "ასატვირთად აირჩიეთ ერთი სესია."
+
+#: staff.admin.offline_manage_xacts.no_transactions
+msgid "No pending transactions to upload."
+msgstr "ასატვირთი მოლოდინში მყოფი ტრანზაქციები არ არის."
+
+#: staff.admin.offline_manage_xacts.error.uploading_file
+msgid "There was an error:"
+msgstr "მოხდა შეცდომა:"
+
+#: staff.admin.offline_manage_xacts.error.uploading_transactions
+msgid "Error uploading transactions"
+msgstr "ტრანზაქციების ატვირთვის შეცდომა"
+
+#: staff.admin.offline_manage_xacts.error.retrieving_session
+msgid "Error retrieving session status"
+msgstr "სესიის სტატუსის მიღების შეცდომა"
+
+#: staff.admin.offline_manage_xacts.create_session.prompt
+msgid "Please enter a description:"
+msgstr "შეიყვანეთ აღწერა:"
+
+#: staff.admin.offline_manage_xacts.create_session
+msgid "Create an Offline Transaction Session"
+msgstr "ოფლაინ ტრანზაქციების სესიის შექმნა"
+
+#: staff.admin.offline_manage_xacts.error.create_session
+msgid "Error creating session"
+msgstr "სესიის შექმნის შეცდომა"
+
+#: staff.admin.offline_manage_xacts.error.create_session.alert
+msgid "Error: %1$s"
+msgstr "შეცდომა: %1$s"
+
+#: staff.admin.offline_manage_xacts.error.retrieving_sessions
+msgid "Error retrieving offline sessions."
+msgstr "ოფლაინ სესიების მიღების შეცდომა."
+
+#: staff.admin.offline_manage_xacts.error.rendering_session
+msgid "Error rendering session list"
+msgstr "სესიების სიის გამოსახვის შეცდომა"
+
+#: staff.admin.offline_manage_xacts.upload_status
+msgid "Uploaded Transactions for %1$s"
+msgstr "%1$s-ის ატვირთული ტრანზაქციები"
+
+#: staff.admin.offline_manage_xacts.error.rendering_script
+msgid "Error rendering script list"
+msgstr "სკრიპტების სიის გამოსახვის შეცდომა"
+
+#: staff.admin.offline_manage_xacts.error.rendering_errors
+msgid "Exceptions for %1$s"
+msgstr "%1$s-ის გამონაკლისები"
+
+#: staff.admin.offline_manage_xacts.error.rendering_error_list
+msgid "Error rendering error list"
+msgstr "შეცდომების სიის გამოსახვის შეცდომა"
+
+#: staff.admin.offline_manage_xacts.completed
+msgid "Completed"
+msgstr "შესრულებულია"
+
+#: staff.admin.offline_manage_xacts.no
+msgid "No"
+msgstr "არა"
+
+#: staff.admin.offline_manage_xacts.yes
+msgid "Yes"
+msgstr "დიახ"
+
+#: staff.admin.staff.do_not_auto_attempt_print_setting.update_success
+msgid "Setting updated"
+msgstr "პარამეტრი განახლდა"
+
+#: staff.admin.staff.do_not_auto_attempt_print_setting.update_failure
+msgid "Setting not updated due to error"
+msgstr "შეცდომის გამო პარამეტრი არ განახლებულა"
+
+#. # 1 - workstation library shortname   2 - setting library shortname
+#: staff.admin.staff.do_not_auto_attempt_print_setting.current_setting_preamble
+msgid ""
+"Workstation library %1$s is currently suppressing auto-print for these "
+"receipt/slip types based on a setting inherited from %2$s:"
+msgstr "სამუშაო სადგურის ბიბლიოთეკა %1$s ამჟამად მემკვიდრეობით მიღებული %2$s პარამეტრის საფუძველზე ამ ქვითრების/ბარათების ავტომატურ ბეჭდვას თრგუნავს:"
+
+#. # 1 - workstation library shortname
+#: staff.admin.staff.do_not_auto_attempt_print_setting.current_setting_nonexistent
+msgid ""
+"Workstation library %1$s is not currently suppressing auto-print for any "
+"receipt/slip types."
+msgstr "სამუშაო სადგურის ბიბლიოთეკა %1$s ამჟამად არცერთი ქვითრის/ბარათის ტიპისთვის ავტომატურ ბეჭდვას არ თიშავს."

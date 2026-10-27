@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen\n"
+"PO-Revision-Date: 2026-10-27 16:25+0400\n"
+"Language: ka-GE\n"
+"Language-Team: Georgian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../Open-ILS/src/templates/booking/pickup.tt2:25 ../../Open-ILS/src/templates/booking/pickup.tt2:50 ../../Open-ILS/src/templates/booking/return.tt2:32 ../../Open-ILS/src/templates/booking/return.tt2:57
+msgid "Barcode"
+msgstr "შტრიხკოდი"
+
+#: ../../Open-ILS/src/templates/booking/pickup.tt2:52 ../../Open-ILS/src/templates/booking/return.tt2:34 ../../Open-ILS/src/templates/booking/return.tt2:58
+msgid "Due time"
+msgstr "დაბრუნების დრო"
+
+#: ../../Open-ILS/src/templates/booking/pickup.tt2:27 ../../Open-ILS/src/templates/booking/reservation.tt2:101
+msgid "End time"
+msgstr "დასრულების დრო"
+
+#: ../../Open-ILS/src/templates/booking/pickup.tt2:51 ../../Open-ILS/src/templates/booking/return.tt2:33
+msgid "Pickup time"
+msgstr "გატანის დრო"
+
+#: ../../Open-ILS/src/templates/booking/reservation.tt2:99
+msgid "Resource"
+msgstr "რესურსი"
+
+#: ../../Open-ILS/src/templates/booking/return.tt2:59
+msgid "Return time"
+msgstr "დაბრუნების დრო"
+
+#: ../../Open-ILS/src/templates/booking/pickup.tt2:26 ../../Open-ILS/src/templates/booking/reservation.tt2:100
+msgid "Start time"
+msgstr "დაწყების დრო"
+
+#: ../../Open-ILS/src/templates/booking/pickup.tt2:24 ../../Open-ILS/src/templates/booking/pickup.tt2:49 ../../Open-ILS/src/templates/booking/return.tt2:31 ../../Open-ILS/src/templates/booking/return.tt2:56
+msgid "Title"
+msgstr "სათაური"
+
+#: ../../Open-ILS/src/templates/booking/reservation.tt2:98
+msgid "Type"
+msgstr "ტიპი"

@@ -1,0 +1,27 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen\n"
+"PO-Revision-Date: 2026-10-27 16:25+0400\n"
+"Language: ka-GE\n"
+"Language-Team: Georgian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: FlattenerGrid.js:FILTER
+msgid "Filter"
+msgstr "ფილტრი"
+
+#: FlattenerGrid.js:CSV_SAVE_DIALOG
+msgid "Save CSV Output As"
+msgstr "CSV შედეგის შენახვა როგორც..."
+
+#: FlattenerGrid.js:CSV_FILTER_NAME
+msgid "CSV Files"
+msgstr "CSV ფაილები"
+
+#: FlattenerGrid.js:FETCHING_CSV
+msgid "Retrieving CSV data from server ..."
+msgstr "მიმდინარეობს სერვერიდან CSV მონაცემების მიღება..."

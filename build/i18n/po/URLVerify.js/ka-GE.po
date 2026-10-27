@@ -1,0 +1,107 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen\n"
+"PO-Revision-Date: 2026-10-27 16:25+0400\n"
+"Language: ka-GE\n"
+"Language-Team: Georgian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: URLVerify.js:CREATING
+msgid "Creating session ..."
+msgstr "სესიის შექმნა ..."
+
+#: URLVerify.js:SAVING_TAGS
+msgid "Saving tag/subfield selectors ..."
+msgstr "ჭდის/ქვეველის სელექტორების შენახვა ..."
+
+#: URLVerify.js:PERFORMING_SEARCH
+msgid "Performing search ..."
+msgstr "მიმდინარეობს ძიება ..."
+
+#: URLVerify.js:EXTRACTING_URLS
+msgid "Extracting URLs ..."
+msgstr "URL-ების ამოღება ..."
+
+#: URLVerify.js:NEED_UVUS
+msgid "You must add some tag and subfield combinations."
+msgstr "უნდა დაამატოთ ჭდისა და ქვეველის კომბინაციები."
+
+#: URLVerify.js:REDIRECTING
+msgid "Loading next interface ..."
+msgstr "იტვირთება შემდეგი ინტერფეისი..."
+
+#: URLVerify.js:INTERFACE_SETUP
+msgid "Setting up interface ..."
+msgstr "ინტერფეისის მომზადება ..."
+
+#: URLVerify.js:VERIFY_ALL
+msgid ""
+"Click 'OK' to verify ALL the URLs that belong to this session and match all "
+"your search terms.  Click 'Cancel' if the selected, visible URLs are the "
+"only ones you want verified."
+msgstr "დააჭირეთ „კარგი“-ს, რათა გადაამოწმოთ ამ სესიის ყველა URL, რომელიც თქვენს საძიებო პირობებს ემთხვევა. დააჭირეთ „გაუქმებას“, თუ მხოლოდ არჩეული, ხილული URL-ების შემოწმება გსურთ."
+
+#: URLVerify.js:VERIFICATION_DIALOG
+msgid "Verifying URLs ..."
+msgstr "URL-ების გადამოწმება ..."
+
+#: URLVerify.js:VERIFICATION_ATTEMPT_ID
+msgid "Verification attempt ID: ${0}"
+msgstr "გადამოწმების მცდელობის ID: ${0}"
+
+#: URLVerify.js:NOTHING_SELECTED
+msgid "No rows are selected, so no action will be taken."
+msgstr "არცერთი სტრიქონი არ არის არჩეული, ამიტომ მოქმედება არ შესრულდება."
+
+#: URLVerify.js:REVIEW_ATTEMPT
+msgid "Review this verification attempt"
+msgstr "გადამოწმების ამ მცდელობის გადახედვა"
+
+#: URLVerify.js:CLONE_SESSION
+msgid "Clone"
+msgstr "კლონირება"
+
+#: URLVerify.js:REREVIEW
+msgid "Open"
+msgstr "გახსნა"
+
+#: URLVerify.js:CLONING
+msgid "Cloning existing session ..."
+msgstr "არსებული სესიის კლონირება ..."
+
+#: URLVerify.js:CLONE_SESSION_NAME
+msgid "Copy of ${0}"
+msgstr "${0}-ის ასლი"
+
+#: URLVerify.js:XPATH
+msgid "XPath"
+msgstr "XPath"
+
+#: URLVerify.js:SESSION_NAME
+msgid "Session '${0}'"
+msgstr "სესია „${0}“"
+
+#: URLVerify.js:SELECT_MORE
+msgid ""
+"Click here to review all session URLs and/or select other URLs to verify"
+msgstr "დააჭირეთ აქ სესიის ყველა URL-ის სანახავად და/ან გადასამოწმებელი სხვა URL-ების ასარჩევად"
+
+#: URLVerify.js:MARC_EDITOR_LINK
+msgid "Click to open MARC Editor for this record"
+msgstr "დააჭირეთ ამ ჩანაწერის MARC-რედაქტორის გასახსნელად"
+
+#: URLVerify.js:MARC_EDITOR_TITLE
+msgid "Record ID #${0}"
+msgstr "ჩანაწერის ID #${0}"
+
+#: URLVerify.js:MARC_EDITOR_SAVE_RECORD
+msgid "Save Record"
+msgstr "ჩანაწერის შენახვა"
+
+#: URLVerify.js:EDIT
+msgid "Edit"
+msgstr "რედაქტირება"

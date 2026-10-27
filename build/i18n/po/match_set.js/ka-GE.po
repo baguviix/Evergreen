@@ -1,0 +1,76 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen\n"
+"PO-Revision-Date: 2026-10-27 16:25+0400\n"
+"Language: ka-GE\n"
+"Language-Team: Georgian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: match_set.js:DEFINE_MP
+msgid ""
+"Define this match point using the above fields, then drag me to the tree on "
+"the right."
+msgstr "განსაზღვრეთ ეს დამთხვევის წერტილი ზემოთ მოცემული ველებით, შემდეგ გადაათრიეთ მარჯვენა ხეში."
+
+#: match_set.js:LEAVE_ROOT_ALONE
+msgid "You cannot delete the root node of a tree (but you can replace it)."
+msgstr "ხის ძირეული კვანძის წაშლა შეუძლებელია (თუმცა შეგიძლიათ მისი შეცვლა)."
+
+#: match_set.js:EXACTLY_ONE
+msgid ""
+"First select exactly one node from the tree on the right side of the screen."
+msgstr "ჯერ აირჩიეთ ზუსტად ერთი კვანძი ეკრანის მარჯვენა მხარეს არსებული ხიდან."
+
+#: match_set.js:EXIT_REPLACE_MODE
+msgid "Exit Replace Mode"
+msgstr "ჩანაცვლების რეჟიმიდან გასვლა"
+
+#: match_set.js:ENTER_REPLACE_MODE
+msgid "Enter Replace Mode"
+msgstr "ჩანაცვლების რეჟიმში შესვლა"
+
+#: match_set.js:NO_CAN_DO
+msgid "An error has occurred. Close this interface and try again."
+msgstr "მოხდა შეცდომა. დახურეთ ეს ინტერფეისი და სცადეთ ხელახლა."
+
+#: match_set.js:OK
+msgid "Ok"
+msgstr "კარგი"
+
+#: match_set.js:CANCEL
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: match_set.js:POINT_NEEDS_ONE
+msgid "You have not entered valid data"
+msgstr "შეყვანილი მონაცემები არასწორია"
+
+#: match_set.js:FAULTY_MARC
+msgid ""
+"A MARC tag must be identified by three digits, and the subfield must be one "
+"non-whitespace, non-control character."
+msgstr "MARC-ის ჭდე უნდა შედგებოდეს სამი ციფრისგან, ხოლო ქვეველი უნდა იყოს ერთი არაცარიელი და არასამართავი სიმბოლო."
+
+#: match_set.js:WORKING_MP_HERE
+msgid "Choose from among the three buttons above to add a new match point."
+msgstr "ახალი დამთხვევის წერტილის დასამატებლად აირჩიეთ ზემოთ მოცემული სამი ღილაკიდან ერთ-ერთი."
+
+#: match_set.js:WORKING_QM_HERE
+msgid "Use buttons above and to the right to add new quality metrics."
+msgstr "ხარისხის ახალი მეტრიკების დასამატებლად გამოიყენეთ ღილაკები ზემოთ და მარჯვნივ."
+
+#: match_set.js:SVF
+msgid "Record Attribute"
+msgstr "ჩანაწერის ატრიბუტი"
+
+#: match_set.js:MATCH_SCORE
+msgid "Match score ${0}"
+msgstr "დამთხვევის ქულა: ${0}"
+
+#: match_set.js:HEADING_MATCH
+msgid "Normalized Heading"
+msgstr "ნორმალიზებული რუბრიკა"

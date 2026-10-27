@@ -1,0 +1,152 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen\n"
+"PO-Revision-Date: 2026-10-27 16:25+0400\n"
+"Language: ka-GE\n"
+"Language-Team: Georgian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: pickup_and_return.js:NO_PATRON_BARCODE
+msgid "Please enter a patron barcode."
+msgstr "გთხოვთ შეიყვანოთ მკითხველის შტრიხკოდი."
+
+#: pickup_and_return.js:RESERVATIONS_NO_RESPONSE
+msgid "No response from server when asking for reservations."
+msgstr "ჯავშნების მოთხოვნისას სერვერიდან პასუხი არ არის."
+
+#: pickup_and_return.js:RESERVATIONS_ERROR
+msgid "Error communicating with server (asking for reservations):"
+msgstr "სერვერთან კავშირის შეცდომა (ჯავშნების მოთხოვნა):"
+
+#: pickup_and_return.js:PICKUP_NO_RESPONSE
+msgid "No response from server when attempting pickup."
+msgstr "რესურსის გაცემის მცდელობისას სერვერიდან პასუხი არ არის."
+
+#: pickup_and_return.js:PICKUP_ERROR
+msgid "Error communicating with server (attempting pickup):"
+msgstr "სერვერთან კავშირის შეცდომა (გაცემის მცდელობა):"
+
+#: pickup_and_return.js:RETURN_NO_RESPONSE
+msgid "No response from server when attempting return."
+msgstr "დაბრუნების მცდელობისას სერვერიდან პასუხი არ არის."
+
+#: pickup_and_return.js:RETURN_ERROR
+msgid "Error communicating with server (attempting return):"
+msgstr "სერვერთან კავშირის შეცდომა (დაბრუნების მცდელობა):"
+
+#: pickup_and_return.js:RETURN_SUCCESS
+msgid "Return successful."
+msgstr "დაბრუნება წარმატებით შესრულდა."
+
+#: pickup_and_return.js:SELECT_SOMETHING
+msgid "You have not selected any reservations."
+msgstr "არ აგირჩევიათ არცერთი ჯავშანი."
+
+#: pickup_and_return.js:NO_SUCH_RETURNABLE_RESOURCE
+msgid "No such returnable resource."
+msgstr "ასეთი დასაბრუნებელი რესურსი არ არსებობს."
+
+#: pickup_and_return.js:RETURNABLE_RESOURCE_ERROR
+msgid "Error looking up returnable resource:"
+msgstr "შეცდომა დასაბრუნებელი რესურსის მოძიებისას:"
+
+#: pickup_and_return.js:NOTICE_CHANGE_OF_PATRON
+msgid ""
+"Note that the resource scanned was out on reservation to a different\n"
+"patron than the last resource you scanned.  If this is not\n"
+"expected, stop to examine outstanding reservations for your patron\n"
+"or on the resource."
+msgstr ""
+"გაითვალისწინეთ, რომ დასკანერებული რესურსი სხვა მკითხველზე იყო გაცემული,\n"
+"ვიდრე წინა დასკანერებული რესურსი. თუ ეს მოულოდნელია,\n"
+"შეამოწმეთ მკითხველის ან რესურსის აქტიური ჯავშნები."
+
+#: pickup_and_return.js:AUTO_h1
+msgid "Reservations Pickup"
+msgstr "დაჯავშნილი რესურსების გაცემა"
+
+#: pickup_and_return.js:AUTO_return_h1
+msgid "Reservations Return"
+msgstr "დაჯავშნილი რესურსების დაბრუნება"
+
+#: pickup_and_return.js:AUTO_patron_barcode
+msgid "Enter patron barcode:"
+msgstr "შეიყვანეთ მკითხველის შტრიხკოდი:"
+
+#: pickup_and_return.js:AUTO_barcode_type
+msgid "Return by barcode of"
+msgstr "დაბრუნება შტრიხკოდით:"
+
+#: pickup_and_return.js:AUTO_in_bresv
+msgid "Patron has returned these resources today:"
+msgstr "მკითხველმა დღეს დააბრუნა შემდეგი რესურსები:"
+
+#: pickup_and_return.js:AUTO_ready_bresv
+msgid "Patron has these reservations ready for pickup:"
+msgstr "მკითხველისთვის გასაცემად მზადაა შემდეგი ჯავშნები:"
+
+#: pickup_and_return.js:AUTO_out_bresv
+msgid "Patron currently has these reservations out:"
+msgstr "მკითხველს ამჟამად გატანილი აქვს შემდეგი რესურსები:"
+
+#: pickup_and_return.js:AUTO_no_ready_bresv
+msgid "Patron has no reservations ready for pickup at this time."
+msgstr "მკითხველს ამ დროისთვის გასაცემად გამზადებული ჯავშნები არ აქვს."
+
+#: pickup_and_return.js:AUTO_no_out_bresv
+msgid "Patron has no more reservations out at this time."
+msgstr "მკითხველს ამ დროისთვის სხვა გატანილი რესურსები არ აქვს."
+
+#: pickup_and_return.js:AUTO_no_in_bresv
+msgid "Patron has not returned any resources today."
+msgstr "მკითხველს დღეს რესურსები არ დაუბრუნებია."
+
+#: pickup_and_return.js:AUTO_patron
+msgid "Patron"
+msgstr "მკითხველი"
+
+#: pickup_and_return.js:AUTO_resource
+msgid "Resource"
+msgstr "რესურსი"
+
+#: pickup_and_return.js:AUTO_ATTR_VALUE_go
+msgid "Go"
+msgstr "გადასვლა"
+
+#: pickup_and_return.js:AUTO_ATTR_VALUE_reset
+msgid "Clear / New Patron"
+msgstr "გასუფთავება / ახალი მკითხველი"
+
+#: pickup_and_return.js:AUTO_ATTR_VALUE_pickup
+msgid "Pick up"
+msgstr "გაცემა"
+
+#: pickup_and_return.js:AUTO_ATTR_VALUE_return
+msgid "Return"
+msgstr "დაბრუნება"
+
+#: pickup_and_return.js:ADDRESS
+msgid ""
+"${0}\n"
+"${1}\n"
+"${2}, ${3} ${4}"
+msgstr ""
+"${0}\n"
+"${1}\n"
+"${2}, ${3} ${4}"
+
+#: pickup_and_return.js:COPY_ALERT
+msgid ""
+"${0}:\n"
+"${1}\n"
+"\n"
+"Do you wish to process it anyway?"
+msgstr ""
+"${0}:\n"
+"${1}\n"
+"\n"
+"გსურთ მაინც გააგრძელოთ დამუშავება?"

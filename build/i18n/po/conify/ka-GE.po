@@ -1,0 +1,1599 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Evergreen\n"
+"PO-Revision-Date: 2026-10-27 14:30+0400\n"
+"Language: ka-GE\n"
+"Language-Team: Georgian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. (i18n_vac)
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:54
+msgid "%1 (VAC) is essentially a sub-account designation, e.g. '0001'.  It can be used with or without VAN."
+msgstr "%1 (VAC) არსებითად არის ქვეანგარიშის აღნიშვნა, ე.ი. '0001'.  მისი გამოყენება შესაძლებელია VAN-თან ერთად ან მის გარეშე."
+
+#. (i18n_van)
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:53
+msgid "%1 (VAN) is vendor-assigned, only needed if different than the org_unit SAN."
+msgstr "%1 (VAN) მინიჭებულია მომწოდებლის მიერ, საჭიროა მხოლოდ იმ შემთხვევაში, თუ განსხვავდება org_unit SAN-ისგან."
+
+#. (i18n_host)
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:44
+msgid "%1 is the full FTP/SSH hostname, including the protocol, e.g. ftp://ftp1.somevendor.com"
+msgstr "%1 არის სრული FTP/SSH ჰოსტის სახელი, პროტოკოლის ჩათვლით, მაგ. ftp://ftp1.somevendor.com"
+
+#. (i18n_account)
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:52
+msgid "%1 is unlikely to be used by modern systems and should typically be empty."
+msgstr "%1 ნაკლებად სავარაუდოა გამოყენებული თანამედროვე სისტემების მიერ და, როგორც წესი, ცარიელი უნდა იყოს."
+
+#. (i18n_username, i18n_password, i18n_account)
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:51
+msgid "%1, %2 and %3 are (s)FTP/SSH parameters."
+msgstr "%1, %2 და %3 არის (s)FTP/SSH პარამეტრები."
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:21
+msgid "&#x2196; Return To Coded Value Maps"
+msgstr "&#x2196; დაბრუნება კოდირებული მნიშვნელობის რუქებზე"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_location_group.tt2:97
+msgid "&larr; Add"
+msgstr "&larr; დამატება"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/address_alert.tt2:21
+msgid "* Address Alert fields support regular expressions and are case-insensitive by default."
+msgstr "* Address Alert ველები მხარს უჭერს რეგულარულ გამონათქვამებს და ნაგულისხმევად არ არის მგრძნობიარე რეგისტრის მიმართ."
+
+#: ../../Open-ILS/src/templates/conify/global/actor/address_alert.tt2:23
+msgid "* Example case-sensitive match: (?c)742 Evergr.*n Terrace"
+msgstr "* მაგალითი რეგისტრირებული შესატყვისი: (?c)742 Evergr.*n ტერასა"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/address_alert.tt2:22
+msgid "* Example wildcard match:  742 Evergr.*n Terrace"
+msgstr "* მაგალითი wildcard მატჩი: 742 Evergr.*n Terrace"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/address_alert.tt2:24
+msgid "* If the billing or mailing address fields are selected, the tested address must be a billing or mailing address to match."
+msgstr "* თუ არჩეულია ბილინგის ან საფოსტო მისამართის ველები, შემოწმებული მისამართი უნდა იყოს ბილინგის ან საფოსტო მისამართის შესატყვისი."
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:63
+msgid "A relative number representing the impact of this expression on the score of the overall record match"
+msgstr "ფარდობითი რიცხვი, რომელიც წარმოადგენს ამ გამოთქმის გავლენას საერთო ჩანაწერის მატჩის ქულაზე"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:44
+msgid "Account"
+msgstr "ანგარიში"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:62
+msgid "Activate Tree"
+msgstr "გააქტიურეთ ხე"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_matrix_matchpoint.tt2:37
+msgid "Active"
+msgstr "აქტიური"
+
+#: ../../Open-ILS/src/templates/conify/global/config/actor_sip_fields.tt2:2 ../../Open-ILS/src/templates/conify/global/config/actor_sip_fields.tt2:5
+msgid "Actor Stat Cat Sip Fields"
+msgstr "მსახიობი Stat Cat Sip Fields"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:45 ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:66 ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:89 ../../Open-ILS/src/templates/conify/global/config/circ_matrix_matchpoint.tt2:52 ../../Open-ILS/src/templates/conify/global/config/floating_groups.tt2:48
+msgid "Add"
+msgstr "დაამატეთ"
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:47
+msgid "Add Child"
+msgstr "შვილობილის დამატება"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:6
+msgid "Add New Survey"
+msgstr "დაამატეთ ახალი კვლევა"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:87
+msgid "Add new"
+msgstr "დაამატეთ ახალი"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/address_alert.tt2:2 ../../Open-ILS/src/templates/conify/global/actor/address_alert.tt2:5
+msgid "Address Alert"
+msgstr "მისამართის გაფრთხილება"
+
+#: ../../Open-ILS/src/templates/conify/global/config/rule_age_hold_protect.tt2:2 ../../Open-ILS/src/templates/conify/global/config/rule_age_hold_protect.tt2:5
+msgid "Age Hold Protect Rules"
+msgstr "Age Hold Protect წესები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:73
+msgid "Apply"
+msgstr "გამოყენება"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:44 ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:81 ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:66 ../../Open-ILS/src/templates/conify/global/asset/copy_location_order.tt2:18
+msgid "Apply Changes"
+msgstr "გამოიყენეთ ცვლილებები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:37
+msgid "Apply Credentials"
+msgstr "მიმართეთ რწმუნებათა სიგელებს"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:14 ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:14
+msgid "Array"
+msgstr "მასივი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/asset_sip_fields.tt2:2 ../../Open-ILS/src/templates/conify/global/config/asset_sip_fields.tt2:5
+msgid "Asset Stat Cat Sip Fields"
+msgstr "ეგზემპლარის სტატ. კატეგორიის SIP ველები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:102 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:104
+msgid "Attribute Definitions"
+msgstr "ატრიბუტების განმარტებები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:10 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:63
+msgid "Audio Tape"
+msgstr "აუდიო ფირი"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/control_set_authority_field.tt2:5
+msgid "Authority Fields"
+msgstr "უფლებამოსილების სფეროები"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/control_set_authority_field.tt2:28
+msgid "Axes"
+msgstr "ცულები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:157
+msgid "Barcode"
+msgstr "შტრიხკოდი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/barcode_completion.tt2:1 ../../Open-ILS/src/templates/conify/global/config/barcode_completion.tt2:5
+msgid "Barcode Completion Configuration"
+msgstr "შტრიხკოდის დასრულების კონფიგურაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:63
+msgid "Barcode of Circulating Copy"
+msgstr "გასაცემი ეგზემპლარის შტრიხკოდი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:66
+msgid "Because rtime, a high-precision timestamp, is essentially unique among holds, no fields arranged after rtime really have any effect in determining best-hold selection."
+msgstr "იმის გამო, რომ rtime, მაღალი სიზუსტის დროის ანაბეჭდი, არსებითად უნიკალურია შეფერხებებს შორის, rtime-ის შემდეგ მოწყობილი არცერთი ველი ნამდვილად არ ახდენს გავლენას საუკეთესო შეჩერების შერჩევის განსაზღვრაში."
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:17
+msgid "Best-Hold Selection Sort Order"
+msgstr "ჯავშნის ოპტიმალური შერჩევის თანმიმდევრობა"
+
+#: ../../Open-ILS/src/templates/conify/global/config/billing_type.tt2:2 ../../Open-ILS/src/templates/conify/global/config/billing_type.tt2:9
+msgid "Billing Types"
+msgstr "ბილინგის ტიპები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:57 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:7
+msgid "Book"
+msgstr "წიგნი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:15 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:73
+msgid "Book with CD"
+msgstr "დაჯავშნეთ CD-ით"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:16 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:75
+msgid "Book with audio tape"
+msgstr "წიგნი აუდიო ლენტით"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:14 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:71
+msgid "Book with diskette"
+msgstr "წიგნი დისკეტით"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:7 ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:7
+msgid "Boolean"
+msgstr "ლოგიკური"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:91
+msgid "Boolean Operator"
+msgstr "ლოგიკური ოპერატორი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:60
+msgid "Boolean: AND"
+msgstr "ლოგიკური: AND"
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:69
+msgid "Boolean: NOT"
+msgstr "ლოგიკური: NOT"
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:64
+msgid "Boolean: OR"
+msgstr "ლოგიკური: OR"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:61 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:9
+msgid "Bound Journal"
+msgstr "შეკრული ჟურნალი"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/browse_axis.tt2:5
+msgid "Browse Axes"
+msgstr "ცულების დათვალიერება"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/browse_axis_authority_field_map.tt2:5
+msgid "Browse Axis-Authority Field Maps"
+msgstr "დაათვალიერეთ Axis-Authority Field Maps"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:12 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:67
+msgid "CD/CDROM"
+msgstr "CD/CDROM"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:152 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:188
+msgid "Call Number"
+msgstr "საბიბლიოთეკო შიფრი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/acn_prefix.tt2:2 ../../Open-ILS/src/templates/conify/global/config/acn_prefix.tt2:9
+msgid "Call Number Prefixes"
+msgstr "ზარის ნომრის პრეფიქსები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/acn_suffix.tt2:2 ../../Open-ILS/src/templates/conify/global/config/acn_suffix.tt2:9
+msgid "Call Number Suffixes"
+msgstr "ზარის ნომრის სუფიქსები"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:56
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/cancel_reason.tt2:2
+msgid "Cancel Reasons"
+msgstr "გაუქმების მიზეზები"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:28
+msgid "Changes to custom org trees may require web server (apache) reload before taking effect"
+msgstr "მორგებულ org ხეებში ცვლილებები შეიძლება მოითხოვდეს ვებ სერვერის (apache) გადატვირთვას, სანამ ძალაში შევა"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:75
+msgid "Check Only?"
+msgstr "მხოლოდ შემოწმება?"
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:86 ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:89
+msgid "Choose a best-hold order"
+msgstr "აირჩიე საუკეთესო შეჩერების შეკვეთა"
+
+#: ../../Open-ILS/src/templates/conify/global/config/rule_circ_duration.tt2:2 ../../Open-ILS/src/templates/conify/global/config/rule_circ_duration.tt2:5
+msgid "Circ Duration Rules"
+msgstr "წრის ხანგრძლივობის წესები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_matrix_weights.tt2:2 ../../Open-ILS/src/templates/conify/global/config/circ_matrix_weights.tt2:5
+msgid "Circ Matrix Weights"
+msgstr "წრის მატრიცის წონები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/rule_max_fine.tt2:2 ../../Open-ILS/src/templates/conify/global/config/rule_max_fine.tt2:5
+msgid "Circ Max Fine Rules"
+msgstr "Circ Max Fine წესები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:54 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:154
+msgid "Circ Modifier"
+msgstr "წრის მოდიფიკატორი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_limit_group.tt2:2 ../../Open-ILS/src/templates/conify/global/config/circ_limit_group.tt2:4
+msgid "Circulation Limit Group"
+msgstr "ცირკულაციის ლიმიტის ჯგუფი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:1 ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:5
+msgid "Circulation Limit Set"
+msgstr "ცირკულაციის ლიმიტის ნაკრები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:192 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:2 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:21
+msgid "Circulation Modifier"
+msgstr "ცირკულაციის მოდიფიკატორი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_matrix_matchpoint.tt2:1 ../../Open-ILS/src/templates/conify/global/config/circ_matrix_matchpoint.tt2:5
+msgid "Circulation Policy Configuration"
+msgstr "ცირკულაციის პოლიტიკის კონფიგურაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/claim_event_type.tt2:2 ../../Open-ILS/src/templates/conify/global/acq/claim_event_type.tt2:6
+msgid "Claim Event Types"
+msgstr "პრეტენზია მოვლენის ტიპები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/claim_policy.tt2:2 ../../Open-ILS/src/templates/conify/global/acq/claim_policy.tt2:7
+msgid "Claim Policies"
+msgstr "პრეტენზიის პოლიტიკა"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/claim_policy_action.tt2:2 ../../Open-ILS/src/templates/conify/global/acq/claim_policy_action.tt2:7
+msgid "Claim Policy Actions"
+msgstr "მოთხოვნის პოლიტიკის ქმედებები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/claim_type.tt2:2 ../../Open-ILS/src/templates/conify/global/acq/claim_type.tt2:7
+msgid "Claim Types"
+msgstr "პრეტენზიის სახეები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/idl_field_doc.tt2:8
+msgid "Class:"
+msgstr "კლასი:"
+
+#: ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:40
+msgid "Clear Stored Credentials"
+msgstr "შენახული სერთიფიკატების გასუფთავება"
+
+#: ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:15
+msgid "Clone Attributes From Source"
+msgstr "კლონი ატრიბუტები წყაროდან"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:11 ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:24 ../../Open-ILS/src/templates/conify/global/config/coded_value_map.tt2:9 ../../Open-ILS/src/templates/conify/global/config/metabib_field_virtual_map.tt2:9
+msgid "Clone Selected"
+msgstr "შერჩეულია კლონი"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:86
+msgid "Code"
+msgstr "კოდი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/coded_value_map.tt2:2 ../../Open-ILS/src/templates/conify/global/config/coded_value_map.tt2:5 ../../Open-ILS/src/templates/conify/global/config/record_attr_definition.tt2:26
+msgid "Coded Value Maps"
+msgstr "კოდირებული ღირებულების რუქები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:17
+msgid "Coded Value: "
+msgstr "კოდირებული მნიშვნელობა: "
+
+#: ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:37 ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:56
+msgid "Collapse"
+msgstr "კოლაფსი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:55 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:158 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:194
+msgid "Collection Code"
+msgstr "საკოლექციო კოდი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:13
+msgid "Composite Attribute Entry Definitions"
+msgstr "კომპოზიტური ატრიბუტის შესვლის განმარტებები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:24
+msgid "Composite Data Expression"
+msgstr "მონაცემთა შედგენილი გამოხატულება"
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:28
+msgid "Composite Data Tree"
+msgstr "კომპოზიტური მონაცემთა ხე"
+
+#: ../../Open-ILS/src/templates/conify/global/config/coded_value_map.tt2:31
+msgid "Composite Definition"
+msgstr "კომპოზიტური განმარტება"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/control_set_authority_field.tt2:2
+msgid "Configure Authority Authority Fields"
+msgstr "ავტორიტეტის ავტორიტეტის ველების კონფიგურაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/browse_axis.tt2:2
+msgid "Configure Authority Browse Axes"
+msgstr "ავტორიტეტის დათვალიერების ღერძების კონფიგურაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/control_set_bib_field.tt2:2
+msgid "Configure Authority Control Set Bib Fields"
+msgstr "ავტორიტეტის კონტროლის ნაკრების Bib ველების კონფიგურაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/control_set.tt2:2
+msgid "Configure Authority Control Sets"
+msgstr "ავტორიტეტის კონტროლის ნაკრების კონფიგურაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/thesaurus.tt2:2
+msgid "Configure Authority Thesauri"
+msgstr "ავტორიტეტული თეზაურის კონფიგურაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/browse_axis_authority_field_map.tt2:2
+msgid "Configure Browse Axis-Authority Field Maps"
+msgstr "Browse Axis-Authority Field Maps-ის კონფიგურაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/biblio/monograph_part.tt2:2
+msgid "Configure Monograph Parts"
+msgstr "მონოგრაფიის ნაწილების კონფიგურაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:83
+msgid "Contact Address"
+msgstr "საკონტაქტო მისამართი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/cancel_reason.tt2:16 ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:20 ../../Open-ILS/src/templates/conify/global/acq/lineitem_alert.tt2:16 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:14 ../../Open-ILS/src/templates/conify/global/actor/address_alert.tt2:12 ../../Open-ILS/src/templates/conify/global/asset/copy_location_order.tt2:12 ../../Open-ILS/src/templates/conify/global/booking/resource.tt2:11 ../../Open-ILS/src/templates/conify/global/booking/resource_attr.tt2:11 ../../Open-ILS/src/templates/conify/global/booking/resource_attr_map.tt2:11 ../../Open-ILS/src/templates/conify/global/booking/resource_attr_value.tt2:11 ../../Open-ILS/src/templates/conify/global/booking/resource_type.tt2:11 ../../Open-ILS/src/templates/conify/global/config/acn_prefix.tt2:16 ../../Open-ILS/src/templates/conify/global/config/acn_suffix.tt2:16 ../../Open-ILS/src/templates/conify/global/config/billing_type.tt2:16 ../../Open-ILS/src/templates/conify/global/permission/grp_penalty_threshold.tt2:13
+msgid "Context Org Unit"
+msgstr "კონტექსტური ორგანული ერთეული"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/control_set_bib_field.tt2:5
+msgid "Control Set Bib Fields"
+msgstr "საკონტროლო ნაკრები Bib Fields"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/control_set.tt2:5
+msgid "Control Sets"
+msgstr "კონტროლის ნაკრები"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/control_set_authority_field.tt2:26
+msgid "Controlled Bib Fields"
+msgstr "კონტროლირებადი ბიბის ველები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:52 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:156 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:193
+msgid "Copy Location"
+msgstr "ეგზემპლარის მდებარეობა"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_template.tt2:2 ../../Open-ILS/src/templates/conify/global/asset/copy_template.tt2:7
+msgid "Copy Templates"
+msgstr "ეგზემპლარის შაბლონები"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:89
+msgid "Create Date"
+msgstr "შექმნის თარიღი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:27
+msgid "Create New"
+msgstr "შექმენით ახალი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:26
+msgid "Credentials for "
+msgstr "რწმუნებათა სიგელები "
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:10 ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:10
+msgid "Currency"
+msgstr "ვალუტა"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:44
+msgid "Custom Unit Tree: "
+msgstr "მორგებული ერთეულის ხე: "
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:9
+msgid "Daily"
+msgstr "ყოველდღიური"
+
+#: ../../Open-ILS/src/templates/conify/global/config/metabib_field.tt2:22
+msgid "Data Suppliers"
+msgstr "მონაცემთა მომწოდებლები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:12 ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:12
+msgid "Date"
+msgstr "თარიღი"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:63
+msgid "Deactivate Tree"
+msgstr "გამორთეთ ხე"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_location_group.tt2:129 ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:45
+msgid "Delete"
+msgstr "წაშლა"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/cancel_reason.tt2:12 ../../Open-ILS/src/templates/conify/global/acq/claim_event_type.tt2:11 ../../Open-ILS/src/templates/conify/global/acq/claim_policy.tt2:10 ../../Open-ILS/src/templates/conify/global/acq/claim_policy_action.tt2:12 ../../Open-ILS/src/templates/conify/global/acq/claim_type.tt2:10 ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:10 ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:14 ../../Open-ILS/src/templates/conify/global/acq/exchange_rate.tt2:7 ../../Open-ILS/src/templates/conify/global/acq/fund_tag.tt2:12 ../../Open-ILS/src/templates/conify/global/acq/invoice_item_type.tt2:7 ../../Open-ILS/src/templates/conify/global/acq/invoice_payment_method.tt2:7 ../../Open-ILS/src/templates/conify/global/acq/lineitem_alert.tt2:12 ../../Open-ILS/src/templates/conify/global/acq/lineitem_marc_attr_def.tt2:12 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:10 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:107 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:134 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:46 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:67 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:86 ../../Open-ILS/src/templates/conify/global/action/survey.tt2:7 ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:25 ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:51 ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:73 ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:98 ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:13 ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:34 ../../Open-ILS/src/templates/conify/global/actor/address_alert.tt2:8 ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:59 ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:20 ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:67 ../../Open-ILS/src/templates/conify/global/asset/copy_template.tt2:12 ../../Open-ILS/src/templates/conify/global/biblio/monograph_part.tt2:10 ../../Open-ILS/src/templates/conify/global/booking/resource.tt2:7 ../../Open-ILS/src/templates/conify/global/booking/resource_attr.tt2:7 ../../Open-ILS/src/templates/conify/global/booking/resource_attr_map.tt2:7 ../../Open-ILS/src/templates/conify/global/booking/resource_attr_value.tt2:7 ../../Open-ILS/src/templates/conify/global/booking/resource_type.tt2:7 ../../Open-ILS/src/templates/conify/global/cat/authority/browse_axis.tt2:8 ../../Open-ILS/src/templates/conify/global/cat/authority/browse_axis_authority_field_map.tt2:8 ../../Open-ILS/src/templates/conify/global/cat/authority/control_set.tt2:8 ../../Open-ILS/src/templates/conify/global/cat/authority/control_set_authority_field.tt2:8 ../../Open-ILS/src/templates/conify/global/cat/authority/control_set_bib_field.tt2:8 ../../Open-ILS/src/templates/conify/global/cat/authority/thesaurus.tt2:8 ../../Open-ILS/src/templates/conify/global/config/acn_prefix.tt2:12 ../../Open-ILS/src/templates/conify/global/config/acn_suffix.tt2:12 ../../Open-ILS/src/templates/conify/global/config/actor_sip_fields.tt2:8 ../../Open-ILS/src/templates/conify/global/config/asset_sip_fields.tt2:8 ../../Open-ILS/src/templates/conify/global/config/billing_type.tt2:12 ../../Open-ILS/src/templates/conify/global/config/circ_limit_group.tt2:7 ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:8 ../../Open-ILS/src/templates/conify/global/config/circ_matrix_weights.tt2:8 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:24 ../../Open-ILS/src/templates/conify/global/config/coded_value_map.tt2:8 ../../Open-ILS/src/templates/conify/global/config/hold_matrix_weights.tt2:8 ../../Open-ILS/src/templates/conify/global/config/metabib_class_ts_map.tt2:8 ../../Open-ILS/src/templates/conify/global/config/metabib_field.tt2:8 ../../Open-ILS/src/templates/conify/global/config/metabib_field_ts_map.tt2:8 ../../Open-ILS/src/templates/conify/global/config/metabib_field_virtual_map.tt2:8 ../../Open-ILS/src/templates/conify/global/config/org_unit_proximity_adjustment.tt2:10 ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:24 ../../Open-ILS/src/templates/conify/global/config/record_attr_definition.tt2:9 ../../Open-ILS/src/templates/conify/global/config/remote_account.tt2:7 ../../Open-ILS/src/templates/conify/global/config/rule_age_hold_protect.tt2:8 ../../Open-ILS/src/templates/conify/global/config/rule_circ_duration.tt2:8 ../../Open-ILS/src/templates/conify/global/config/rule_max_fine.tt2:8 ../../Open-ILS/src/templates/conify/global/config/rule_recurring_fine.tt2:8 ../../Open-ILS/src/templates/conify/global/config/sms_carrier.tt2:12 ../../Open-ILS/src/templates/conify/global/config/standing_penalty.tt2:12 ../../Open-ILS/src/templates/conify/global/config/usr_activity_type.tt2:12 ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:24 ../../Open-ILS/src/templates/conify/global/config/weight_assoc.tt2:8 ../../Open-ILS/src/templates/conify/global/config/z3950_index_field_map.tt2:17 ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:14 ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:82 ../../Open-ILS/src/templates/conify/global/permission/grp_penalty_threshold.tt2:8 ../../Open-ILS/src/templates/conify/global/vandelay/import_bib_trash_group.tt2:23 ../../Open-ILS/src/templates/conify/global/vandelay/import_bib_trash_group.tt2:70 ../../Open-ILS/src/templates/conify/global/vandelay/match_set.tt2:10
+msgid "Delete Selected"
+msgstr "მონიშნულის წაშლა"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:131
+msgid "Delete Selected Metrics"
+msgstr "არჩეული მეტრიკის წაშლა"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:108
+msgid "Delete Selected Node"
+msgstr "არჩეული კვანძის წაშლა"
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:32
+msgid "Delete Tree"
+msgstr "წაშალე ხე"
+
+#: ../../Open-ILS/src/templates/conify/global/config/hard_due_date_values.tt2:70
+msgid "Deleted Selected"
+msgstr "წაშლილი არჩეულია"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:19 ../../Open-ILS/src/templates/conify/global/action/survey.tt2:40
+msgid "Description"
+msgstr "აღწერა"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:13 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:69
+msgid "Diskette"
+msgstr "დისკეტი"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:26 ../../Open-ILS/src/templates/conify/global/action/survey.tt2:68
+msgid "Display in User Summary?"
+msgstr "ჩვენება მომხმარებლის რეზიუმეში?"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:2 ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:7
+msgid "Distribution Formulas"
+msgstr "განაწილების ფორმულები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:11 ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:2
+msgid "EDI Accounts"
+msgstr "EDI ანგარიშები"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_location_group.tt2:128 ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:96
+msgid "Edit"
+msgstr "რედაქტირება"
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:29
+msgid "Edit Existing"
+msgstr "არსებული რედაქტირება"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:22 ../../Open-ILS/src/templates/conify/global/action/survey.tt2:52
+msgid "End Date"
+msgstr "დასრულების თარიღი"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:8
+msgid "End Selected Surveys"
+msgstr "შერჩეული კვლევების დასრულება"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:150
+msgid "Estimated Price"
+msgstr "სავარაუდო ფასი"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:51
+msgid "Event Definition Tests"
+msgstr "მოვლენის განსაზღვრის ტესტები"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:19 ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:2
+msgid "Event Definitions"
+msgstr "მოვლენის განმარტებები"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:8
+msgid "Event Environment"
+msgstr "ღონისძიების გარემო"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:29
+msgid "Event Parameters"
+msgstr "მოვლენის პარამეტრები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/exchange_rate.tt2:2 ../../Open-ILS/src/templates/conify/global/acq/exchange_rate.tt2:4
+msgid "Exchange Rates"
+msgstr "გაცვლითი კურსი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/floating_groups.tt2:32
+msgid "Exclude"
+msgstr "გამორიცხეთ"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:36 ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:55
+msgid "Expand"
+msgstr "გაფართოება"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_matrix_matchpoint.tt2:36
+msgid "Fallthrough"
+msgstr "ჩამოშლის წესი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/idl_field_doc.tt2:2 ../../Open-ILS/src/templates/conify/global/config/idl_field_doc.tt2:6
+msgid "Field Documentation"
+msgstr "საველე დოკუმენტაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:9 ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:9
+msgid "Float"
+msgstr "მცურავი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/floating_groups.tt2:1 ../../Open-ILS/src/templates/conify/global/config/floating_groups.tt2:5
+msgid "Floating Groups Configuration"
+msgstr "მცურავი ჯგუფების კონფიგურაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:34
+msgid "Full Org Unit Tree"
+msgstr "სრული ორგანოს ერთეული ხე"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:53
+msgid "Fund"
+msgstr "ფონდი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:153 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:189
+msgid "Fund Code"
+msgstr "ფონდის კოდი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/fund_tag.tt2:2 ../../Open-ILS/src/templates/conify/global/acq/fund_tag.tt2:7
+msgid "Fund Tags"
+msgstr "ფონდის ტეგები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/global_flag.tt2:2 ../../Open-ILS/src/templates/conify/global/config/global_flag.tt2:5
+msgid "Global Flags"
+msgstr "გლობალური დროშები"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:67
+msgid "Go"
+msgstr "წადი"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_location_group.tt2:78
+msgid "Group Entries"
+msgstr "ჯგუფური ჩანაწერები"
+
+#: ../../Open-ILS/src/templates/conify/global/permission/grp_penalty_threshold.tt2:2
+msgid "Group Penalty Thresholds"
+msgstr "ჯგუფური ჯარიმების ზღვარი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/hard_due_date_values.tt2:2 ../../Open-ILS/src/templates/conify/global/config/hard_due_date_values.tt2:63
+msgid "Hard Due Date Values"
+msgstr "მძიმე ვადის ღირებულებები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/hard_due_date.tt2:2
+msgid "Hard Due Dates"
+msgstr "მძიმე ვადები"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_template.tt2:42
+msgid "High"
+msgstr "მაღალი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/hold_matrix_weights.tt2:2 ../../Open-ILS/src/templates/conify/global/config/hold_matrix_weights.tt2:5
+msgid "Hold Matrix Weights"
+msgstr "დაიჭირეთ მატრიცის წონა"
+
+#: ../../Open-ILS/src/templates/conify/global/config/hold_matrix_matchpoint.tt2:1 ../../Open-ILS/src/templates/conify/global/config/hold_matrix_matchpoint.tt2:4
+msgid "Hold Policy Configuration"
+msgstr "გააჩერეთ პოლიტიკის კონფიგურაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:129 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:131
+msgid "Holding Subfield"
+msgstr "ჩატარების ქვეველი"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:46
+msgid "Hooks"
+msgstr "კაკვები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:44
+msgid "Host"
+msgstr "მასპინძელი"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:8
+msgid "Hourly"
+msgstr "საათობრივი"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:44
+msgid "ID"
+msgstr "ID"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/import_bib_trash_group.tt2:62
+msgid "Import Bib Trash Fields"
+msgstr "იმპორტი Bib Trash Fields"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/import_bib_trash_group.tt2:2
+msgid "Import Bib Trash Groups"
+msgstr "Bib Trash ჯგუფების იმპორტი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:8 ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:8
+msgid "Integer"
+msgstr "მთელი რიცხვი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:22
+msgid "Interface loading"
+msgstr "ინტერფეისის ჩატვირთვა"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:11 ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:11
+msgid "Interval"
+msgstr "ინტერვალი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/invoice_item_type.tt2:2 ../../Open-ILS/src/templates/conify/global/acq/invoice_item_type.tt2:4
+msgid "Invoice Item Types"
+msgstr "ინვოისის ერთეულების ტიპები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/invoice_payment_method.tt2:2 ../../Open-ILS/src/templates/conify/global/acq/invoice_payment_method.tt2:4
+msgid "Invoice Payment Methods"
+msgstr "ინვოისის გადახდის მეთოდები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:163 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:164
+msgid "Invoices"
+msgstr "ინვოისები"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:25 ../../Open-ILS/src/templates/conify/global/action/survey.tt2:64
+msgid "Is Required?"
+msgstr "საჭიროა?"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:56
+msgid "Item Count"
+msgstr "ერთეულების რაოდენობა"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:40 ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:51 ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:88
+msgid "Label"
+msgstr "იარლიყი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/lineitem_alert.tt2:9
+msgid "Line Item Alert Text"
+msgstr "ხაზის ელემენტის გაფრთხილების ტექსტი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/lineitem_alert.tt2:2
+msgid "Line Item Alerts"
+msgstr "ხაზის ელემენტის გაფრთხილებები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/lineitem_marc_attr_def.tt2:9
+msgid "Line Item MARC Attribute Definition Editor"
+msgstr "ხაზის ელემენტი MARC ატრიბუტების განსაზღვრის რედაქტორი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/lineitem_marc_attr_def.tt2:2
+msgid "Line Item MARC Attributes"
+msgstr "ხაზის ერთეული MARC ატრიბუტები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:15 ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:15
+msgid "Link"
+msgstr "ბმული"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:28
+msgid "Linked Circ Modifiers"
+msgstr "დაკავშირებული წრე მოდიფიკატორები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:49
+msgid "Linked Copy Locations"
+msgstr "მიბმული ეგზემპლარის მდებარეობები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/floating_groups.tt2:25
+msgid "Linked Group Members"
+msgstr "დაკავშირებული ჯგუფის წევრები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:70
+msgid "Linked Limit Groups"
+msgstr "დაკავშირებული ლიმიტის ჯგუფები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_matrix_matchpoint.tt2:31
+msgid "Linked Limit Sets"
+msgstr "დაკავშირებული ლიმიტების ნაკრები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:190
+msgid "Local Note"
+msgstr "ადგილობრივი შენიშვნა"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_location_group.tt2:69
+msgid "Location Groups"
+msgstr "მდებარეობის ჯგუფები"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_template.tt2:48
+msgid "Long"
+msgstr "გრძელი"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_template.tt2:40
+msgid "Low"
+msgstr "დაბალი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/record_attr_definition.tt2:2
+msgid "MARC Record Attribute Definitions"
+msgstr "MARC ჩანაწერის ატრიბუტების განმარტებები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/metabib_class_ts_map.tt2:2
+msgid "MARC Search Class FTS Config Maps"
+msgstr "MARC საძიებო კლასი FTS კონფიგურაციის რუქები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/metabib_class.tt2:2
+msgid "MARC Search Classes"
+msgstr "MARC საძიებო კლასები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/metabib_field.tt2:2
+msgid "MARC Search and Facet Fields"
+msgstr "MARC საძიებო და Facet ველები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/metabib_field_ts_map.tt2:2
+msgid "MARC Search and Facet Fields FTS Configs"
+msgstr "MARC საძიებო და ასპექტის ველები FTS კონფიგურაციები"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:128 ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:89
+msgid "MARC Tag and Subfield"
+msgstr "MARC ტეგი და ქვეველი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:59 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:8
+msgid "Magazine"
+msgstr "ჟურნალი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/coded_value_map.tt2:53 ../../Open-ILS/src/templates/conify/global/config/metabib_field.tt2:44 ../../Open-ILS/src/templates/conify/global/config/record_attr_definition.tt2:43
+msgid "Manage"
+msgstr "მართვა"
+
+#: ../../Open-ILS/src/templates/conify/global/config/z3950_index_field_map.tt2:52
+msgid ""
+"Map Metabib Fields OR Bib Record Attributes to specific Z39.50 \n"
+"Attributes OR generic Z39.50 Attribute types (by name)."
+msgstr "რუკა Metabib ველები OR Bib Record ატრიბუტები კონკრეტული Z39.50 \nAატრიბუტები OR ზოგადი Z39.50 ატრიბუტების ტიპები (სახელის მიხედვით)."
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:64
+msgid "Match Score"
+msgstr "მატჩის ქულა"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:34
+msgid "Match set name:"
+msgstr "მატჩის ნაკრების სახელი:"
+
+#: ../../Open-ILS/src/templates/conify/global/config/weight_assoc.tt2:2 ../../Open-ILS/src/templates/conify/global/config/weight_assoc.tt2:5
+msgid "Matrix Weight Associations"
+msgstr "მატრიცული წონის ასოციაციები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/floating_groups.tt2:31
+msgid "Max Depth"
+msgstr "მაქსიმალური სიღრმე"
+
+#: ../../Open-ILS/src/templates/conify/global/biblio/monograph_part.tt2:8
+msgid "Merge Selected"
+msgstr "არჩეული შერწყმა"
+
+#: ../../Open-ILS/src/templates/conify/global/config/metabib_class.tt2:5
+msgid "Metabib Class"
+msgstr "მეტაბიბის კლასი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/metabib_class_ts_map.tt2:5
+msgid "Metabib Class FTS Config Maps"
+msgstr "Metabib კლასი FTS კონფიგურაციის რუქები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/metabib_field.tt2:5 ../../Open-ILS/src/templates/conify/global/config/z3950_index_field_map.tt2:40
+msgid "Metabib Field"
+msgstr "მეტაბიბის ველი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/metabib_field_ts_map.tt2:5
+msgid "Metabib Field FTS Configs"
+msgstr "Metabib ველი FTS კონფიგურაციები"
+
+#: ../../Open-ILS/src/templates/conify/global/biblio/monograph_part.tt2:6
+msgid "Monograph Parts"
+msgstr "მონოგრაფია ნაწილები"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:11
+msgid "Monthly"
+msgstr "ყოველთვიური"
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:58
+msgid "Move Down"
+msgstr "გადაადგილება ქვემოთ"
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:52
+msgid "Move Up"
+msgstr "გადაადგილება ზემოთ"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:18 ../../Open-ILS/src/templates/conify/global/action/survey.tt2:36 ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:32 ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:53 ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:74 ../../Open-ILS/src/templates/conify/global/config/circ_matrix_matchpoint.tt2:35
+msgid "Name"
+msgstr "სახელი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:38
+msgid "Name:"
+msgstr "სახელი:"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:74
+msgid "Negate?"
+msgstr "უარყოფა?"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:23 ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:50 ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:72 ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:97 ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:12 ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:33 ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:19 ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:66 ../../Open-ILS/src/templates/conify/global/asset/copy_location_group.tt2:70 ../../Open-ILS/src/templates/conify/global/config/barcode_completion.tt2:6 ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:7 ../../Open-ILS/src/templates/conify/global/config/circ_matrix_matchpoint.tt2:6 ../../Open-ILS/src/templates/conify/global/config/floating_groups.tt2:6 ../../Open-ILS/src/templates/conify/global/config/hold_matrix_matchpoint.tt2:5 ../../Open-ILS/src/templates/conify/global/config/idl_field_doc.tt2:10 ../../Open-ILS/src/templates/conify/global/config/remote_account.tt2:6 ../../Open-ILS/src/templates/conify/global/config/z3950_index_field_map.tt2:13 ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:13
+msgid "New"
+msgstr "ახალი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:13
+msgid "New Account"
+msgstr "ახალი ანგარიში"
+
+#: ../../Open-ILS/src/templates/conify/global/config/usr_activity_type.tt2:11
+msgid "New Activity Type"
+msgstr "ახალი აქტივობის ტიპი"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/address_alert.tt2:7
+msgid "New Address Alert"
+msgstr "ახალი მისამართის გაფრთხილება"
+
+#: ../../Open-ILS/src/templates/conify/global/config/rule_age_hold_protect.tt2:7
+msgid "New Age Hold Protect Rule"
+msgstr "New Age Hold Protect-ის წესი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/record_attr_definition.tt2:8
+msgid "New Attr. Definition"
+msgstr "ახალი Attr. განმარტება"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/lineitem_marc_attr_def.tt2:11
+msgid "New Attribute"
+msgstr "ახალი ატრიბუტი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:106
+msgid "New Attribute Definition"
+msgstr "ახალი ატრიბუტის განმარტება"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/control_set_authority_field.tt2:7
+msgid "New Authority Field"
+msgstr "ახალი ხელისუფლების სფერო"
+
+#: ../../Open-ILS/src/templates/conify/global/config/billing_type.tt2:11
+msgid "New Billing Type"
+msgstr "ახალი ბილინგის ტიპი"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/browse_axis.tt2:7
+msgid "New Browse Axis"
+msgstr "ახალი დათვალიერების ღერძი"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/browse_axis_authority_field_map.tt2:7
+msgid "New Browse Axis-Authority Field Map"
+msgstr "ახალი Browse Axis-Authority Field Map"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/cancel_reason.tt2:11
+msgid "New Cancel Reason"
+msgstr "გაუქმების ახალი მიზეზი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/sms_carrier.tt2:11
+msgid "New Carrier"
+msgstr "ახალი გადამზიდავი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:23
+msgid "New Circ Modifier"
+msgstr "ახალი Circ Modifier"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/claim_event_type.tt2:9
+msgid "New Claim Event Type"
+msgstr "ახალი პრეტენზიის მოვლენის ტიპი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/claim_policy.tt2:9
+msgid "New Claim Policy"
+msgstr "ახალი პრეტენზიის პოლიტიკა"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/claim_policy_action.tt2:10
+msgid "New Claim Policy Action"
+msgstr "ახალი საჩივრის პოლიტიკის მოქმედება"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/claim_type.tt2:9
+msgid "New Claim Type"
+msgstr "ახალი პრეტენზიის ტიპი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:66
+msgid "New Contact"
+msgstr "ახალი კონტაქტი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:85
+msgid "New Contact Address"
+msgstr "ახალი საკონტაქტო მისამართი"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/control_set.tt2:7
+msgid "New Control Set"
+msgstr "ახალი საკონტროლო ნაკრები"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/control_set_bib_field.tt2:7
+msgid "New Control Set Bib Field"
+msgstr "ახალი საკონტროლო ნაკრები Bib Field"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_template.tt2:10
+msgid "New Copy Template"
+msgstr "ეგზემპლარის ახალი შაბლონი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/rule_circ_duration.tt2:7
+msgid "New Duration Rule"
+msgstr "ხანგრძლივობის ახალი წესი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:42 ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:79
+msgid "New Entry"
+msgstr "ახალი ჩანაწერი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/exchange_rate.tt2:6
+msgid "New Exchange Rate"
+msgstr "ახალი გაცვლითი კურსი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/metabib_field_ts_map.tt2:7
+msgid "New FTS Config"
+msgstr "ახალი FTS კონფიგურაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/config/metabib_class_ts_map.tt2:7
+msgid "New FTS Map"
+msgstr "ახალი FTS რუკა"
+
+#: ../../Open-ILS/src/templates/conify/global/config/metabib_field.tt2:7 ../../Open-ILS/src/templates/conify/global/vandelay/import_bib_trash_group.tt2:20
+msgid "New Field"
+msgstr "ახალი სფერო"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/import_bib_trash_group.tt2:66
+msgid "New Field Group"
+msgstr "ახალი საველე ჯგუფი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:9
+msgid "New Formula"
+msgstr "ახალი ფორმულა"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/fund_tag.tt2:10
+msgid "New Fund Tag"
+msgstr "ფონდის ახალი ტეგი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/hard_due_date_values.tt2:67
+msgid "New Hard Due Date Value"
+msgstr "ახალი მძიმე ვადის ღირებულება"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:133
+msgid "New Holding Subfield"
+msgstr "ახალი ჰოლდინგის ქვეველი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/invoice_item_type.tt2:6
+msgid "New Invoice Item Type"
+msgstr "ინვოისის ერთეულის ახალი ტიპი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/invoice_payment_method.tt2:6
+msgid "New Invoice Payment Method"
+msgstr "ინვოისის გადახდის ახალი მეთოდი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_limit_group.tt2:6
+msgid "New Limit Group"
+msgstr "ახალი ლიმიტის ჯგუფი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/lineitem_alert.tt2:11
+msgid "New Line Item Alert Text"
+msgstr "ახალი ხაზის ელემენტის გაფრთხილების ტექსტი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/coded_value_map.tt2:7 ../../Open-ILS/src/templates/conify/global/config/metabib_field_virtual_map.tt2:7
+msgid "New Map"
+msgstr "ახალი რუკა"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set.tt2:8
+msgid "New Match Set"
+msgstr "ახალი მატჩის ნაკრები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/rule_max_fine.tt2:7
+msgid "New Max Fine Rule"
+msgstr "ახალი Max Fine წესი"
+
+#: ../../Open-ILS/src/templates/conify/global/biblio/monograph_part.tt2:9
+msgid "New Monograph Part"
+msgstr "ახალი მონოგრაფია ნაწილი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_proximity_adjustment.tt2:8
+msgid "New OU Proximity Adjustment"
+msgstr "ახალი OU სიახლოვის რეგულირება"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:23
+msgid "New Org Setting Type"
+msgstr "ორგანიზაციის პარამეტრის ახალი ტიპი"
+
+#: ../../Open-ILS/src/templates/conify/global/permission/grp_penalty_threshold.tt2:7
+msgid "New Penalty Threshold"
+msgstr "ახალი საჯარიმო ზღვარი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/standing_penalty.tt2:11
+msgid "New Penalty Type"
+msgstr "ჯარიმის ახალი ტიპი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/acn_prefix.tt2:11
+msgid "New Prefix"
+msgstr "ახალი პრეფიქსი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:9
+msgid "New Provider"
+msgstr "ახალი პროვაიდერი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:45
+msgid "New Provider Address"
+msgstr "ახალი პროვაიდერის მისამართი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/rule_recurring_fine.tt2:7
+msgid "New Recurring Fine Rule"
+msgstr "ახალი განმეორებადი ჯარიმის წესი"
+
+#: ../../Open-ILS/src/templates/conify/global/booking/resource.tt2:6
+msgid "New Resource"
+msgstr "ახალი რესურსი"
+
+#: ../../Open-ILS/src/templates/conify/global/booking/resource_attr.tt2:6
+msgid "New Resource Attribute"
+msgstr "ახალი რესურსის ატრიბუტი"
+
+#: ../../Open-ILS/src/templates/conify/global/booking/resource_attr_map.tt2:6
+msgid "New Resource Attribute Map"
+msgstr "ახალი რესურსის ატრიბუტების რუკა"
+
+#: ../../Open-ILS/src/templates/conify/global/booking/resource_attr_value.tt2:6
+msgid "New Resource Attribute Value"
+msgstr "ახალი რესურსის ატრიბუტის მნიშვნელობა"
+
+#: ../../Open-ILS/src/templates/conify/global/booking/resource_type.tt2:6
+msgid "New Resource Type"
+msgstr "ახალი რესურსის ტიპი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/actor_sip_fields.tt2:7 ../../Open-ILS/src/templates/conify/global/config/asset_sip_fields.tt2:7
+msgid "New Sip Field"
+msgstr "ახალი სიპ ველი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/acn_suffix.tt2:11
+msgid "New Suffix"
+msgstr "ახალი სუფიქსი"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:32
+msgid "New Survey"
+msgstr "ახალი გამოკითხვა"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/thesaurus.tt2:7
+msgid "New Thesaurus"
+msgstr "ახალი თეზაურუსი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:30
+msgid "New Tree"
+msgstr "ახალი ხე"
+
+#: ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:23
+msgid "New User Setting Type"
+msgstr "ახალი მომხმარებლის პარამეტრების ტიპი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/weight_assoc.tt2:7
+msgid "New Weight Association"
+msgstr "ახალი წონის ასოციაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_matrix_weights.tt2:7 ../../Open-ILS/src/templates/conify/global/config/hold_matrix_weights.tt2:7
+msgid "New Weight Set"
+msgstr "ახალი წონის ნაკრები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:81
+msgid "New Z39.50 Server"
+msgstr "ახალი Z39.50 სერვერი"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:57
+msgid "No tests for this type of event definition hook"
+msgstr "არ არის ტესტები ამ ტიპის მოვლენის განსაზღვრის კაუჭისთვის"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_template.tt2:41 ../../Open-ILS/src/templates/conify/global/asset/copy_template.tt2:47
+msgid "Normal"
+msgstr "ნორმალური"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:90
+msgid "Normalized Authority Heading"
+msgstr "ნორმალიზებული ორგანოს სათაო"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_location_group.tt2:127
+msgid "Not Visible"
+msgstr "არ ჩანს"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:155
+msgid "Note"
+msgstr "შენიშვნა"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:49
+msgid "OPAC"
+msgstr "OPAC"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:23 ../../Open-ILS/src/templates/conify/global/action/survey.tt2:56
+msgid "OPAC Survey?"
+msgstr "OPAC კვლევა?"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:13 ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:13
+msgid "Object"
+msgstr "ობიექტი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/invoice_item_type.tt2:38
+msgid "Only one of \"prorate\" and \"blanket\" may be selected"
+msgstr "შეიძლება შეირჩეს მხოლოდ ერთი \"პროპორციული\" და \"ბლანკეტიდან\"."
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:43
+msgid "Order:"
+msgstr "შეკვეთა:"
+
+#: ../../Open-ILS/src/templates/conify/global/config/floating_groups.tt2:29
+msgid "Org Unit"
+msgstr "ორგანული ერთეული"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:2 ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:25
+msgid "Org Unit Custom Tree"
+msgstr "ორგანიზაციული ერთეულის მორგებული ხე"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_proximity_adjustment.tt2:2
+msgid "Org Unit Proximity Adjustments"
+msgstr "ორგანული ერთეულის სიახლოვის რეგულირება"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:2 ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:21
+msgid "Org Unit Setting Types"
+msgstr "ორგანიზაციული ერთეულის პარამეტრების ტიპები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:55 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:6
+msgid "Other"
+msgstr "სხვა"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:87
+msgid "Owner"
+msgstr "მფლობელი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/distribution_formula.tt2:51 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:151 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:186 ../../Open-ILS/src/templates/conify/global/action/survey.tt2:20 ../../Open-ILS/src/templates/conify/global/action/survey.tt2:44
+msgid "Owning Library"
+msgstr "მფლობელი ბიბლიოთეკა"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:38
+msgid "Owning Library:"
+msgstr "მფლობელი ბიბლიოთეკა:"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/cancel_reason.tt2:9
+msgid "PO / Item / Request Cancellation Reasons"
+msgstr "შესყიდვის შეკვეთის / ერთეულის / მოთხოვნის გაუქმების მიზეზები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:44 ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:34
+msgid "Password"
+msgstr "პაროლი"
+
+#: ../../Open-ILS/src/templates/conify/global/permission/grp_penalty_threshold.tt2:5
+msgid "Penalty Threshold"
+msgstr "საჯარიმო ზღვარი"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:24 ../../Open-ILS/src/templates/conify/global/action/survey.tt2:60
+msgid "Poll Style?"
+msgstr "გამოკითხვის სტილი?"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:53
+msgid "Position"
+msgstr "თანამდებობა"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:191
+msgid "Price"
+msgstr "ფასი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:7
+msgid "Provider"
+msgstr "პროვაიდერი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:41 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:43
+msgid "Provider Address"
+msgstr "პროვაიდერის მისამართი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:62 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:64
+msgid "Provider Contact"
+msgstr "პროვაიდერის კონტაქტი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:2
+msgid "Providers"
+msgstr "პროვაიდერები"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:121
+msgid "Quality Metrics for this Match Set"
+msgstr "ხარისხის მეტრიკა ამ მატჩების ნაკრებისთვის"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:149 ../../Open-ILS/src/templates/conify/global/acq/provider.tt2:187
+msgid "Quantity"
+msgstr "რაოდენობა"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:52
+msgid "Query"
+msgstr "შეკითხვა"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:41
+msgid "Query Text"
+msgstr "შეკითხვის ტექსტი"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:68
+msgid "Reactors"
+msgstr "რეაქტორები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:75 ../../Open-ILS/src/templates/conify/global/config/z3950_index_field_map.tt2:42 ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:125 ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:88
+msgid "Record Attribute"
+msgstr "ჩანაწერის ატრიბუტი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/record_attr_definition.tt2:3 ../../Open-ILS/src/templates/conify/global/config/record_attr_definition.tt2:6
+msgid "Record Attribute Definitions"
+msgstr "ჩანაწერი ატრიბუტების განმარტებები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/coded_value_map.tt2:14 ../../Open-ILS/src/templates/conify/global/config/metabib_field_virtual_map.tt2:14
+msgid "Record Attribute Type: "
+msgstr "ჩანაწერის ატრიბუტის ტიპი: "
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:16
+msgid "Record Attribute: "
+msgstr "ჩანაწერის ატრიბუტი: "
+
+#: ../../Open-ILS/src/templates/conify/global/config/rule_recurring_fine.tt2:2 ../../Open-ILS/src/templates/conify/global/config/rule_recurring_fine.tt2:5
+msgid "Recurring Fine Rules"
+msgstr "განმეორებადი ჯარიმის წესები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/remote_account.tt2:2
+msgid "Remote Accounts"
+msgstr "დისტანციური ანგარიშები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:33 ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:39 ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:54 ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:60 ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:76 ../../Open-ILS/src/templates/conify/global/config/circ_limit_set.tt2:83 ../../Open-ILS/src/templates/conify/global/config/circ_matrix_matchpoint.tt2:38 ../../Open-ILS/src/templates/conify/global/config/circ_matrix_matchpoint.tt2:46 ../../Open-ILS/src/templates/conify/global/config/floating_groups.tt2:33 ../../Open-ILS/src/templates/conify/global/config/floating_groups.tt2:42
+msgid "Remove"
+msgstr "ამოღება"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_location_group.tt2:79
+msgid "Remove &rarr;"
+msgstr "ამოიღეთ &rarr;"
+
+#: ../../Open-ILS/src/templates/conify/global/booking/resource_attr_map.tt2:2 ../../Open-ILS/src/templates/conify/global/booking/resource_attr_map.tt2:4
+msgid "Resource Attribute Maps"
+msgstr "რესურსების ატრიბუტების რუქები"
+
+#: ../../Open-ILS/src/templates/conify/global/booking/resource_attr_value.tt2:2 ../../Open-ILS/src/templates/conify/global/booking/resource_attr_value.tt2:4
+msgid "Resource Attribute Values"
+msgstr "რესურსის ატრიბუტების მნიშვნელობები"
+
+#: ../../Open-ILS/src/templates/conify/global/booking/resource_attr.tt2:2 ../../Open-ILS/src/templates/conify/global/booking/resource_attr.tt2:4
+msgid "Resource Attributes"
+msgstr "რესურსის ატრიბუტები"
+
+#: ../../Open-ILS/src/templates/conify/global/booking/resource_type.tt2:2 ../../Open-ILS/src/templates/conify/global/booking/resource_type.tt2:4
+msgid "Resource Types"
+msgstr "რესურსების ტიპები"
+
+#: ../../Open-ILS/src/templates/conify/global/booking/resource.tt2:2 ../../Open-ILS/src/templates/conify/global/booking/resource.tt2:4
+msgid "Resources"
+msgstr "რესურსები"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:24
+msgid "Return to Filter Groups"
+msgstr "დაუბრუნდით ფილტრის ჯგუფებს"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/import_bib_trash_group.tt2:30
+msgid "Return to Groups"
+msgstr "დაუბრუნდით ჯგუფებს"
+
+#: ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:20
+msgid "Return to Sources"
+msgstr "დაუბრუნდით წყაროებს"
+
+#: ../../Open-ILS/src/templates/conify/global/config/sms_carrier.tt2:2 ../../Open-ILS/src/templates/conify/global/config/sms_carrier.tt2:9
+msgid "SMS Carriers"
+msgstr "SMS მატარებლები"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:55
+msgid "Save"
+msgstr "შენახვა"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:73 ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:77 ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:34
+msgid "Save Changes"
+msgstr "ცვლილებების შენახვა"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:115
+msgid "Save Changes To Expression"
+msgstr "შეინახეთ ცვლილებები ექსპრესიაში"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:17 ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:2 ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:64
+msgid "Search Filter Group"
+msgstr "საძიებო ფილტრის ჯგუფი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:79
+msgid "Select Attribute Type: "
+msgstr "აირჩიეთ ატრიბუტის ტიპი: "
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:83
+msgid "Select Value: "
+msgstr "აირჩიეთ მნიშვნელობა: "
+
+#: ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:71
+msgid "Select a source to clone"
+msgstr "აირჩიეთ წყარო კლონირებისთვის"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_location_group.tt2:2
+msgid "Shelving Location Group"
+msgstr "თაროების ადგილმდებარეობის ჯგუფი"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_location_group.tt2:57
+msgid "Shelving Location Groups"
+msgstr "თაროების ადგილმდებარეობის ჯგუფები"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_location_order.tt2:2 ../../Open-ILS/src/templates/conify/global/asset/copy_location_order.tt2:7
+msgid "Shelving Location Order"
+msgstr "თაროების ადგილმდებარეობის ორდერი"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_location_group.tt2:98
+msgid "Shelving Locations"
+msgstr "თაროების ადგილები"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_template.tt2:46
+msgid "Short"
+msgstr "მოკლე"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_proximity_adjustment.tt2:14
+msgid "Show adjustments involving this branch or deeper:"
+msgstr "აჩვენეთ კორექტირება, რომელიც მოიცავს ამ ფილიალს ან უფრო ღრმა:"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/claim_event_type.tt2:15
+msgid "Show claim event types available to"
+msgstr "აჩვენეთ საჩივრის მოვლენის ტიპები, რომლებიც ხელმისაწვდომია"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/claim_policy.tt2:14
+msgid "Show claim policies available to"
+msgstr "აჩვენეთ პრეტენზიის პოლიტიკა, რომელიც ხელმისაწვდომია"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/claim_type.tt2:14
+msgid "Show claim types available to"
+msgstr "აჩვენეთ საჩივრის ტიპები, რომლებიც ხელმისაწვდომია"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set.tt2:14
+msgid "Show sets owned at or below:"
+msgstr "აჩვენეთ ნაკრები, რომელიც ეკუთვნის ან ქვემოთ:"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/fund_tag.tt2:16
+msgid "Show tags available to"
+msgstr "ტეგების ჩვენება ხელმისაწვდომი"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_template.tt2:16
+msgid "Show templates available at or above"
+msgstr "აჩვენეთ შაბლონები ხელმისაწვდომი ან ზემოთ"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/control_set_authority_field.tt2:12
+msgid "Showing only authority fields linked to control set:"
+msgstr "ნაჩვენებია მხოლოდ უფლებამოსილი ველები, რომლებიც დაკავშირებულია საკონტროლო კომპლექტთან:"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/browse_axis_authority_field_map.tt2:12
+msgid "Showing only browse axis-authority field maps linked to authority field:"
+msgstr "ნაჩვენებია მხოლოდ დათვალიერების ღერძი-ავტორიტეტის ველის რუკები, რომლებიც დაკავშირებულია ავტორიტეტის ველთან:"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/control_set_bib_field.tt2:12
+msgid "Showing only control set bib fields linked to authority field:"
+msgstr "ნაჩვენებია მხოლოდ საკონტროლო ნაკრების bib ველები, რომლებიც დაკავშირებულია ავტორიტეტის ველთან:"
+
+#: ../../Open-ILS/src/templates/conify/global/config/hard_due_date_values.tt2:74
+msgid "Showing only hard due date values related to hard due date object"
+msgstr "ნაჩვენებია მხოლოდ მძიმე ვადის ამოწურვის ობიექტთან დაკავშირებული მნიშვნელობები"
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/thesaurus.tt2:12
+msgid "Showing only thesauri linked to control set:"
+msgstr "ნაჩვენებია მხოლოდ საკონტროლო ნაკრებთან დაკავშირებული თეზაური:"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:42
+msgid "Sort Position"
+msgstr "დალაგების პოზიცია"
+
+#: ../../Open-ILS/src/templates/conify/global/config/standing_penalty.tt2:5 ../../Open-ILS/src/templates/conify/global/config/standing_penalty.tt2:9
+msgid "Standing Penalty Types"
+msgstr "მუდმივი ჯარიმების სახეები"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:48
+msgid "Start Date"
+msgstr "დაწყების თარიღი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/floating_groups.tt2:30
+msgid "Stop Depth"
+msgstr "გაჩერების სიღრმე"
+
+#: ../../Open-ILS/src/templates/conify/global/config/org_unit_setting_type.tt2:6 ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:6
+msgid "String"
+msgstr "სიმებიანი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/lineitem_marc_attr_def.tt2:25
+msgid "Subfield"
+msgstr "ქვეველი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/composite_attr_entry_definition.tt2:90
+msgid "Submit"
+msgstr "წარადგინეთ"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:17
+msgid "Survey ID"
+msgstr "გამოკითხვა ID"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:4
+msgid "Survey List"
+msgstr "გამოკითხვის სია"
+
+#: ../../Open-ILS/src/templates/conify/global/action/survey.tt2:21
+msgid "Survey Start Date"
+msgstr "გამოკითხვის დაწყების თარიღი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/lineitem_marc_attr_def.tt2:24
+msgid "Tag"
+msgstr "მონიშნეთ"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:49
+msgid "Test"
+msgstr "ტესტი"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:60
+msgid "Test Circulation"
+msgstr "ტესტი ცირკულაცია"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:55
+msgid "The location of codes in the EDI message itself may vary according to vendor-specific semantics."
+msgstr "კოდების მდებარეობა თავად EDI შეტყობინებაში შეიძლება განსხვავდებოდეს გამყიდველის სპეციფიკური სემანტიკის მიხედვით."
+
+#: ../../Open-ILS/src/templates/conify/global/cat/authority/thesaurus.tt2:5
+msgid "Thesauri"
+msgstr "თეზაური"
+
+#: ../../Open-ILS/src/templates/conify/global/actor/org_unit_custom_tree.tt2:27
+msgid "To add new nodes to the custom tree, drag them from the full tree on the left"
+msgstr "მორგებულ ხეზე ახალი კვანძების დასამატებლად, გადაიტანეთ ისინი მარცხნივ სრული ხიდან"
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:71
+msgid "To choose which Best-Hold Selection Sort Order will be used by Evergreen at copy capture time, see the Library Settings interface."
+msgstr "იმის ასარჩევად, თუ ჯავშნის ოპტიმალური შერჩევის რომელი თანმიმდევრობა გამოიყენოს Evergreen-მა ეგზემპლარის დაკავების დროს, იხილეთ ბიბლიოთეკის პარამეტრების ინტერფეისი."
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_location_order.tt2:19
+msgid "To move an item, drag it up or down with the mouse."
+msgstr "ერთეულის გადასაადგილებლად, გადაათრიეთ იგი მაუსით ზემოთ ან ქვემოთ."
+
+#: ../../Open-ILS/src/templates/conify/global/actor/search_filter_group.tt2:95
+msgid "To view groups for a different location, use the \"Filter\" option"
+msgstr "სხვადასხვა მდებარეობის ჯგუფების სანახავად გამოიყენეთ „ფილტრი“ ოფცია"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:21
+msgid "Trigger Event Definitions"
+msgstr "ტრიგერის მოვლენის განმარტებები"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:10
+msgid "Trigger Event Environment"
+msgstr "ტრიგერი მოვლენის გარემო"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition_data.tt2:31
+msgid "Trigger Event Parameters"
+msgstr "გამომწვევი მოვლენის პარამეტრები"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:48
+msgid "Trigger Hooks"
+msgstr "ტრიგერის კაკვები"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:70
+msgid "Trigger Reactors"
+msgstr "გამომწვევი რეაქტორები"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:95
+msgid "Trigger Validators"
+msgstr "ტრიგერის ვალიდატორები"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:42
+msgid "Type:"
+msgstr "ტიპი:"
+
+#: ../../Open-ILS/src/templates/conify/global/config/usr_activity_type.tt2:2
+msgid "User Activity Type"
+msgstr "მომხმარებლის აქტივობის ტიპი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:2 ../../Open-ILS/src/templates/conify/global/config/usr_setting_type.tt2:21
+msgid "User Setting Types"
+msgstr "მომხმარებლის პარამეტრების ტიპები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:44 ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:32
+msgid "Username"
+msgstr "მომხმარებლის სახელი"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:93
+msgid "Validators"
+msgstr "ვალიდიატორები"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:54
+msgid "Value:"
+msgstr "ღირებულება:"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:2
+msgid "Vandelay Match Set Editor"
+msgstr "Vandelay-ის შესატყვისობების ნაკრების რედაქტორი"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set.tt2:2
+msgid "Vandelay Match Sets"
+msgstr "Vandelay-ის შესატყვისობების ნაკრები"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:44
+msgid "Vendor Account Number"
+msgstr "გამყიდველის ანგარიშის ნომერი"
+
+#: ../../Open-ILS/src/templates/conify/global/acq/edi_account.tt2:44
+msgid "Vendor Assigned Code"
+msgstr "გამყიდველის მინიჭებული კოდი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:11 ../../Open-ILS/src/templates/conify/global/config/circ_modifier.tt2:65
+msgid "Video Tape"
+msgstr "ვიდეო ლენტი"
+
+#: ../../Open-ILS/src/templates/conify/global/config/metabib_field_virtual_map.tt2:2 ../../Open-ILS/src/templates/conify/global/config/metabib_field_virtual_map.tt2:5
+msgid "Virtual Field Data Providers"
+msgstr "ვირტუალური ველის მონაცემთა პროვაიდერები"
+
+#: ../../Open-ILS/src/templates/conify/global/asset/copy_location_group.tt2:126
+msgid "Visible"
+msgstr "ხილული"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:10
+msgid "Weekly"
+msgstr "ყოველკვირეული"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:96
+msgid "Working Match Point"
+msgstr "სამუშაო მატჩის წერტილი"
+
+#: ../../Open-ILS/src/templates/conify/global/action_trigger/event_definition.tt2:12
+msgid "Yearly"
+msgstr "ყოველწლიურად"
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:35
+msgid "You have unsaved changes."
+msgstr "თქვენ გაქვთ შენახული ცვლილებები."
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:104
+msgid "Your Expression"
+msgstr "თქვენი გამოხატულება"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set_tree.tt2:83
+msgid "Your Expression:"
+msgstr "თქვენი გამოხატულება:"
+
+#: ../../Open-ILS/src/templates/conify/global/config/z3950_index_field_map.tt2:44
+msgid "Z39.50 Attribute"
+msgstr "Z39.50 ატრიბუტი"
+
+#. (source_code)
+#: ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:11
+msgid "Z39.50 Attributes for %1"
+msgstr "Z39.50 ატრიბუტები %1-სთვის"
+
+#: ../../Open-ILS/src/templates/conify/global/config/z3950_index_field_map.tt2:2 ../../Open-ILS/src/templates/conify/global/config/z3950_index_field_map.tt2:9
+msgid "Z39.50 Index Field Maps"
+msgstr "Z39.50 ინდექსის ველების შესაბამისობები"
+
+#: ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:2 ../../Open-ILS/src/templates/conify/global/config/z3950_source.tt2:79
+msgid "Z39.50 Servers"
+msgstr "Z39.50 სერვერები"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set.tt2:41
+msgid "authority"
+msgstr "ავტორიტეტი"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set.tt2:40
+msgid "biblio"
+msgstr "ბიბლიო"
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:57 ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:59
+msgid "j"
+msgstr "ჯ"
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:51 ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:53
+msgid "k"
+msgstr "კ"
+
+#: ../../Open-ILS/src/templates/conify/global/vandelay/match_set.tt2:42
+msgid "mfhd"
+msgstr "მფჰდ"
+
+#: ../../Open-ILS/src/templates/conify/global/config/best_hold_order.tt2:28
+msgid "or"
+msgstr "ან"

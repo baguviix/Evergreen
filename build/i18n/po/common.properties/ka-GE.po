@@ -1,0 +1,857 @@
+#. extracted from ../../Open-ILS/xul/staff_client/server/locale/en-US/common.properties
+msgid ""
+msgstr "Project-Id-Version: Evergreen\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2018-08-15 11:29-0400\nPO-Revision-Date: 2026-10-27 14:15+0400\nLast-Translator: Georgian Translation Team\nLanguage-Team: Georgian\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Generator: Translate Toolkit 1.10.0\nX-Accelerator-Marker: &\nX-Merge-On: location\nLanguage: ka-GE\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: common.exception
+msgid ""
+"!! This software has encountered an error.  Please tell your friendly system "
+"administrator or software developer the following:\n"
+"%1$s\n"
+"%2$s\n"
+msgstr "!! პროგრამაში შეცდომა მოხდა. აცნობეთ სისტემის ადმინისტრატორს ან პროგრამისტს შემდეგი ინფორმაცია:\n%1$s\n%2$s\n"
+
+#: common.jsan.missing
+msgid "The JSAN library object is missing."
+msgstr "JSAN ბიბლიოთეკის ობიექტი არ არის."
+
+#: common.error
+msgid "Please inform your help desk or developers of this error:"
+msgstr "შეატყობინეთ ამ შეცდომის შესახებ მხარდაჭერის სამსახურს ან პროგრამისტებს:"
+
+#: common.ok
+msgid "Ok"
+msgstr "კარგი"
+
+#: common.clear
+msgid "Clear"
+msgstr "გასუფთავება"
+
+#: common.confirm
+msgid "Check here to confirm this message."
+msgstr "მონიშნეთ აქ ამ შეტყობინების დასადასტურებლად."
+
+#: common.cancelled
+msgid "Action Cancelled"
+msgstr "მოქმედება გაუქმდა"
+
+#: common.error.default
+msgid "Please report that this happened."
+msgstr "შეატყობინეთ ამ შემთხვევის შესახებ."
+
+#: common.barcode.status.warning
+msgid "Warning: As of %1$s, this barcode (%2$s) was flagged %3$s."
+msgstr "გაფრთხილება: %1$s მდგომარეობით, ამ შტრიხკოდს (%2$s) აქვს სტატუსი: %3$s."
+
+#: common.barcode.status.warning.lost
+msgid "Lost"
+msgstr "დაკარგული"
+
+#: common.barcode.status.warning.expired
+msgid "Expired"
+msgstr "ვადაგასული"
+
+#: common.barcode.status.warning.barred
+msgctxt "common.barcode.status.warning.barred"
+msgid "Barred"
+msgstr "აკრძალული"
+
+#: common.barcode.status.warning.blocked
+msgid "Blocked"
+msgstr "დაბლოკილი"
+
+#: common.barcode.status.warning.unknown
+msgid "with an unknown code: %1$s"
+msgstr "უცნობი კოდით: %1$s"
+
+#: common.date.invalid
+msgid "Invalid Date"
+msgstr "არასწორი თარიღი"
+
+#: common.action_complete
+msgid "Action completed."
+msgstr "მოქმედება შესრულდა."
+
+#. # common.grouping_string = the string that should be inserted between elements of a grouped list
+#: common.grouping_string
+msgid ", "
+msgstr ", "
+
+#: common.unimplemented
+msgid "Not yet implemented"
+msgstr "ჯერ განხორციელებული არ არის"
+
+#: common.yes
+msgctxt "common.yes"
+msgid "Yes"
+msgstr "დიახ"
+
+#: common.no
+msgid "No"
+msgstr "არა"
+
+#: common.check_to_confirm
+msgid "Check here to confirm this message"
+msgstr "შეტყობინების დასადასტურებლად მონიშნეთ აქ"
+
+#: common.processing
+msgid "Processing"
+msgstr "მუშავდება"
+
+#: lang.version
+msgid "remote v1"
+msgstr "დისტანციური v1"
+
+#: openils.global_util.clear_cache.error
+msgid "Problem clearing the cache: %1$s"
+msgstr "ქეშის გასუფთავებისას პრობლემა წარმოიშვა: %1$s"
+
+#: openils.global_util.clipboard.error
+msgid "Clipboard action failed: %1$s"
+msgstr "ბუფერთან მოქმედება ვერ შესრულდა: %1$s"
+
+#: openils.global_util.clipboard
+msgid "Copied \"%1$s\" to clipboard."
+msgstr "\"%1$s\" დაკოპირდა ბუფერში."
+
+#: openils.global_util.content_window_jsobject.error
+msgid "Error with get_contentWindow(%1$s) and wrappedJSObject: %2$s"
+msgstr "get_contentWindow(%1$s)-ისა და wrappedJSObject-ის შეცდომა: %2$s"
+
+#: openils.global_util.content_window.error
+msgid "Error with get_contentWindow(%1$s): %2$s"
+msgstr "get_contentWindow(%1$s)-ის შეცდომა: %2$s"
+
+#: openils.global_util.font_size.error
+msgid "Error adjusting the font size: %1$s"
+msgstr "შრიფტის ზომის შეცვლის შეცდომა: %1$s"
+
+#. # Appended to notes with certain settings enabled.  First position is staff initials, and second position is a date for when the initials were added.
+#: staff.initials.format
+msgid "[ %1$s %2$s @ %3$s ]"
+msgstr "[ %1$s %2$s @ %3$s ]"
+
+#: staff.checkout_column_label_service
+msgid "Service"
+msgstr "სერვისი"
+
+#: staff.acp_label_barcode
+msgctxt "staff.acp_label_barcode"
+msgid "Barcode"
+msgstr "შტრიხკოდი"
+
+#: staff.acp_label_call_number
+msgid "Call Number"
+msgstr "შიფრი"
+
+#: staff.acp_label_circ_as_type
+msgid "Circulate As Type"
+msgstr "გაცემის ტიპი"
+
+#: staff.acp_label_circ_lib
+msgid "Circulation Library"
+msgstr "გაცემის ბიბლიოთეკა"
+
+#: staff.acp_label_circ_modifier
+msgid "Circulation Modifier"
+msgstr "გაცემის მოდიფიკატორი"
+
+#. # %1$s = circ modifier code, %2$s = circ modifier name, %3$s = circ modifier description
+#: staff.circ_modifier.display
+msgid "%1$s : %2$s : %3$s"
+msgstr "%1$s : %2$s : %3$s"
+
+#: staff.acp_label_copy_number
+msgid "Copy Number"
+msgstr "ეგზემპლარის ნომერი"
+
+#: staff.acp_label_parts
+msgid "Part"
+msgstr "ნაწილი"
+
+#: staff.acp_label_deposit_amount
+msgid "Deposit Amount"
+msgstr "დეპოზიტის თანხა"
+
+#: staff.acp_label_fine_level
+msgid "Fine Level"
+msgstr "ჯარიმის დონე"
+
+#: staff.acp_label_id
+msgid "Copy ID"
+msgstr "ეგზემპლარის ID"
+
+#: staff.acp_label_loan_duration
+msgid "Loan Duration"
+msgstr "გაცემის ხანგრძლივობა"
+
+#: staff.acp_label_location
+msgid "Location"
+msgstr "მდებარეობა"
+
+#: staff.acp_label_price
+msgid "Price"
+msgstr "ფასი"
+
+#: staff.acp_label_cost
+msgid "Acquisition Cost"
+msgstr "შეძენის ღირებულება"
+
+#: staff.acp_label_status
+msgctxt "staff.acp_label_status"
+msgid "Status"
+msgstr "სტატუსი"
+
+#: staff.acp_label_age_protect
+msgid "Age-based Hold Protection"
+msgstr "ჯავშნის დაცვა ასაკის მიხედვით"
+
+#: staff.ahr_current_copy_label
+msgid "Current Copy"
+msgstr "მიმდინარე ეგზემპლარი"
+
+#: staff.ahr_current_copy_location_label
+msgid "Current Copy Location"
+msgstr "მიმდინარე ეგზემპლარის მდებარეობა"
+
+#: staff.ahr_email_notify_label
+msgid "Email Notify"
+msgstr "ელფოსტით შეტყობინება"
+
+#: staff.ahr_expire_date_label
+msgid "Expire Date"
+msgstr "ვადის გასვლის თარიღი"
+
+#: staff.ahr_fulfillment_time_label
+msgid "Fulfillment Time"
+msgstr "შესრულების დრო"
+
+#: staff.ahr_hold_type_label
+msgctxt "staff.ahr_hold_type_label"
+msgid "Type"
+msgstr "ტიპი"
+
+#: staff.ahr_holdable_formats_label
+msgid "Holdable Formats"
+msgstr "დაჯავშნადი ფორმატები"
+
+#: staff.ahr_holdable_part_label
+msgid "Holdable Part"
+msgstr "დაჯავშნადი ნაწილი"
+
+#: staff.ahr_issuance_label_label
+msgid "Issuance Label"
+msgstr "გამოცემის იარლიყი"
+
+#: staff.ahr_id_label
+msgid "Hold ID"
+msgstr "ჯავშნის ID"
+
+#: staff.ahr_phone_notify_label
+msgid "Phone Notify"
+msgstr "ტელეფონით შეტყობინება"
+
+#: staff.ahr_sms_notify_label
+msgid "Text Notify"
+msgstr "SMS-შეტყობინება"
+
+#: staff.ahr_sms_carrier_label
+msgid "Text Carrier"
+msgstr "მობილური ოპერატორი (SMS)"
+
+#: staff.ahr_pickup_lib_label
+msgid "Pickup Library"
+msgstr "გატანის ბიბლიოთეკა"
+
+#: staff.ahr_current_shelf_lib_label
+msgid "Current Shelf Library"
+msgstr "მიმდინარე თაროს ბიბლიოთეკა"
+
+#: staff.ahr_prev_check_time_label
+msgid "Previous Check Time"
+msgstr "წინა შემოწმების დრო"
+
+#: staff.ahr_requestor_label
+msgid "Requestor"
+msgstr "მომთხოვნი"
+
+#: staff.ahr_selection_depth_label
+msgid "Selection Depth"
+msgstr "არჩევის სიღრმე"
+
+#: staff.ahr_top_of_queue_label
+msgid "Top of Queue"
+msgstr "რიგის დასაწყისი"
+
+#: staff.ahr_status_label
+msgctxt "staff.ahr_status_label"
+msgid "Status"
+msgstr "სტატუსი"
+
+#: staff.ahr_target_label
+msgid "Target"
+msgstr "სამიზნე"
+
+#: staff.ahr_usr_label
+msgctxt "staff.ahr_usr_label"
+msgid "User"
+msgstr "მომხმარებელი"
+
+#: staff.circ_label_due_date
+msgid "Due Date"
+msgstr "დაბრუნების ვადა"
+
+#: staff.circ_label_due_time
+msgid "Due Time"
+msgstr "დაბრუნების დრო"
+
+#: staff.circ_label_id
+msgid "Circulation ID"
+msgstr "გაცემის ID"
+
+#: staff.circ_label_renewal_remaining
+msgid "Remaining Renewals"
+msgstr "დარჩენილი გაგრძელებები"
+
+#: staff.mvr_label_author
+msgctxt "staff.mvr_label_author"
+msgid "Author"
+msgstr "ავტორი"
+
+#: staff.mvr_label_doc_id
+msgid "Document ID"
+msgstr "დოკუმენტის ID"
+
+#: staff.mvr_label_title
+msgctxt "staff.mvr_label_title"
+msgid "Title"
+msgstr "სათაური"
+
+#: staff.bills_xact_dates_label
+msgid "Record / Dates"
+msgstr "ჩანაწერი / თარიღები"
+
+#: staff.bills_information
+msgid "Information"
+msgstr "ინფორმაცია"
+
+#: staff.bills_current_payment_label
+msgid "Current Payment"
+msgstr "მიმდინარე გადახდა"
+
+#: staff.csp_id_label
+msgid "Penalty Type ID"
+msgstr "სანქციის ტიპის ID"
+
+#: staff.csp_name_label
+msgid "Name"
+msgstr "სახელი"
+
+#: staff.csp_label_label
+msgid "Label"
+msgstr "იარლიყი"
+
+#: staff.csp_block_list_label
+msgid "Block List"
+msgstr "დაბლოკვის სია"
+
+#: staff.csp_block_circ_label
+msgid "Blocks Circulations?"
+msgstr "ბლოკავს გაცემას?"
+
+#: staff.csp_block_renew_label
+msgid "Blocks Renewals?"
+msgstr "ბლოკავს გაგრძელებას?"
+
+#: staff.csp_block_hold_label
+msgid "Blocks Holds?"
+msgstr "ბლოკავს ჯავშნებს?"
+
+#: staff.csp_block_circ_yes
+msgctxt "staff.csp_block_circ_yes"
+msgid "Yes"
+msgstr "დიახ"
+
+#: staff.csp_block_circ_no
+msgctxt "staff.csp_block_circ_no"
+msgid ""
+msgstr ""
+
+#: staff.csp_block_renew_yes
+msgctxt "staff.csp_block_renew_yes"
+msgid "Yes"
+msgstr "დიახ"
+
+#: staff.csp_block_renew_no
+msgctxt "staff.csp_block_renew_no"
+msgid ""
+msgstr ""
+
+#: staff.csp_block_hold_yes
+msgctxt "staff.csp_block_hold_yes"
+msgid "Yes"
+msgstr "დიახ"
+
+#: staff.csp_block_hold_no
+msgctxt "staff.csp_block_hold_no"
+msgid ""
+msgstr ""
+
+#: staff.ausp_id_label
+msgid "Penalty ID "
+msgstr "სანქციის ID "
+
+#: staff.ausp_staff_label
+msgid "Applied By "
+msgstr "გამომყენებელი "
+
+#: staff.ausp_set_date_label
+msgid "Applied On "
+msgstr "გამოყენების თარიღი "
+
+#: staff.ausp_note_label
+msgid "Note "
+msgstr "შენიშვნა "
+
+#: staff.ausp_org_unit_label
+msgid "Library "
+msgstr "ბიბლიოთეკა "
+
+#: staff.ausp_org_unit_full_label
+msgid "Library (Full Name)"
+msgstr "ბიბლიოთეკა (სრული სახელი)"
+
+#: staff.mbts_id_label
+msgid "Bill # "
+msgstr "ანგარიში № "
+
+#: staff.mbts_xact_start_label
+msgid "Start"
+msgstr "დაწყება"
+
+#: staff.mbts_xact_finish_label
+msgid "Finish"
+msgstr "დასრულება"
+
+#: staff.mbts_xact_type_label
+msgctxt "staff.mbts_xact_type_label"
+msgid "Type"
+msgstr "ტიპი"
+
+#: staff.mbts_total_owed_label
+msgid "Total Billed"
+msgstr "დარიცხული ჯამი"
+
+#: staff.mbts_total_paid_label
+msgid "Total Paid"
+msgstr "გადახდილი ჯამი"
+
+#: staff.mbts_balance_owed_label
+msgid "Balance Owed"
+msgstr "დარჩენილი გადასახდელი"
+
+#: staff.mbts_usr_label
+msgctxt "staff.mbts_usr_label"
+msgid "User"
+msgstr "მომხმარებელი"
+
+#: staff.mbts_last_billing_note_label
+msgid "Last Billing Note"
+msgstr "ბოლო დარიცხვის შენიშვნა"
+
+#: staff.mbts_last_billing_type_label
+msgid "Last Billing Type"
+msgstr "ბოლო დარიცხვის ტიპი"
+
+#: staff.mbts_last_billing_timestamp_label
+msgid "Last Billed"
+msgstr "ბოლო დარიცხვა"
+
+#: staff.mbts_last_payment_note_label
+msgid "Last Payment Note"
+msgstr "ბოლო გადახდის შენიშვნა"
+
+#: staff.mbts_last_payment_type_label
+msgid "Last Payment Type"
+msgstr "ბოლო გადახდის ტიპი"
+
+#: staff.mbts_last_payment_timestamp_label
+msgid "Last Payment"
+msgstr "ბოლო გადახდა"
+
+#: staff.mb_billing_type_label
+msgid "Billing Type"
+msgstr "დარიცხვის ტიპი"
+
+#: staff.mb_xact_label
+msgctxt "staff.mb_xact_label"
+msgid "Transaction ID"
+msgstr "ტრანზაქციის ID"
+
+#: staff.mb_billing_ts_label
+msgctxt "staff.mb_billing_ts_label"
+msgid "When"
+msgstr "როდის"
+
+#: staff.mb_void_time_label
+msgid "Void Time"
+msgstr "გაუქმების დრო"
+
+#: staff.mb_note_label
+msgctxt "staff.mb_note_label"
+msgid "Note"
+msgstr "შენიშვნა"
+
+#: staff.mb_amount_label
+msgctxt "staff.mb_amount_label"
+msgid "Amount"
+msgstr "თანხა"
+
+#: staff.mb_voider_label
+msgid "Voider"
+msgstr "გამაუქმებელი"
+
+#: staff.mb_voided_label
+msgctxt "staff.mb_voided_label"
+msgid "Voided"
+msgstr "გაუქმებულია"
+
+#: staff.mb_id_label
+msgid "Billing ID"
+msgstr "დარიცხვის ID"
+
+#: staff.mp_credit_card_payment_label
+msgid "Credit Card Payment"
+msgstr "საკრედიტო ბარათით გადახდა"
+
+#: staff.mp_forgive_payment_label
+msgid "Forgive Payment"
+msgstr "გადახდის პატიება"
+
+#: staff.mp_payment_timestamp_label
+msgctxt "staff.mp_payment_timestamp_label"
+msgid "When"
+msgstr "როდის"
+
+#: staff.mp_payment_type_label
+msgid "Payment Type"
+msgstr "გადახდის ტიპი"
+
+#: staff.mp_voided_label
+msgctxt "staff.mp_voided_label"
+msgid "Voided"
+msgstr "გაუქმებულია"
+
+#: staff.mp_id_label
+msgid "Payment ID"
+msgstr "გადახდის ID"
+
+#: staff.mp_goods_payment_label
+msgid "Goods Payment"
+msgstr "საქონლით გადახდა"
+
+#: staff.mp_xact_label
+msgctxt "staff.mp_xact_label"
+msgid "Transaction ID"
+msgstr "ტრანზაქციის ID"
+
+#: staff.mp_credit_payment_label
+msgid "Credit Payment"
+msgstr "კრედიტით გადახდა"
+
+#: staff.mp_work_payment_label
+msgid "Work Payment"
+msgstr "სამუშაოთი გადახდა"
+
+#: staff.mp_note_label
+msgctxt "staff.mp_note_label"
+msgid "Note"
+msgstr "შენიშვნა"
+
+#: staff.mp_cash_payment_label
+msgid "Cash Payment"
+msgstr "ნაღდი ფულით გადახდა"
+
+#: staff.mp_amount_label
+msgctxt "staff.mp_amount_label"
+msgid "Amount"
+msgstr "თანხა"
+
+#: staff.mp_check_payment_label
+msgid "Check Payment"
+msgstr "ჩეკით გადახდა"
+
+#: staff.mp_cash_drawer_label
+msgid "Workstation"
+msgstr "სამუშაო სადგური"
+
+#: staff.mp_accepting_usr_label
+msgid "Staff"
+msgstr "თანამშრომელი"
+
+#: staff.card_barcode_label
+msgctxt "staff.card_barcode_label"
+msgid "Barcode"
+msgstr "შტრიხკოდი"
+
+#: staff.au_active_label
+msgid "Active"
+msgstr "აქტიური"
+
+#: staff.au_usrname_label
+msgid "Login Name"
+msgstr "მომხმარებლის სახელი"
+
+#: staff.au_profile_label
+msgid "Profile"
+msgstr "პროფილი"
+
+#: staff.au_barred_label
+msgctxt "staff.au_barred_label"
+msgid "Barred"
+msgstr "აკრძალული"
+
+#: staff.au_alert_message_label
+msgid "Alert"
+msgstr "გაფრთხილება"
+
+#: staff.au_claims_returned_count_label
+msgid "Returns Claimed"
+msgstr "მოთხოვნილი დაბრუნებები"
+
+#: staff.au_create_date_label
+msgid "Created On"
+msgstr "შექმნის თარიღი"
+
+#: staff.au_expire_date_label
+msgid "Expires On"
+msgstr "ვადის გასვლის თარიღი"
+
+#: staff.au_last_update_time_label
+msgid "Updated On"
+msgstr "განახლების თარიღი"
+
+#: staff.au_home_library_label
+msgid "Home Library"
+msgstr "მთავარი ბიბლიოთეკა"
+
+#: staff.au_home_library_fullname_label
+msgid "Home Library (Full Name)"
+msgstr "მთავარი ბიბლიოთეკა (სრული სახელი)"
+
+#: staff.au_credit_forward_balance_label
+msgid "Credit"
+msgstr "კრედიტი"
+
+#: staff.au_day_phone_label
+msgid "Day Phone"
+msgstr "დღის ტელეფონი"
+
+#: staff.au_evening_phone_label
+msgid "Evening Phone"
+msgstr "საღამოს ტელეფონი"
+
+#: staff.au_other_phone_label
+msgid "Other Phone"
+msgstr "სხვა ტელეფონი"
+
+#: staff.au_alias_label
+msgid "Alias"
+msgstr "ფსევდონიმი"
+
+#: staff.au_email_label
+msgid "Email"
+msgstr "ელფოსტა"
+
+#: staff.au_birth_date_label
+msgid "Birth Date"
+msgstr "დაბადების თარიღი"
+
+#: staff.au_ident_type_label
+msgid "Identification Type"
+msgstr "საიდენტიფიკაციო დოკუმენტის ტიპი"
+
+#: staff.au_ident_value_label
+msgid "Identification Value"
+msgstr "საიდენტიფიკაციო მნიშვნელობა"
+
+#: staff.au_ident_type2_label
+msgid "Identification Type 2"
+msgstr "საიდენტიფიკაციო ტიპი 2"
+
+#: staff.au_ident_value2_label
+msgid "Identification Value 2"
+msgstr "საიდენტიფიკაციო მნიშვნელობა 2"
+
+#: staff.au_net_access_level_label
+msgid "Internet Access"
+msgstr "ინტერნეტზე წვდომა"
+
+#: staff.au_master_account_label
+msgid "Group Lead"
+msgstr "ჯგუფის ხელმძღვანელი"
+
+#: staff.au_group_id_label
+msgid "Group ID"
+msgstr "ჯგუფის ID"
+
+#: staff.au_id_label
+msgid "User ID"
+msgstr "მომხმარებლის ID"
+
+#: staff.au_name_prefix_label
+msgid "Name Prefix"
+msgstr "სახელის პრეფიქსი"
+
+#: staff.au_family_name_label
+msgid "Family Name"
+msgstr "გვარი"
+
+#: staff.au_first_given_name_label
+msgid "First Name"
+msgstr "სახელი"
+
+#: staff.au_second_given_name_label
+msgid "Middle Name"
+msgstr "მეორე სახელი"
+
+#: staff.au_name_suffix_label
+msgid "Name Suffix"
+msgstr "სახელის სუფიქსი"
+
+#: staff.z39_50.search_class.author
+msgctxt "staff.z39_50.search_class.author"
+msgid "Author"
+msgstr "ავტორი"
+
+#: staff.z39_50.search_class.isbn
+msgid "ISBN"
+msgstr "ISBN"
+
+#: staff.z39_50.search_class.issn
+msgid "ISSN"
+msgstr "ISSN"
+
+#: staff.z39_50.search_class.item_type
+msgid "Item Type"
+msgstr "მასალის ტიპი"
+
+#: staff.z39_50.search_class.item_type.all
+msgid "All Formats"
+msgstr "ყველა ფორმატი"
+
+#: staff.z39_50.search_class.item_type.art
+msgid "Papers/Articles"
+msgstr "ნაშრომები/სტატიები"
+
+#: staff.z39_50.search_class.item_type.bks
+msgid "Books"
+msgstr "წიგნები"
+
+#: staff.z39_50.search_class.item_type.com
+msgid "Computer files"
+msgstr "კომპიუტერული ფაილები"
+
+#: staff.z39_50.search_class.item_type.map
+msgid "Maps"
+msgstr "რუკები"
+
+#: staff.z39_50.search_class.item_type.mix
+msgid "Mixed material"
+msgstr "შერეული მასალა"
+
+#: staff.z39_50.search_class.item_type.rec
+msgid "Sound recordings"
+msgstr "ხმოვანი ჩანაწერები"
+
+#: staff.z39_50.search_class.item_type.sco
+msgid "Musical scores"
+msgstr "მუსიკალური ნოტები"
+
+#: staff.z39_50.search_class.item_type.ser
+msgid "Serials"
+msgstr "სერიული გამოცემები"
+
+#: staff.z39_50.search_class.item_type.url
+msgid "Internet Resources"
+msgstr "ინტერნეტრესურსები"
+
+#: staff.z39_50.search_class.item_type.vis
+msgid "Visual materials"
+msgstr "ვიზუალური მასალები"
+
+#: staff.z39_50.search_class.lccn
+msgid "LCCN"
+msgstr "LCCN"
+
+#: staff.z39_50.search_class.pubdate
+msgid "Publication Date"
+msgstr "გამოცემის თარიღი"
+
+#: staff.z39_50.search_class.publisher
+msgid "Publisher"
+msgstr "გამომცემელი"
+
+#: staff.z39_50.search_class.tcn
+msgid "Accession #"
+msgstr "ინვენტარის ნომერი"
+
+#: staff.z39_50.search_class.title
+msgctxt "staff.z39_50.search_class.title"
+msgid "Title"
+msgstr "სათაური"
+
+#: staff.z39_50_import_interface_label
+msgid "Z39.50 Import"
+msgstr "Z39.50 იმპორტი"
+
+#: staff.main.data.loaded
+msgid "Data loaded."
+msgstr "მონაცემები ჩაიტვირთა."
+
+#: staff.main.gen_offline_widgets.synced
+msgid "Offline interface synchronized with server."
+msgstr "ოფლაინ ინტერფეისი სერვერთან სინქრონიზებულია."
+
+#: staff.main.gen_offline_widgets.noncat_sort.error
+msgid "error in noncat sorting: "
+msgstr "არაკატალოგიზებული ერთეულების დალაგების შეცდომა: "
+
+#: staff.main.gen_offline_widgets.please_wait
+msgid "Please wait"
+msgstr "გთხოვთ, დაელოდოთ"
+
+#: staff.main.gen_offline_widgets.workstation_registration_denied
+msgid "You do not have permission to register a workstation."
+msgstr "სამუშაო სადგურის რეგისტრაციის უფლება არ გაქვთ."
+
+#: staff.main.gen_offline_widgets.registration.override
+msgid "Override Registration Failure?"
+msgstr "გსურთ რეგისტრაციის შეცდომის უგულებელყოფა?"
+
+#: staff.main.gen_offline_widgets.registration.error
+msgid "Workstation Registration error (%1$s)"
+msgstr "სამუშაო სადგურის რეგისტრაციის შეცდომა (%1$s)"
+
+#: staff.main.gen_offline_widgets.registration.success
+msgid "Registration successful"
+msgstr "რეგისტრაცია წარმატებით დასრულდა"
+
+#: staff.main.gen_offline_widgets.registration.empty
+msgid "Please specify a workstation name"
+msgstr "მიუთითეთ სამუშაო სადგურის სახელი"
+
+#: staff.util.timestamp_dialog.future_date_disallowed
+msgid "Future dates disallowed."
+msgstr "მომავალი თარიღები დაუშვებელია."
+
+#: staff.util.timestamp_dialog.past_date_disallowed
+msgid "Past dates disallowed."
+msgstr "წარსული თარიღები დაუშვებელია."
+
+#: staff.util.timestamp_dialog.today_disallowed
+msgid "Today disallowed."
+msgstr "დღევანდელი თარიღი დაუშვებელია."
+
+#: tab.label.triggered_events_for_copy
+msgid "Triggered Events: %1$s"
+msgstr "გამოწვეული მოვლენები: %1$s"

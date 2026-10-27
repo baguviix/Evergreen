@@ -1,0 +1,64 @@
+#. extracted from ../../Open-ILS/xul/staff_client/chrome/locale/en-US/auth.properties
+msgid ""
+msgstr "Project-Id-Version: Evergreen\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2015-02-27 11:41-0400\nPO-Revision-Date: 2026-10-27 14:15+0400\nLast-Translator: Georgian Translation Team\nLanguage-Team: Georgian\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Generator: Translate Toolkit 1.10.0\nX-Accelerator-Marker: &\nX-Merge-On: location\nLanguage: ka-GE\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: staff.auth.controller.not_configured
+msgid "Not yet configured for the specified server."
+msgstr "მითითებული სერვერისთვის ჯერ არ არის კონფიგურირებული."
+
+#: staff.auth.controller.testing_hostname
+msgid "Testing hostname..."
+msgstr "ჰოსტის სახელის შემოწმება..."
+
+#: staff.auth.controller.prompt_hostname
+msgid "Please enter a server hostname."
+msgstr "შეიყვანეთ სერვერის ჰოსტის სახელი."
+
+#: staff.auth.controller.error_hostname
+msgid "There was an error testing this hostname."
+msgstr "ჰოსტის სახელის შემოწმებისას შეცდომა მოხდა."
+
+#: staff.auth.controller.status
+msgid "%1$s : %2$s"
+msgstr "%1$s : %2$s"
+
+#: staff.auth.controller.testing_version
+msgid "Testing version..."
+msgstr "ვერსიის შემოწმება..."
+
+#: staff.auth.controller.error_version
+msgid "There was an error checking version support."
+msgstr "ვერსიის მხარდაჭერის შემოწმებისას შეცდომა მოხდა."
+
+#: staff.auth.controller.version_mismatch
+msgid ""
+"This server does not support your version of the staff client.  Please check "
+"with your system administrator."
+msgstr "ამ სერვერს პერსონალის კლიენტის თქვენი ვერსიის მხარდაჭერა არ აქვს. მიმართეთ სისტემურ ადმინისტრატორს."
+
+#. # login with <username> and <password> at <server>
+#: staff.auth.controller.error_login
+msgid "login with %1$s and %2$s at %3$s"
+msgstr "%3$s-ზე %1$s-ით და %2$s-ით შესვლა"
+
+#: staff.auth.controller.confirm_close
+msgid "Are you sure you would like to exit the program completely?"
+msgstr "ნამდვილად გსურთ პროგრამიდან სრულად გასვლა?"
+
+#: staff.auth.session.unregistered
+msgid "%1$s is not registered with this server."
+msgstr "%1$s ამ სერვერზე რეგისტრირებული არ არის."
+
+#: staff.auth.session.login_failed
+msgid ""
+"Login failed.  Please check your Server Hostname, Username, Password, and "
+"your CAPS LOCK key."
+msgstr "შესვლა ვერ მოხერხდა. შეამოწმეთ სერვერის ჰოსტის სახელი, მომხმარებლის სახელი, პაროლი და CAPS LOCK ღილაკი."
+
+#: staff.auth.session.init_false
+msgid "open-ils.auth.authenticate.init returned false"
+msgstr "open-ils.auth.authenticate.init-მა დააბრუნა false"
+
+#: staff.auth.titlebar.label
+msgid "Evergreen Staff Client - %1$s"
+msgstr "Evergreen-ის პერსონალის კლიენტი - %1$s"
